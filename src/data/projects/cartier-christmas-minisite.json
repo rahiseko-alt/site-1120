@@ -1,0 +1,287 @@
+{
+  "project": {
+    "id": "abq4wREAACEA3btw",
+    "uid": "cartier-christmas-minisite",
+    "url": "/work/cartier-christmas-minisite",
+    "type": "projects",
+    "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22abq4wREAACEA3btw%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2026-03-18T14:45:15+0000",
+    "last_publication_date": "2026-04-10T04:53:05+0000",
+    "slugs": [
+      "13"
+    ],
+    "linked_documents": [],
+    "lang": "en-us",
+    "alternate_languages": [],
+    "data": {
+      "hidden": false,
+      "order": 13,
+      "categories": [
+        {
+          "category": {
+            "id": "aVgzDRIAACAA8CuP",
+            "type": "project_categories",
+            "tags": [],
+            "lang": "en-us",
+            "slug": "experiential",
+            "first_publication_date": "2026-01-02T21:05:28+0000",
+            "last_publication_date": "2026-01-02T21:05:28+0000",
+            "uid": "experiential",
+            "data": {
+              "name": "Experiential"
+            },
+            "link_type": "Document",
+            "key": "5e3757f4-fffa-481e-84cf-6a51422f90f3",
+            "isBroken": false
+          }
+        },
+        {
+          "category": {
+            "id": "aVgyxxIAACIA8Csm",
+            "type": "project_categories",
+            "tags": [],
+            "lang": "en-us",
+            "slug": "cgi-production",
+            "first_publication_date": "2026-01-02T21:04:18+0000",
+            "last_publication_date": "2026-01-02T21:04:18+0000",
+            "uid": "cgi-production",
+            "data": {
+              "name": "CGI Production"
+            },
+            "link_type": "Document",
+            "key": "be7fe33a-aaa8-4bb3-ac7e-b915619b5dbb",
+            "isBroken": false
+          }
+        }
+      ],
+      "name": "Cartier Christmas Minisite",
+      "client": {
+        "link_type": "Document"
+      },
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "The minisite translates Cartier’s iconic unboxing ritual into a refined digital journey, showcasing a curated selection of nine products and guiding users naturally toward in-store discovery.",
+          "spans": [],
+          "direction": "ltr"
+        }
+      ],
+      "detail_description": [
+        {
+          "type": "paragraph",
+          "text": "A mobile-first digital experience designed to extend the physical gifting ritual into the digital space, the minisite translates Cartier's iconic unboxing moment into a refined digital journey — guiding users through a curated selection of nine products and connecting digital discovery seamlessly to in-store purchase across key Asia-Pacific markets, while preserving the brand's physical values in an experience that feels consistent, intuitive, and enduring.",
+          "spans": [],
+          "direction": "ltr"
+        }
+      ],
+      "teams": [
+        {
+          "team_name": "fromanother / Art Direction, Backend Development"
+        },
+        {
+          "team_name": "Charles from Blondie / UI & UX Design"
+        }
+      ],
+      "link": {
+        "link_type": "Any"
+      },
+      "card_thumbnail": {
+        "dimensions": {
+          "width": 2048,
+          "height": 1152
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/fromanother-2026/adh4Up1ZCF7ETDnM_13_CartierXmas_Cover.jpg?auto=format,compress",
+        "id": "adh4Up1ZCF7ETDnM",
+        "edit": {
+          "x": 0,
+          "y": 0,
+          "zoom": 1,
+          "background": "transparent"
+        }
+      },
+      "small_card_thumbnail": {
+        "dimensions": {
+          "width": 200,
+          "height": 113
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/fromanother-2026/adh4cJ1ZCF7ETDnW_13_CartierXmas_Covercopy.jpg?auto=format,compress",
+        "id": "adh4cJ1ZCF7ETDnW",
+        "edit": {
+          "x": 0,
+          "y": 0,
+          "zoom": 1,
+          "background": "transparent"
+        }
+      },
+      "services_provided": [
+        {
+          "service": "Creative Direction"
+        },
+        {
+          "service": "Art Direction"
+        },
+        {
+          "service": "CGI Production"
+        }
+      ],
+      "media": [
+        {
+          "image": {},
+          "mobile_image": {},
+          "mux_id": "M5xt96wbz1eePN2gkaH3wfH01NJbkjb5OXUab4rjuoZw",
+          "video_url": "https://stream.mux.com/M5xt96wbz1eePN2gkaH3wfH01NJbkjb5OXUab4rjuoZw.m3u8",
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 112
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abq587bci2UF6MR9_13_cartierxmas_02_video_small.jpg?auto=format,compress",
+            "id": "abq587bci2UF6MR9",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abq6C7bci2UF6MSC_13_CartierXmas_03.jpg?auto=format,compress",
+            "id": "abq6C7bci2UF6MSC",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {
+            "dimensions": {
+              "width": 1080,
+              "height": 1920
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/acpvy5GXnQHGZF_A_13_CartierXmas_03M.jpg?auto=format,compress",
+            "id": "acpvy5GXnQHGZF_A",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 113
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abq6Nbbci2UF6MSU_13_Cartier-Xmas_03_small.jpg?auto=format,compress",
+            "id": "abq6Nbbci2UF6MSU",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/ac-mSZGXnQHGZPv5_13_CartierXmas_05.jpg?auto=format,compress",
+            "id": "ac-mSZGXnQHGZPv5",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {
+            "dimensions": {
+              "width": 1285,
+              "height": 2286
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/ac-mSpGXnQHGZPv6_13_CartierXmas_06.jpg?auto=format,compress",
+            "id": "ac-mSpGXnQHGZPv6",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 113
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abq6brbci2UF6MSk_13_Cartier-Xmas_04_small.jpg?auto=format,compress",
+            "id": "abq6brbci2UF6MSk",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        }
+      ],
+      "slices": [],
+      "template": null,
+      "meta_title": "fromanother | Cartier Christmas Minisite",
+      "meta_description": "The minisite translates Cartier’s iconic unboxing ritual into a refined digital journey, showcasing a curated selection of nine products and guiding users naturally toward in-store discovery.",
+      "meta_image": {
+        "dimensions": {
+          "width": 2400,
+          "height": 1260
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/fromanother-2026/abq5Sbbci2UF6MRZ_13_CartierXmas_01.jpg?auto=format,compress&rect=0,48,2560,1344&w=2400&h=1260",
+        "id": "abq5Sbbci2UF6MRZ",
+        "edit": {
+          "x": 0,
+          "y": 48,
+          "zoom": 1,
+          "background": "transparent"
+        }
+      },
+      "case_year": null,
+      "case_kicker": null,
+      "case_headline": null,
+      "case_headline_accent": null,
+      "case_intro": null
+    }
+  }
+}

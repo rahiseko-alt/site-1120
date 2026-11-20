@@ -1,0 +1,572 @@
+{
+  "project": {
+    "id": "abpwrBEAAB8A3ULF",
+    "uid": "the-eternal-horse-x-marina-ifc",
+    "url": "/work/the-eternal-horse-x-marina-ifc",
+    "type": "projects",
+    "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22abpwrBEAAB8A3ULF%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2026-03-18T09:47:15+0000",
+    "last_publication_date": "2026-04-10T08:59:49+0000",
+    "slugs": [
+      "10"
+    ],
+    "linked_documents": [],
+    "lang": "en-us",
+    "alternate_languages": [],
+    "data": {
+      "hidden": false,
+      "order": 10,
+      "categories": [
+        {
+          "category": {
+            "id": "aVgzDRIAACAA8CuP",
+            "type": "project_categories",
+            "tags": [],
+            "lang": "en-us",
+            "slug": "experiential",
+            "first_publication_date": "2026-01-02T21:05:28+0000",
+            "last_publication_date": "2026-01-02T21:05:28+0000",
+            "uid": "experiential",
+            "data": {
+              "name": "Experiential"
+            },
+            "link_type": "Document",
+            "key": "8840377d-0edc-4651-b492-5bf4c96ecf91",
+            "isBroken": false
+          }
+        },
+        {
+          "category": {
+            "id": "aVgyohIAACMA8Cri",
+            "type": "project_categories",
+            "tags": [],
+            "lang": "en-us",
+            "slug": "film",
+            "first_publication_date": "2026-01-02T21:03:41+0000",
+            "last_publication_date": "2026-01-02T21:03:41+0000",
+            "uid": "film",
+            "data": {
+              "name": "Film"
+            },
+            "link_type": "Document",
+            "key": "66cdb6ee-a19e-4f1f-bd80-295b7ceeb834",
+            "isBroken": false
+          }
+        },
+        {
+          "category": {
+            "id": "aVgyxxIAACIA8Csm",
+            "type": "project_categories",
+            "tags": [],
+            "lang": "en-us",
+            "slug": "cgi-production",
+            "first_publication_date": "2026-01-02T21:04:18+0000",
+            "last_publication_date": "2026-01-02T21:04:18+0000",
+            "uid": "cgi-production",
+            "data": {
+              "name": "CGI Production"
+            },
+            "link_type": "Document",
+            "key": "69eeb7ba-760d-49e8-b143-9ca368b719c8",
+            "isBroken": false
+          }
+        }
+      ],
+      "name": "The Eternal Horse x Marina IFC",
+      "client": {
+        "link_type": "Document"
+      },
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "The project aims to become a signature experience during the Lunar New Year where technology Vietnamese culture and contemporary art come together to form an engaging space for the community.",
+          "spans": [],
+          "direction": "ltr"
+        }
+      ],
+      "detail_description": [
+        {
+          "type": "paragraph",
+          "text": "Commissioned by Saigon Marina IFC and affiliates, we developed the full visual world for 8 Collective’s installations — bringing together 7 artists to reinterpret the White Horse as a symbol of movement between past and future for the year of the Horse. \nContributing artists: Collaborating with Long Đoàn, Zetsk and Thông Đinh, Trần Thanh Vy, Overthinker, Tâm Bùi and callmeBu\n",
+          "spans": [],
+          "direction": "ltr"
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "spans": [],
+          "direction": "ltr"
+        }
+      ],
+      "teams": [
+        {
+          "team_name": "fromanother / Visual Direction & Production"
+        },
+        {
+          "team_name": "TAM Collective & Marina IFC / Narrative Concept"
+        },
+        {
+          "team_name": "Alta Media, MasPro, 18Tech / Technical Integration"
+        }
+      ],
+      "link": {
+        "link_type": "Any"
+      },
+      "card_thumbnail": {
+        "dimensions": {
+          "width": 2560,
+          "height": 1440
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/fromanother-2026/acT3VJGXnQHGY-3V_10_Horse_Cover.jpg?auto=format,compress",
+        "id": "acT3VJGXnQHGY-3V",
+        "edit": {
+          "x": 0,
+          "y": 0,
+          "zoom": 1,
+          "background": "transparent"
+        }
+      },
+      "small_card_thumbnail": {
+        "dimensions": {
+          "width": 300,
+          "height": 169
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/fromanother-2026/acT3UpGXnQHGY-3T_10_Horse_Cover_small.jpg?auto=format,compress",
+        "id": "acT3UpGXnQHGY-3T",
+        "edit": {
+          "x": 0,
+          "y": 0,
+          "zoom": 1,
+          "background": "transparent"
+        }
+      },
+      "services_provided": [
+        {
+          "service": "Visual Direction"
+        },
+        {
+          "service": "Visual Production"
+        },
+        {
+          "service": "On-site supervise"
+        }
+      ],
+      "media": [
+        {
+          "image": {},
+          "mobile_image": {},
+          "mux_id": "hgHfeEFT0200fUkaLjIAncyolnUx9xjizAnmTujWc9IWk",
+          "video_url": "https://stream.mux.com/hgHfeEFT0200fUkaLjIAncyolnUx9xjizAnmTujWc9IWk.m3u8",
+          "thumbnail": {
+            "dimensions": {
+              "width": 100,
+              "height": 57
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abpyr7bci2UF6Kx6_10_Horse_04_small.jpg?auto=format,compress",
+            "id": "abpyr7bci2UF6Kx6",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {},
+          "mobile_image": {},
+          "mux_id": "HLuVBy401BJXPMp0287Mbr01K02HQE3jwhiRVs7q2kRB3Ng",
+          "video_url": "https://stream.mux.com/HLuVBy401BJXPMp0287Mbr01K02HQE3jwhiRVs7q2kRB3Ng.m3u8",
+          "thumbnail": {
+            "dimensions": {
+              "width": 100,
+              "height": 57
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abpyGrbci2UF6KxF_10_Horse_02_small.jpg?auto=format,compress",
+            "id": "abpyGrbci2UF6KxF",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abpz_Lbci2UF6K1Q_10_Horse_07.jpg?auto=format,compress",
+            "id": "abpz_Lbci2UF6K1Q",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {
+            "dimensions": {
+              "width": 1080,
+              "height": 1920
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/acptF5GXnQHGZF7L_08_Horse_1M.jpg?auto=format,compress",
+            "id": "acptF5GXnQHGZF7L",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 113
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abp0lbbci2UF6K2W_10_Horse_07_small.jpg?auto=format,compress",
+            "id": "abp0lbbci2UF6K2W",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {},
+          "mobile_image": {
+            "dimensions": {
+              "width": 1080,
+              "height": 1920
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/acptKJGXnQHGZF7N_08_Horse_2M.jpg?auto=format,compress",
+            "id": "acptKJGXnQHGZF7N",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mux_id": "WT00wmQ01aG02M3YzlLtBO4qVjaxY7mgF96002h004oz81LE",
+          "video_url": "https://stream.mux.com/WT00wmQ01aG02M3YzlLtBO4qVjaxY7mgF96002h004oz81LE.m3u8",
+          "thumbnail": {
+            "dimensions": {
+              "width": 100,
+              "height": 57
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abpzPrbci2UF6Kza_10_Horse_06_small.jpg?auto=format,compress",
+            "id": "abpzPrbci2UF6Kza",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {},
+          "mobile_image": {},
+          "mux_id": "xuSqJUpiNV01XcomFo8T13B8EWJaXOZ5IE02PNsUm6swQ",
+          "video_url": "https://stream.mux.com/xuSqJUpiNV01XcomFo8T13B8EWJaXOZ5IE02PNsUm6swQ.m3u8",
+          "thumbnail": {
+            "dimensions": {
+              "width": 100,
+              "height": 57
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abpy8bbci2UF6Kyh_10_Horse_05_small.jpg?auto=format,compress",
+            "id": "abpy8bbci2UF6Kyh",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {},
+          "mobile_image": {},
+          "mux_id": "9Lp01Vi16Cg1d1zoK01LcEDAF4KF701oNv00v2QtSiKUqKI",
+          "video_url": "https://stream.mux.com/9Lp01Vi16Cg1d1zoK01LcEDAF4KF701oNv00v2QtSiKUqKI.m3u8",
+          "thumbnail": {
+            "dimensions": {
+              "width": 100,
+              "height": 57
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abpz7Lbci2UF6K1H_10_Horse_09_small.jpg?auto=format,compress",
+            "id": "abpz7Lbci2UF6K1H",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/ac4yDJGXnQHGZMfs_10_Horse_12.jpg?auto=format,compress",
+            "id": "ac4yDJGXnQHGZMfs",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {},
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 113
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/ac4yCZGXnQHGZMfp_10_Horse_12_small.jpg?auto=format,compress",
+            "id": "ac4yCZGXnQHGZMfp",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 3352,
+              "height": 1888
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/ac4yCpGXnQHGZMfq_10_Horse_10.jpg?auto=format,compress",
+            "id": "ac4yCpGXnQHGZMfq",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {},
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 113
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/ac4yB5GXnQHGZMfn_10_Horse_10_small.jpg?auto=format,compress",
+            "id": "ac4yB5GXnQHGZMfn",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {},
+          "mobile_image": {},
+          "mux_id": "y5Mf2lBHefseTMJ5bWmj25pubIxLJrk7F6kOIdU1TwM",
+          "video_url": "https://stream.mux.com/y5Mf2lBHefseTMJ5bWmj25pubIxLJrk7F6kOIdU1TwM.m3u8",
+          "thumbnail": {
+            "dimensions": {
+              "width": 100,
+              "height": 57
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abpzibbci2UF6K0O_%27.jpg?auto=format,compress",
+            "id": "abpzibbci2UF6K0O",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 3000,
+              "height": 1687
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/adYy651ZCF7ES9QX_10_Horse_14.jpg?auto=format,compress",
+            "id": "adYy651ZCF7ES9QX",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {},
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 112
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/adYy451ZCF7ES9QW_10_Horse_14_small.jpg?auto=format,compress",
+            "id": "adYy451ZCF7ES9QW",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 3000,
+              "height": 1687
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/adYy4p1ZCF7ES9QV_10_Horse_13.jpg?auto=format,compress",
+            "id": "adYy4p1ZCF7ES9QV",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {},
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 112
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/adYy3Z1ZCF7ES9QU_10_Horse_13_small.jpg?auto=format,compress",
+            "id": "adYy3Z1ZCF7ES9QU",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/ac4yC5GXnQHGZMfr_10_Horse_11.jpg?auto=format,compress",
+            "id": "ac4yC5GXnQHGZMfr",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {},
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 113
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/ac4yCJGXnQHGZMfo_10_Horse_11_small.jpg?auto=format,compress",
+            "id": "ac4yCJGXnQHGZMfo",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        }
+      ],
+      "slices": [],
+      "template": null,
+      "meta_title": "fromanother | The Eternal Horse x Marina IFC",
+      "meta_description": "The project aims to become a signature experience during the Lunar New Year where technology Vietnamese culture and contemporary art come together to form an engaging space for the community.",
+      "meta_image": {
+        "dimensions": {
+          "width": 2400,
+          "height": 1260
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/fromanother-2026/acT3VJGXnQHGY-3V_10_Horse_Cover.jpg?auto=format,compress&rect=0,48,2560,1344&w=2400&h=1260",
+        "id": "acT3VJGXnQHGY-3V",
+        "edit": {
+          "x": 0,
+          "y": 48,
+          "zoom": 1,
+          "background": "transparent"
+        }
+      },
+      "case_year": null,
+      "case_kicker": null,
+      "case_headline": null,
+      "case_headline_accent": null,
+      "case_intro": null
+    }
+  }
+}

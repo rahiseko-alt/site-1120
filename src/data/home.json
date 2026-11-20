@@ -1,0 +1,2006 @@
+{
+  "globalDocument": {
+    "id": "aUZcMRIAACIA1qBB",
+    "uid": null,
+    "url": null,
+    "type": "global",
+    "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22aUZcMRIAACIA1qBB%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2025-12-20T08:23:32+0000",
+    "last_publication_date": "2026-05-11T06:32:53+0000",
+    "slugs": [
+      "global"
+    ],
+    "linked_documents": [],
+    "lang": "en-us",
+    "alternate_languages": [],
+    "data": {
+      "branches": [
+        {
+          "utc": 7,
+          "country": "Vietnam",
+          "address_block": [
+            {
+              "type": "paragraph",
+              "text": "Midtown, Phu My Hung\nHo Chi Minh city",
+              "spans": [],
+              "direction": "ltr"
+            }
+          ],
+          "phone_number": "+84 91 9922034"
+        },
+        {
+          "utc": 8,
+          "country": "China",
+          "address_block": [
+            {
+              "type": "paragraph",
+              "text": "193 Lockart Road,\nHong Kong",
+              "spans": [],
+              "direction": "ltr"
+            }
+          ],
+          "phone_number": "+86 186 16222144"
+        },
+        {
+          "utc": 1,
+          "country": "France",
+          "address_block": [
+            {
+              "type": "paragraph",
+              "text": "64-66 Rue des Archives, 75003 Paris, France",
+              "spans": [],
+              "direction": "ltr"
+            }
+          ],
+          "phone_number": "+33 56 3264235"
+        }
+      ],
+      "socials": [
+        {
+          "link_type": "Web",
+          "key": "5f4d63f4-c3b2-4722-98ca-4956b7991e0d",
+          "url": "https://www.facebook.com/fromanotherlove",
+          "target": "_blank",
+          "text": "Facebook"
+        },
+        {
+          "link_type": "Web",
+          "key": "fe699d5f-2f24-466d-82bf-4fb807de169b",
+          "url": "https://www.linkedin.com/company/fromanotherlove/",
+          "target": "_blank",
+          "text": "LinkedIn"
+        },
+        {
+          "link_type": "Web",
+          "key": "6b89671e-1624-4cfa-81db-19126c90cd83",
+          "url": "https://www.instagram.com/fromanother.love/",
+          "target": "_blank",
+          "text": "Instagram"
+        }
+      ],
+      "email_address": "firstcontact@fromanother.love",
+      "slices": [
+        {
+          "variation": "default",
+          "version": "initial",
+          "items": [],
+          "primary": {
+            "featured_word": [
+              {
+                "word": "something"
+              },
+              {
+                "word": "impact"
+              },
+              {
+                "word": "stories"
+              },
+              {
+                "word": "future"
+              }
+            ],
+            "thumbnail_mux_id": "IKwT5z3LAi601P01OKfmNbH02rHsMhgMbyQmGXJVfJGilk",
+            "thumbnail_video_url": "https://stream.mux.com/IKwT5z3LAi601P01OKfmNbH02rHsMhgMbyQmGXJVfJGilk.m3u8"
+          },
+          "id": "footer$f2d60727-9748-4fb5-ad4e-d34a8e6233e2",
+          "slice_type": "footer",
+          "slice_label": null
+        },
+        {
+          "variation": "default",
+          "version": "initial",
+          "items": [],
+          "primary": {
+            "thumbnail_video_url": "https://stream.mux.com/uKkmm51HPsTGQzUqQMxVUV8eI01BykKYUGKvFALbiP7U.m3u8"
+          },
+          "id": "menu$4047c827-60ff-4e4e-a5ca-e9c2620b0f15",
+          "slice_type": "menu",
+          "slice_label": null
+        }
+      ],
+      "meta_title": "fromanother",
+      "meta_description": "We are a human-driven Creative Design Agency/Studio/Collective",
+      "meta_image": {
+        "dimensions": {
+          "width": 2400,
+          "height": 1260
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/fromanother-2026/abLhU1xvIZEnjnzT_Opengraph.jpg?auto=format,compress&rect=0,0,1200,630&w=2400&h=1260",
+        "id": "abLhU1xvIZEnjnzT",
+        "edit": {
+          "x": 0,
+          "y": 0,
+          "zoom": 1,
+          "background": "transparent"
+        }
+      }
+    }
+  },
+  "homeDocument": {
+    "id": "aT2mgBIAACIAyWWP",
+    "uid": null,
+    "url": null,
+    "type": "home_page",
+    "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22aT2mgBIAACIAyWWP%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2025-12-13T17:56:07+0000",
+    "last_publication_date": "2026-10-08T12:54:36+0000",
+    "slugs": [
+      "home-page"
+    ],
+    "linked_documents": [],
+    "lang": "en-us",
+    "alternate_languages": [],
+    "data": {
+      "slices": [
+        {
+          "variation": "default",
+          "version": "initial",
+          "items": [],
+          "primary": {
+            "year_label": "Since 2020",
+            "language_list": [
+              {
+                "language": "VN"
+              },
+              {
+                "language": "CN"
+              },
+              {
+                "language": "FR"
+              }
+            ],
+            "thumbnail_mux_id": "Z02DKxTDFK3IuRBMPa4sqOaOTxiE00kPZcjQZ00Kj2EUxM",
+            "thumbnail_video_url": "https://stream.mux.com/Z02DKxTDFK3IuRBMPa4sqOaOTxiE00kPZcjQZ00Kj2EUxM.m3u8",
+            "featured_mux_id": "u00pmsw00Uvr9CJkKgHEEVMrmnTjQzVPTAZ301005S4EjFM",
+            "featured_video_url": "https://stream.mux.com/u00pmsw00Uvr9CJkKgHEEVMrmnTjQzVPTAZ301005S4EjFM.m3u8",
+            "featured_word": [
+              {
+                "word": "AGENCY"
+              },
+              {
+                "word": "STUDIO"
+              },
+              {
+                "word": "COLLECTIVE"
+              }
+            ],
+            "title": [
+              {
+                "line_1": "We are an",
+                "line_2": "Artist — led",
+                "line_3_left": "Creative",
+                "line_3_right": "Design"
+              }
+            ]
+          },
+          "id": "hero$4c2245f7-f96e-433b-bbaa-4819a099178e",
+          "slice_type": "hero",
+          "slice_label": null
+        },
+        {
+          "variation": "default",
+          "version": "initial",
+          "items": [],
+          "primary": {
+            "hidden": false,
+            "section_name": "About",
+            "primary_content": [
+              {
+                "type": "paragraph",
+                "text": "We craft work that defines the now and shapes what is next.",
+                "spans": [],
+                "direction": "ltr"
+              }
+            ],
+            "secondary_content": [
+              {
+                "type": "paragraph",
+                "text": "Driven by curiosity, not formula. We explore where creativity and technology collide — across brand, film, immersive spaces, and whatever medium the work demands next.",
+                "spans": [],
+                "direction": "ltr"
+              }
+            ],
+            "thumbnail_mux_id": "9WxTFb6OWNtU00jzN9FipwesSwpAuf002rI99qkRxMj1Y",
+            "thumbnail_video_url": "https://stream.mux.com/9WxTFb6OWNtU00jzN9FipwesSwpAuf002rI99qkRxMj1Y.m3u8"
+          },
+          "id": "home_about$dd2e4c54-06fd-49ba-addd-f443f5e28c50",
+          "slice_type": "home_about",
+          "slice_label": null
+        },
+        {
+          "variation": "default",
+          "version": "initial",
+          "items": [],
+          "primary": {
+            "hidden": false,
+            "section_name": "What we do",
+            "service_offering_list": [
+              {
+                "service_offering": {
+                  "id": "aT2k3xIAACMAyWMh",
+                  "type": "service_offerings",
+                  "tags": [],
+                  "lang": "en-us",
+                  "slug": "direction",
+                  "first_publication_date": "2025-12-13T17:42:17+0000",
+                  "last_publication_date": "2025-12-13T17:42:17+0000",
+                  "uid": "direction",
+                  "data": {
+                    "hidden": false,
+                    "category": "Direction",
+                    "services": [
+                      {
+                        "service": "Art Direction"
+                      },
+                      {
+                        "service": "Design Concept"
+                      },
+                      {
+                        "service": "Commercials & CGI"
+                      },
+                      {
+                        "service": "Brand Identity"
+                      }
+                    ]
+                  },
+                  "link_type": "Document",
+                  "key": "9bed3c35-f12f-469c-b274-4a04c8e2f917",
+                  "isBroken": false
+                }
+              },
+              {
+                "service_offering": {
+                  "id": "aT2liBIAACMAyWQc",
+                  "type": "service_offerings",
+                  "tags": [],
+                  "lang": "en-us",
+                  "slug": "digital",
+                  "first_publication_date": "2025-12-13T17:43:16+0000",
+                  "last_publication_date": "2025-12-13T17:43:16+0000",
+                  "uid": "digital",
+                  "data": {
+                    "hidden": false,
+                    "category": "Digital",
+                    "services": [
+                      {
+                        "service": "Web Experience"
+                      },
+                      {
+                        "service": "Social Media"
+                      },
+                      {
+                        "service": "Asset Production"
+                      }
+                    ]
+                  },
+                  "link_type": "Document",
+                  "key": "14285a55-5e97-4891-93da-c8fcb34128d9",
+                  "isBroken": false
+                }
+              },
+              {
+                "service_offering": {
+                  "id": "aT2mIRIAACIAyWT_",
+                  "type": "service_offerings",
+                  "tags": [],
+                  "lang": "en-us",
+                  "slug": "offline",
+                  "first_publication_date": "2025-12-13T17:45:38+0000",
+                  "last_publication_date": "2025-12-13T17:45:38+0000",
+                  "uid": "offline",
+                  "data": {
+                    "hidden": false,
+                    "category": "Offline",
+                    "services": [
+                      {
+                        "service": "Immersive Event"
+                      },
+                      {
+                        "service": "Interactive Art"
+                      },
+                      {
+                        "service": "OOH/Billboard"
+                      },
+                      {
+                        "service": "Print Ads"
+                      }
+                    ]
+                  },
+                  "link_type": "Document",
+                  "key": "ff0d37be-6946-47ea-9e8d-d05af28e335d",
+                  "isBroken": false
+                }
+              }
+            ],
+            "thumbnail_mux_id": "KNLYjrRuaORoeS6J7II2heM8Ncikq3418564Br00B1Ig",
+            "thumbnail_video_url": "https://stream.mux.com/KNLYjrRuaORoeS6J7II2heM8Ncikq3418564Br00B1Ig.m3u8"
+          },
+          "id": "home_services$e4662b57-b41e-413c-933d-7c882dd2fe17",
+          "slice_type": "home_services",
+          "slice_label": null
+        },
+        {
+          "variation": "default",
+          "version": "initial",
+          "items": [],
+          "primary": {
+            "hidden": false,
+            "section_name": "Featured work",
+            "view_all_label": "View all projects",
+            "project_list": [
+              {
+                "project": {
+                  "id": "aseQ-hEAACwAaPPo",
+                  "type": "projects",
+                  "tags": [],
+                  "lang": "en-us",
+                  "slug": "0",
+                  "first_publication_date": "2026-10-08T12:54:36+0000",
+                  "last_publication_date": "2026-10-08T13:26:35+0000",
+                  "uid": "fromearth-2050",
+                  "url": "/work/fromearth-2050",
+                  "data": {
+                    "hidden": false,
+                    "name": "fromearth",
+                    "card_thumbnail": {
+                      "dimensions": {
+                        "width": 3840,
+                        "height": 2160
+                      },
+                      "alt": "fromearth — The living planet",
+                      "copyright": null,
+                      "url": "https://images.prismic.io/fromanother-2026/y0L9MwwzzZ81vf_D_01-earth-landscape.jpg?auto=format,compress",
+                      "id": "y0L9MwwzzZ81vf_D",
+                      "edit": {
+                        "x": 0,
+                        "y": 0,
+                        "zoom": 1,
+                        "background": "transparent"
+                      }
+                    },
+                    "services_provided": [
+                      {
+                        "service": "Interactive web"
+                      },
+                      {
+                        "service": "Visual identity"
+                      }
+                    ],
+                    "small_card_thumbnail": {
+                      "dimensions": {
+                        "width": 3840,
+                        "height": 2160
+                      },
+                      "alt": "fromearth — The living planet",
+                      "copyright": null,
+                      "url": "https://images.prismic.io/fromanother-2026/y0L9MwwzzZ81vf_D_01-earth-landscape.jpg?auto=format,compress",
+                      "id": "y0L9MwwzzZ81vf_D",
+                      "edit": {
+                        "x": 0,
+                        "y": 0,
+                        "zoom": 1,
+                        "background": "transparent"
+                      }
+                    }
+                  },
+                  "link_type": "Document",
+                  "key": "ed8f67fe-0f06-4965-8916-cc2589413304",
+                  "isBroken": false
+                }
+              },
+              {
+                "project": {
+                  "id": "abpwrBEAAB8A3ULF",
+                  "type": "projects",
+                  "tags": [],
+                  "lang": "en-us",
+                  "slug": "10",
+                  "first_publication_date": "2026-03-18T09:47:15+0000",
+                  "last_publication_date": "2026-04-10T08:59:49+0000",
+                  "uid": "the-eternal-horse-x-marina-ifc",
+                  "url": "/work/the-eternal-horse-x-marina-ifc",
+                  "data": {
+                    "hidden": false,
+                    "name": "The Eternal Horse x Marina IFC",
+                    "card_thumbnail": {
+                      "dimensions": {
+                        "width": 2560,
+                        "height": 1440
+                      },
+                      "alt": null,
+                      "copyright": null,
+                      "url": "https://images.prismic.io/fromanother-2026/acT3VJGXnQHGY-3V_10_Horse_Cover.jpg?auto=format,compress",
+                      "id": "acT3VJGXnQHGY-3V",
+                      "edit": {
+                        "x": 0,
+                        "y": 0,
+                        "zoom": 1,
+                        "background": "transparent"
+                      }
+                    },
+                    "services_provided": [
+                      {
+                        "service": "Visual Direction"
+                      },
+                      {
+                        "service": "Visual Production"
+                      },
+                      {
+                        "service": "On-site supervise"
+                      }
+                    ],
+                    "small_card_thumbnail": {
+                      "dimensions": {
+                        "width": 300,
+                        "height": 169
+                      },
+                      "alt": null,
+                      "copyright": null,
+                      "url": "https://images.prismic.io/fromanother-2026/acT3UpGXnQHGY-3T_10_Horse_Cover_small.jpg?auto=format,compress",
+                      "id": "acT3UpGXnQHGY-3T",
+                      "edit": {
+                        "x": 0,
+                        "y": 0,
+                        "zoom": 1,
+                        "background": "transparent"
+                      }
+                    }
+                  },
+                  "link_type": "Document",
+                  "key": "9a4c5a29-b408-47fc-b8c7-1bbc62a40c0d",
+                  "isBroken": false
+                }
+              },
+              {
+                "project": {
+                  "id": "abFDohAAAB8AB-oJ",
+                  "type": "projects",
+                  "tags": [],
+                  "lang": "en-us",
+                  "slug": "7",
+                  "first_publication_date": "2026-03-11T10:34:35+0000",
+                  "last_publication_date": "2026-07-17T03:34:03+0000",
+                  "uid": "year-of-the-rabbit-la-mer",
+                  "url": "/work/year-of-the-rabbit-la-mer",
+                  "data": {
+                    "hidden": false,
+                    "name": "Year of the Rabbit",
+                    "card_thumbnail": {
+                      "dimensions": {
+                        "width": 2560,
+                        "height": 1440
+                      },
+                      "alt": null,
+                      "copyright": null,
+                      "url": "https://images.prismic.io/fromanother-2026/abFEtlxvIZEnjkEF_07_La-Mer_03.jpg?auto=format,compress",
+                      "id": "abFEtlxvIZEnjkEF",
+                      "edit": {
+                        "x": 0,
+                        "y": 0,
+                        "zoom": 1,
+                        "background": "transparent"
+                      }
+                    },
+                    "services_provided": [
+                      {
+                        "service": "Creative Direction"
+                      },
+                      {
+                        "service": "Art Direction"
+                      },
+                      {
+                        "service": "Concept CGI Art"
+                      }
+                    ],
+                    "small_card_thumbnail": {
+                      "dimensions": {
+                        "width": 100,
+                        "height": 57
+                      },
+                      "alt": null,
+                      "copyright": null,
+                      "url": "https://images.prismic.io/fromanother-2026/abu3Lbbci2UF6QLD_LAmer_01_small.jpg?auto=format,compress",
+                      "id": "abu3Lbbci2UF6QLD",
+                      "edit": {
+                        "x": 0,
+                        "y": 0,
+                        "zoom": 1,
+                        "background": "transparent"
+                      }
+                    }
+                  },
+                  "link_type": "Document",
+                  "key": "45e2e59e-7e5a-4f81-934a-1e2390c07e9a",
+                  "isBroken": false
+                }
+              },
+              {
+                "project": {
+                  "id": "abETzBAAACQAB5mU",
+                  "type": "projects",
+                  "tags": [],
+                  "lang": "en-us",
+                  "slug": "8",
+                  "first_publication_date": "2026-03-11T07:12:36+0000",
+                  "last_publication_date": "2026-04-09T10:50:02+0000",
+                  "uid": "louis-vuitton-series",
+                  "url": "/work/louis-vuitton-series",
+                  "data": {
+                    "hidden": false,
+                    "name": "Louis Vuitton Series",
+                    "card_thumbnail": {
+                      "dimensions": {
+                        "width": 2560,
+                        "height": 1707
+                      },
+                      "alt": null,
+                      "copyright": null,
+                      "url": "https://images.prismic.io/fromanother-2026/ac-o2JGXnQHGZPwg_08_LV_1.jpg?auto=format,compress",
+                      "id": "ac-o2JGXnQHGZPwg",
+                      "edit": {
+                        "x": 0,
+                        "y": 0,
+                        "zoom": 1,
+                        "background": "transparent"
+                      }
+                    },
+                    "services_provided": [
+                      {
+                        "service": "Direction"
+                      },
+                      {
+                        "service": "Production"
+                      },
+                      {
+                        "service": "Photography"
+                      }
+                    ],
+                    "small_card_thumbnail": {
+                      "dimensions": {
+                        "width": 200,
+                        "height": 133
+                      },
+                      "alt": null,
+                      "copyright": null,
+                      "url": "https://images.prismic.io/fromanother-2026/adSsY5GXnQHGZTTP_08_LV_1_small.jpg?auto=format,compress",
+                      "id": "adSsY5GXnQHGZTTP",
+                      "edit": {
+                        "x": 0,
+                        "y": 0,
+                        "zoom": 1,
+                        "background": "transparent"
+                      }
+                    }
+                  },
+                  "link_type": "Document",
+                  "key": "50d2b4af-34e9-4526-b023-7fbf866c8a35",
+                  "isBroken": false
+                }
+              },
+              {
+                "project": {
+                  "id": "abELVxAAACAAB40D",
+                  "type": "projects",
+                  "tags": [],
+                  "lang": "en-us",
+                  "slug": "9",
+                  "first_publication_date": "2026-03-11T06:39:30+0000",
+                  "last_publication_date": "2026-03-30T14:20:46+0000",
+                  "uid": "moment-factory",
+                  "url": "/work/moment-factory",
+                  "data": {
+                    "hidden": false,
+                    "name": "Oriens Lumina Walks",
+                    "card_thumbnail": {
+                      "dimensions": {
+                        "width": 2560,
+                        "height": 1440
+                      },
+                      "alt": null,
+                      "copyright": null,
+                      "url": "https://images.prismic.io/fromanother-2026/abEM61xvIZEnjjrP_09_Moment-Factory_17.jpg?auto=format,compress",
+                      "id": "abEM61xvIZEnjjrP",
+                      "edit": {
+                        "x": 0,
+                        "y": 0,
+                        "zoom": 1,
+                        "background": "transparent"
+                      }
+                    },
+                    "services_provided": [
+                      {
+                        "service": "Experiental"
+                      },
+                      {
+                        "service": "Motion Design"
+                      },
+                      {
+                        "service": "On-set Production"
+                      },
+                      {
+                        "service": "Lighting Direction"
+                      }
+                    ],
+                    "small_card_thumbnail": {
+                      "dimensions": {
+                        "width": 200,
+                        "height": 113
+                      },
+                      "alt": null,
+                      "copyright": null,
+                      "url": "https://images.prismic.io/fromanother-2026/abp_9rbci2UF6LEv_09_Moment-Factory_17_small.jpg?auto=format,compress",
+                      "id": "abp_9rbci2UF6LEv",
+                      "edit": {
+                        "x": 0,
+                        "y": 0,
+                        "zoom": 1,
+                        "background": "transparent"
+                      }
+                    }
+                  },
+                  "link_type": "Document",
+                  "key": "a6f973ec-25a5-483d-9291-6c3a1d264372",
+                  "isBroken": false
+                }
+              },
+              {
+                "project": {
+                  "id": "aUjJhRIAACMA2gJf",
+                  "type": "projects",
+                  "tags": [],
+                  "lang": "en-us",
+                  "slug": "3",
+                  "first_publication_date": "2025-12-22T04:32:21+0000",
+                  "last_publication_date": "2026-07-16T07:55:28+0000",
+                  "uid": "oneplus-buds-pro-3",
+                  "url": "/work/oneplus-buds-pro-3",
+                  "data": {
+                    "hidden": false,
+                    "name": "Perfection at Play",
+                    "card_thumbnail": {
+                      "dimensions": {
+                        "width": 2560,
+                        "height": 1440
+                      },
+                      "alt": null,
+                      "copyright": null,
+                      "url": "https://images.prismic.io/fromanother-2026/abps97bci2UF6Ko7_03_OneplusGauss_20.jpg?auto=format,compress",
+                      "id": "abps97bci2UF6Ko7",
+                      "edit": {
+                        "x": 0,
+                        "y": 0,
+                        "zoom": 1,
+                        "background": "transparent"
+                      }
+                    },
+                    "services_provided": [
+                      {
+                        "service": "Art Direction"
+                      },
+                      {
+                        "service": "Creative Direction"
+                      },
+                      {
+                        "service": "CGI Art"
+                      },
+                      {
+                        "service": "Management"
+                      },
+                      {
+                        "service": "Production"
+                      }
+                    ],
+                    "small_card_thumbnail": {
+                      "dimensions": {
+                        "width": 200,
+                        "height": 113
+                      },
+                      "alt": null,
+                      "copyright": null,
+                      "url": "https://images.prismic.io/fromanother-2026/abptHLbci2UF6KpU_03_Oneplus-Gauss_20_small.jpg?auto=format,compress",
+                      "id": "abptHLbci2UF6KpU",
+                      "edit": {
+                        "x": 0,
+                        "y": 0,
+                        "zoom": 1,
+                        "background": "transparent"
+                      }
+                    }
+                  },
+                  "link_type": "Document",
+                  "key": "56ad826b-65c1-499c-be5a-073feab71d27",
+                  "isBroken": false
+                }
+              }
+            ]
+          },
+          "id": "home_projects$32e77a2a-3457-4d55-bb30-c338516b15b0",
+          "slice_type": "home_projects",
+          "slice_label": null
+        },
+        {
+          "variation": "default",
+          "version": "initial",
+          "items": [],
+          "primary": {
+            "title": [
+              {
+                "type": "heading2",
+                "text": "Driven by\nCreative Curiosity",
+                "spans": [],
+                "direction": "ltr"
+              }
+            ],
+            "thumbnail_mux_id": "401m2zKPY6dGA00dL7Iihrb00p4LEAHaVYLugAovjAd9wU",
+            "thumbnail_video_url": "https://stream.mux.com/401m2zKPY6dGA00dL7Iihrb00p4LEAHaVYLugAovjAd9wU.m3u8"
+          },
+          "id": "full_screen_media$37101807-f741-42e6-bad8-58c0d7cd4b69",
+          "slice_type": "full_screen_media",
+          "slice_label": null
+        },
+        {
+          "variation": "default",
+          "version": "initial",
+          "items": [],
+          "primary": {
+            "hidden": false,
+            "section_name": "Our team",
+            "member_list": [
+              {
+                "member": {
+                  "id": "aZ5sixAAACIAJY9F",
+                  "type": "members",
+                  "tags": [],
+                  "lang": "en-us",
+                  "slug": "what-started-in-china-as-a-creative-partnership-which-became-the-foundation-of-everything-weve-built.-the-curiosity-never-stops-there.",
+                  "first_publication_date": "2026-02-25T03:31:06+0000",
+                  "last_publication_date": "2026-04-01T15:42:50+0000",
+                  "uid": "studio",
+                  "data": {
+                    "hidden": false,
+                    "avatar": {
+                      "dimensions": {
+                        "width": 1222,
+                        "height": 1333
+                      },
+                      "alt": null,
+                      "copyright": null,
+                      "url": "https://images.prismic.io/fromanother-2026/abvHx7bci2UF6QeN_Team_01.jpg?auto=format,compress",
+                      "id": "abvHx7bci2UF6QeN",
+                      "edit": {
+                        "x": 0,
+                        "y": 0,
+                        "zoom": 1,
+                        "background": "transparent"
+                      }
+                    },
+                    "description": [
+                      {
+                        "type": "paragraph",
+                        "text": "What started in China as a creative partnership which became the foundation of everything we've built. The curiosity never stops there.",
+                        "spans": [],
+                        "direction": "ltr"
+                      }
+                    ]
+                  },
+                  "link_type": "Document",
+                  "key": "d62a92c5-87c8-4d24-91fc-088cd7fe3348",
+                  "isBroken": false
+                }
+              },
+              {
+                "member": {
+                  "id": "aZ5tGRAAACIAJZAj",
+                  "type": "members",
+                  "tags": [],
+                  "lang": "en-us",
+                  "slug": "saigon-is-where-we-found-our-footing.-fast-ambitious-never-satisfied--shaped-how-we-work-and-what-we-expect-from-ourselves.",
+                  "first_publication_date": "2026-02-25T03:32:07+0000",
+                  "last_publication_date": "2026-04-02T03:37:26+0000",
+                  "uid": "people",
+                  "data": {
+                    "hidden": false,
+                    "avatar": {
+                      "dimensions": {
+                        "width": 2160,
+                        "height": 2160
+                      },
+                      "alt": null,
+                      "copyright": null,
+                      "url": "https://images.prismic.io/fromanother-2026/abpGZLbci2UF6KTT_02.jpg?auto=format,compress",
+                      "id": "abpGZLbci2UF6KTT",
+                      "edit": {
+                        "x": 0,
+                        "y": 0,
+                        "zoom": 1,
+                        "background": "transparent"
+                      }
+                    },
+                    "description": [
+                      {
+                        "type": "paragraph",
+                        "text": "Saigon is where we found our footing. Fast, ambitious, never satisfied — shaped how we work and what we expect from ourselves.",
+                        "spans": [],
+                        "direction": "ltr"
+                      }
+                    ]
+                  },
+                  "link_type": "Document",
+                  "key": "8bd149eb-557b-4eb2-b585-0f287dd6dba1",
+                  "isBroken": false
+                }
+              },
+              {
+                "member": {
+                  "id": "aZ5taRAAACAAJZCh",
+                  "type": "members",
+                  "tags": [],
+                  "lang": "en-us",
+                  "slug": "but-good-work-doesnt-stay-in-one-place--and-neither-did-we.-we-go-wherever-the-next-brief-takes-us.",
+                  "first_publication_date": "2026-02-25T03:33:31+0000",
+                  "last_publication_date": "2026-04-01T15:34:46+0000",
+                  "uid": "what-started-in-china",
+                  "data": {
+                    "hidden": false,
+                    "avatar": {
+                      "dimensions": {
+                        "width": 1400,
+                        "height": 1400
+                      },
+                      "alt": null,
+                      "copyright": null,
+                      "url": "https://images.prismic.io/fromanother-2026/abvHxrbci2UF6QeL_Team_03.jpg?auto=format,compress",
+                      "id": "abvHxrbci2UF6QeL",
+                      "edit": {
+                        "x": 0,
+                        "y": 0,
+                        "zoom": 1,
+                        "background": "transparent"
+                      }
+                    },
+                    "description": [
+                      {
+                        "type": "paragraph",
+                        "text": "But good work doesn't stay in one place — and neither did we. We go wherever the next brief takes us.",
+                        "spans": [],
+                        "direction": "ltr"
+                      }
+                    ]
+                  },
+                  "link_type": "Document",
+                  "key": "98e5690c-cee0-46ab-ba9b-ab9550ebe7e7",
+                  "isBroken": false
+                }
+              },
+              {
+                "member": {
+                  "id": "aT5gvhIAACAAymmF",
+                  "type": "members",
+                  "tags": [],
+                  "lang": "en-us",
+                  "slug": "the-offices-gave-us-roots-in-new-places.-the-people-gave-us-reasons-to-keep-going.",
+                  "first_publication_date": "2025-12-14T07:03:17+0000",
+                  "last_publication_date": "2026-04-01T15:39:44+0000",
+                  "uid": "the-offices-gave-us-roots-in-new-places",
+                  "data": {
+                    "hidden": false,
+                    "avatar": {
+                      "dimensions": {
+                        "width": 1282,
+                        "height": 1400
+                      },
+                      "alt": null,
+                      "copyright": null,
+                      "url": "https://images.prismic.io/fromanother-2026/abvHx7bci2UF6QeM_Team_04.jpg?auto=format,compress",
+                      "id": "abvHx7bci2UF6QeM",
+                      "edit": {
+                        "x": 0,
+                        "y": 0,
+                        "zoom": 1,
+                        "background": "transparent"
+                      }
+                    },
+                    "description": [
+                      {
+                        "type": "paragraph",
+                        "text": "The offices gave us roots in new places. The people gave us reasons to keep going. ",
+                        "spans": [],
+                        "direction": "ltr"
+                      }
+                    ]
+                  },
+                  "link_type": "Document",
+                  "key": "fc3a7721-5e32-4ee0-ba83-5a13787bb9dc",
+                  "isBroken": false
+                }
+              }
+            ]
+          },
+          "id": "home_members$7d2a8b1c-96bd-4d67-a10b-5b304397e8d3",
+          "slice_type": "home_members",
+          "slice_label": null
+        },
+        {
+          "variation": "default",
+          "version": "initial",
+          "items": [],
+          "primary": {
+            "hidden": false,
+            "section_name": "They trust us",
+            "content": [
+              {
+                "type": "paragraph",
+                "text": "From multinational companies to independent brands, we have been fortunate to work in a diversity of projects and clients.",
+                "spans": [],
+                "direction": "ltr"
+              }
+            ],
+            "client_list": [
+              {
+                "client": {
+                  "id": "aUgDBhIAACAA2O7Y",
+                  "type": "clients",
+                  "tags": [],
+                  "lang": "en-us",
+                  "slug": "louis-vuitton",
+                  "first_publication_date": "2025-12-21T14:25:11+0000",
+                  "last_publication_date": "2026-02-18T17:58:23+0000",
+                  "uid": "louis-vuitton",
+                  "data": {
+                    "hidden": false,
+                    "logo": {
+                      "dimensions": {
+                        "width": 474,
+                        "height": 474
+                      },
+                      "alt": null,
+                      "copyright": null,
+                      "url": "https://images.prismic.io/fromanother-2026/aZX9osFoBIGEgiIZ_LV.png?auto=format,compress",
+                      "id": "aZX9osFoBIGEgiIZ",
+                      "edit": {
+                        "x": 0,
+                        "y": 0,
+                        "zoom": 1,
+                        "background": "transparent"
+                      }
+                    },
+                    "name": "Louis Vuitton"
+                  },
+                  "link_type": "Document",
+                  "key": "aada4062-4983-41af-8c51-ee40bdf6a5bf",
+                  "isBroken": false
+                }
+              },
+              {
+                "client": {
+                  "id": "aUgDTBIAACAA2O9H",
+                  "type": "clients",
+                  "tags": [],
+                  "lang": "en-us",
+                  "slug": "oneplus",
+                  "first_publication_date": "2025-12-21T14:25:32+0000",
+                  "last_publication_date": "2026-02-18T17:58:39+0000",
+                  "uid": "oneplus",
+                  "data": {
+                    "hidden": false,
+                    "logo": {
+                      "dimensions": {
+                        "width": 474,
+                        "height": 474
+                      },
+                      "alt": null,
+                      "copyright": null,
+                      "url": "https://images.prismic.io/fromanother-2026/aZX9ycFoBIGEgiIh_OnePlus.png?auto=format,compress",
+                      "id": "aZX9ycFoBIGEgiIh",
+                      "edit": {
+                        "x": 0,
+                        "y": 0,
+                        "zoom": 1,
+                        "background": "transparent"
+                      }
+                    },
+                    "name": "OnePlus"
+                  },
+                  "link_type": "Document",
+                  "key": "d2428168-b550-4e5b-ba5f-4b0140130b30",
+                  "isBroken": false
+                }
+              },
+              {
+                "client": {
+                  "id": "aUgDaRIAACAA2O94",
+                  "type": "clients",
+                  "tags": [],
+                  "lang": "en-us",
+                  "slug": "chanel",
+                  "first_publication_date": "2025-12-21T14:26:02+0000",
+                  "last_publication_date": "2026-02-18T18:01:55+0000",
+                  "uid": "chanel",
+                  "data": {
+                    "hidden": false,
+                    "logo": {
+                      "dimensions": {
+                        "width": 474,
+                        "height": 474
+                      },
+                      "alt": null,
+                      "copyright": null,
+                      "url": "https://images.prismic.io/fromanother-2026/aZX93sFoBIGEgiIk_Chanel.png?auto=format,compress",
+                      "id": "aZX93sFoBIGEgiIk",
+                      "edit": {
+                        "x": 0,
+                        "y": 0,
+                        "zoom": 1,
+                        "background": "transparent"
+                      }
+                    },
+                    "name": "Chanel"
+                  },
+                  "link_type": "Document",
+                  "key": "cfbb06bc-585d-4d3c-8a68-6fa0560c4cad",
+                  "isBroken": false
+                }
+              },
+              {
+                "client": {
+                  "id": "aUgDhRIAACIA2O-o",
+                  "type": "clients",
+                  "tags": [],
+                  "lang": "en-us",
+                  "slug": "glossier",
+                  "first_publication_date": "2025-12-21T14:26:27+0000",
+                  "last_publication_date": "2026-02-18T17:59:20+0000",
+                  "uid": "glossier",
+                  "data": {
+                    "hidden": false,
+                    "logo": {
+                      "dimensions": {
+                        "width": 474,
+                        "height": 474
+                      },
+                      "alt": null,
+                      "copyright": null,
+                      "url": "https://images.prismic.io/fromanother-2026/aZX98cFoBIGEgiIq_Glossier.png?auto=format,compress",
+                      "id": "aZX98cFoBIGEgiIq",
+                      "edit": {
+                        "x": 0,
+                        "y": 0,
+                        "zoom": 1,
+                        "background": "transparent"
+                      }
+                    },
+                    "name": "Glossier"
+                  },
+                  "link_type": "Document",
+                  "key": "36a103a8-4ece-4567-acbb-e26e7a21a32b",
+                  "isBroken": false
+                }
+              },
+              {
+                "client": {
+                  "id": "aUgDoRIAACMA2O_Z",
+                  "type": "clients",
+                  "tags": [],
+                  "lang": "en-us",
+                  "slug": "la-mer",
+                  "first_publication_date": "2025-12-21T14:26:58+0000",
+                  "last_publication_date": "2026-02-18T17:59:41+0000",
+                  "uid": "la-mer",
+                  "data": {
+                    "hidden": false,
+                    "logo": {
+                      "dimensions": {
+                        "width": 474,
+                        "height": 474
+                      },
+                      "alt": null,
+                      "copyright": null,
+                      "url": "https://images.prismic.io/fromanother-2026/aZX-A8FoBIGEgiIr_LaMer.png?auto=format,compress",
+                      "id": "aZX-A8FoBIGEgiIr",
+                      "edit": {
+                        "x": 0,
+                        "y": 0,
+                        "zoom": 1,
+                        "background": "transparent"
+                      }
+                    },
+                    "name": "La Mer"
+                  },
+                  "link_type": "Document",
+                  "key": "25db79f2-9c22-4d0d-816a-41ded367a7f1",
+                  "isBroken": false
+                }
+              },
+              {
+                "client": {
+                  "id": "aUgDvBIAACAA2PAG",
+                  "type": "clients",
+                  "tags": [],
+                  "lang": "en-us",
+                  "slug": "loreal",
+                  "first_publication_date": "2025-12-21T14:27:23+0000",
+                  "last_publication_date": "2026-02-18T17:59:51+0000",
+                  "uid": "loreal",
+                  "data": {
+                    "hidden": false,
+                    "logo": {
+                      "dimensions": {
+                        "width": 474,
+                        "height": 474
+                      },
+                      "alt": null,
+                      "copyright": null,
+                      "url": "https://images.prismic.io/fromanother-2026/aZX9jsFoBIGEgiIY_L%27Oreal.png?auto=format,compress",
+                      "id": "aZX9jsFoBIGEgiIY",
+                      "edit": {
+                        "x": 0,
+                        "y": 0,
+                        "zoom": 1,
+                        "background": "transparent"
+                      }
+                    },
+                    "name": "L’Oreal"
+                  },
+                  "link_type": "Document",
+                  "key": "08a99fde-7684-44c1-9d7e-c8ee89a5f662",
+                  "isBroken": false
+                }
+              },
+              {
+                "client": {
+                  "id": "aUgD0hIAACIA2PAv",
+                  "type": "clients",
+                  "tags": [],
+                  "lang": "en-us",
+                  "slug": "dior",
+                  "first_publication_date": "2025-12-21T14:27:45+0000",
+                  "last_publication_date": "2026-02-18T18:00:34+0000",
+                  "uid": "dior",
+                  "data": {
+                    "hidden": false,
+                    "logo": {
+                      "dimensions": {
+                        "width": 474,
+                        "height": 474
+                      },
+                      "alt": null,
+                      "copyright": null,
+                      "url": "https://images.prismic.io/fromanother-2026/aZX-PMFoBIGEgiIx_Dior.png?auto=format,compress",
+                      "id": "aZX-PMFoBIGEgiIx",
+                      "edit": {
+                        "x": 0,
+                        "y": 0,
+                        "zoom": 1,
+                        "background": "transparent"
+                      }
+                    },
+                    "name": "Dior"
+                  },
+                  "link_type": "Document",
+                  "key": "89bd0b15-c2fd-45f3-b9f6-8376265ba7a4",
+                  "isBroken": false
+                }
+              },
+              {
+                "client": {
+                  "id": "aUgD7BIAACIA2PBc",
+                  "type": "clients",
+                  "tags": [],
+                  "lang": "en-us",
+                  "slug": "oppo",
+                  "first_publication_date": "2025-12-21T14:28:13+0000",
+                  "last_publication_date": "2026-02-18T18:00:52+0000",
+                  "uid": "oppo",
+                  "data": {
+                    "hidden": false,
+                    "logo": {
+                      "dimensions": {
+                        "width": 474,
+                        "height": 474
+                      },
+                      "alt": null,
+                      "copyright": null,
+                      "url": "https://images.prismic.io/fromanother-2026/aZX-TsFoBIGEgiI0_Oppo.png?auto=format,compress",
+                      "id": "aZX-TsFoBIGEgiI0",
+                      "edit": {
+                        "x": 0,
+                        "y": 0,
+                        "zoom": 1,
+                        "background": "transparent"
+                      }
+                    },
+                    "name": "Oppo"
+                  },
+                  "link_type": "Document",
+                  "key": "3adfee1b-fddf-4d9c-b287-e4a0f9e05e3f",
+                  "isBroken": false
+                }
+              },
+              {
+                "client": {
+                  "id": "aUgECRIAACAA2PCO",
+                  "type": "clients",
+                  "tags": [],
+                  "lang": "en-us",
+                  "slug": "the-north-face",
+                  "first_publication_date": "2025-12-21T14:28:44+0000",
+                  "last_publication_date": "2026-02-18T18:01:11+0000",
+                  "uid": "the-north-face",
+                  "data": {
+                    "hidden": false,
+                    "logo": {
+                      "dimensions": {
+                        "width": 474,
+                        "height": 474
+                      },
+                      "alt": null,
+                      "copyright": null,
+                      "url": "https://images.prismic.io/fromanother-2026/aZX-XMFoBIGEgiI6_TheNorthFace.png?auto=format,compress",
+                      "id": "aZX-XMFoBIGEgiI6",
+                      "edit": {
+                        "x": 0,
+                        "y": 0,
+                        "zoom": 1,
+                        "background": "transparent"
+                      }
+                    },
+                    "name": "The North Face"
+                  },
+                  "link_type": "Document",
+                  "key": "eb29e087-de48-4f55-937d-807e5a096f43",
+                  "isBroken": false
+                }
+              },
+              {
+                "client": {
+                  "id": "aUgEJBIAACIA2PC_",
+                  "type": "clients",
+                  "tags": [],
+                  "lang": "en-us",
+                  "slug": "88rising",
+                  "first_publication_date": "2025-12-21T14:29:10+0000",
+                  "last_publication_date": "2026-02-18T18:01:32+0000",
+                  "uid": "88rising",
+                  "data": {
+                    "hidden": false,
+                    "logo": {
+                      "dimensions": {
+                        "width": 474,
+                        "height": 474
+                      },
+                      "alt": null,
+                      "copyright": null,
+                      "url": "https://images.prismic.io/fromanother-2026/aZX-dsFoBIGEgiJC_88rising.png?auto=format,compress",
+                      "id": "aZX-dsFoBIGEgiJC",
+                      "edit": {
+                        "x": 0,
+                        "y": 0,
+                        "zoom": 1,
+                        "background": "transparent"
+                      }
+                    },
+                    "name": "88rising"
+                  },
+                  "link_type": "Document",
+                  "key": "69eea2ad-0157-4d1c-addd-5c99b2bcc889",
+                  "isBroken": false
+                }
+              },
+              {
+                "client": {
+                  "id": "aUgEQBIAACMA2PDt",
+                  "type": "clients",
+                  "tags": [],
+                  "lang": "en-us",
+                  "slug": "oribe",
+                  "first_publication_date": "2025-12-21T14:29:33+0000",
+                  "last_publication_date": "2026-02-18T18:01:51+0000",
+                  "uid": "oribe",
+                  "data": {
+                    "hidden": false,
+                    "logo": {
+                      "dimensions": {
+                        "width": 474,
+                        "height": 474
+                      },
+                      "alt": null,
+                      "copyright": null,
+                      "url": "https://images.prismic.io/fromanother-2026/aZX-isFoBIGEgiJR_Oribe.png?auto=format,compress",
+                      "id": "aZX-isFoBIGEgiJR",
+                      "edit": {
+                        "x": 0,
+                        "y": 0,
+                        "zoom": 1,
+                        "background": "transparent"
+                      }
+                    },
+                    "name": "Oribe"
+                  },
+                  "link_type": "Document",
+                  "key": "80cdc1c7-b320-40ec-871c-58481022e4d2",
+                  "isBroken": false
+                }
+              }
+            ],
+            "thumbnail": {},
+            "mux_id": "BF02ixx7qhj8tO2b02tmY5qDdygS2nXS5m1zuPJfGmDko",
+            "video_url": "https://stream.mux.com/BF02ixx7qhj8tO2b02tmY5qDdygS2nXS5m1zuPJfGmDko.m3u8"
+          },
+          "id": "home_clients$68c7ff08-ca2e-4093-888a-387f22edb208",
+          "slice_type": "home_clients",
+          "slice_label": null
+        },
+        {
+          "variation": "default",
+          "version": "initial",
+          "items": [],
+          "primary": {
+            "hidden": false,
+            "section_name": "Awards",
+            "award_list": [
+              {
+                "award": {
+                  "id": "aT5hXRIAACIAymp2",
+                  "type": "awards",
+                  "tags": [],
+                  "lang": "en-us",
+                  "slug": "night-goggles",
+                  "first_publication_date": "2025-12-14T07:05:05+0000",
+                  "last_publication_date": "2026-03-22T19:31:30+0000",
+                  "uid": "night-goggles",
+                  "data": {
+                    "hidden": false,
+                    "poster": {
+                      "dimensions": {
+                        "width": 800,
+                        "height": 1132
+                      },
+                      "alt": null,
+                      "copyright": null,
+                      "url": "https://images.prismic.io/fromanother-2026/acBDiZGXnQHGY1Y1_NightGoggles.jpg?auto=format,compress",
+                      "id": "acBDiZGXnQHGY1Y1",
+                      "edit": {
+                        "x": 0,
+                        "y": 0,
+                        "zoom": 1,
+                        "background": "transparent"
+                      }
+                    }
+                  },
+                  "link_type": "Document",
+                  "key": "63b3ba97-bd58-42f8-b563-c2e53a1f664f",
+                  "isBroken": false
+                }
+              },
+              {
+                "award": {
+                  "id": "aT5htBIAACIAymr7",
+                  "type": "awards",
+                  "tags": [],
+                  "lang": "en-us",
+                  "slug": "loss",
+                  "first_publication_date": "2025-12-14T07:24:51+0000",
+                  "last_publication_date": "2026-03-22T19:32:16+0000",
+                  "uid": "loss",
+                  "data": {
+                    "hidden": false,
+                    "poster": {
+                      "dimensions": {
+                        "width": 800,
+                        "height": 1132
+                      },
+                      "alt": null,
+                      "copyright": null,
+                      "url": "https://images.prismic.io/fromanother-2026/acBDu5GXnQHGY1Y5_Loss.jpg?auto=format,compress",
+                      "id": "acBDu5GXnQHGY1Y5",
+                      "edit": {
+                        "x": 0,
+                        "y": 0,
+                        "zoom": 1,
+                        "background": "transparent"
+                      }
+                    }
+                  },
+                  "link_type": "Document",
+                  "key": "1c465c52-c7fb-4f9c-8e1f-0f98538475f6",
+                  "isBroken": false
+                }
+              },
+              {
+                "award": {
+                  "id": "aT5mkhIAACAAynHU",
+                  "type": "awards",
+                  "tags": [],
+                  "lang": "en-us",
+                  "slug": "now",
+                  "first_publication_date": "2025-12-14T07:26:56+0000",
+                  "last_publication_date": "2026-03-22T19:30:55+0000",
+                  "uid": "now",
+                  "data": {
+                    "hidden": false,
+                    "poster": {
+                      "dimensions": {
+                        "width": 800,
+                        "height": 1132
+                      },
+                      "alt": null,
+                      "copyright": null,
+                      "url": "https://images.prismic.io/fromanother-2026/acBDZ5GXnQHGY1Y0_Now.jpg?auto=format,compress",
+                      "id": "acBDZ5GXnQHGY1Y0",
+                      "edit": {
+                        "x": 0,
+                        "y": 0,
+                        "zoom": 1,
+                        "background": "transparent"
+                      }
+                    }
+                  },
+                  "link_type": "Document",
+                  "key": "ccdbfe77-9b5a-4acf-925d-9e09766e6869",
+                  "isBroken": false
+                }
+              },
+              {
+                "award": {
+                  "id": "aT5mxxIAACMAynIm",
+                  "type": "awards",
+                  "tags": [],
+                  "lang": "en-us",
+                  "slug": "saigon-souls",
+                  "first_publication_date": "2025-12-14T07:27:46+0000",
+                  "last_publication_date": "2026-03-25T04:42:03+0000",
+                  "uid": "saigon-souls",
+                  "data": {
+                    "hidden": false,
+                    "poster": {
+                      "dimensions": {
+                        "width": 1414,
+                        "height": 2000
+                      },
+                      "alt": null,
+                      "copyright": null,
+                      "url": "https://images.prismic.io/fromanother-2026/acNnkZGXnQHGY7-x_Awards_SaigonSoulss.jpg?auto=format,compress",
+                      "id": "acNnkZGXnQHGY7-x",
+                      "edit": {
+                        "x": 0,
+                        "y": 0,
+                        "zoom": 1,
+                        "background": "transparent"
+                      }
+                    }
+                  },
+                  "link_type": "Document",
+                  "key": "2094648e-5988-45c0-9e0a-2178259c1e06",
+                  "isBroken": false
+                }
+              },
+              {
+                "award": {
+                  "id": "agreuhEAACcArmqK",
+                  "type": "awards",
+                  "tags": [],
+                  "lang": "en-us",
+                  "slug": "sotd-cssda",
+                  "first_publication_date": "2026-05-18T09:41:47+0000",
+                  "last_publication_date": "2026-05-18T09:51:26+0000",
+                  "uid": "sotd-cssda",
+                  "data": {
+                    "hidden": false,
+                    "poster": {
+                      "dimensions": {
+                        "width": 595,
+                        "height": 842
+                      },
+                      "alt": null,
+                      "copyright": null,
+                      "url": "https://images.prismic.io/fromanother-2026/agrecKYofJOwHUV2_cssda-wotd-01.jpg?auto=format,compress",
+                      "id": "agrecKYofJOwHUV2",
+                      "edit": {
+                        "x": 0,
+                        "y": 0,
+                        "zoom": 1,
+                        "background": "transparent"
+                      }
+                    }
+                  },
+                  "link_type": "Document",
+                  "key": "01ea4659-db23-4883-8dac-6a7b6b941d8e",
+                  "isBroken": false
+                }
+              },
+              {
+                "award": {
+                  "id": "agrejREAACcArmox",
+                  "type": "awards",
+                  "tags": [],
+                  "lang": "en-us",
+                  "slug": "sotd-thefwa",
+                  "first_publication_date": "2026-05-18T09:41:07+0000",
+                  "last_publication_date": "2026-05-18T09:51:41+0000",
+                  "uid": "sotd-thefwa",
+                  "data": {
+                    "hidden": false,
+                    "poster": {
+                      "dimensions": {
+                        "width": 3498,
+                        "height": 4947
+                      },
+                      "alt": null,
+                      "copyright": null,
+                      "url": "https://images.prismic.io/fromanother-2026/agrecaYofJOwHUV3_FOTD.jpg?auto=format,compress",
+                      "id": "agrecaYofJOwHUV3",
+                      "edit": {
+                        "x": 0,
+                        "y": 0,
+                        "zoom": 1,
+                        "background": "transparent"
+                      }
+                    }
+                  },
+                  "link_type": "Document",
+                  "key": "78d8e19b-61b7-47b1-88be-ae23605ae1a6",
+                  "isBroken": false
+                }
+              },
+              {
+                "award": {
+                  "id": "agrd_hEAACcArmlM",
+                  "type": "awards",
+                  "tags": [],
+                  "lang": "en-us",
+                  "slug": "sotd-awwwards",
+                  "first_publication_date": "2026-05-18T09:40:20+0000",
+                  "last_publication_date": "2026-05-18T09:51:59+0000",
+                  "uid": "sotd-awwwards",
+                  "data": {
+                    "hidden": false,
+                    "poster": {
+                      "dimensions": {
+                        "width": 867,
+                        "height": 1151
+                      },
+                      "alt": null,
+                      "copyright": null,
+                      "url": "https://images.prismic.io/fromanother-2026/agrecKYofJOwHUV1_certificate-fromanother-love-sotd-01.jpg?auto=format,compress",
+                      "id": "agrecKYofJOwHUV1",
+                      "edit": {
+                        "x": 0,
+                        "y": 0,
+                        "zoom": 1,
+                        "background": "transparent"
+                      }
+                    }
+                  },
+                  "link_type": "Document",
+                  "key": "d6b0e9ff-5987-4ed5-9cd8-3e46108c7d85",
+                  "isBroken": false
+                }
+              }
+            ]
+          },
+          "id": "home_awards$41753421-a4fd-42dc-bdb8-59081856a4b9",
+          "slice_type": "home_awards",
+          "slice_label": null
+        },
+        {
+          "variation": "default",
+          "version": "initial",
+          "items": [],
+          "primary": {
+            "hidden": false,
+            "section_name": "Press",
+            "label": "We are on",
+            "press_list": [
+              {
+                "press": {
+                  "id": "aUEI6RIAACMAzj0U",
+                  "type": "presses",
+                  "tags": [],
+                  "lang": "en-us",
+                  "slug": "lofficiel",
+                  "first_publication_date": "2025-12-16T07:25:31+0000",
+                  "last_publication_date": "2026-03-23T16:03:35+0000",
+                  "uid": "lofficiel",
+                  "data": {
+                    "hidden": false,
+                    "thumbnail": {
+                      "dimensions": {
+                        "width": 200,
+                        "height": 160
+                      },
+                      "alt": "L’officiel",
+                      "copyright": null,
+                      "url": "https://images.prismic.io/fromanother-2026/aUEJM3NYClf9oPbv_press-1.jpg?auto=format,compress",
+                      "id": "aUEJM3NYClf9oPbv",
+                      "edit": {
+                        "x": 0,
+                        "y": 0,
+                        "zoom": 1,
+                        "background": "transparent"
+                      }
+                    },
+                    "publication_name": "L’officiel",
+                    "link": {
+                      "link_type": "Web",
+                      "key": "3108269f-9a57-4e8a-8d53-5c7768763eca",
+                      "url": "https://www.lofficielvietnam.com/pop-music-film/doi-thoai-cung-vicki-va-robin-nhung-ket-noi-cam-xuc-trong-ky-nguyen-so",
+                      "target": "_blank",
+                      "text": "#"
+                    }
+                  },
+                  "link_type": "Document",
+                  "key": "e0be108e-b1ef-430f-825c-486b848617fe",
+                  "isBroken": false
+                }
+              },
+              {
+                "press": {
+                  "id": "aUEJcBIAACIAzj3g",
+                  "type": "presses",
+                  "tags": [],
+                  "lang": "en-us",
+                  "slug": "ted-talk",
+                  "first_publication_date": "2025-12-16T07:26:33+0000",
+                  "last_publication_date": "2026-03-23T16:02:42+0000",
+                  "uid": "ted-talk",
+                  "data": {
+                    "hidden": false,
+                    "thumbnail": {
+                      "dimensions": {
+                        "width": 200,
+                        "height": 160
+                      },
+                      "alt": "TED Talk",
+                      "copyright": null,
+                      "url": "https://images.prismic.io/fromanother-2026/aUEJNHNYClf9oPbx_press-2.jpg?auto=format,compress",
+                      "id": "aUEJNHNYClf9oPbx",
+                      "edit": {
+                        "x": 0,
+                        "y": 0,
+                        "zoom": 1,
+                        "background": "transparent"
+                      }
+                    },
+                    "publication_name": "TED Talk",
+                    "link": {
+                      "link_type": "Web",
+                      "key": "d3ff7a63-e2f5-4642-a199-b652bc893f0d",
+                      "url": "https://www.ted.com/talks/robin_mahieux_challenge_conformity",
+                      "target": "_blank",
+                      "text": "#"
+                    }
+                  },
+                  "link_type": "Document",
+                  "key": "276c3a6a-a921-4e4a-b4b6-5201a237b305",
+                  "isBroken": false
+                }
+              },
+              {
+                "press": {
+                  "id": "aUEJsxIAACAAzj5H",
+                  "type": "presses",
+                  "tags": [],
+                  "lang": "en-us",
+                  "slug": "bitis",
+                  "first_publication_date": "2025-12-16T07:27:12+0000",
+                  "last_publication_date": "2026-03-23T16:02:03+0000",
+                  "uid": "bitis",
+                  "data": {
+                    "hidden": false,
+                    "thumbnail": {
+                      "dimensions": {
+                        "width": 200,
+                        "height": 160
+                      },
+                      "alt": "Biti’s",
+                      "copyright": null,
+                      "url": "https://images.prismic.io/fromanother-2026/aUEJNXNYClf9oPbz_press-3.jpg?auto=format,compress",
+                      "id": "aUEJNXNYClf9oPbz",
+                      "edit": {
+                        "x": 0,
+                        "y": 0,
+                        "zoom": 1,
+                        "background": "transparent"
+                      }
+                    },
+                    "publication_name": "Biti’s",
+                    "link": {
+                      "link_type": "Web",
+                      "key": "9f6a6a37-1dfc-43bc-a759-9a4b2599defc",
+                      "url": "https://tiepbuoctien.vn/en/exhibition/research-innovation",
+                      "target": "_blank"
+                    }
+                  },
+                  "link_type": "Document",
+                  "key": "671d84d3-82df-4a87-9bf9-9e0c2857a746",
+                  "isBroken": false
+                }
+              },
+              {
+                "press": {
+                  "id": "aUEJ5BIAACEAzj6X",
+                  "type": "presses",
+                  "tags": [],
+                  "lang": "en-us",
+                  "slug": "nowness",
+                  "first_publication_date": "2025-12-16T07:28:05+0000",
+                  "last_publication_date": "2026-03-23T15:58:29+0000",
+                  "uid": "nowness",
+                  "data": {
+                    "hidden": false,
+                    "thumbnail": {
+                      "dimensions": {
+                        "width": 200,
+                        "height": 160
+                      },
+                      "alt": "Nowness",
+                      "copyright": null,
+                      "url": "https://images.prismic.io/fromanother-2026/aUEJNnNYClf9oPb0_press-4.jpg?auto=format,compress",
+                      "id": "aUEJNnNYClf9oPb0",
+                      "edit": {
+                        "x": 0,
+                        "y": 0,
+                        "zoom": 1,
+                        "background": "transparent"
+                      }
+                    },
+                    "publication_name": "Nowness",
+                    "link": {
+                      "link_type": "Web",
+                      "key": "c3993271-eb26-4c79-9bda-7b8a95034380",
+                      "url": "https://www.nowness.asia/topic/robin-mahieux/now-lico-kehua-li",
+                      "target": "_blank",
+                      "text": "#"
+                    }
+                  },
+                  "link_type": "Document",
+                  "key": "d50c84b9-95c1-47e4-bdc1-9e045b05856b",
+                  "isBroken": false
+                }
+              },
+              {
+                "press": {
+                  "id": "aUEKDRIAACEAzj7b",
+                  "type": "presses",
+                  "tags": [],
+                  "lang": "en-us",
+                  "slug": "mixmag",
+                  "first_publication_date": "2025-12-16T07:28:43+0000",
+                  "last_publication_date": "2026-03-23T15:58:12+0000",
+                  "uid": "mixmag",
+                  "data": {
+                    "hidden": false,
+                    "thumbnail": {
+                      "dimensions": {
+                        "width": 200,
+                        "height": 160
+                      },
+                      "alt": "MixMag",
+                      "copyright": null,
+                      "url": "https://images.prismic.io/fromanother-2026/aUEJOHNYClf9oPb2_press-6.jpg?auto=format,compress",
+                      "id": "aUEJOHNYClf9oPb2",
+                      "edit": {
+                        "x": 0,
+                        "y": 0,
+                        "zoom": 1,
+                        "background": "transparent"
+                      }
+                    },
+                    "publication_name": "MixMag",
+                    "link": {
+                      "link_type": "Web",
+                      "key": "f9a4e7ff-62b8-43f9-a0cf-f2f9db1456da",
+                      "url": "https://mixmag.asia/read/mt-goc-nhin-khac-v-sai-gon-ng-i-vi-saigon-souls-music-and-video",
+                      "target": "_blank",
+                      "text": "#"
+                    }
+                  },
+                  "link_type": "Document",
+                  "key": "84a36ab4-ed15-4b65-977e-55b95b155979",
+                  "isBroken": false
+                }
+              },
+              {
+                "press": {
+                  "id": "aUEKMhIAACIAzj8a",
+                  "type": "presses",
+                  "tags": [],
+                  "lang": "en-us",
+                  "slug": "3d-for-designers",
+                  "first_publication_date": "2025-12-16T07:29:22+0000",
+                  "last_publication_date": "2026-03-23T15:57:52+0000",
+                  "uid": "3d-for-designers",
+                  "data": {
+                    "hidden": false,
+                    "thumbnail": {
+                      "dimensions": {
+                        "width": 200,
+                        "height": 160
+                      },
+                      "alt": "3D for Designers",
+                      "copyright": null,
+                      "url": "https://images.prismic.io/fromanother-2026/aUEJN3NYClf9oPb1_press-5.jpg?auto=format,compress",
+                      "id": "aUEJN3NYClf9oPb1",
+                      "edit": {
+                        "x": 0,
+                        "y": 0,
+                        "zoom": 1,
+                        "background": "transparent"
+                      }
+                    },
+                    "publication_name": "3D for Designers",
+                    "link": {
+                      "link_type": "Web",
+                      "key": "9d9e4a76-3106-4faa-b6b2-bf1080da91d9",
+                      "url": "https://www.3dfordesigners.com/blog/vicki-dang",
+                      "target": "_blank",
+                      "text": "#"
+                    }
+                  },
+                  "link_type": "Document",
+                  "key": "9d18b65e-778e-4dd5-a41f-d63b2e6531c8",
+                  "isBroken": false
+                }
+              },
+              {
+                "press": {
+                  "id": "aUEKXRIAACEAzj9d",
+                  "type": "presses",
+                  "tags": [],
+                  "lang": "en-us",
+                  "slug": "girlsclub-asia",
+                  "first_publication_date": "2025-12-16T07:30:08+0000",
+                  "last_publication_date": "2026-03-23T15:57:21+0000",
+                  "uid": "girlsclub-asia",
+                  "data": {
+                    "hidden": false,
+                    "thumbnail": {
+                      "dimensions": {
+                        "width": 200,
+                        "height": 160
+                      },
+                      "alt": "Girlsclub Asia",
+                      "copyright": null,
+                      "url": "https://images.prismic.io/fromanother-2026/aUEJOXNYClf9oPb3_press-7.jpg?auto=format,compress",
+                      "id": "aUEJOXNYClf9oPb3",
+                      "edit": {
+                        "x": 0,
+                        "y": 0,
+                        "zoom": 1,
+                        "background": "transparent"
+                      }
+                    },
+                    "publication_name": "Girlsclub Asia",
+                    "link": {
+                      "link_type": "Web",
+                      "key": "96e8886f-a070-44d4-a986-4d82489684f5",
+                      "url": "https://girlsclub.asia/meet-the-artist/vicki-hanh-dang/",
+                      "target": "_blank",
+                      "text": "#"
+                    }
+                  },
+                  "link_type": "Document",
+                  "key": "84029b30-7e4a-4459-9ba2-a035135f615e",
+                  "isBroken": false
+                }
+              },
+              {
+                "press": {
+                  "id": "aUEKhxIAACMAzj-j",
+                  "type": "presses",
+                  "tags": [],
+                  "lang": "en-us",
+                  "slug": "tedx-salon",
+                  "first_publication_date": "2025-12-16T07:30:46+0000",
+                  "last_publication_date": "2026-03-23T16:03:12+0000",
+                  "uid": "tedx-salon",
+                  "data": {
+                    "hidden": false,
+                    "thumbnail": {
+                      "dimensions": {
+                        "width": 200,
+                        "height": 160
+                      },
+                      "alt": "TEDX Salon",
+                      "copyright": null,
+                      "url": "https://images.prismic.io/fromanother-2026/aUEJOnNYClf9oPb4_press-8.jpg?auto=format,compress",
+                      "id": "aUEJOnNYClf9oPb4",
+                      "edit": {
+                        "x": 0,
+                        "y": 0,
+                        "zoom": 1,
+                        "background": "transparent"
+                      }
+                    },
+                    "publication_name": "TEDX Salon",
+                    "link": {
+                      "link_type": "Web",
+                      "key": "b0d2d879-e769-418c-aa09-bc0c1a13bedb",
+                      "url": "https://www.ted.com/tedx/events/36110",
+                      "target": "_blank",
+                      "text": "#"
+                    }
+                  },
+                  "link_type": "Document",
+                  "key": "42146aed-62e2-4440-9606-31c8e175c617",
+                  "isBroken": false
+                }
+              }
+            ]
+          },
+          "id": "home_presses$e04ccfd1-d27b-4ba5-9716-126ee9a5803d",
+          "slice_type": "home_presses",
+          "slice_label": null
+        }
+      ],
+      "meta_title": "fromanother",
+      "meta_description": "We are an Artist - Led Creative Agency/Studio/Collective",
+      "meta_image": {
+        "dimensions": {
+          "width": 2400,
+          "height": 1260
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/fromanother-2026/abLhU1xvIZEnjnzT_Opengraph.jpg?auto=format%2Ccompress&w=2400&h=1260",
+        "id": "abLhU1xvIZEnjnzT",
+        "edit": {
+          "x": 0,
+          "y": 0,
+          "zoom": 1,
+          "background": "transparent"
+        }
+      }
+    }
+  },
+  "backgroundMedia": {
+    "hero": {
+      "videoUrl": "https://stream.mux.com/DD5A7sXvvEGY67mltY009evJy8Ii1S02BQeA00d6awd2gY.m3u8?token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IldrTEJtb0h0Q2JBNVhRTTAybzU3aVlJVW5KRDhDd2hacjJ3N1pYc01hQzlJIn0.eyJzdWIiOiJERDVBN3NYdnZFR1k2N21sdFkwMDlldkp5OElpMVMwMkJRZUEwMGQ2YXdkMmdZIiwiYXVkIjoidiIsImV4cCI6MTc5NTI2NTAyOSwibWF4X3Jlc29sdXRpb24iOiIxMDgwcCIsInBsYXliYWNrX3Jlc3RyaWN0aW9uX2lkIjoiQVlnOWJMMWNMR3lKdDNnNUhCZkZkMDBjVU90SjQyTEsxeVJNWVMxMDIzUm80In0.dzum2-uCaYNTfKjuBaqkAUuHUp_dGN9J_FDJzqTUXqSUB17uxKK87IoFAndICtotGTxfetGjfgH8oEKQUGe62nLNi7cuiw2Wlvea9Z8pIeUhoFjXAePOtX6g5RJ2W8guBF6cOWxjpdRXXDDkM-wCcuZxQ2ZQoKVgpX4yR93sX6boYv4H79It2l_sWHRFsmu6736OaOb7K8_xWmEsSFjwnUTG2vGRHmiHYMefFlYfyTEZBtvJzPUcgbqAkGGmd7QL3xX0GCbk4TR8Jfep9JatKOAKgWCPjwR9Tq3DXTgC2QthW86TTWnmxX29apj5W-uU8GCI0Ci19LqsoioOHIm47w",
+      "posterUrl": "https://image.mux.com/DD5A7sXvvEGY67mltY009evJy8Ii1S02BQeA00d6awd2gY/thumbnail.jpg?token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IldrTEJtb0h0Q2JBNVhRTTAybzU3aVlJVW5KRDhDd2hacjJ3N1pYc01hQzlJIn0.eyJzdWIiOiJERDVBN3NYdnZFR1k2N21sdFkwMDlldkp5OElpMVMwMkJRZUEwMGQ2YXdkMmdZIiwiYXVkIjoidCIsImV4cCI6MTc5NTI2NTAyOSwicGxheWJhY2tfcmVzdHJpY3Rpb25faWQiOiJBWWc5YkwxY0xHeUp0M2c1SEJmRmQwMGNVT3RKNDJMSzF5Uk1ZUzEwMjNSbzQifQ.oatDY7C5JqemBJm5u0_4OS5k-jnXAA3IAMNEwQ74Qaw03W043hBex1Ae7g9zMgr2ovq17jPpYv5JzKL3D0_X0W9IhPR9OqvY835uUpYvQ787cyJwVJb363R4MC9kldAG9_MMP0Kujhm1aKxyLL1P2RHAfAZsdD6MU2o1BvjLNpC4WaEF0WXB5TzOxidqGNurlAuDC5nVRSHlwqlwigCoKglAbcTu6fesEFfA0bs6THLY1VPDAgSMGL9jmvqXr8UWQh79_Qvv21hhg3aDJVm0V8Q0MogUPwFvhI468zMpdNsE3e9V_Up30dpcjIzzcgmzzEnwNQomJeIkUDmnz6IIuQ"
+    },
+    "about": {
+      "videoUrl": "https://stream.mux.com/GxRoybFBIYYZrv02gRN1BYxHt3RJmA1HgPVXxS01VlGO00.m3u8?token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IldrTEJtb0h0Q2JBNVhRTTAybzU3aVlJVW5KRDhDd2hacjJ3N1pYc01hQzlJIn0.eyJzdWIiOiJHeFJveWJGQklZWVpydjAyZ1JOMUJZeEh0M1JKbUExSGdQVlh4UzAxVmxHTzAwIiwiYXVkIjoidiIsImV4cCI6MTc5NTI2NTAyOSwibWF4X3Jlc29sdXRpb24iOiIxMDgwcCIsInBsYXliYWNrX3Jlc3RyaWN0aW9uX2lkIjoiQVlnOWJMMWNMR3lKdDNnNUhCZkZkMDBjVU90SjQyTEsxeVJNWVMxMDIzUm80In0.dVLLSnLjTQG30sjI4zUO4_bfJrnExW2_4CJ_FOj_f2kMq2PCqVIPcV0L2rWFHFeuxkxKi5BOxTNEGMtRMKuMuK8d_oo8uMGqU67ofZlh4d4HE72iFsnD01i3_dhdCNj8Pj76oMnsZsYwOqSjlYGvtalnSAL8iNJpW8PDfqXZ_QwEMIikBfcgS4mOKh-WvO98x3Fkyi3Fm6aboh5A3TGhaZghlreMK_c-mskEydyZ9oh7iyE9u8JwWsh_oNcs2bktj-1FKQSO5RHYVO7fAGSZiDrkEI_KH6JoRxky-el1YecgsZ4go1eqmJMgzmhz6JCrU4DH5CIFsQSr5COgTm4kpA",
+      "posterUrl": "https://image.mux.com/GxRoybFBIYYZrv02gRN1BYxHt3RJmA1HgPVXxS01VlGO00/thumbnail.jpg?token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IldrTEJtb0h0Q2JBNVhRTTAybzU3aVlJVW5KRDhDd2hacjJ3N1pYc01hQzlJIn0.eyJzdWIiOiJHeFJveWJGQklZWVpydjAyZ1JOMUJZeEh0M1JKbUExSGdQVlh4UzAxVmxHTzAwIiwiYXVkIjoidCIsImV4cCI6MTc5NTI2NTAyOSwicGxheWJhY2tfcmVzdHJpY3Rpb25faWQiOiJBWWc5YkwxY0xHeUp0M2c1SEJmRmQwMGNVT3RKNDJMSzF5Uk1ZUzEwMjNSbzQifQ.I6ErkujvAvMz6Q6NL9a1F3vlAdclejiOzFHOpMM3KsqZVmvDwt3Z0jBAXKoTbpUTuCofdNR0NJGot8uxhl-D_t3sQNGZwY6WD3KIV0EUDhIlBm45hHrEJnbzdr56lLZxPszpaPm77d-yimZ7AexEdl8jtpX0htMmzXp1uCKpfuFUfGar8BLnEIPRkNl-fkAPBSwS90yNdK43wxJ0s7b5-If50RhzqQ-iYbss_GF_Ma9bKJotYGwWVJOd8I54g56EoxXy22UroD7ItPPveioIc2J_9bwuDYEMdF9RGAkzbPK7LUEvrbHxpAlbKFqgFxogZutaK-5v0J9xGNuLNNbZEg"
+    },
+    "whatWeDo": {
+      "videoUrl": "https://stream.mux.com/Mm00MyztZx41KPqX026Sk5mvB011zVwBju1Ltb6zYmtk48.m3u8?token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IldrTEJtb0h0Q2JBNVhRTTAybzU3aVlJVW5KRDhDd2hacjJ3N1pYc01hQzlJIn0.eyJzdWIiOiJNbTAwTXl6dFp4NDFLUHFYMDI2U2s1bXZCMDExelZ3Qmp1MUx0YjZ6WW10azQ4IiwiYXVkIjoidiIsImV4cCI6MTc5NTI2NTAyOSwibWF4X3Jlc29sdXRpb24iOiIxMDgwcCIsInBsYXliYWNrX3Jlc3RyaWN0aW9uX2lkIjoiQVlnOWJMMWNMR3lKdDNnNUhCZkZkMDBjVU90SjQyTEsxeVJNWVMxMDIzUm80In0.CXPr2YRcQdsavNvIjyIU5Cf6B2s4n_9wNZDco-5v_z547NSvNNTXCngkUAQ24WgQAdj7Dw3FrYxRUv2UZDEbGKU2cP9pNgSxmztyWTMp5haARPorEOKetnkvwu-ov5ZPFz9ybHSMAifYzSNmvdWtw9wPqmdf80qMV_IBOZFY2GiXU9EcvALMsn3-WcfSpF2xIyl7fn-v9oHddZmUQSmnl5FfwhAj4lFUlxQwmBgBXijo9lMdJojW_aZ8cjWm_w7jEznhBhuLttidgzs0pXXNFRzmirJKQ5yFZ3x_PWSlmAPot9ggR31oxJwqYNzeqEjmaoMGz4DlieZAGQZ0dob0Vg",
+      "posterUrl": "https://image.mux.com/Mm00MyztZx41KPqX026Sk5mvB011zVwBju1Ltb6zYmtk48/thumbnail.jpg?token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IldrTEJtb0h0Q2JBNVhRTTAybzU3aVlJVW5KRDhDd2hacjJ3N1pYc01hQzlJIn0.eyJzdWIiOiJNbTAwTXl6dFp4NDFLUHFYMDI2U2s1bXZCMDExelZ3Qmp1MUx0YjZ6WW10azQ4IiwiYXVkIjoidCIsImV4cCI6MTc5NTI2NTAyOSwicGxheWJhY2tfcmVzdHJpY3Rpb25faWQiOiJBWWc5YkwxY0xHeUp0M2c1SEJmRmQwMGNVT3RKNDJMSzF5Uk1ZUzEwMjNSbzQifQ.IFnJphNWz4h17eA018iyUpe4ZK_9zXSTi43h6QIrVFOfhG73zez4KjyVl9fwAo-3-h4O5dDfUxpFxDLwuQwUCjjcavZVnnF0zXN7IdRfyRR4Xbo-TuBg9qLhNvksv_1piMnZTMQD6OmSiLxorKO2-l8ATVGpxj8yL5aYnsDBpHDbnh8057DtXbH1OBjJxCsOn8d0WdM0OWBzgj2wxqBDPCowiuy2A0wb-C9Odp4DH7j_SmafzWtKF69Cj_GJChoSUQ6IytZFxNFSGf8SOSIgTURvk_-ox0AShYMyBrdxQ_Olc1U8cn2MzYtp2gaPIJcMuq4l-A_CkQEct-tFmhm50Q"
+    },
+    "fullScreenMedia": {
+      "videoUrl": "https://stream.mux.com/M82RxnBnymLhYMYb802502IMovipK7yqh1qFRfarQVZ6s.m3u8?token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IldrTEJtb0h0Q2JBNVhRTTAybzU3aVlJVW5KRDhDd2hacjJ3N1pYc01hQzlJIn0.eyJzdWIiOiJNODJSeG5CbnltTGhZTVliODAyNTAySU1vdmlwSzd5cWgxcUZSZmFyUVZaNnMiLCJhdWQiOiJ2IiwiZXhwIjoxNzk1MjY1MDI5LCJtYXhfcmVzb2x1dGlvbiI6IjEwODBwIiwicGxheWJhY2tfcmVzdHJpY3Rpb25faWQiOiJBWWc5YkwxY0xHeUp0M2c1SEJmRmQwMGNVT3RKNDJMSzF5Uk1ZUzEwMjNSbzQifQ.CppHab_dqmL4XZGWkOeB6q2v6OxBbAl1L3w8ZLFScFET771EqZHlHN13chO41KtZFcKcBGx4ts-4VR9LDVgl8mLljn0z31JnxeAgqry77ALpqMPsYL6YalhQsADEu89nDcrPohvQFEejQ3lQ8pWkXOyv6qNHWbrymUwMXU5BrBjsu9TicXm5mwJfsaSuMKpO6evOG8qMpaHgu8rpEkPjSCahK6whcOj1UXBIk1Fvge3e8VpNW7bMsDVovD5s5Bxz8iMU0T9MjhctYT9TvSgaGzRXySjDoGVUcekrSQNTzOmnpaC_-F6QAYJs2ffA_1qfIagFqUv531A3qk7xcVcxsQ",
+      "posterUrl": "https://image.mux.com/M82RxnBnymLhYMYb802502IMovipK7yqh1qFRfarQVZ6s/thumbnail.jpg?token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IldrTEJtb0h0Q2JBNVhRTTAybzU3aVlJVW5KRDhDd2hacjJ3N1pYc01hQzlJIn0.eyJzdWIiOiJNODJSeG5CbnltTGhZTVliODAyNTAySU1vdmlwSzd5cWgxcUZSZmFyUVZaNnMiLCJhdWQiOiJ0IiwiZXhwIjoxNzk1MjY1MDI5LCJwbGF5YmFja19yZXN0cmljdGlvbl9pZCI6IkFZZzliTDFjTEd5SnQzZzVIQmZGZDAwY1VPdEo0MkxLMXlSTVlTMTAyM1JvNCJ9.O7CwRddb0Dgo7WO7Fksw-S6trNAZ1jQ0dEUb2ki34eVEdiQ8_ct9voA4R23Fn-s0Ik8q0Y9bW29aB3eXjw6fq4-vgR19oZPG2WBekHDau4r7qr8KSZIv_hf8t55UKSVkYwEa-phyYvE3ugNXeAoyAar703Gv8lNabC66St8T-b4tWcKR__-Ni4LOMdPRtpm-wp5IGQAUbOtahCCDW7JD1cumwCcXGXeMG6IkTIbpkSjF9D3iLm4kDtdE7grY0VMFaLSw-ONAo4397yfUoIOKbZjx2h9qCUSBHsNJ6PjCGsO8USrqP5Pzwmmx_UzCwyxb3f-Gk7rOxTTb0a2ATw18rA"
+    },
+    "collaborations": {
+      "videoUrl": "https://stream.mux.com/pY7R01J5oc5NLA3IGvOaquAWUeJn4HOaNd5VeGHHDdAY.m3u8?token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IldrTEJtb0h0Q2JBNVhRTTAybzU3aVlJVW5KRDhDd2hacjJ3N1pYc01hQzlJIn0.eyJzdWIiOiJwWTdSMDFKNW9jNU5MQTNJR3ZPYXF1QVdVZUpuNEhPYU5kNVZlR0hIRGRBWSIsImF1ZCI6InYiLCJleHAiOjE3OTUyNjUwMjksIm1heF9yZXNvbHV0aW9uIjoiNTQwcCIsInBsYXliYWNrX3Jlc3RyaWN0aW9uX2lkIjoiQVlnOWJMMWNMR3lKdDNnNUhCZkZkMDBjVU90SjQyTEsxeVJNWVMxMDIzUm80In0.OF07Gov4nYrMSOxaIVNve0CLEsCmZQdRLo9k6efz7YfH3FS6NHfsRtWpelDVgQXU01FwIlR-IzgreuywcDT9nFQQJ_AF2yRMw5-14nI1MEizoOK3Hy6er4enZAk7UHR4M-quax2NnQij0c-7r3va8oV03LVjzes0AcCRKkv9qZUErD3aKl6s-s7tdy-MHXwA_cTPJZNlp0FIVk90vFGd2KJVXLTGy0P_9n0gmB8MSDtENfhTw2zi2DE0QhlhCLSRErj3__Fh1GlK-Cl4BHD2TSol-KxtJ-2QZpe9PFjJJHqbsn7tiJw2ucoOOlZebC14sJ1HRBcj10Z_L68t-CBz_A",
+      "posterUrl": "https://image.mux.com/pY7R01J5oc5NLA3IGvOaquAWUeJn4HOaNd5VeGHHDdAY/thumbnail.jpg?token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IldrTEJtb0h0Q2JBNVhRTTAybzU3aVlJVW5KRDhDd2hacjJ3N1pYc01hQzlJIn0.eyJzdWIiOiJwWTdSMDFKNW9jNU5MQTNJR3ZPYXF1QVdVZUpuNEhPYU5kNVZlR0hIRGRBWSIsImF1ZCI6InQiLCJleHAiOjE3OTUyNjUwMjksInBsYXliYWNrX3Jlc3RyaWN0aW9uX2lkIjoiQVlnOWJMMWNMR3lKdDNnNUhCZkZkMDBjVU90SjQyTEsxeVJNWVMxMDIzUm80In0.OrHpSTMY2vSuB78Tf-HECIEfuYyX-mp1u9VVD9oAVHEI1uv1a2_D3vFsBAjec_4T72ei8pC0s-Sp_EeQzZOlW71Z0XtzL9hKAS493ooqRhXvHrYx3HkGl3BjB1kXU-xQCum4LSAHzLdCU6Z9ffORcL7SsHF441_5YmiXDkK2cKdcZ6OJBmi3pODuSarJVoogF2Wj6DcVF9T4sIEE8ToAfZvN7XmerO7opDaEe-SR4mCAl6O27K7QZttmIxO5Dm_2gVHbAx6NUkUBA8m0n4NjRgtgyRDblcGLVyqUkd6vOjP11B0l1R3j8qv9O9_xy6dkw-9G0du5dJb5qvzg8P5fRQ"
+    },
+    "footer": {
+      "videoUrl": "https://stream.mux.com/I4TRvw00c35NNb4GOLtW02YR01knVVfLB3FNR8aage009uo.m3u8?token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IldrTEJtb0h0Q2JBNVhRTTAybzU3aVlJVW5KRDhDd2hacjJ3N1pYc01hQzlJIn0.eyJzdWIiOiJJNFRSdncwMGMzNU5OYjRHT0x0VzAyWVIwMWtuVlZmTEIzRk5SOGFhZ2UwMDl1byIsImF1ZCI6InYiLCJleHAiOjE3OTUyNjUwMjksIm1heF9yZXNvbHV0aW9uIjoiNTQwcCIsInBsYXliYWNrX3Jlc3RyaWN0aW9uX2lkIjoiQVlnOWJMMWNMR3lKdDNnNUhCZkZkMDBjVU90SjQyTEsxeVJNWVMxMDIzUm80In0.QVsPG7IBSXPww_14ul96DrG04zUFE5fP6fUjQYsvy1Z6LVLz0EojiDnRwDI5ErTEzdfnWs8H0vk-fPYrHbX-hofPtpPa_-VQ3r3yxLzbQ07hvqS3NLBonyJbSs1Am3m1B6XrDMfe07lYu90mrft4lnb5471cMp4dAi5BgypaCv9SkqasNIcsAOpLR7KN4MWIbBygIrzjrYTHc_mPN3KNFS01evMvQSG1JeeKcJg5PJOn8aeqYmbD7UUy7LGq0I3KPHQECwYHu9Fo-cIVcUQ1LuPVl97EjNv7I94ICdTutSkjreXtJqKra8GtvQroxCwOfvmJP9MmGZMiq5T0VpegGA",
+      "posterUrl": "https://image.mux.com/I4TRvw00c35NNb4GOLtW02YR01knVVfLB3FNR8aage009uo/thumbnail.jpg?token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IldrTEJtb0h0Q2JBNVhRTTAybzU3aVlJVW5KRDhDd2hacjJ3N1pYc01hQzlJIn0.eyJzdWIiOiJJNFRSdncwMGMzNU5OYjRHT0x0VzAyWVIwMWtuVlZmTEIzRk5SOGFhZ2UwMDl1byIsImF1ZCI6InQiLCJleHAiOjE3OTUyNjUwMjksInBsYXliYWNrX3Jlc3RyaWN0aW9uX2lkIjoiQVlnOWJMMWNMR3lKdDNnNUhCZkZkMDBjVU90SjQyTEsxeVJNWVMxMDIzUm80In0.pMinQkjKRX29I0ril3J1Qe6sS35p2m-claAPdE-ZD0-F_ONZwP7JAZsMrDlWNDWgviB-p_XC-bQHpYAuM2BrxQCeacFfz27W1oC_q3k8GcM02sh8EkvlE3nWd6zJDLkh1wojE7_5d3vom2vSNRpmdmpIQm6HLVSVzTZZCQAzs2NjWif1y6u2pDn3CYP9WAvh751l3u55iD1B344aZ9WyuT3zKXWLT4A-5YhnrNyTL2K-yBVSEnHI1aOt759ZiKk2H3XZN7g9dIv3m3jBn5kPHYWxQj0J_zQQcAXdsefGjrmFZXB4UBjtnk2paiZdr2fucmJBRZPnZsw5P-pc2vLUJQ"
+    }
+  }
+}

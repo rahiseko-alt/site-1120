@@ -1,0 +1,708 @@
+{
+  "project": {
+    "id": "aseQ-hEAACwAaPPo",
+    "uid": "fromearth-2050",
+    "url": "/work/fromearth-2050",
+    "type": "projects",
+    "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22aseQ-hEAACwAaPPo%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2026-10-08T12:54:36+0000",
+    "last_publication_date": "2026-10-08T13:26:35+0000",
+    "slugs": [
+      "0"
+    ],
+    "linked_documents": [],
+    "lang": "en-us",
+    "alternate_languages": [],
+    "data": {
+      "hidden": false,
+      "order": 0,
+      "categories": [
+        {
+          "category": {
+            "link_type": "Document"
+          }
+        }
+      ],
+      "name": "fromearth",
+      "client": {
+        "link_type": "Document"
+      },
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "An interactive globe to explore the future through the places we know.",
+          "spans": []
+        }
+      ],
+      "detail_description": [
+        {
+          "type": "paragraph",
+          "text": "fromearth / 2050 is a free browser experience for exploring climate projections through the places we know. Search for a city, turn the globe, move from 2026 towards 2050, or compare two places side by side.",
+          "spans": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Climate change is often described through global averages and distant horizons. This project begins with somewhere familiar: the city you live in, a place you grew up, somewhere you love. An invitation to explore a complex subject, with access to the sources and definitions behind it.",
+          "spans": []
+        },
+        {
+          "type": "paragraph",
+          "text": "The visual language pairs a restrained interface with tactile imagery and motion. Thermal landscapes, layered contours and a graphite Earth extend the experience into a campaign. These illustrations are distinct from the live climate data.",
+          "spans": []
+        },
+        {
+          "type": "paragraph",
+          "text": "The four interactive studies above isolate the identity, globe, time control and refracting lens. They give each gesture room to be experienced on its own; climate indicators and comparisons are available on the full website.",
+          "spans": []
+        }
+      ],
+      "teams": [
+        {
+          "team_name": null
+        }
+      ],
+      "link": {
+        "link_type": "Web",
+        "key": "094e2b14-6dae-4918-a05d-e697a2e5522e",
+        "url": "https://fromearth.love/"
+      },
+      "card_thumbnail": {
+        "dimensions": {
+          "width": 3840,
+          "height": 2160
+        },
+        "alt": "fromearth — The living planet",
+        "copyright": null,
+        "url": "https://images.prismic.io/fromanother-2026/y0L9MwwzzZ81vf_D_01-earth-landscape.jpg?auto=format,compress",
+        "id": "y0L9MwwzzZ81vf_D",
+        "edit": {
+          "x": 0,
+          "y": 0,
+          "zoom": 1,
+          "background": "transparent"
+        }
+      },
+      "small_card_thumbnail": {
+        "dimensions": {
+          "width": 3840,
+          "height": 2160
+        },
+        "alt": "fromearth — The living planet",
+        "copyright": null,
+        "url": "https://images.prismic.io/fromanother-2026/y0L9MwwzzZ81vf_D_01-earth-landscape.jpg?auto=format,compress",
+        "id": "y0L9MwwzzZ81vf_D",
+        "edit": {
+          "x": 0,
+          "y": 0,
+          "zoom": 1,
+          "background": "transparent"
+        }
+      },
+      "services_provided": [
+        {
+          "service": "Interactive web"
+        },
+        {
+          "service": "Visual identity"
+        }
+      ],
+      "media": [
+        {
+          "image": {},
+          "mobile_image": {},
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {}
+        }
+      ],
+      "slices": [
+        {
+          "variation": "default",
+          "version": "initial",
+          "items": [
+            {
+              "title": "The living planet",
+              "caption": "Texture, atmosphere and a world in slow motion.",
+              "video": {
+                "link_type": "Media"
+              },
+              "video_url": "https://www.fromanother.love/web-projects/fromearth/01-earth-landscape.mp4",
+              "poster": {
+                "dimensions": {
+                  "width": 1200,
+                  "height": 676
+                },
+                "alt": "The living planet",
+                "copyright": null,
+                "url": "https://images.prismic.io/fromanother-2026/o8kmsNWsC9LbDqdN_01-earth-preview.jpg?auto=format,compress",
+                "id": "o8kmsNWsC9LbDqdN",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              },
+              "duration": 8
+            },
+            {
+              "title": "A constellation of places",
+              "caption": "The globe reduced to points. Geography becomes a rhythm.",
+              "video": {
+                "link_type": "Media"
+              },
+              "video_url": "https://www.fromanother.love/web-projects/fromearth/02-dots-landscape.mp4",
+              "poster": {
+                "dimensions": {
+                  "width": 1200,
+                  "height": 676
+                },
+                "alt": "A constellation of places",
+                "copyright": null,
+                "url": "https://images.prismic.io/fromanother-2026/5xeD9fck5o_jLGwM_02-dots-preview.jpg?auto=format,compress",
+                "id": "5xeD9fck5o_jLGwM",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              },
+              "duration": 8
+            },
+            {
+              "title": "A language of signs",
+              "caption": "The smallest marks carry the movement.",
+              "video": {
+                "link_type": "Media"
+              },
+              "video_url": "https://www.fromanother.love/web-projects/fromearth/03-glyphs-landscape.mp4",
+              "poster": {
+                "dimensions": {
+                  "width": 1200,
+                  "height": 676
+                },
+                "alt": "A language of signs",
+                "copyright": null,
+                "url": "https://images.prismic.io/fromanother-2026/nL2bqoC15lJMaADH_03-glyphs-preview.jpg?auto=format,compress",
+                "id": "nL2bqoC15lJMaADH",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              },
+              "duration": 8
+            },
+            {
+              "title": "Time, made tangible",
+              "caption": "A number, a ruler, a quiet sense of progression.",
+              "video": {
+                "link_type": "Media"
+              },
+              "video_url": "https://www.fromanother.love/web-projects/fromearth/04-year-landscape.mp4",
+              "poster": {
+                "dimensions": {
+                  "width": 1200,
+                  "height": 676
+                },
+                "alt": "Time, made tangible",
+                "copyright": null,
+                "url": "https://images.prismic.io/fromanother-2026/c9Slgjv1tu4dkGOM_04-year-preview.jpg?auto=format,compress",
+                "id": "c9Slgjv1tu4dkGOM",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              },
+              "duration": 8
+            },
+            {
+              "title": "Through a different lens",
+              "caption": "Glass and geography. A little distortion reveals a little more.",
+              "video": {
+                "link_type": "Media"
+              },
+              "video_url": "https://www.fromanother.love/web-projects/fromearth/06-lens-landscape.mp4",
+              "poster": {
+                "dimensions": {
+                  "width": 1200,
+                  "height": 676
+                },
+                "alt": "Through a different lens",
+                "copyright": null,
+                "url": "https://images.prismic.io/fromanother-2026/LbnYWk4b9N4gfVL4_06-lens-preview.jpg?auto=format,compress",
+                "id": "LbnYWk4b9N4gfVL4",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              },
+              "duration": 8
+            }
+          ],
+          "primary": {
+            "title": "01 — Motion studies",
+            "layout": "Mixed"
+          },
+          "id": "project_films$6bf0a3c2-527b-4ee3-a89e-c62c55b477cf",
+          "slice_type": "project_films",
+          "slice_label": null
+        },
+        {
+          "variation": "default",
+          "version": "initial",
+          "items": [
+            {
+              "title": "Leave your mark.",
+              "instructions": "Move over the letters · Hold to leave heat · Or use Space",
+              "experience": "Thermal logo",
+              "embed_url": {
+                "link_type": "Web"
+              },
+              "poster": {
+                "dimensions": {
+                  "width": 1200,
+                  "height": 676
+                },
+                "alt": "Interactive identity",
+                "copyright": null,
+                "url": "https://images.prismic.io/fromanother-2026/nL2bqoC15lJMaADH_03-glyphs-preview.jpg?auto=format,compress",
+                "id": "nL2bqoC15lJMaADH",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              }
+            },
+            {
+              "title": "A different perspective.",
+              "instructions": "Drag to rotate · Scroll to zoom · Or use the controls",
+              "experience": "Planet",
+              "embed_url": {
+                "link_type": "Web"
+              },
+              "poster": {
+                "dimensions": {
+                  "width": 1200,
+                  "height": 676
+                },
+                "alt": "Interactive globe",
+                "copyright": null,
+                "url": "https://images.prismic.io/fromanother-2026/o8kmsNWsC9LbDqdN_01-earth-preview.jpg?auto=format,compress",
+                "id": "o8kmsNWsC9LbDqdN",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              }
+            },
+            {
+              "title": "Feel time move.",
+              "instructions": "Drag the ruler · Or use the arrow keys",
+              "experience": "Year ruler",
+              "embed_url": {
+                "link_type": "Web"
+              },
+              "poster": {
+                "dimensions": {
+                  "width": 1200,
+                  "height": 676
+                },
+                "alt": "Interactive year ruler",
+                "copyright": null,
+                "url": "https://images.prismic.io/fromanother-2026/c9Slgjv1tu4dkGOM_04-year-preview.jpg?auto=format,compress",
+                "id": "c9Slgjv1tu4dkGOM",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              }
+            },
+            {
+              "title": "Look closer.",
+              "instructions": "Move over the type to bend it · Or use the arrow keys",
+              "experience": "Refraction",
+              "embed_url": {
+                "link_type": "Web"
+              },
+              "poster": {
+                "dimensions": {
+                  "width": 1200,
+                  "height": 676
+                },
+                "alt": "Interactive refraction",
+                "copyright": null,
+                "url": "https://images.prismic.io/fromanother-2026/LbnYWk4b9N4gfVL4_06-lens-preview.jpg?auto=format,compress",
+                "id": "LbnYWk4b9N4gfVL4",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              }
+            }
+          ],
+          "primary": {
+            "title": "02 — Interactive studies"
+          },
+          "id": "project_interactive$739cf2c0-e8c8-43b5-92d1-121082744d4e",
+          "slice_type": "project_interactive",
+          "slice_label": null
+        },
+        {
+          "variation": "default",
+          "version": "initial",
+          "items": [
+            {
+              "title": "Thermal relief",
+              "image": {
+                "dimensions": {
+                  "width": 1080,
+                  "height": 1350
+                },
+                "alt": "Sculpted mountain relief in thermal colours on a fromearth campaign poster",
+                "copyright": null,
+                "url": "https://images.prismic.io/fromanother-2026/G4HAFrMqIdokXY_8_02-thermal-relief.jpg?auto=format,compress",
+                "id": "G4HAFrMqIdokXY_8",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              },
+              "link": {
+                "link_type": "Any"
+              }
+            },
+            {
+              "title": "Thermal delta",
+              "image": {
+                "dimensions": {
+                  "width": 1080,
+                  "height": 1350
+                },
+                "alt": "An imagined river delta in mineral and thermal colours",
+                "copyright": null,
+                "url": "https://images.prismic.io/fromanother-2026/LntkHcEOHpUNTuww_03-thermal-delta.jpg?auto=format,compress",
+                "id": "LntkHcEOHpUNTuww",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              },
+              "link": {
+                "link_type": "Any"
+              }
+            },
+            {
+              "title": "Layered perspectives",
+              "image": {
+                "dimensions": {
+                  "width": 1080,
+                  "height": 1350
+                },
+                "alt": "Layered contours labelled place, year and projection",
+                "copyright": null,
+                "url": "https://images.prismic.io/fromanother-2026/Q3wzHXMzgJb0Yftu_04-layered-perspectives.jpg?auto=format,compress",
+                "id": "Q3wzHXMzgJb0Yftu",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              },
+              "link": {
+                "link_type": "Any"
+              }
+            },
+            {
+              "title": "Graphite Earth",
+              "image": {
+                "dimensions": {
+                  "width": 1080,
+                  "height": 1350
+                },
+                "alt": "A sculptural graphite Earth created for the fromearth campaign",
+                "copyright": null,
+                "url": "https://images.prismic.io/fromanother-2026/J-JGxQHyqNVVNn8p_05-graphite-earth.jpg?auto=format,compress",
+                "id": "J-JGxQHyqNVVNn8p",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              },
+              "link": {
+                "link_type": "Any"
+              }
+            }
+          ],
+          "primary": {
+            "title": "03 — Visual identity"
+          },
+          "id": "project_gallery$0a24717f-9086-444a-ae39-577b08fe54a6",
+          "slice_type": "project_gallery",
+          "slice_label": null
+        },
+        {
+          "variation": "default",
+          "version": "initial",
+          "items": [
+            {
+              "label": "Idea",
+              "value": "Robin M.",
+              "link": {
+                "link_type": "Any"
+              }
+            },
+            {
+              "label": "Created by",
+              "value": "fromanother",
+              "link": {
+                "link_type": "Web",
+                "key": "d396c8a6-c950-47fa-8f58-a57392e6a505",
+                "url": "https://www.fromanother.love/"
+              }
+            },
+            {
+              "label": "Format",
+              "value": "Interactive web",
+              "link": {
+                "link_type": "Any"
+              }
+            },
+            {
+              "label": "Project overview",
+              "value": "Press sheet · PDF",
+              "link": {
+                "link_type": "Web",
+                "key": "b8c0daf5-b872-40ec-a780-51c5b213c911",
+                "url": "https://www.fromanother.love/web-projects/fromearth/case/fromearth-press-sheet.pdf"
+              }
+            },
+            {
+              "label": "Descriptions & credits",
+              "value": "Press text · TXT",
+              "link": {
+                "link_type": "Web",
+                "key": "7065a749-8cb9-477a-83d0-b4ac0511b449",
+                "url": "https://www.fromanother.love/web-projects/fromearth/case/fromearth-press-text.txt"
+              }
+            }
+          ],
+          "primary": {
+            "title": "Project information",
+            "body": [
+              {
+                "type": "paragraph",
+                "text": "fromearth / 2050 is a free browser experience for exploring climate projections through the places we know. Search for a city, turn the globe, move from 2026 towards 2050, or compare two places side by side.",
+                "spans": []
+              },
+              {
+                "type": "paragraph",
+                "text": "Climate change is often described through global averages and distant horizons. This project begins with somewhere familiar: the city you live in, a place you grew up, somewhere you love. An invitation to explore a complex subject, with access to the sources and definitions behind it.",
+                "spans": []
+              },
+              {
+                "type": "paragraph",
+                "text": "The visual language pairs a restrained interface with tactile imagery and motion. Thermal landscapes, layered contours and a graphite Earth extend the experience into a campaign. These illustrations are distinct from the live climate data.",
+                "spans": []
+              },
+              {
+                "type": "paragraph",
+                "text": "The four interactive studies above isolate the identity, globe, time control and refracting lens. They give each gesture room to be experienced on its own; climate indicators and comparisons are available on the full website.",
+                "spans": []
+              }
+            ]
+          },
+          "id": "project_story$d3b66c48-359e-43e7-a66d-e5785a86f151",
+          "slice_type": "project_story",
+          "slice_label": null
+        }
+      ],
+      "template": "Web case study",
+      "meta_title": "fromearth / 2050",
+      "meta_description": "The films, visual identity and interactive details behind fromearth / 2050.",
+      "meta_image": {
+        "dimensions": {
+          "width": 2400,
+          "height": 1260
+        },
+        "alt": "fromearth — The living planet",
+        "copyright": null,
+        "url": "https://images.prismic.io/fromanother-2026/o8kmsNWsC9LbDqdN_01-earth-preview.jpg?auto=format%2Ccompress&rect=0%2C0%2C1200%2C630&w=2400&h=1260",
+        "id": "o8kmsNWsC9LbDqdN",
+        "edit": {
+          "x": 0,
+          "y": 0,
+          "zoom": 1,
+          "background": "transparent"
+        }
+      },
+      "case_year": "2050",
+      "case_kicker": "Web experience & visual identity",
+      "case_headline": "Your world.",
+      "case_headline_accent": "Seen differently.",
+      "case_intro": "An interactive globe to explore the future through the places we know."
+    }
+  },
+  "global": {
+    "id": "aUZcMRIAACIA1qBB",
+    "uid": null,
+    "url": null,
+    "type": "global",
+    "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22aUZcMRIAACIA1qBB%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2025-12-20T08:23:32+0000",
+    "last_publication_date": "2026-05-11T06:32:53+0000",
+    "slugs": [
+      "global"
+    ],
+    "linked_documents": [],
+    "lang": "en-us",
+    "alternate_languages": [],
+    "data": {
+      "branches": [
+        {
+          "utc": 7,
+          "country": "Vietnam",
+          "address_block": [
+            {
+              "type": "paragraph",
+              "text": "Midtown, Phu My Hung\nHo Chi Minh city",
+              "spans": [],
+              "direction": "ltr"
+            }
+          ],
+          "phone_number": "+84 91 9922034"
+        },
+        {
+          "utc": 8,
+          "country": "China",
+          "address_block": [
+            {
+              "type": "paragraph",
+              "text": "193 Lockart Road,\nHong Kong",
+              "spans": [],
+              "direction": "ltr"
+            }
+          ],
+          "phone_number": "+86 186 16222144"
+        },
+        {
+          "utc": 1,
+          "country": "France",
+          "address_block": [
+            {
+              "type": "paragraph",
+              "text": "64-66 Rue des Archives, 75003 Paris, France",
+              "spans": [],
+              "direction": "ltr"
+            }
+          ],
+          "phone_number": "+33 56 3264235"
+        }
+      ],
+      "socials": [
+        {
+          "link_type": "Web",
+          "key": "5f4d63f4-c3b2-4722-98ca-4956b7991e0d",
+          "url": "https://www.facebook.com/fromanotherlove",
+          "target": "_blank",
+          "text": "Facebook"
+        },
+        {
+          "link_type": "Web",
+          "key": "fe699d5f-2f24-466d-82bf-4fb807de169b",
+          "url": "https://www.linkedin.com/company/fromanotherlove/",
+          "target": "_blank",
+          "text": "LinkedIn"
+        },
+        {
+          "link_type": "Web",
+          "key": "6b89671e-1624-4cfa-81db-19126c90cd83",
+          "url": "https://www.instagram.com/fromanother.love/",
+          "target": "_blank",
+          "text": "Instagram"
+        }
+      ],
+      "email_address": "firstcontact@fromanother.love",
+      "slices": [
+        {
+          "variation": "default",
+          "version": "initial",
+          "items": [],
+          "primary": {
+            "featured_word": [
+              {
+                "word": "something"
+              },
+              {
+                "word": "impact"
+              },
+              {
+                "word": "stories"
+              },
+              {
+                "word": "future"
+              }
+            ],
+            "thumbnail_mux_id": "IKwT5z3LAi601P01OKfmNbH02rHsMhgMbyQmGXJVfJGilk",
+            "thumbnail_video_url": "https://stream.mux.com/IKwT5z3LAi601P01OKfmNbH02rHsMhgMbyQmGXJVfJGilk.m3u8"
+          },
+          "id": "footer$f2d60727-9748-4fb5-ad4e-d34a8e6233e2",
+          "slice_type": "footer",
+          "slice_label": null
+        },
+        {
+          "variation": "default",
+          "version": "initial",
+          "items": [],
+          "primary": {
+            "thumbnail_video_url": "https://stream.mux.com/uKkmm51HPsTGQzUqQMxVUV8eI01BykKYUGKvFALbiP7U.m3u8"
+          },
+          "id": "menu$4047c827-60ff-4e4e-a5ca-e9c2620b0f15",
+          "slice_type": "menu",
+          "slice_label": null
+        }
+      ],
+      "meta_title": "fromanother",
+      "meta_description": "We are a human-driven Creative Design Agency/Studio/Collective",
+      "meta_image": {
+        "dimensions": {
+          "width": 2400,
+          "height": 1260
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/fromanother-2026/abLhU1xvIZEnjnzT_Opengraph.jpg?auto=format,compress&rect=0,0,1200,630&w=2400&h=1260",
+        "id": "abLhU1xvIZEnjnzT",
+        "edit": {
+          "x": 0,
+          "y": 0,
+          "zoom": 1,
+          "background": "transparent"
+        }
+      }
+    }
+  }
+}

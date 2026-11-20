@@ -1,0 +1,456 @@
+{
+  "project": {
+    "id": "abvCgxEAACAA30b9",
+    "uid": "lasalle-show",
+    "url": "/work/lasalle-show",
+    "type": "projects",
+    "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22abvCgxEAACAA30b9%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2026-03-19T09:50:44+0000",
+    "last_publication_date": "2026-04-03T11:26:37+0000",
+    "slugs": [
+      "6"
+    ],
+    "linked_documents": [],
+    "lang": "en-us",
+    "alternate_languages": [],
+    "data": {
+      "hidden": false,
+      "order": 6,
+      "categories": [
+        {
+          "category": {
+            "id": "aVgzIRIAACIA8Cuv",
+            "type": "project_categories",
+            "tags": [],
+            "lang": "en-us",
+            "slug": "brand-design",
+            "first_publication_date": "2026-01-02T21:05:52+0000",
+            "last_publication_date": "2026-01-02T21:05:52+0000",
+            "uid": "brand-design",
+            "data": {
+              "name": "Brand Design"
+            },
+            "link_type": "Document",
+            "key": "1f845207-5727-4b16-8037-4654fb323e3c",
+            "isBroken": false
+          }
+        }
+      ],
+      "name": "LASALLE Show 2023",
+      "client": {
+        "link_type": "Document"
+      },
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "Creative identity for LASALLE's 2023 graduation show Rise Above, representing eight academic programs through animated CGI objects.",
+          "spans": [],
+          "direction": "ltr"
+        }
+      ],
+      "detail_description": [
+        {
+          "type": "paragraph",
+          "text": "The team reimagined eight objects/elements to symbolise each of LASALLE's eight programs, then animated and composited them around the theme Rise Above. A fluid line divides two contrasting states — Rising and Stable — complemented by mixed typography (sans serif and serif). All assets rendered in 8K for use across campus posters, banners, and infrastructure.",
+          "spans": [],
+          "direction": "ltr"
+        }
+      ],
+      "teams": [
+        {
+          "team_name": "fromanther / Design Direction"
+        }
+      ],
+      "link": {
+        "link_type": "Any"
+      },
+      "card_thumbnail": {
+        "dimensions": {
+          "width": 3086,
+          "height": 1737
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/fromanother-2026/ac47HJGXnQHGZMkV_06_LaselleShow_Cover.jpg?auto=format,compress",
+        "id": "ac47HJGXnQHGZMkV",
+        "edit": {
+          "x": 0,
+          "y": 0,
+          "zoom": 1,
+          "background": "transparent"
+        }
+      },
+      "small_card_thumbnail": {
+        "dimensions": {
+          "width": 200,
+          "height": 112
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/fromanother-2026/acVpIpGXnQHGZA9Q_06_LaselleShow_Cover_small.jpg?auto=format,compress",
+        "id": "acVpIpGXnQHGZA9Q",
+        "edit": {
+          "x": 0,
+          "y": 0,
+          "zoom": 1,
+          "background": "transparent"
+        }
+      },
+      "services_provided": [
+        {
+          "service": "Branding"
+        },
+        {
+          "service": "Digital"
+        }
+      ],
+      "media": [
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/ac-feZGXnQHGZPuY_06_LaselleShow_02.jpg?auto=format,compress",
+            "id": "ac-feZGXnQHGZPuY",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {
+            "dimensions": {
+              "width": 1080,
+              "height": 1920
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abvFIbbci2UF6QcL_06_LaselleShow_02M.jpg?auto=format,compress",
+            "id": "abvFIbbci2UF6QcL",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/ac-feZGXnQHGZPuY_06_LaselleShow_02.jpg?auto=format,compress",
+            "id": "ac-feZGXnQHGZPuY",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abvES7bci2UF6Qbv_06_LaselleShow_03.jpg?auto=format,compress",
+            "id": "abvES7bci2UF6Qbv",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {
+            "dimensions": {
+              "width": 1080,
+              "height": 1920
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abvFIbbci2UF6QcM_06_LaselleShow_03M.jpg?auto=format,compress",
+            "id": "abvFIbbci2UF6QcM",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 100,
+              "height": 56
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abvGdrbci2UF6QdO_06_LaselleShow_03_small.jpg?auto=format,compress",
+            "id": "abvGdrbci2UF6QdO",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {},
+          "mobile_image": {
+            "dimensions": {
+              "width": 1080,
+              "height": 1920
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/ac-fuZGXnQHGZPuc_06_LaselleShow_04M.jpg?auto=format,compress",
+            "id": "ac-fuZGXnQHGZPuc",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mux_id": "iFmHBl6ip02oIWaXxfM6HyyZzvoLunNmgOWXW1KXtYAg",
+          "video_url": "https://stream.mux.com/iFmHBl6ip02oIWaXxfM6HyyZzvoLunNmgOWXW1KXtYAg.m3u8",
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 111
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/ac-gIpGXnQHGZPud_06_LaselleShow_05_small.png?auto=format,compress",
+            "id": "ac-gIpGXnQHGZPud",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {},
+          "mobile_image": {
+            "dimensions": {
+              "width": 1080,
+              "height": 1920
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/ac-fnZGXnQHGZPub_06_LaselleShow_05M.jpg?auto=format,compress",
+            "id": "ac-fnZGXnQHGZPub",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mux_id": "qVmj2JEBIYc5z5Euao02wphnl02GEkmUF5uravEDXGK800",
+          "video_url": "https://stream.mux.com/qVmj2JEBIYc5z5Euao02wphnl02GEkmUF5uravEDXGK800.m3u8",
+          "thumbnail": {
+            "dimensions": {
+              "width": 100,
+              "height": 56
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abvGq7bci2UF6Qdk_06_LaselleShow_05_small.jpg?auto=format,compress",
+            "id": "abvGq7bci2UF6Qdk",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {},
+          "mobile_image": {
+            "dimensions": {
+              "width": 1080,
+              "height": 1920
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/ac-j6JGXnQHGZPvb_06_LaselleShow_08M.jpg?auto=format,compress",
+            "id": "ac-j6JGXnQHGZPvb",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mux_id": "BGdE4x8900Qkxo8P2xuSAXw2JGaEdmv3MT1NiyihYRHg",
+          "video_url": "https://stream.mux.com/BGdE4x8900Qkxo8P2xuSAXw2JGaEdmv3MT1NiyihYRHg.m3u8",
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 111
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/ac-gh5GXnQHGZPun_06_LaselleShow_05_smallcopy.png?auto=format,compress",
+            "id": "ac-gh5GXnQHGZPun",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/ac-gnJGXnQHGZPuo_06_LaselleShow_08.jpg?auto=format,compress",
+            "id": "ac-gnJGXnQHGZPuo",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {
+            "dimensions": {
+              "width": 1080,
+              "height": 1920
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/acpsLZGXnQHGZF6I_06_LaselleShow_06M.jpg?auto=format,compress",
+            "id": "acpsLZGXnQHGZF6I",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/ac-gnJGXnQHGZPuo_06_LaselleShow_08.jpg?auto=format,compress",
+            "id": "ac-gnJGXnQHGZPuo",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abvETrbci2UF6Qby_06_LaselleShow_07.jpg?auto=format,compress",
+            "id": "abvETrbci2UF6Qby",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {
+            "dimensions": {
+              "width": 1080,
+              "height": 1920
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/ac47_ZGXnQHGZMk5_06_LaselleShow_07M.jpg?auto=format,compress",
+            "id": "ac47_ZGXnQHGZMk5",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 100,
+              "height": 56
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abvG1Lbci2UF6Qdq_06_LaselleShow_05_small-2.jpg?auto=format,compress",
+            "id": "abvG1Lbci2UF6Qdq",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        }
+      ],
+      "slices": [],
+      "template": null,
+      "meta_title": "fromanother | LASALLE Show 2023",
+      "meta_description": "Creative identity for LASALLE's 2023 graduation show Rise Above, representing eight academic programs through animated CGI objects.",
+      "meta_image": {
+        "dimensions": {
+          "width": 2400,
+          "height": 1260
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/fromanother-2026/acVpJJGXnQHGZA9R_06_LaselleShow_Cover.jpg?auto=format,compress&rect=0,48,2560,1344&w=2400&h=1260",
+        "id": "acVpJJGXnQHGZA9R",
+        "edit": {
+          "x": 0,
+          "y": 48,
+          "zoom": 1,
+          "background": "transparent"
+        }
+      },
+      "case_year": null,
+      "case_kicker": null,
+      "case_headline": null,
+      "case_headline_accent": null,
+      "case_intro": null
+    }
+  }
+}

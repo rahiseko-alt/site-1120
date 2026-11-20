@@ -1,0 +1,686 @@
+{
+  "project": {
+    "id": "abEi7hAAACAAB7Ah",
+    "uid": "oneplus-12",
+    "url": "/work/oneplus-12",
+    "type": "projects",
+    "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22abEi7hAAACAAB7Ah%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2026-03-11T08:17:24+0000",
+    "last_publication_date": "2026-04-03T11:20:29+0000",
+    "slugs": [
+      "4"
+    ],
+    "linked_documents": [],
+    "lang": "en-us",
+    "alternate_languages": [],
+    "data": {
+      "hidden": false,
+      "order": 4,
+      "categories": [
+        {
+          "category": {
+            "id": "aVgythIAACAA8CsF",
+            "type": "project_categories",
+            "tags": [],
+            "lang": "en-us",
+            "slug": "campaign",
+            "first_publication_date": "2026-01-02T21:04:01+0000",
+            "last_publication_date": "2026-01-02T21:04:01+0000",
+            "uid": "campaign",
+            "data": {
+              "name": "Campaign"
+            },
+            "link_type": "Document",
+            "key": "017cf7e9-500f-47a9-8753-e20f4c721486",
+            "isBroken": false
+          }
+        },
+        {
+          "category": {
+            "id": "aVgyohIAACMA8Cri",
+            "type": "project_categories",
+            "tags": [],
+            "lang": "en-us",
+            "slug": "film",
+            "first_publication_date": "2026-01-02T21:03:41+0000",
+            "last_publication_date": "2026-01-02T21:03:41+0000",
+            "uid": "film",
+            "data": {
+              "name": "Film"
+            },
+            "link_type": "Document",
+            "key": "bb6b7f8e-7fe9-4706-a006-6c1126125007",
+            "isBroken": false
+          }
+        },
+        {
+          "category": {
+            "id": "aVgyxxIAACIA8Csm",
+            "type": "project_categories",
+            "tags": [],
+            "lang": "en-us",
+            "slug": "cgi-production",
+            "first_publication_date": "2026-01-02T21:04:18+0000",
+            "last_publication_date": "2026-01-02T21:04:18+0000",
+            "uid": "cgi-production",
+            "data": {
+              "name": "CGI Production"
+            },
+            "link_type": "Document",
+            "key": "e700e668-6b3a-4956-acbe-72b407a0bf43",
+            "isBroken": false
+          }
+        }
+      ],
+      "name": "OnePlus 12",
+      "client": {
+        "id": "aUgDTBIAACAA2O9H",
+        "type": "clients",
+        "tags": [],
+        "lang": "en-us",
+        "slug": "oneplus",
+        "first_publication_date": "2025-12-21T14:25:32+0000",
+        "last_publication_date": "2026-02-18T17:58:39+0000",
+        "uid": "oneplus",
+        "data": {
+          "name": "OnePlus"
+        },
+        "link_type": "Document",
+        "key": "d861f812-818d-414d-ac77-47605255518b",
+        "isBroken": false
+      },
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "A First Look launch film for the OnePlus 12, themed Inspired by Nature, shot on location in New Zealand.",
+          "spans": [],
+          "direction": "ltr"
+        }
+      ],
+      "detail_description": [
+        {
+          "type": "paragraph",
+          "text": "The film weaves the serenity and power of New Zealand's natural landscapes with the OnePlus 12's design philosophy. It alternates between intimate close-ups and sweeping wide shots, blending human emotion with nature as a metaphor for the phone's pioneering spirit. Concept to production was executed in just two weeks, with only four hours of shoot time per day.",
+          "spans": [],
+          "direction": "ltr"
+        }
+      ],
+      "teams": [
+        {
+          "team_name": "Fromanother / Creative and Direction"
+        },
+        {
+          "team_name": "Leap Shanghai / Production"
+        }
+      ],
+      "link": {
+        "link_type": "Web",
+        "key": "6202a4ce-9fbf-4b80-a5de-e6219fa86271",
+        "url": "https://www.youtube.com/watch?v=LO1FsqBdKyY",
+        "target": "_blank"
+      },
+      "card_thumbnail": {
+        "dimensions": {
+          "width": 2560,
+          "height": 1440
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/fromanother-2026/abq8fLbci2UF6MUR_04_OneplusInspiredbyNature_01.jpg?auto=format,compress",
+        "id": "abq8fLbci2UF6MUR",
+        "edit": {
+          "x": 0,
+          "y": 0,
+          "zoom": 1,
+          "background": "transparent"
+        }
+      },
+      "small_card_thumbnail": {
+        "dimensions": {
+          "width": 100,
+          "height": 57
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/fromanother-2026/abq8zLbci2UF6MUq_04_Oneplus_inspiredbynature_01_small.jpg?auto=format,compress",
+        "id": "abq8zLbci2UF6MUq",
+        "edit": {
+          "x": 0,
+          "y": 0,
+          "zoom": 1,
+          "background": "transparent"
+        }
+      },
+      "services_provided": [
+        {
+          "service": "Film"
+        },
+        {
+          "service": "Campaign"
+        }
+      ],
+      "media": [
+        {
+          "image": {},
+          "mobile_image": {},
+          "mux_id": "mKdSqh00X1uBPSdsC4xiSjXZ02Dm4kdoFDvNqvbzz00fa00",
+          "video_url": "https://stream.mux.com/mKdSqh00X1uBPSdsC4xiSjXZ02Dm4kdoFDvNqvbzz00fa00.m3u8",
+          "thumbnail": {
+            "dimensions": {
+              "width": 100,
+              "height": 57
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abLe_VxvIZEnjnwX_1%2BInspiredbynature_vid_thumb_1.jpg?auto=format,compress",
+            "id": "abLe_VxvIZEnjnwX",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abEkaFxvIZEnjjw5_04_Oneplus-Inspired-by-Nature_15.jpg?auto=format,compress",
+            "id": "abEkaFxvIZEnjjw5",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {},
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 100,
+              "height": 57
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abq9Jbbci2UF6MVL_04_Oneplusinspiredbynature_03_small.jpg?auto=format,compress",
+            "id": "abq9Jbbci2UF6MVL",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abEkZ1xvIZEnjjw3_04_Oneplus-Inspired-by-Nature_14.jpg?auto=format,compress",
+            "id": "abEkZ1xvIZEnjjw3",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {},
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 100,
+              "height": 57
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abq9Urbci2UF6MVV_04_Oneplusinspiredbynature_04_small.jpg?auto=format,compress",
+            "id": "abq9Urbci2UF6MVV",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abEkaVxvIZEnjjw6_04_Oneplus-Inspired-by-Nature_16.jpg?auto=format,compress",
+            "id": "abEkaVxvIZEnjjw6",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {},
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 100,
+              "height": 57
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abq9b7bci2UF6MVd_04_Oneplusinspiredbynature_05_small.jpg?auto=format,compress",
+            "id": "abq9b7bci2UF6MVd",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abEkZlxvIZEnjjw2_04_Oneplus-Inspired-by-Nature_13.jpg?auto=format,compress",
+            "id": "abEkZlxvIZEnjjw2",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {},
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 100,
+              "height": 57
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abq9jLbci2UF6MVi_04_Oneplusinspiredbynature_06_small.jpg?auto=format,compress",
+            "id": "abq9jLbci2UF6MVi",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abEkZVxvIZEnjjw1_04_Oneplus-Inspired-by-Nature_12.jpg?auto=format,compress",
+            "id": "abEkZVxvIZEnjjw1",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {},
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 100,
+              "height": 57
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abq9rrbci2UF6MVu_04_Oneplusinspiredbynature_07_small.jpg?auto=format,compress",
+            "id": "abq9rrbci2UF6MVu",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abEkZFxvIZEnjjw0_04_Oneplus-Inspired-by-Nature_11.jpg?auto=format,compress",
+            "id": "abEkZFxvIZEnjjw0",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {},
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 100,
+              "height": 57
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abq9zrbci2UF6MV0_04_Oneplusinspiredbynature_08_small.jpg?auto=format,compress",
+            "id": "abq9zrbci2UF6MV0",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abEkY1xvIZEnjjwz_04_Oneplus-Inspired-by-Nature_10.jpg?auto=format,compress",
+            "id": "abEkY1xvIZEnjjwz",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {},
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 100,
+              "height": 57
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abq97Lbci2UF6MV6_04_Oneplusinspiredbynature_09_small.jpg?auto=format,compress",
+            "id": "abq97Lbci2UF6MV6",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abEkYlxvIZEnjjwy_04_Oneplus-Inspired-by-Nature_09.jpg?auto=format,compress",
+            "id": "abEkYlxvIZEnjjwy",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {},
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 100,
+              "height": 57
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abq-Erbci2UF6MWL_04_Oneplusinspiredbynature_10_small.jpg?auto=format,compress",
+            "id": "abq-Erbci2UF6MWL",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abEkB1xvIZEnjjwo_04_Oneplus-Inspired-by-Nature_08.jpg?auto=format,compress",
+            "id": "abEkB1xvIZEnjjwo",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {},
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 100,
+              "height": 57
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abq-MLbci2UF6MWe_04_Oneplusinspiredbynature_11_small.jpg?auto=format,compress",
+            "id": "abq-MLbci2UF6MWe",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abEkYVxvIZEnjjwx_04_Oneplus-Inspired-by-Nature_07.jpg?auto=format,compress",
+            "id": "abEkYVxvIZEnjjwx",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {},
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 100,
+              "height": 57
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abq-Ubbci2UF6MWz_04_Oneplusinspiredbynature_12_small.jpg?auto=format,compress",
+            "id": "abq-Ubbci2UF6MWz",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abq-Zbbci2UF6MXG_04_OneplusInspiredbyNature_13.jpg?auto=format,compress",
+            "id": "abq-Zbbci2UF6MXG",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {},
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 100,
+              "height": 57
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abq-hrbci2UF6MXe_04_Oneplusinspiredbynature_13_small.jpg?auto=format,compress",
+            "id": "abq-hrbci2UF6MXe",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abEkYFxvIZEnjjww_04_Oneplus-Inspired-by-Nature_05.jpg?auto=format,compress",
+            "id": "abEkYFxvIZEnjjww",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {},
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 100,
+              "height": 57
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abq-p7bci2UF6MX4_04_Oneplusinspiredbynature_14_small.jpg?auto=format,compress",
+            "id": "abq-p7bci2UF6MX4",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {},
+          "mobile_image": {},
+          "mux_id": "OyCYn58yMMrX8zOs1Ty6qnj00ysnMqiHaM01LnYeSOVbY",
+          "video_url": "https://stream.mux.com/OyCYn58yMMrX8zOs1Ty6qnj00ysnMqiHaM01LnYeSOVbY.m3u8",
+          "thumbnail": {}
+        },
+        {
+          "image": {},
+          "mobile_image": {},
+          "mux_id": "Oc01jz011fIcdjNUMCdjmWQaBw19dC5eubFg02Jv4AS9Yc",
+          "video_url": "https://stream.mux.com/Oc01jz011fIcdjNUMCdjmWQaBw19dC5eubFg02Jv4AS9Yc.m3u8",
+          "thumbnail": {}
+        },
+        {
+          "image": {},
+          "mobile_image": {},
+          "mux_id": "Zrv00k51aM6F02kIMIjCjdyjjAmPdJaEnyVnU1yutiTSY",
+          "video_url": "https://stream.mux.com/Zrv00k51aM6F02kIMIjCjdyjjAmPdJaEnyVnU1yutiTSY.m3u8",
+          "thumbnail": {}
+        },
+        {
+          "image": {},
+          "mobile_image": {},
+          "mux_id": "Rox4ySp9Dbx227Pm7bcHnTYXJ1our9vwQ0102BKHnuZHs",
+          "video_url": "https://stream.mux.com/Rox4ySp9Dbx227Pm7bcHnTYXJ1our9vwQ0102BKHnuZHs.m3u8",
+          "thumbnail": {}
+        }
+      ],
+      "slices": [],
+      "template": null,
+      "meta_title": "fromanother | OnePlus 12",
+      "meta_description": "A First Look launch film for the OnePlus 12, themed Inspired by Nature, shot on location in New Zealand.",
+      "meta_image": {
+        "dimensions": {
+          "width": 2400,
+          "height": 1260
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/fromanother-2026/abq8fLbci2UF6MUR_04_OneplusInspiredbyNature_01.jpg?auto=format,compress&rect=0,48,2560,1344&w=2400&h=1260",
+        "id": "abq8fLbci2UF6MUR",
+        "edit": {
+          "x": 0,
+          "y": 48,
+          "zoom": 1,
+          "background": "transparent"
+        }
+      },
+      "case_year": null,
+      "case_kicker": null,
+      "case_headline": null,
+      "case_headline_accent": null,
+      "case_intro": null
+    }
+  }
+}

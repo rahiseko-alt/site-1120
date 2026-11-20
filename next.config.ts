@@ -1,0 +1,13 @@
+import type { NextConfig } from "next";
+
+const nextConfig: NextConfig = {
+  images: {
+    unoptimized: true,
+    remotePatterns: [
+      { protocol: "https", hostname: "images.prismic.io" },
+      { protocol: "https", hostname: "image.mux.com" },
+    ],
+  },
+};
+
+export default nextConfig;

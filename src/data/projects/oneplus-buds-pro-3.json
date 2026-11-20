@@ -1,0 +1,736 @@
+{
+  "project": {
+    "id": "aUjJhRIAACMA2gJf",
+    "uid": "oneplus-buds-pro-3",
+    "url": "/work/oneplus-buds-pro-3",
+    "type": "projects",
+    "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22aUjJhRIAACMA2gJf%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2025-12-22T04:32:21+0000",
+    "last_publication_date": "2026-07-16T07:55:28+0000",
+    "slugs": [
+      "3"
+    ],
+    "linked_documents": [],
+    "lang": "en-us",
+    "alternate_languages": [],
+    "data": {
+      "hidden": false,
+      "order": 3,
+      "categories": [
+        {
+          "category": {
+            "id": "aVgyxxIAACIA8Csm",
+            "type": "project_categories",
+            "tags": [],
+            "lang": "en-us",
+            "slug": "cgi-production",
+            "first_publication_date": "2026-01-02T21:04:18+0000",
+            "last_publication_date": "2026-01-02T21:04:18+0000",
+            "uid": "cgi-production",
+            "data": {
+              "name": "CGI Production"
+            },
+            "link_type": "Document",
+            "key": "b6f3cbcf-277d-47e5-b300-71da9ad61d96",
+            "isBroken": false
+          }
+        },
+        {
+          "category": {
+            "id": "aVgythIAACAA8CsF",
+            "type": "project_categories",
+            "tags": [],
+            "lang": "en-us",
+            "slug": "campaign",
+            "first_publication_date": "2026-01-02T21:04:01+0000",
+            "last_publication_date": "2026-01-02T21:04:01+0000",
+            "uid": "campaign",
+            "data": {
+              "name": "Campaign"
+            },
+            "link_type": "Document",
+            "key": "31b280dc-56f0-448a-bb41-bbf42c47ab45",
+            "isBroken": false
+          }
+        },
+        {
+          "category": {
+            "id": "aVgyohIAACMA8Cri",
+            "type": "project_categories",
+            "tags": [],
+            "lang": "en-us",
+            "slug": "film",
+            "first_publication_date": "2026-01-02T21:03:41+0000",
+            "last_publication_date": "2026-01-02T21:03:41+0000",
+            "uid": "film",
+            "data": {
+              "name": "Film"
+            },
+            "link_type": "Document",
+            "key": "f05f8cd8-b785-4bec-8b3d-6972e5c44462",
+            "isBroken": false
+          }
+        }
+      ],
+      "name": "Perfection at Play",
+      "client": {
+        "link_type": "Document"
+      },
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "Campaign presenting the OnePlus Buds Pro 3 as a luxury, high-fashion accessory for audiophiles who value both style and sound.",
+          "spans": [],
+          "direction": "ltr"
+        }
+      ],
+      "detail_description": [
+        {
+          "type": "paragraph",
+          "text": "The film demonstrates how the Buds Pro 3 transforms everyday noise into mastery — transitioning from a noisy backdrop to a serene personal haven, highlighting noise cancellation, spatial audio, and head-tracking. The team also handled art direction for the product launch key visual (KV), teaser visual, lifestyle KVs (shot with Invisible Studio), and CGI-animated Key Features KVs.",
+          "spans": [],
+          "direction": "ltr"
+        }
+      ],
+      "teams": [
+        {
+          "team_name": "fromanother / Agency & Director"
+        },
+        {
+          "team_name": "Ginger Shot / Production"
+        },
+        {
+          "team_name": "Step One / Post Production"
+        }
+      ],
+      "link": {
+        "link_type": "Any"
+      },
+      "card_thumbnail": {
+        "dimensions": {
+          "width": 2560,
+          "height": 1440
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/fromanother-2026/abps97bci2UF6Ko7_03_OneplusGauss_20.jpg?auto=format,compress",
+        "id": "abps97bci2UF6Ko7",
+        "edit": {
+          "x": 0,
+          "y": 0,
+          "zoom": 1,
+          "background": "transparent"
+        }
+      },
+      "small_card_thumbnail": {
+        "dimensions": {
+          "width": 200,
+          "height": 113
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/fromanother-2026/abptHLbci2UF6KpU_03_Oneplus-Gauss_20_small.jpg?auto=format,compress",
+        "id": "abptHLbci2UF6KpU",
+        "edit": {
+          "x": 0,
+          "y": 0,
+          "zoom": 1,
+          "background": "transparent"
+        }
+      },
+      "services_provided": [
+        {
+          "service": "Art Direction"
+        },
+        {
+          "service": "Creative Direction"
+        },
+        {
+          "service": "CGI Art"
+        },
+        {
+          "service": "Management"
+        },
+        {
+          "service": "Production"
+        }
+      ],
+      "media": [
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/M314lwElDYfkR-Nm_03_OneplusGauss_171.png?auto=format,compress",
+            "id": "M314lwElDYfkR-Nm",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {
+            "dimensions": {
+              "width": 1080,
+              "height": 1920
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/kuYg5pCMmFqhog_F_Group9.png?auto=format,compress",
+            "id": "kuYg5pCMmFqhog_F",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 113
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/1rjiD-D_Obc671V0_03_OneplusGauss_172.png?auto=format,compress",
+            "id": "1rjiD-D_Obc671V0",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2278,
+              "height": 1281
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abpsYrbci2UF6KnQ_03_OneplusGauss_18.jpg?auto=format,compress",
+            "id": "abpsYrbci2UF6KnQ",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {
+            "dimensions": {
+              "width": 2278,
+              "height": 1281
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abpsbbbci2UF6KnT_03_OneplusGauss_18.jpg?auto=format,compress",
+            "id": "abpsbbbci2UF6KnT",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 112
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abpsk7bci2UF6KnY_03_Oneplus-Gauss_18_small.jpg?auto=format,compress",
+            "id": "abpsk7bci2UF6KnY",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abpp4bbci2UF6KjM_03_OneplusGauss_01.jpg?auto=format,compress",
+            "id": "abpp4bbci2UF6KjM",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {
+            "dimensions": {
+              "width": 1080,
+              "height": 1920
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/acprdpGXnQHGZF54_03_OneplusGauss_01M.jpg?auto=format,compress",
+            "id": "acprdpGXnQHGZF54",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 113
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abpqJLbci2UF6Kj8_03_Oneplus-Gauss_01_small.jpg?auto=format,compress",
+            "id": "abpqJLbci2UF6Kj8",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {},
+          "mobile_image": {},
+          "mux_id": "xrHc3onQMhmpWEkI2MsH6FuFV6oCN3i02lw001eWaJbWk",
+          "video_url": "https://stream.mux.com/xrHc3onQMhmpWEkI2MsH6FuFV6oCN3i02lw001eWaJbWk.m3u8",
+          "thumbnail": {
+            "dimensions": {
+              "width": 100,
+              "height": 57
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abpqhbbci2UF6KlH_03_OneplusGauss_02V_small.jpg?auto=format,compress",
+            "id": "abpqhbbci2UF6KlH",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2562,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/CBW1WB8G-5ssRR0E_Layout9OPPO1.png?auto=format,compress",
+            "id": "CBW1WB8G-5ssRR0E",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {
+            "dimensions": {
+              "width": 1080,
+              "height": 1920
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/z8xA1ArCoN6iIvDl_Rectangle85.png?auto=format,compress",
+            "id": "z8xA1ArCoN6iIvDl",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 201,
+              "height": 113
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/3j1Or66AHrntN4_W_Layout9OPPO2.png?auto=format,compress",
+            "id": "3j1Or66AHrntN4_W",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abptNbbci2UF6Kpp_03_OneplusGauss_21.jpg?auto=format,compress",
+            "id": "abptNbbci2UF6Kpp",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {
+            "dimensions": {
+              "width": 1080,
+              "height": 1920
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abptP7bci2UF6Kpy_03_OneplusGauss_21M.jpg?auto=format,compress",
+            "id": "abptP7bci2UF6Kpy",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 113
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abptbbbci2UF6KqP_03_Oneplus-Gauss_21_small.jpg?auto=format,compress",
+            "id": "abptbbbci2UF6KqP",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abpth7bci2UF6Kqh_03_OneplusGauss_22.jpg?auto=format,compress",
+            "id": "abpth7bci2UF6Kqh",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {
+            "dimensions": {
+              "width": 1080,
+              "height": 1920
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abptkbbci2UF6Kq0_03_OneplusGauss_22M.jpg?auto=format,compress",
+            "id": "abptkbbci2UF6Kq0",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 113
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abptqrbci2UF6KrJ_03_Oneplus-Gauss_22_small.jpg?auto=format,compress",
+            "id": "abptqrbci2UF6KrJ",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2559,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/iG5HoHm7TNcnYZfd_Layout7OPPO2.png?auto=format,compress",
+            "id": "iG5HoHm7TNcnYZfd",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {
+            "dimensions": {
+              "width": 1080,
+              "height": 1920
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/VuquUrBMGow5I6LQ_Rectangle87.png?auto=format,compress",
+            "id": "VuquUrBMGow5I6LQ",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 113
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/TcdPdjk8yfFOc2sf_Layout7OPPO3.png?auto=format,compress",
+            "id": "TcdPdjk8yfFOc2sf",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/AIpp6TTU5EtSAPwW_Layout6OPPO2.png?auto=format,compress",
+            "id": "AIpp6TTU5EtSAPwW",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {
+            "dimensions": {
+              "width": 1080,
+              "height": 1920
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/69nZU8W2phFBttSE_Rectangle86.png?auto=format,compress",
+            "id": "69nZU8W2phFBttSE",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 113
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/AOkBXMtPs5ygl22P_Layout6OPPO3.png?auto=format,compress",
+            "id": "AOkBXMtPs5ygl22P",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {},
+          "mobile_image": {},
+          "mux_id": "DnnlUxShPMrlbxfbVGvaFFHhbH94pCs01Wyo4Z02hK3og",
+          "video_url": "https://stream.mux.com/DnnlUxShPMrlbxfbVGvaFFHhbH94pCs01Wyo4Z02hK3og.m3u8",
+          "thumbnail": {
+            "dimensions": {
+              "width": 100,
+              "height": 57
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abpqprbci2UF6Klb_03_OneplusGauss_03V_small.jpg?auto=format,compress",
+            "id": "abpqprbci2UF6Klb",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {},
+          "mobile_image": {},
+          "mux_id": "khQ4tHWcozj7FwPvLLE01mOtllPmxCD1xcMlfE00015ReY",
+          "video_url": "https://stream.mux.com/khQ4tHWcozj7FwPvLLE01mOtllPmxCD1xcMlfE00015ReY.m3u8",
+          "thumbnail": {
+            "dimensions": {
+              "width": 100,
+              "height": 57
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abpri7bci2UF6Km__03_OneplusGauss_09V_small.jpg?auto=format,compress",
+            "id": "abpri7bci2UF6Km_",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {},
+          "mobile_image": {},
+          "mux_id": "nWNhcOdeaoh7Gj6GH8SWEyUph47cxDOBXzLn00IILmoU",
+          "video_url": "https://stream.mux.com/nWNhcOdeaoh7Gj6GH8SWEyUph47cxDOBXzLn00IILmoU.m3u8",
+          "thumbnail": {
+            "dimensions": {
+              "width": 100,
+              "height": 57
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abpq5bbci2UF6Kl-_03_OneplusGauss_04V_small.jpg?auto=format,compress",
+            "id": "abpq5bbci2UF6Kl-",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {},
+          "mobile_image": {},
+          "mux_id": "3iTQpHLk01gfWmpjHhzA00nQZUfh4RSg01KWw1pZ02Ho4QQ",
+          "video_url": "https://stream.mux.com/3iTQpHLk01gfWmpjHhzA00nQZUfh4RSg01KWw1pZ02Ho4QQ.m3u8",
+          "thumbnail": {
+            "dimensions": {
+              "width": 100,
+              "height": 57
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abprJrbci2UF6Kmi_03_OneplusGauss_05V_small.jpg?auto=format,compress",
+            "id": "abprJrbci2UF6Kmi",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {},
+          "mobile_image": {},
+          "mux_id": "Didg02QahacJ5u9wXaiU2SVHKoVWF026a3Ikgzeq5lpcE",
+          "video_url": "https://stream.mux.com/Didg02QahacJ5u9wXaiU2SVHKoVWF026a3Ikgzeq5lpcE.m3u8",
+          "thumbnail": {
+            "dimensions": {
+              "width": 100,
+              "height": 57
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abprVLbci2UF6Km4_03_OneplusGauss_06V_small.jpg?auto=format,compress",
+            "id": "abprVLbci2UF6Km4",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        }
+      ],
+      "slices": [],
+      "template": null,
+      "meta_title": "fromanother | Perfection at Play",
+      "meta_description": "Campaign presenting the OnePlus Buds Pro 3 as a luxury, high-fashion accessory for audiophiles who value both style and sound.",
+      "meta_image": {
+        "dimensions": {
+          "width": 2400,
+          "height": 1260
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/fromanother-2026/abps97bci2UF6Ko7_03_OneplusGauss_20.jpg?auto=format,compress&rect=0,48,2560,1344&w=2400&h=1260",
+        "id": "abps97bci2UF6Ko7",
+        "edit": {
+          "x": 0,
+          "y": 48,
+          "zoom": 1,
+          "background": "transparent"
+        }
+      },
+      "case_year": null,
+      "case_kicker": null,
+      "case_headline": null,
+      "case_headline_accent": null,
+      "case_intro": null
+    }
+  }
+}

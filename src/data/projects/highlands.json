@@ -1,0 +1,340 @@
+{
+  "project": {
+    "id": "abJqMBAAAB8ACZ7g",
+    "uid": "highlands",
+    "url": "/work/highlands",
+    "type": "projects",
+    "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22abJqMBAAAB8ACZ7g%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2026-03-12T07:30:24+0000",
+    "last_publication_date": "2026-03-30T08:44:14+0000",
+    "slugs": [
+      "14"
+    ],
+    "linked_documents": [],
+    "lang": "en-us",
+    "alternate_languages": [],
+    "data": {
+      "hidden": false,
+      "order": 14,
+      "categories": [
+        {
+          "category": {
+            "id": "aVgythIAACAA8CsF",
+            "type": "project_categories",
+            "tags": [],
+            "lang": "en-us",
+            "slug": "campaign",
+            "first_publication_date": "2026-01-02T21:04:01+0000",
+            "last_publication_date": "2026-01-02T21:04:01+0000",
+            "uid": "campaign",
+            "data": {
+              "name": "Campaign"
+            },
+            "link_type": "Document",
+            "key": "98279c0c-3f0a-41ac-a0ff-4f3f4c3c61a5",
+            "isBroken": false
+          }
+        },
+        {
+          "category": {
+            "id": "aVgyxxIAACIA8Csm",
+            "type": "project_categories",
+            "tags": [],
+            "lang": "en-us",
+            "slug": "cgi-production",
+            "first_publication_date": "2026-01-02T21:04:18+0000",
+            "last_publication_date": "2026-01-02T21:04:18+0000",
+            "uid": "cgi-production",
+            "data": {
+              "name": "CGI Production"
+            },
+            "link_type": "Document",
+            "key": "100bc95b-6fc3-4dea-a97f-ee511bc082a3",
+            "isBroken": false
+          }
+        }
+      ],
+      "name": "Highlands Coffee",
+      "client": {
+        "link_type": "Document"
+      },
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "A product campaign introducing the refreshed Highlands Coffee ground coffee packaging — where Vietnam's highland landscapes are brought to life through bold visual design. ",
+          "spans": [],
+          "direction": "ltr"
+        }
+      ],
+      "detail_description": [
+        {
+          "type": "paragraph",
+          "text": "The Film brought to life through a cinematic product film, the campaign opens with a single bag standing against a vast highland landscape bathed in the warm glow of sunset. Mountains layer into the distance. Light shifts. The product is not just placed in nature — it becomes part of it. ",
+          "spans": [],
+          "direction": "ltr"
+        },
+        {
+          "type": "paragraph",
+          "text": "Some stories are best told through the senses — through the rich aroma of freshly ground coffee, the warmth of a familiar cup, and the quiet pride of knowing where it all began.",
+          "spans": [],
+          "direction": "ltr"
+        }
+      ],
+      "teams": [
+        {
+          "team_name": "fromanother / Film Production"
+        }
+      ],
+      "link": {
+        "link_type": "Any"
+      },
+      "card_thumbnail": {
+        "dimensions": {
+          "width": 2560,
+          "height": 1434
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/fromanother-2026/ab0OLx5fn6DF3Bp2_14_Highlands_01.jpg?auto=format,compress",
+        "id": "ab0OLx5fn6DF3Bp2",
+        "edit": {
+          "x": 0,
+          "y": 0,
+          "zoom": 1,
+          "background": "transparent"
+        }
+      },
+      "small_card_thumbnail": {
+        "dimensions": {
+          "width": 100,
+          "height": 57
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/fromanother-2026/abLckFxvIZEnjnuA_Highlands_vid_thumb_1.jpg?auto=format,compress",
+        "id": "abLckFxvIZEnjnuA",
+        "edit": {
+          "x": 0,
+          "y": 0,
+          "zoom": 1,
+          "background": "transparent"
+        }
+      },
+      "services_provided": [
+        {
+          "service": "CGI Production"
+        },
+        {
+          "service": "Creative Direction"
+        },
+        {
+          "service": "Art Direction"
+        }
+      ],
+      "media": [
+        {
+          "image": {},
+          "mobile_image": {},
+          "mux_id": "00alzS3REj62eMLwNvd300BaYuzD01loh2fC8Di1oxooT8",
+          "video_url": "https://stream.mux.com/00alzS3REj62eMLwNvd300BaYuzD01loh2fC8Di1oxooT8.m3u8",
+          "thumbnail": {
+            "dimensions": {
+              "width": 100,
+              "height": 57
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abLckVxvIZEnjnuC_Highlands_vid_thumb_2.jpg?auto=format,compress",
+            "id": "abLckVxvIZEnjnuC",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {},
+          "mobile_image": {},
+          "mux_id": "ZtfC5Udham01IzrCJi4CCOgjXauNonAVuhetLr9DOMjk",
+          "video_url": "https://stream.mux.com/ZtfC5Udham01IzrCJi4CCOgjXauNonAVuhetLr9DOMjk.m3u8",
+          "thumbnail": {
+            "dimensions": {
+              "width": 100,
+              "height": 57
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abLcklxvIZEnjnuD_Highlands_vid_thumb_3.jpg?auto=format,compress",
+            "id": "abLcklxvIZEnjnuD",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {},
+          "mobile_image": {},
+          "mux_id": "z2Z00m525psI8BluUWiXW02wpi3Cwrn5tFuY8oaICIyaw",
+          "video_url": "https://stream.mux.com/z2Z00m525psI8BluUWiXW02wpi3Cwrn5tFuY8oaICIyaw.m3u8",
+          "thumbnail": {
+            "dimensions": {
+              "width": 100,
+              "height": 57
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abLck1xvIZEnjnuE_Highlands_vid_thumb_4.jpg?auto=format,compress",
+            "id": "abLck1xvIZEnjnuE",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {},
+          "mobile_image": {},
+          "mux_id": "aT01Ba9hdfktYs5wXKtqU6MOLJT2SJhUD01uN4Li02yJuQ",
+          "video_url": "https://stream.mux.com/aT01Ba9hdfktYs5wXKtqU6MOLJT2SJhUD01uN4Li02yJuQ.m3u8",
+          "thumbnail": {
+            "dimensions": {
+              "width": 100,
+              "height": 57
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abLclFxvIZEnjnuG_Highlands_vid_thumb_5.jpg?auto=format,compress",
+            "id": "abLclFxvIZEnjnuG",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {},
+          "mobile_image": {},
+          "mux_id": "2kv1qX02yd3eciG6li3CEhquVWYhMZwyCnlsWqEAAmHU",
+          "video_url": "https://stream.mux.com/2kv1qX02yd3eciG6li3CEhquVWYhMZwyCnlsWqEAAmHU.m3u8",
+          "thumbnail": {
+            "dimensions": {
+              "width": 100,
+              "height": 57
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abLclVxvIZEnjnuH_Highlands_vid_thumb_6.jpg?auto=format,compress",
+            "id": "abLclVxvIZEnjnuH",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {},
+          "mobile_image": {},
+          "mux_id": "4zqhnZ3d1bQUU01iPfcmzBiAeewE00ornDrAbVT01Z3PIY",
+          "video_url": "https://stream.mux.com/4zqhnZ3d1bQUU01iPfcmzBiAeewE00ornDrAbVT01Z3PIY.m3u8",
+          "thumbnail": {
+            "dimensions": {
+              "width": 100,
+              "height": 57
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abLcllxvIZEnjnuJ_Highlands_vid_thumb_7.jpg?auto=format,compress",
+            "id": "abLcllxvIZEnjnuJ",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {},
+          "mobile_image": {},
+          "mux_id": "gwM009bcCg01mnb88hWXy2e008mTrYPFGbWSYgNdgngWes",
+          "video_url": "https://stream.mux.com/gwM009bcCg01mnb88hWXy2e008mTrYPFGbWSYgNdgngWes.m3u8",
+          "thumbnail": {
+            "dimensions": {
+              "width": 100,
+              "height": 57
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abLckFxvIZEnjnuA_Highlands_vid_thumb_1.jpg?auto=format,compress",
+            "id": "abLckFxvIZEnjnuA",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {},
+          "mobile_image": {},
+          "mux_id": "5iR01rQIAuie68L5T02syOMJNFMenUThdFvwUU6GNkav8",
+          "video_url": "https://stream.mux.com/5iR01rQIAuie68L5T02syOMJNFMenUThdFvwUU6GNkav8.m3u8",
+          "thumbnail": {
+            "dimensions": {
+              "width": 100,
+              "height": 57
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abLdjVxvIZEnjnu4_Highlands_vid_thumb_8.jpg?auto=format,compress",
+            "id": "abLdjVxvIZEnjnu4",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        }
+      ],
+      "slices": [],
+      "template": null,
+      "meta_title": "fromanother | Highlands",
+      "meta_description": "A product campaign introducing the refreshed Highlands Coffee ground coffee packaging — where Vietnam's highland landscapes are brought to life through bold visual design.",
+      "meta_image": {
+        "dimensions": {
+          "width": 2400,
+          "height": 1260
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/fromanother-2026/ab0OLx5fn6DF3Bp2_14_Highlands_01.jpg?auto=format,compress&rect=0,45,2560,1344&w=2400&h=1260",
+        "id": "ab0OLx5fn6DF3Bp2",
+        "edit": {
+          "x": 0,
+          "y": 45,
+          "zoom": 1,
+          "background": "transparent"
+        }
+      },
+      "case_year": null,
+      "case_kicker": null,
+      "case_headline": null,
+      "case_headline_accent": null,
+      "case_intro": null
+    }
+  }
+}

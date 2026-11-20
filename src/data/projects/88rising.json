@@ -1,0 +1,471 @@
+{
+  "project": {
+    "id": "aUjKEhIAACMA2gMx",
+    "uid": "88rising",
+    "url": "/work/88rising",
+    "type": "projects",
+    "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22aUjKEhIAACMA2gMx%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2025-12-22T04:34:25+0000",
+    "last_publication_date": "2026-04-02T04:06:43+0000",
+    "slugs": [
+      "11"
+    ],
+    "linked_documents": [],
+    "lang": "en-us",
+    "alternate_languages": [],
+    "data": {
+      "hidden": false,
+      "order": 11,
+      "categories": [
+        {
+          "category": {
+            "id": "aVgzIRIAACIA8Cuv",
+            "type": "project_categories",
+            "tags": [],
+            "lang": "en-us",
+            "slug": "brand-design",
+            "first_publication_date": "2026-01-02T21:05:52+0000",
+            "last_publication_date": "2026-01-02T21:05:52+0000",
+            "uid": "brand-design",
+            "data": {
+              "name": "Brand Design"
+            },
+            "link_type": "Document",
+            "key": "5e268ca8-1d1e-4890-8941-171a808cd2f7",
+            "isBroken": false
+          }
+        },
+        {
+          "category": {
+            "id": "aVgythIAACAA8CsF",
+            "type": "project_categories",
+            "tags": [],
+            "lang": "en-us",
+            "slug": "campaign",
+            "first_publication_date": "2026-01-02T21:04:01+0000",
+            "last_publication_date": "2026-01-02T21:04:01+0000",
+            "uid": "campaign",
+            "data": {
+              "name": "Campaign"
+            },
+            "link_type": "Document",
+            "key": "5147bfa0-f07d-46cb-961b-ea65b9ef1bd6",
+            "isBroken": false
+          }
+        }
+      ],
+      "name": "88rising — Head in the Clouds",
+      "client": {
+        "id": "aUgEJBIAACIA2PC_",
+        "type": "clients",
+        "tags": [],
+        "lang": "en-us",
+        "slug": "88rising",
+        "first_publication_date": "2025-12-21T14:29:10+0000",
+        "last_publication_date": "2026-02-18T18:01:32+0000",
+        "uid": "88rising",
+        "data": {
+          "name": "88rising"
+        },
+        "link_type": "Document",
+        "key": "98ba0d08-89fd-4198-a581-bfa7c18b6eb5",
+        "isBroken": false
+      },
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "Design and 3D visual branding for 88rising's Heads in the Clouds festival in LA — billboards, festival maps, ad mats, and flyers.",
+          "spans": [],
+          "direction": "ltr"
+        }
+      ],
+      "detail_description": [
+        {
+          "type": "paragraph",
+          "text": "Originally scoped to cover all 88rising festivals across Jakarta, Sydney, Chengdu, and LA, the project ultimately focused on the LA edition. The team delivered typography banners, striking posters, intricate festival maps, and headliner/sponsor advertisements — capturing LA's diversity, laid-back energy, and playful spirit, while reinforcing 88rising's identity as a pioneer in the Asian music scene.",
+          "spans": [],
+          "direction": "ltr"
+        }
+      ],
+      "teams": [
+        {
+          "team_name": "Vicki / Creative Direction"
+        },
+        {
+          "team_name": "Tam Bui, Vicki / CGI Production"
+        },
+        {
+          "team_name": "Thong Huynh / Illustration"
+        }
+      ],
+      "link": {
+        "link_type": "Any"
+      },
+      "card_thumbnail": {
+        "dimensions": {
+          "width": 2560,
+          "height": 1440
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/fromanother-2026/acNvpJGXnQHGY7_d_11_88Rising_Cover.jpg?auto=format,compress",
+        "id": "acNvpJGXnQHGY7_d",
+        "edit": {
+          "x": 0,
+          "y": 0,
+          "zoom": 1,
+          "background": "transparent"
+        }
+      },
+      "small_card_thumbnail": {
+        "dimensions": {
+          "width": 200,
+          "height": 113
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/fromanother-2026/abp7Trbci2UF6K7c_11_88Rising_01_small.jpg?auto=format,compress",
+        "id": "abp7Trbci2UF6K7c",
+        "edit": {
+          "x": 0,
+          "y": 0,
+          "zoom": 1,
+          "background": "transparent"
+        }
+      },
+      "services_provided": [
+        {
+          "service": "Digital"
+        },
+        {
+          "service": "Brand Design"
+        }
+      ],
+      "media": [
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abEHo1xvIZEnjjqL_11_88Rising_02.jpg?auto=format,compress",
+            "id": "abEHo1xvIZEnjjqL",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {
+            "dimensions": {
+              "width": 1080,
+              "height": 1920
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abEID1xvIZEnjjqU_11_88Rising_02C.jpg?auto=format,compress",
+            "id": "abEID1xvIZEnjjqU",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 113
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abp767bci2UF6K8G_11_88Rising_02.jpg?auto=format,compress",
+            "id": "abp767bci2UF6K8G",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abEHpFxvIZEnjjqM_11_88Rising_04.jpg?auto=format,compress",
+            "id": "abEHpFxvIZEnjjqM",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {
+            "dimensions": {
+              "width": 1080,
+              "height": 1920
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abEIWFxvIZEnjjqX_11_88Rising_04A.jpg?auto=format,compress",
+            "id": "abEIWFxvIZEnjjqX",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 113
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abp7-rbci2UF6K8O_11_88Rising_04.jpg?auto=format,compress",
+            "id": "abp7-rbci2UF6K8O",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abEHpFxvIZEnjjqN_11_88Rising_05.jpg?auto=format,compress",
+            "id": "abEHpFxvIZEnjjqN",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {
+            "dimensions": {
+              "width": 1080,
+              "height": 1920
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abEIbVxvIZEnjjqZ_11_88Rising_05A.jpg?auto=format,compress",
+            "id": "abEIbVxvIZEnjjqZ",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 113
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abp8DLbci2UF6K8W_11_88Rising_05.jpg?auto=format,compress",
+            "id": "abp8DLbci2UF6K8W",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/ac3q_pGXnQHGZML9_11_88Rising_06.jpg?auto=format,compress",
+            "id": "ac3q_pGXnQHGZML9",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {},
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 113
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abp8HLbci2UF6K8Y_11_88Rising_06_small.jpg?auto=format,compress",
+            "id": "abp8HLbci2UF6K8Y",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/ac3rC5GXnQHGZMMG_11_88Rising_07.jpg?auto=format,compress",
+            "id": "ac3rC5GXnQHGZMMG",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {
+            "dimensions": {
+              "width": 1080,
+              "height": 1920
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/ac3rFJGXnQHGZMMH_11_88Rising_07M.jpg?auto=format,compress",
+            "id": "ac3rFJGXnQHGZMMH",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 113
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abp8Kbbci2UF6K8d_11_88Rising_07_small.jpg?auto=format,compress",
+            "id": "abp8Kbbci2UF6K8d",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/ac3rI5GXnQHGZMMI_11_88Rising_08.jpg?auto=format,compress",
+            "id": "ac3rI5GXnQHGZMMI",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {
+            "dimensions": {
+              "width": 1080,
+              "height": 1920
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/ac3rK5GXnQHGZMMJ_11_88Rising_08M.jpg?auto=format,compress",
+            "id": "ac3rK5GXnQHGZMMJ",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 113
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/ac3rSJGXnQHGZMMK_11_88Rising_08_small.jpg?auto=format,compress",
+            "id": "ac3rSJGXnQHGZMMK",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        }
+      ],
+      "slices": [],
+      "template": null,
+      "meta_title": "fromanother | 88 Rising — Head in the Clouds",
+      "meta_description": "Design and 3D visual branding for 88rising's Heads in the Clouds festival in LA — billboards, festival maps, ad mats, and flyers.",
+      "meta_image": {
+        "dimensions": {
+          "width": 2400,
+          "height": 1260
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/fromanother-2026/acNvpJGXnQHGY7_d_11_88Rising_Cover.jpg?auto=format,compress&rect=0,48,2560,1344&w=2400&h=1260",
+        "id": "acNvpJGXnQHGY7_d",
+        "edit": {
+          "x": 0,
+          "y": 48,
+          "zoom": 1,
+          "background": "transparent"
+        }
+      },
+      "case_year": null,
+      "case_kicker": null,
+      "case_headline": null,
+      "case_headline_accent": null,
+      "case_intro": null
+    }
+  }
+}

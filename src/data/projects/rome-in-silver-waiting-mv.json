@@ -1,0 +1,489 @@
+{
+  "project": {
+    "id": "abLi_REAACAA0jk-",
+    "uid": "rome-in-silver-waiting-mv",
+    "url": "/work/rome-in-silver-waiting-mv",
+    "type": "projects",
+    "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22abLi_REAACAA0jk-%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2026-03-12T16:11:57+0000",
+    "last_publication_date": "2026-04-03T07:58:03+0000",
+    "slugs": [
+      "15"
+    ],
+    "linked_documents": [],
+    "lang": "en-us",
+    "alternate_languages": [],
+    "data": {
+      "hidden": false,
+      "order": 15,
+      "categories": [
+        {
+          "category": {
+            "id": "aVgyxxIAACIA8Csm",
+            "type": "project_categories",
+            "tags": [],
+            "lang": "en-us",
+            "slug": "cgi-production",
+            "first_publication_date": "2026-01-02T21:04:18+0000",
+            "last_publication_date": "2026-01-02T21:04:18+0000",
+            "uid": "cgi-production",
+            "data": {
+              "name": "CGI Production"
+            },
+            "link_type": "Document",
+            "key": "aa38330e-134b-4104-8ca2-c32eb93d0ae7",
+            "isBroken": false
+          }
+        },
+        {
+          "category": {
+            "id": "aVgyohIAACMA8Cri",
+            "type": "project_categories",
+            "tags": [],
+            "lang": "en-us",
+            "slug": "film",
+            "first_publication_date": "2026-01-02T21:03:41+0000",
+            "last_publication_date": "2026-01-02T21:03:41+0000",
+            "uid": "film",
+            "data": {
+              "name": "Film"
+            },
+            "link_type": "Document",
+            "key": "a58ff51f-f6c8-436e-b8f3-e91248cef4f1",
+            "isBroken": false
+          }
+        }
+      ],
+      "name": "Waiting — Rome in Silver",
+      "client": {
+        "link_type": "Document"
+      },
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "A full-CGI music video for California-based electronic producer Rome in Silver's single Waiting, featuring dragonflies journeying through a nocturnal garden.",
+          "spans": [],
+          "direction": "ltr"
+        }
+      ],
+      "detail_description": [
+        {
+          "type": "paragraph",
+          "text": "Vinny approached fromanother after admiring their 2021 art film called \"Beautiful Disaster\". His only creative brief was to include dragonflies. The team built a narrative of dragonflies traversing a mystical garden at night, with the 3D lighting system synced directly to specific synths and vocal layers of the track. The project ran six weeks with a team of two. ",
+          "spans": [],
+          "direction": "ltr"
+        }
+      ],
+      "teams": [
+        {
+          "team_name": "fromanother / Direction & Design"
+        },
+        {
+          "team_name": "Thong Dinh / 2D Graphic"
+        }
+      ],
+      "link": {
+        "link_type": "Web",
+        "key": "b08856b7-35f5-42b3-a3e3-cc2ab8f939e9",
+        "url": "https://www.youtube.com/watch?v=SHg5c59JF7w",
+        "target": "_blank"
+      },
+      "card_thumbnail": {
+        "dimensions": {
+          "width": 2560,
+          "height": 1440
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/fromanother-2026/abLkl1xvIZEnjn4f_15_Rome-In-Silver_01.jpg?auto=format,compress",
+        "id": "abLkl1xvIZEnjn4f",
+        "edit": {
+          "x": 0,
+          "y": 0,
+          "zoom": 1,
+          "background": "transparent"
+        }
+      },
+      "small_card_thumbnail": {
+        "dimensions": {
+          "width": 200,
+          "height": 113
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/fromanother-2026/abu5OLbci2UF6QRN_15_RomeInSilver_01_small.jpg?auto=format,compress",
+        "id": "abu5OLbci2UF6QRN",
+        "edit": {
+          "x": 0,
+          "y": 0,
+          "zoom": 1,
+          "background": "transparent"
+        }
+      },
+      "services_provided": [
+        {
+          "service": "Direction"
+        },
+        {
+          "service": "Art Direction"
+        },
+        {
+          "service": "CGI Production"
+        }
+      ],
+      "media": [
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abLknVxvIZEnjn4r_15_Rome-In-Silver_09.jpg?auto=format,compress",
+            "id": "abLknVxvIZEnjn4r",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {
+            "dimensions": {
+              "width": 1080,
+              "height": 1920
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abLluFxvIZEnjn50_15_Rome-In-Silver_09M.jpg?auto=format,compress",
+            "id": "abLluFxvIZEnjn50",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 113
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abu5P7bci2UF6QRa_15_RomeInSilver_09_small.jpg?auto=format,compress",
+            "id": "abu5P7bci2UF6QRa",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {},
+          "mobile_image": {},
+          "mux_id": "GjOFi4Pc3016j6Y1GTTsWQOu01NGE5BTDuG6n02201PzD84",
+          "video_url": "https://stream.mux.com/GjOFi4Pc3016j6Y1GTTsWQOu01NGE5BTDuG6n02201PzD84.m3u8",
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 113
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abu5OLbci2UF6QRP_15_RomeInSilver_02_small.jpg?auto=format,compress",
+            "id": "abu5OLbci2UF6QRP",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {},
+          "mobile_image": {},
+          "mux_id": "nnJ00EP7UpP3BjSb1gVOfhAAYdpIUfMWmLFDGJj00T5Y8",
+          "video_url": "https://stream.mux.com/nnJ00EP7UpP3BjSb1gVOfhAAYdpIUfMWmLFDGJj00T5Y8.m3u8",
+          "thumbnail": {}
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abLkl1xvIZEnjn4g_15_Rome-In-Silver_03.jpg?auto=format,compress",
+            "id": "abLkl1xvIZEnjn4g",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {},
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 113
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abu5Obbci2UF6QRR_15_RomeInSilver_03_small.jpg?auto=format,compress",
+            "id": "abu5Obbci2UF6QRR",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abLkmFxvIZEnjn4i_15_Rome-In-Silver_04.jpg?auto=format,compress",
+            "id": "abLkmFxvIZEnjn4i",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {},
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 113
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abu5Orbci2UF6QRT_15_RomeInSilver_04_small.jpg?auto=format,compress",
+            "id": "abu5Orbci2UF6QRT",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abLkmlxvIZEnjn4m_15_Rome-In-Silver_06.jpg?auto=format,compress",
+            "id": "abLkmlxvIZEnjn4m",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {},
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 113
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abu5PLbci2UF6QRX_15_RomeInSilver_06_small.jpg?auto=format,compress",
+            "id": "abu5PLbci2UF6QRX",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {},
+          "mobile_image": {},
+          "mux_id": "iSgCBNtb1RU2KApPUoBvtieVguPcyzap3nIuYFIT4X8",
+          "video_url": "https://stream.mux.com/iSgCBNtb1RU2KApPUoBvtieVguPcyzap3nIuYFIT4X8.m3u8",
+          "thumbnail": {}
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/ac9y_JGXnQHGZPiB_15_RomeInSilver_10-gigapixel-lowresolutionv2-4x.jpg?auto=format,compress",
+            "id": "ac9y_JGXnQHGZPiB",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {},
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 113
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/ac9y-5GXnQHGZPiA_15_RomeInSilver_10-gigapixel-lowresolutionv2-4x_small.jpg?auto=format,compress",
+            "id": "ac9y-5GXnQHGZPiA",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abLkm1xvIZEnjn4o_15_Rome-In-Silver_07.jpg?auto=format,compress",
+            "id": "abLkm1xvIZEnjn4o",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {},
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 113
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abu5Pbbci2UF6QRY_15_RomeInSilver_07_small.jpg?auto=format,compress",
+            "id": "abu5Pbbci2UF6QRY",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abLknFxvIZEnjn4q_15_Rome-In-Silver_08.jpg?auto=format,compress",
+            "id": "abLknFxvIZEnjn4q",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {
+            "dimensions": {
+              "width": 1080,
+              "height": 1920
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abLlq1xvIZEnjn5t_15_Rome-In-Silver_08M.jpg?auto=format,compress",
+            "id": "abLlq1xvIZEnjn5t",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 113
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abu5Prbci2UF6QRZ_15_RomeInSilver_08_small.jpg?auto=format,compress",
+            "id": "abu5Prbci2UF6QRZ",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        }
+      ],
+      "slices": [],
+      "template": null,
+      "meta_title": "fromanother | Waiting — Rome in Silver",
+      "meta_description": "A full-CGI music video for California-based electronic producer Rome in Silver's single Waiting, featuring dragonflies journeying through a nocturnal garden.",
+      "meta_image": {
+        "dimensions": {
+          "width": 2400,
+          "height": 1260
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/fromanother-2026/abLkmlxvIZEnjn4m_15_Rome-In-Silver_06.jpg?auto=format%2Ccompress&rect=0%2C12%2C2560%2C1344&w=2400&h=1260",
+        "id": "abLkmlxvIZEnjn4m",
+        "edit": {
+          "x": 0,
+          "y": 12,
+          "zoom": 1,
+          "background": "transparent"
+        }
+      },
+      "case_year": null,
+      "case_kicker": null,
+      "case_headline": null,
+      "case_headline_accent": null,
+      "case_intro": null
+    }
+  }
+}

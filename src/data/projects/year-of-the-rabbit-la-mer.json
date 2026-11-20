@@ -1,0 +1,487 @@
+{
+  "project": {
+    "id": "abFDohAAAB8AB-oJ",
+    "uid": "year-of-the-rabbit-la-mer",
+    "url": "/work/year-of-the-rabbit-la-mer",
+    "type": "projects",
+    "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22abFDohAAAB8AB-oJ%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2026-03-11T10:34:35+0000",
+    "last_publication_date": "2026-07-17T03:34:03+0000",
+    "slugs": [
+      "7"
+    ],
+    "linked_documents": [],
+    "lang": "en-us",
+    "alternate_languages": [],
+    "data": {
+      "hidden": false,
+      "order": 7,
+      "categories": [
+        {
+          "category": {
+            "id": "aVgyohIAACMA8Cri",
+            "type": "project_categories",
+            "tags": [],
+            "lang": "en-us",
+            "slug": "film",
+            "first_publication_date": "2026-01-02T21:03:41+0000",
+            "last_publication_date": "2026-01-02T21:03:41+0000",
+            "uid": "film",
+            "data": {
+              "name": "Film"
+            },
+            "link_type": "Document",
+            "key": "91da7bc4-db0b-476e-b714-bb907eb9c2e7",
+            "isBroken": false
+          }
+        },
+        {
+          "category": {
+            "id": "aVgyxxIAACIA8Csm",
+            "type": "project_categories",
+            "tags": [],
+            "lang": "en-us",
+            "slug": "cgi-production",
+            "first_publication_date": "2026-01-02T21:04:18+0000",
+            "last_publication_date": "2026-01-02T21:04:18+0000",
+            "uid": "cgi-production",
+            "data": {
+              "name": "CGI Production"
+            },
+            "link_type": "Document",
+            "key": "96e60569-3d04-47a0-933d-53748ab690e7",
+            "isBroken": false
+          }
+        },
+        {
+          "category": {
+            "id": "aVgythIAACAA8CsF",
+            "type": "project_categories",
+            "tags": [],
+            "lang": "en-us",
+            "slug": "campaign",
+            "first_publication_date": "2026-01-02T21:04:01+0000",
+            "last_publication_date": "2026-01-02T21:04:01+0000",
+            "uid": "campaign",
+            "data": {
+              "name": "Campaign"
+            },
+            "link_type": "Document",
+            "key": "8e1357c8-a493-4456-a1d9-e8314e928a5e",
+            "isBroken": false
+          }
+        }
+      ],
+      "name": "Year of the Rabbit",
+      "client": {
+        "id": "aUgDoRIAACMA2O_Z",
+        "type": "clients",
+        "tags": [],
+        "lang": "en-us",
+        "slug": "la-mer",
+        "first_publication_date": "2025-12-21T14:26:58+0000",
+        "last_publication_date": "2026-02-18T17:59:41+0000",
+        "uid": "la-mer",
+        "data": {
+          "name": "La Mer"
+        },
+        "link_type": "Document",
+        "key": "73f8a640-128c-4418-9f19-df49da60a58d",
+        "isBroken": false
+      },
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "A return to one's origins, epitomized by the campaign's central figure, the rabbit, tracing the water paths that lead to home.",
+          "spans": [],
+          "direction": "ltr"
+        }
+      ],
+      "detail_description": [
+        {
+          "type": "paragraph",
+          "text": "A return to one's origins, epitomized by the campaign's central figure, the rabbit, tracing the water paths that lead to home. Water, representing life and rebirth, forms the core motif of this campaign, vividly realized through CGI embroidery, blending the art tradition with technology. ",
+          "spans": [],
+          "direction": "ltr"
+        }
+      ],
+      "teams": [
+        {
+          "team_name": "Vicki & Robin / Creative Director"
+        },
+        {
+          "team_name": "Yee East / Illustrator"
+        },
+        {
+          "team_name": "Tin / CGI Artist"
+        },
+        {
+          "team_name": "The Mill / CGI Production"
+        }
+      ],
+      "link": {
+        "link_type": "Any"
+      },
+      "card_thumbnail": {
+        "dimensions": {
+          "width": 2560,
+          "height": 1440
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/fromanother-2026/abFEtlxvIZEnjkEF_07_La-Mer_03.jpg?auto=format,compress",
+        "id": "abFEtlxvIZEnjkEF",
+        "edit": {
+          "x": 0,
+          "y": 0,
+          "zoom": 1,
+          "background": "transparent"
+        }
+      },
+      "small_card_thumbnail": {
+        "dimensions": {
+          "width": 100,
+          "height": 57
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/fromanother-2026/abu3Lbbci2UF6QLD_LAmer_01_small.jpg?auto=format,compress",
+        "id": "abu3Lbbci2UF6QLD",
+        "edit": {
+          "x": 0,
+          "y": 0,
+          "zoom": 1,
+          "background": "transparent"
+        }
+      },
+      "services_provided": [
+        {
+          "service": "Creative Direction"
+        },
+        {
+          "service": "Art Direction"
+        },
+        {
+          "service": "Concept CGI Art"
+        }
+      ],
+      "media": [
+        {
+          "image": {},
+          "mobile_image": {},
+          "mux_id": "lI2clSfwPcIkXDXKFpx00F9h3f2jTRNLnM91XmOjJRUM",
+          "video_url": "https://stream.mux.com/lI2clSfwPcIkXDXKFpx00F9h3f2jTRNLnM91XmOjJRUM.m3u8",
+          "thumbnail": {
+            "dimensions": {
+              "width": 100,
+              "height": 57
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abLefVxvIZEnjnvv_LAmer_vid_thumb_1.jpg?auto=format,compress",
+            "id": "abLefVxvIZEnjnvv",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abFEtFxvIZEnjkED_07_La-Mer_02.jpg?auto=format,compress",
+            "id": "abFEtFxvIZEnjkED",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {
+            "dimensions": {
+              "width": 1080,
+              "height": 1920
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abFEtVxvIZEnjkEE_07_La-Mer_02A.jpg?auto=format,compress",
+            "id": "abFEtVxvIZEnjkEE",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 100,
+              "height": 57
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abu3Lrbci2UF6QLF_LAmer_02_small.jpg?auto=format,compress",
+            "id": "abu3Lrbci2UF6QLF",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abFEt1xvIZEnjkEG_07_La-Mer_04.jpg?auto=format,compress",
+            "id": "abFEt1xvIZEnjkEG",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {},
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 100,
+              "height": 57
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abu3L7bci2UF6QLH_LAmer_03_small.jpg?auto=format,compress",
+            "id": "abu3L7bci2UF6QLH",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abFEuFxvIZEnjkEI_07_La-Mer_05.jpg?auto=format,compress",
+            "id": "abFEuFxvIZEnjkEI",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {},
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 100,
+              "height": 57
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abu3Mbbci2UF6QLO_LAmer_04_small.jpg?auto=format,compress",
+            "id": "abu3Mbbci2UF6QLO",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abFEuVxvIZEnjkEJ_07_La-Mer_06.jpg?auto=format,compress",
+            "id": "abFEuVxvIZEnjkEJ",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {
+            "dimensions": {
+              "width": 1080,
+              "height": 1920
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abFEulxvIZEnjkEK_07_La-Mer_06A.jpg?auto=format,compress",
+            "id": "abFEulxvIZEnjkEK",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 100,
+              "height": 57
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abu3MLbci2UF6QLL_LAmer_04_small-1.jpg?auto=format,compress",
+            "id": "abu3MLbci2UF6QLL",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abFEu1xvIZEnjkEL_07_La-Mer_07.jpg?auto=format,compress",
+            "id": "abFEu1xvIZEnjkEL",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {},
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 100,
+              "height": 57
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abu3M7bci2UF6QLQ_LAmer_05_small.jpg?auto=format,compress",
+            "id": "abu3M7bci2UF6QLQ",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abFEvFxvIZEnjkEM_07_La-Mer_08.jpg?auto=format,compress",
+            "id": "abFEvFxvIZEnjkEM",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {
+            "dimensions": {
+              "width": 1080,
+              "height": 1920
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abFEvVxvIZEnjkEN_07_La-Mer_08B.jpg?auto=format,compress",
+            "id": "abFEvVxvIZEnjkEN",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 100,
+              "height": 57
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abu3Mrbci2UF6QLP_LAmer_05_small-1.jpg?auto=format,compress",
+            "id": "abu3Mrbci2UF6QLP",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        }
+      ],
+      "slices": [],
+      "template": null,
+      "meta_title": "fromanother | Year of the Rabbit",
+      "meta_description": "A Lunar New Year campaign for La Mer featuring a rabbit tracing water paths home, brought to life through CGI embroidery fusing traditional art with technology.",
+      "meta_image": {
+        "dimensions": {
+          "width": 2400,
+          "height": 1260
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/fromanother-2026/abFEtlxvIZEnjkEF_07_La-Mer_03.jpg?auto=format,compress&rect=0,48,2560,1344&w=2400&h=1260",
+        "id": "abFEtlxvIZEnjkEF",
+        "edit": {
+          "x": 0,
+          "y": 48,
+          "zoom": 1,
+          "background": "transparent"
+        }
+      },
+      "case_year": null,
+      "case_kicker": null,
+      "case_headline": null,
+      "case_headline_accent": null,
+      "case_intro": null
+    }
+  }
+}

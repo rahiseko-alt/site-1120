@@ -1,0 +1,613 @@
+{
+  "project": {
+    "id": "abpdxBEAACEA3SXr",
+    "uid": "oneplus-buds-4",
+    "url": "/work/oneplus-buds-4",
+    "type": "projects",
+    "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22abpdxBEAACEA3SXr%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2026-03-18T08:29:11+0000",
+    "last_publication_date": "2026-04-02T04:26:21+0000",
+    "slugs": [
+      "2"
+    ],
+    "linked_documents": [],
+    "lang": "en-us",
+    "alternate_languages": [],
+    "data": {
+      "hidden": false,
+      "order": 2,
+      "categories": [
+        {
+          "category": {
+            "id": "aVgyohIAACMA8Cri",
+            "type": "project_categories",
+            "tags": [],
+            "lang": "en-us",
+            "slug": "film",
+            "first_publication_date": "2026-01-02T21:03:41+0000",
+            "last_publication_date": "2026-01-02T21:03:41+0000",
+            "uid": "film",
+            "data": {
+              "name": "Film"
+            },
+            "link_type": "Document",
+            "key": "f4ef30e3-6a70-4fe1-8719-488ff3e6d58d",
+            "isBroken": false
+          }
+        },
+        {
+          "category": {
+            "id": "aVgythIAACAA8CsF",
+            "type": "project_categories",
+            "tags": [],
+            "lang": "en-us",
+            "slug": "campaign",
+            "first_publication_date": "2026-01-02T21:04:01+0000",
+            "last_publication_date": "2026-01-02T21:04:01+0000",
+            "uid": "campaign",
+            "data": {
+              "name": "Campaign"
+            },
+            "link_type": "Document",
+            "key": "bb785c4a-3282-405e-82a6-e30aa1d3fb1a",
+            "isBroken": false
+          }
+        },
+        {
+          "category": {
+            "id": "aVgyxxIAACIA8Csm",
+            "type": "project_categories",
+            "tags": [],
+            "lang": "en-us",
+            "slug": "cgi-production",
+            "first_publication_date": "2026-01-02T21:04:18+0000",
+            "last_publication_date": "2026-01-02T21:04:18+0000",
+            "uid": "cgi-production",
+            "data": {
+              "name": "CGI Production"
+            },
+            "link_type": "Document",
+            "key": "20744c51-23dc-4541-a1e0-7958c39f3d09",
+            "isBroken": false
+          }
+        }
+      ],
+      "name": "An All-New Audio Experience",
+      "client": {
+        "id": "aUgDTBIAACAA2O9H",
+        "type": "clients",
+        "tags": [],
+        "lang": "en-us",
+        "slug": "oneplus",
+        "first_publication_date": "2025-12-21T14:25:32+0000",
+        "last_publication_date": "2026-02-18T17:58:39+0000",
+        "uid": "oneplus",
+        "data": {
+          "name": "OnePlus"
+        },
+        "link_type": "Document",
+        "key": "157e5718-1ceb-434f-bbcc-d5aa8d63bf25",
+        "isBroken": false
+      },
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "The film introduces an all-new audio experience, redefining the way we listen, move, and feel music.",
+          "spans": [],
+          "direction": "ltr"
+        }
+      ],
+      "detail_description": [
+        {
+          "type": "paragraph",
+          "text": "This is a cinematic product film that goes beyond showcasing specifications. It is a sensory journey — one that translates the invisible world of sound into something visceral, visual, and deeply personal. At its core, the film is built around a single idea: that truly great audio doesn't just accompany your life, it transforms it. The OnePlus Buds 4 is positioned not merely as a product, but as a gateway to a richer, more immersive way of experiencing the world around you.",
+          "spans": [],
+          "direction": "ltr"
+        }
+      ],
+      "teams": [
+        {
+          "team_name": "fromanother / Agency & Production"
+        },
+        {
+          "team_name": "Push / Production House"
+        },
+        {
+          "team_name": "StepOne / Post Production"
+        }
+      ],
+      "link": {
+        "link_type": "Any"
+      },
+      "card_thumbnail": {
+        "dimensions": {
+          "width": 1920,
+          "height": 1080
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/fromanother-2026/acT-v5GXnQHGY-7y_02_OneplusRaman_13.jpg?auto=format,compress",
+        "id": "acT-v5GXnQHGY-7y",
+        "edit": {
+          "x": 0,
+          "y": 0,
+          "zoom": 1,
+          "background": "transparent"
+        }
+      },
+      "small_card_thumbnail": {
+        "dimensions": {
+          "width": 200,
+          "height": 113
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/fromanother-2026/acT-wJGXnQHGY-7z_02_OneplusRaman_13small.jpg?auto=format,compress",
+        "id": "acT-wJGXnQHGY-7z",
+        "edit": {
+          "x": 0,
+          "y": 0,
+          "zoom": 1,
+          "background": "transparent"
+        }
+      },
+      "services_provided": [
+        {
+          "service": "Creative Direction"
+        },
+        {
+          "service": "Art Direction"
+        },
+        {
+          "service": "Production Management"
+        },
+        {
+          "service": "CGI Art"
+        }
+      ],
+      "media": [
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/acVmlJGXnQHGZA70_02_OneplusRaman_15.jpg?auto=format,compress",
+            "id": "acVmlJGXnQHGZA70",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {},
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 113
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/acT_m5GXnQHGY-8V_02_OneplusRaman_15copy.jpg?auto=format,compress",
+            "id": "acT_m5GXnQHGY-8V",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/acVmlZGXnQHGZA72_02_OneplusRaman_16.jpg?auto=format,compress",
+            "id": "acVmlZGXnQHGZA72",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {},
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 113
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/acT_nZGXnQHGY-8X_02_OneplusRaman_16copy.jpg?auto=format,compress",
+            "id": "acT_nZGXnQHGY-8X",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/acVmk5GXnQHGZA7z_02_OneplusRaman_14.jpg?auto=format,compress",
+            "id": "acVmk5GXnQHGZA7z",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {},
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 113
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/acT_mZGXnQHGY-8R_02_OneplusRaman_14copy.jpg?auto=format,compress",
+            "id": "acT_mZGXnQHGY-8R",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/acVmkpGXnQHGZA7x_02_OneplusRaman_12.jpg?auto=format,compress",
+            "id": "acVmkpGXnQHGZA7x",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {},
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 113
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/acT_l5GXnQHGY-8P_02_OneplusRaman_12copy.jpg?auto=format,compress",
+            "id": "acT_l5GXnQHGY-8P",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/acVmkZGXnQHGZA7w_02_OneplusRaman_11.jpg?auto=format,compress",
+            "id": "acVmkZGXnQHGZA7w",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {},
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 113
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/acT_lZGXnQHGY-8N_02_OneplusRaman_11copy.jpg?auto=format,compress",
+            "id": "acT_lZGXnQHGY-8N",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {},
+          "mobile_image": {},
+          "mux_id": "CHzLwrj00Ld38C4rQGZBbfyu64RIq6wtHo4Ng6D4C02Wg",
+          "video_url": "https://stream.mux.com/CHzLwrj00Ld38C4rQGZBbfyu64RIq6wtHo4Ng6D4C02Wg.m3u8",
+          "thumbnail": {
+            "dimensions": {
+              "width": 395,
+              "height": 222
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abpgALbci2UF6Kbf_02_OneplusRaman_02V.jpg?auto=format,compress",
+            "id": "abpgALbci2UF6Kbf",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2880,
+              "height": 1620
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/ac3vz5GXnQHGZMMq_02_OneplusRaman_07.jpg?auto=format,compress",
+            "id": "ac3vz5GXnQHGZMMq",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {
+            "dimensions": {
+              "width": 810,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/acyRVJGXnQHGZJsY_02_OneplusRaman_07M.jpg?auto=format,compress",
+            "id": "acyRVJGXnQHGZJsY",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 113
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/acyRp5GXnQHGZJsg_02_OneplusRaman_07copy.jpg?auto=format,compress",
+            "id": "acyRp5GXnQHGZJsg",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2801,
+              "height": 1576
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/ac3vz5GXnQHGZMMr_02_OneplusRaman_08.jpg?auto=format,compress",
+            "id": "ac3vz5GXnQHGZMMr",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {
+            "dimensions": {
+              "width": 810,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/acyRVZGXnQHGZJsZ_02_OneplusRaman_08M.jpg?auto=format,compress",
+            "id": "acyRVZGXnQHGZJsZ",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 113
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/acyRqJGXnQHGZJsh_02_OneplusRaman_08copy.jpg?auto=format,compress",
+            "id": "acyRqJGXnQHGZJsh",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2801,
+              "height": 1576
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/ac3v0JGXnQHGZMMs_02_OneplusRaman_09.jpg?auto=format,compress",
+            "id": "ac3v0JGXnQHGZMMs",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {
+            "dimensions": {
+              "width": 810,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/acyRVpGXnQHGZJsa_02_OneplusRaman_09M.jpg?auto=format,compress",
+            "id": "acyRVpGXnQHGZJsa",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 113
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/acyRqJGXnQHGZJsi_02_OneplusRaman_09copy.jpg?auto=format,compress",
+            "id": "acyRqJGXnQHGZJsi",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/ac3v0ZGXnQHGZMMt_02_OneplusRaman_10_05.jpg?auto=format,compress",
+            "id": "ac3v0ZGXnQHGZMMt",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {
+            "dimensions": {
+              "width": 810,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/acsxopGXnQHGZHVY_02_OneplusRaman_10M.jpg?auto=format,compress",
+            "id": "acsxopGXnQHGZHVY",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 113
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/acsxoJGXnQHGZHVX_02_OneplusRaman_10_small.jpg?auto=format,compress",
+            "id": "acsxoJGXnQHGZHVX",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        }
+      ],
+      "slices": [],
+      "template": null,
+      "meta_title": "fromanother | An All-New Audio Experience",
+      "meta_description": "The film introduces an all-new audio experience, redefining the way we listen, move, and feel music",
+      "meta_image": {
+        "dimensions": {
+          "width": 2400,
+          "height": 1260
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/fromanother-2026/acVmkJGXnQHGZA7u_02_OneplusRaman_13.jpg?auto=format,compress&rect=0,48,2560,1344&w=2400&h=1260",
+        "id": "acVmkJGXnQHGZA7u",
+        "edit": {
+          "x": 0,
+          "y": 48,
+          "zoom": 1,
+          "background": "transparent"
+        }
+      },
+      "case_year": null,
+      "case_kicker": null,
+      "case_headline": null,
+      "case_headline_accent": null,
+      "case_intro": null
+    }
+  }
+}

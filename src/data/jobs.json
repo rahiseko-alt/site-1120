@@ -1,0 +1,378 @@
+{
+  "heading": "Join our team",
+  "hidden": false,
+  "slices": [
+    {
+      "variation": "default",
+      "version": "initial",
+      "items": [],
+      "primary": {
+        "list": [
+          {
+            "item": {
+              "id": "aqtufhEAACwAosVQ",
+              "type": "career",
+              "tags": [],
+              "lang": "en-us",
+              "slug": "experiential-producer",
+              "first_publication_date": "2026-09-17T04:38:53+0000",
+              "last_publication_date": "2026-09-17T04:38:53+0000",
+              "uid": "experiential-producer",
+              "data": {
+                "role": "Experiential Producer",
+                "type": "Full-time | Freelance",
+                "location": "Ho Chi Minh City preferred | Remote",
+                "description": [
+                  {
+                    "type": "paragraph",
+                    "text": "$1a",
+                    "spans": [
+                      {
+                        "start": 335,
+                        "end": 351,
+                        "type": "em"
+                      },
+                      {
+                        "start": 1120,
+                        "end": 1132,
+                        "type": "em"
+                      },
+                      {
+                        "start": 1698,
+                        "end": 1710,
+                        "type": "em"
+                      },
+                      {
+                        "start": 1963,
+                        "end": 1979,
+                        "type": "em"
+                      },
+                      {
+                        "start": 2400,
+                        "end": 2409,
+                        "type": "hyperlink",
+                        "data": {
+                          "link_type": "Web",
+                          "url": "https://docs.google.com/forms/d/e/1FAIpQLScqOE738s-hEv8koVgJgxQ0F5T1pBNlAaNRqltcSwv7wAbh2w/viewform",
+                          "target": "_blank"
+                        }
+                      }
+                    ],
+                    "direction": "ltr"
+                  }
+                ]
+              },
+              "link_type": "Document",
+              "key": "8a3efe42-f946-4d44-b01d-efe88e5d32e4",
+              "isBroken": false
+            }
+          },
+          {
+            "item": {
+              "id": "acehRxEAACIA9nxx",
+              "type": "career",
+              "tags": [],
+              "lang": "en-us",
+              "slug": "real-time-artist",
+              "first_publication_date": "2026-03-28T09:39:08+0000",
+              "last_publication_date": "2026-09-17T04:40:53+0000",
+              "uid": "real-time-artist",
+              "data": {
+                "role": "Real-Time Artist",
+                "type": "Full-time | Freelance",
+                "location": "Ho Chi Minh City preferred | Remote",
+                "description": [
+                  {
+                    "type": "paragraph",
+                    "text": "$1b",
+                    "spans": [
+                      {
+                        "start": 313,
+                        "end": 329,
+                        "type": "em"
+                      },
+                      {
+                        "start": 966,
+                        "end": 978,
+                        "type": "em"
+                      },
+                      {
+                        "start": 1498,
+                        "end": 1510,
+                        "type": "em"
+                      },
+                      {
+                        "start": 1724,
+                        "end": 1740,
+                        "type": "em"
+                      },
+                      {
+                        "start": 2161,
+                        "end": 2170,
+                        "type": "hyperlink",
+                        "data": {
+                          "link_type": "Web",
+                          "url": "https://docs.google.com/forms/d/e/1FAIpQLSfN1gxw-OWGeWdX5AdRLcY_JtbVnHGloy4pjpwCrMU0lRPV1Q/viewform",
+                          "target": "_blank"
+                        }
+                      }
+                    ],
+                    "direction": "ltr"
+                  }
+                ]
+              },
+              "link_type": "Document",
+              "key": "0c9d5128-833a-4561-a269-a5115ad3b48b",
+              "isBroken": false
+            }
+          },
+          {
+            "item": {
+              "id": "aqtu8xEAACcAosYA",
+              "type": "career",
+              "tags": [],
+              "lang": "en-us",
+              "slug": "creative-technologist",
+              "first_publication_date": "2026-09-17T04:40:03+0000",
+              "last_publication_date": "2026-09-17T04:40:03+0000",
+              "uid": "creative-technologist",
+              "data": {
+                "role": "Creative Technologist",
+                "type": "Full-time | Freelance",
+                "location": "Ho Chi Minh City preferred | Remote",
+                "description": [
+                  {
+                    "type": "paragraph",
+                    "text": "$1c",
+                    "spans": [
+                      {
+                        "start": 297,
+                        "end": 313,
+                        "type": "em"
+                      },
+                      {
+                        "start": 1096,
+                        "end": 1108,
+                        "type": "em"
+                      },
+                      {
+                        "start": 1891,
+                        "end": 1903,
+                        "type": "em"
+                      },
+                      {
+                        "start": 2156,
+                        "end": 2172,
+                        "type": "em"
+                      },
+                      {
+                        "start": 2593,
+                        "end": 2602,
+                        "type": "hyperlink",
+                        "data": {
+                          "link_type": "Web",
+                          "url": "https://docs.google.com/forms/d/e/1FAIpQLSeXQ0iQmrly_oBu2N40XnBYjdAYdWnH4p23DxCrkQQPU5mTHA/viewform",
+                          "target": "_blank"
+                        }
+                      }
+                    ],
+                    "direction": "ltr"
+                  }
+                ]
+              },
+              "link_type": "Document",
+              "key": "c7f2173e-11d3-44e6-9d19-4c5ac5447c71",
+              "isBroken": false
+            }
+          },
+          {
+            "item": {
+              "id": "aqt02BEAACcAos4b",
+              "type": "career",
+              "tags": [],
+              "lang": "en-us",
+              "slug": "business-developer",
+              "first_publication_date": "2026-09-17T05:05:05+0000",
+              "last_publication_date": "2026-09-17T05:08:03+0000",
+              "uid": "business-developer",
+              "data": {
+                "role": "Business Developer",
+                "type": "Full-time | Freelance",
+                "location": "Ho Chi Minh City preferred | Remote",
+                "description": [
+                  {
+                    "type": "paragraph",
+                    "text": "$1d",
+                    "spans": [
+                      {
+                        "start": 2501,
+                        "end": 2510,
+                        "type": "hyperlink",
+                        "data": {
+                          "link_type": "Web",
+                          "url": "https://docs.google.com/forms/d/e/1FAIpQLSfSqphcm5IpvsREg3HcwvopHEOGtWSBxYpRz5SF52TJzx77-A/viewform",
+                          "target": "_blank"
+                        }
+                      }
+                    ],
+                    "direction": "ltr"
+                  }
+                ]
+              },
+              "link_type": "Document",
+              "key": "e4bbf4b7-4504-494c-afab-c2b7fb647b7c",
+              "isBroken": false
+            }
+          }
+        ]
+      },
+      "id": "career_list$89e18d06-e411-4473-bf0b-7980e182f864",
+      "slice_type": "career_list",
+      "slice_label": null
+    }
+  ],
+  "globalDocument": {
+    "id": "aUZcMRIAACIA1qBB",
+    "uid": null,
+    "url": null,
+    "type": "global",
+    "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22aUZcMRIAACIA1qBB%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2025-12-20T08:23:32+0000",
+    "last_publication_date": "2026-05-11T06:32:53+0000",
+    "slugs": [
+      "global"
+    ],
+    "linked_documents": [],
+    "lang": "en-us",
+    "alternate_languages": [],
+    "data": {
+      "branches": [
+        {
+          "utc": 7,
+          "country": "Vietnam",
+          "address_block": [
+            {
+              "type": "paragraph",
+              "text": "Midtown, Phu My Hung\nHo Chi Minh city",
+              "spans": [],
+              "direction": "ltr"
+            }
+          ],
+          "phone_number": "+84 91 9922034"
+        },
+        {
+          "utc": 8,
+          "country": "China",
+          "address_block": [
+            {
+              "type": "paragraph",
+              "text": "193 Lockart Road,\nHong Kong",
+              "spans": [],
+              "direction": "ltr"
+            }
+          ],
+          "phone_number": "+86 186 16222144"
+        },
+        {
+          "utc": 1,
+          "country": "France",
+          "address_block": [
+            {
+              "type": "paragraph",
+              "text": "64-66 Rue des Archives, 75003 Paris, France",
+              "spans": [],
+              "direction": "ltr"
+            }
+          ],
+          "phone_number": "+33 56 3264235"
+        }
+      ],
+      "socials": [
+        {
+          "link_type": "Web",
+          "key": "5f4d63f4-c3b2-4722-98ca-4956b7991e0d",
+          "url": "https://www.facebook.com/fromanotherlove",
+          "target": "_blank",
+          "text": "Facebook"
+        },
+        {
+          "link_type": "Web",
+          "key": "fe699d5f-2f24-466d-82bf-4fb807de169b",
+          "url": "https://www.linkedin.com/company/fromanotherlove/",
+          "target": "_blank",
+          "text": "LinkedIn"
+        },
+        {
+          "link_type": "Web",
+          "key": "6b89671e-1624-4cfa-81db-19126c90cd83",
+          "url": "https://www.instagram.com/fromanother.love/",
+          "target": "_blank",
+          "text": "Instagram"
+        }
+      ],
+      "email_address": "firstcontact@fromanother.love",
+      "slices": [
+        {
+          "variation": "default",
+          "version": "initial",
+          "items": [],
+          "primary": {
+            "featured_word": [
+              {
+                "word": "something"
+              },
+              {
+                "word": "impact"
+              },
+              {
+                "word": "stories"
+              },
+              {
+                "word": "future"
+              }
+            ],
+            "thumbnail_mux_id": "IKwT5z3LAi601P01OKfmNbH02rHsMhgMbyQmGXJVfJGilk",
+            "thumbnail_video_url": "https://stream.mux.com/IKwT5z3LAi601P01OKfmNbH02rHsMhgMbyQmGXJVfJGilk.m3u8"
+          },
+          "id": "footer$f2d60727-9748-4fb5-ad4e-d34a8e6233e2",
+          "slice_type": "footer",
+          "slice_label": null
+        },
+        {
+          "variation": "default",
+          "version": "initial",
+          "items": [],
+          "primary": {
+            "thumbnail_video_url": "https://stream.mux.com/uKkmm51HPsTGQzUqQMxVUV8eI01BykKYUGKvFALbiP7U.m3u8"
+          },
+          "id": "menu$4047c827-60ff-4e4e-a5ca-e9c2620b0f15",
+          "slice_type": "menu",
+          "slice_label": null
+        }
+      ],
+      "meta_title": "fromanother",
+      "meta_description": "We are a human-driven Creative Design Agency/Studio/Collective",
+      "meta_image": {
+        "dimensions": {
+          "width": 2400,
+          "height": 1260
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/fromanother-2026/abLhU1xvIZEnjnzT_Opengraph.jpg?auto=format,compress&rect=0,0,1200,630&w=2400&h=1260",
+        "id": "abLhU1xvIZEnjnzT",
+        "edit": {
+          "x": 0,
+          "y": 0,
+          "zoom": 1,
+          "background": "transparent"
+        }
+      }
+    }
+  },
+  "footerMedia": {
+    "videoUrl": "https://stream.mux.com/I4TRvw00c35NNb4GOLtW02YR01knVVfLB3FNR8aage009uo.m3u8?token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IldrTEJtb0h0Q2JBNVhRTTAybzU3aVlJVW5KRDhDd2hacjJ3N1pYc01hQzlJIn0.eyJzdWIiOiJJNFRSdncwMGMzNU5OYjRHT0x0VzAyWVIwMWtuVlZmTEIzRk5SOGFhZ2UwMDl1byIsImF1ZCI6InYiLCJleHAiOjE3OTUyNjQ4NjEsIm1heF9yZXNvbHV0aW9uIjoiNTQwcCIsInBsYXliYWNrX3Jlc3RyaWN0aW9uX2lkIjoiQVlnOWJMMWNMR3lKdDNnNUhCZkZkMDBjVU90SjQyTEsxeVJNWVMxMDIzUm80In0.CH2aezcIvHD6vnZXIy9JIZUukvnGM04ZJVzMAWwcvkrYdjLSgs4KwWgQsmY1hQ7cfzeaCC7yHMXxiKFYeKVHE97G8kXxWpN0nThcg8UcYiXuxD1G0kxGme_A9TbIyefP0CCW5uFrLVPqlTPc9KKU29G1Jf6F5NCIq19TpLxOawzTtnnecqnDvye2JqcgFDE88xxjsR6dvQcyVZkmSVyhoD7sGShMr6kIcG3aaujLPRkWs7DDmbLkgyIPq7ICySzJ7hI1GrpAXHOZ0a2y4gX-yBWvRtFbl_PU8LqX4xRjDqfrhbqegLEYsRJCazNYk2szpXvvd69BrOMeH_Sr1z4Mww",
+    "posterUrl": "https://image.mux.com/I4TRvw00c35NNb4GOLtW02YR01knVVfLB3FNR8aage009uo/thumbnail.jpg?token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IldrTEJtb0h0Q2JBNVhRTTAybzU3aVlJVW5KRDhDd2hacjJ3N1pYc01hQzlJIn0.eyJzdWIiOiJJNFRSdncwMGMzNU5OYjRHT0x0VzAyWVIwMWtuVlZmTEIzRk5SOGFhZ2UwMDl1byIsImF1ZCI6InQiLCJleHAiOjE3OTUyNjQ4NjEsInBsYXliYWNrX3Jlc3RyaWN0aW9uX2lkIjoiQVlnOWJMMWNMR3lKdDNnNUhCZkZkMDBjVU90SjQyTEsxeVJNWVMxMDIzUm80In0.ZdEtpxRf7TokIaFNhvs_RzYvNNi4gPmutZUZdGZpEThdTmU-RNEm8yCkDfMAuWPmg0SGXKQJKcYE3oaEgVHDApRjaUHfSVu4PhUB51fJ8d7MkiFVEEFqLblTc9rN4CGpVA_nxE3BRjKE2aKN0EejdRDKxTaCM9aTJhORQVAGOpooOe0QhflHIWozsAOnMy6ja5OOy9MdzNdRo6B8UXLM3TEVVgGYs7clrajxAIwRho4J19sIWE8B2wzmv-55oCZdwGzEUzmWm4-HD1QIGfBjooFykjiP6Og_yONBHMx41RotDa-URAnWRAsb0S6AQkXZxoh0hhxIJXVTssu9qXpJVA"
+  }
+}

@@ -1,0 +1,361 @@
+{
+  "project": {
+    "id": "abu8EREAACEA3zu-",
+    "uid": "cartier-vision-pro",
+    "url": "/work/cartier-vision-pro",
+    "type": "projects",
+    "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22abu8EREAACEA3zu-%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2026-03-19T09:09:27+0000",
+    "last_publication_date": "2026-04-09T12:21:37+0000",
+    "slugs": [
+      "16"
+    ],
+    "linked_documents": [],
+    "lang": "en-us",
+    "alternate_languages": [],
+    "data": {
+      "hidden": false,
+      "order": 16,
+      "categories": [
+        {
+          "category": {
+            "id": "aVgzDRIAACAA8CuP",
+            "type": "project_categories",
+            "tags": [],
+            "lang": "en-us",
+            "slug": "experiential",
+            "first_publication_date": "2026-01-02T21:05:28+0000",
+            "last_publication_date": "2026-01-02T21:05:28+0000",
+            "uid": "experiential",
+            "data": {
+              "name": "Experiential"
+            },
+            "link_type": "Document",
+            "key": "775ad98a-d7b0-49ee-a319-7b99b8cecce6",
+            "isBroken": false
+          }
+        },
+        {
+          "category": {
+            "id": "aVgyxxIAACIA8Csm",
+            "type": "project_categories",
+            "tags": [],
+            "lang": "en-us",
+            "slug": "cgi-production",
+            "first_publication_date": "2026-01-02T21:04:18+0000",
+            "last_publication_date": "2026-01-02T21:04:18+0000",
+            "uid": "cgi-production",
+            "data": {
+              "name": "CGI Production"
+            },
+            "link_type": "Document",
+            "key": "94f7db8b-8cb0-4c41-ba61-1d0533addb68",
+            "isBroken": false
+          }
+        }
+      ],
+      "name": "Cartier Vision",
+      "client": {
+        "link_type": "Document"
+      },
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "A conceptual project reimagining how Cartier could connect with clients through Apple Vision Pro, plus an interactive digital art installation for the Cartier Japan office.",
+          "spans": [],
+          "direction": "ltr"
+        }
+      ],
+      "detail_description": [
+        {
+          "type": "paragraph",
+          "text": "In late 2023, we approached Cartier Japan with two unsolicited concepts. The first: a spatial retail experience using AR try-on for jewelry and watches on a headset — months before Apple Vision Pro launched. The second: Cartier Canvas, an interactive art installation for an underused screen at Cartier Lab Tokyo, proposed after their creative lead shared the problem with us directly. Neither moved to production, but both came from being close enough to the brand to see what's next.",
+          "spans": [],
+          "direction": "ltr"
+        }
+      ],
+      "teams": [
+        {
+          "team_name": "fromanother"
+        }
+      ],
+      "link": {
+        "link_type": "Any"
+      },
+      "card_thumbnail": {
+        "dimensions": {
+          "width": 2560,
+          "height": 1440
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/fromanother-2026/acNoMZGXnQHGY7-y_16_CartierVisionPro_01.jpg?auto=format,compress",
+        "id": "acNoMZGXnQHGY7-y",
+        "edit": {
+          "x": 0,
+          "y": 0,
+          "zoom": 1,
+          "background": "transparent"
+        }
+      },
+      "small_card_thumbnail": {
+        "dimensions": {
+          "width": 200,
+          "height": 113
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/fromanother-2026/acNoMZGXnQHGY7-z_16_CartierVisionPro_01small.jpg?auto=format,compress",
+        "id": "acNoMZGXnQHGY7-z",
+        "edit": {
+          "x": 0,
+          "y": 0,
+          "zoom": 1,
+          "background": "transparent"
+        }
+      },
+      "services_provided": [
+        {
+          "service": "Creative Direction"
+        },
+        {
+          "service": "Art Direction"
+        },
+        {
+          "service": "CGI Production"
+        },
+        {
+          "service": "Interactive Tech"
+        }
+      ],
+      "media": [
+        {
+          "image": {
+            "dimensions": {
+              "width": 3802,
+              "height": 2138
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/adc-zp1ZCF7ETAE3_16_CartierVisionPro_04.jpg?auto=format,compress",
+            "id": "adc-zp1ZCF7ETAE3",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {
+            "dimensions": {
+              "width": 1080,
+              "height": 1920
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/adc-151ZCF7ETAE8_16_CartierVisionPro_04M.jpg?auto=format,compress",
+            "id": "adc-151ZCF7ETAE8",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 112
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/adc-zZ1ZCF7ETAE2_16_CartierVisionPro_04_small.jpg?auto=format,compress",
+            "id": "adc-zZ1ZCF7ETAE2",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {},
+          "mobile_image": {},
+          "mux_id": "dwdn02a6J7WNlzF23Yz0061Z02gdomxsxai5H1BQ4orvLo",
+          "video_url": "https://stream.mux.com/dwdn02a6J7WNlzF23Yz0061Z02gdomxsxai5H1BQ4orvLo.m3u8",
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 113
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abu9Fbbci2UF6QXC_16_Cartiervisionpro_02_small.jpg?auto=format,compress",
+            "id": "abu9Fbbci2UF6QXC",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 3806,
+              "height": 2118
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/adc-z51ZCF7ETAE5_16_CartierVisionPro_05.jpg?auto=format,compress",
+            "id": "adc-z51ZCF7ETAE5",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {
+            "dimensions": {
+              "width": 1080,
+              "height": 1920
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/adc-2Z1ZCF7ETAE9_16_CartierVisionPro_05M.jpg?auto=format,compress",
+            "id": "adc-2Z1ZCF7ETAE9",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 111
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/adc-zp1ZCF7ETAE4_16_CartierVisionPro_05_small.jpg?auto=format,compress",
+            "id": "adc-zp1ZCF7ETAE4",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 3812,
+              "height": 2132
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/adc-0Z1ZCF7ETAE7_16_CartierVisionPro_06.jpg?auto=format,compress",
+            "id": "adc-0Z1ZCF7ETAE7",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {
+            "dimensions": {
+              "width": 1080,
+              "height": 1920
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/adc-2p1ZCF7ETAE-_16_CartierVisionPro_06M.jpg?auto=format,compress",
+            "id": "adc-2p1ZCF7ETAE-",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 112
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/adc-0J1ZCF7ETAE6_16_CartierVisionPro_06_small.jpg?auto=format,compress",
+            "id": "adc-0J1ZCF7ETAE6",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {},
+          "mobile_image": {},
+          "mux_id": "gwn1Opm602xvG02DyKrLfH4y5M7jIqID9dv601PPKgVg02o",
+          "video_url": "https://stream.mux.com/gwn1Opm602xvG02DyKrLfH4y5M7jIqID9dv601PPKgVg02o.m3u8",
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 113
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abu9Fbbci2UF6QXD_16_Cartiervisionpro_03_small.jpg?auto=format,compress",
+            "id": "abu9Fbbci2UF6QXD",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        }
+      ],
+      "slices": [],
+      "template": null,
+      "meta_title": "fromanother | Cartier Vision",
+      "meta_description": "A conceptual project reimagining how Cartier could connect with clients through Apple Vision Pro, plus a permanent interactive digital art installation for the Cartier Japan office.",
+      "meta_image": {
+        "dimensions": {
+          "width": 2400,
+          "height": 1260
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/fromanother-2026/acNoMZGXnQHGY7-y_16_CartierVisionPro_01.jpg?auto=format,compress&rect=0,48,2560,1344&w=2400&h=1260",
+        "id": "acNoMZGXnQHGY7-y",
+        "edit": {
+          "x": 0,
+          "y": 48,
+          "zoom": 1,
+          "background": "transparent"
+        }
+      },
+      "case_year": null,
+      "case_kicker": null,
+      "case_headline": null,
+      "case_headline_accent": null,
+      "case_intro": null
+    }
+  }
+}

@@ -1,0 +1,1487 @@
+{
+  "labs": [
+    {
+      "id": "ad3_KhIAACMAPfhR",
+      "uid": "wonderland-2021",
+      "url": null,
+      "type": "labs",
+      "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22ad3_KhIAACMAPfhR%22%29+%5D%5D",
+      "tags": [],
+      "first_publication_date": "2026-04-14T08:48:02+0000",
+      "last_publication_date": "2026-04-14T08:48:02+0000",
+      "slugs": [
+        "9vp1kmg2u02mu34hz3f2frzqmllkcu5eamyiam51lahe"
+      ],
+      "linked_documents": [],
+      "lang": "en-us",
+      "alternate_languages": [],
+      "data": {
+        "thumbnail": {},
+        "video_url": "9Vp1kMG2U02Mu34hZ3f2fRzQMLLkCu5EaMYiaM51lAhE",
+        "use_video": true,
+        "mux_id": "https://stream.mux.com/9Vp1kMG2U02Mu34hZ3f2fRzQMLLkCu5EaMYiaM51lAhE.m3u8",
+        "slices": [],
+        "meta_title": null,
+        "meta_description": null,
+        "meta_image": {}
+      }
+    },
+    {
+      "id": "ad39SRIAACIAPfUn",
+      "uid": "lab_36",
+      "url": null,
+      "type": "labs",
+      "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22ad39SRIAACIAPfUn%22%29+%5D%5D",
+      "tags": [],
+      "first_publication_date": "2026-04-14T08:40:03+0000",
+      "last_publication_date": "2026-04-14T08:40:03+0000",
+      "slugs": [
+        "r4shvlc00szvrxo1wxtghpqblndlrnwh2zcvkyfjsole"
+      ],
+      "linked_documents": [],
+      "lang": "en-us",
+      "alternate_languages": [],
+      "data": {
+        "thumbnail": {},
+        "video_url": "R4ShvLc00SZVRXo1WxtghpQBlnDlrNwh2ZCvkYfjSOLE",
+        "use_video": true,
+        "mux_id": "https://stream.mux.com/R4ShvLc00SZVRXo1WxtghpQBlnDlrNwh2ZCvkYfjSOLE.m3u8",
+        "slices": [],
+        "meta_title": null,
+        "meta_description": null,
+        "meta_image": {}
+      }
+    },
+    {
+      "id": "ajqf4REAAC0AbxS6",
+      "uid": "lab-45",
+      "url": null,
+      "type": "labs",
+      "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22ajqf4REAAC0AbxS6%22%29+%5D%5D",
+      "tags": [],
+      "first_publication_date": "2026-06-23T15:02:44+0000",
+      "last_publication_date": "2026-06-23T15:02:44+0000",
+      "slugs": [
+        "9uf00bia6xax6qgbj02y4fhzxkzmdg7y7m5vbd00ti7ez4"
+      ],
+      "linked_documents": [],
+      "lang": "en-us",
+      "alternate_languages": [],
+      "data": {
+        "thumbnail": {},
+        "video_url": "9UF00BIA6XAx6qGBj02y4FhZXKzMDg7Y7M5vbD00ti7ez4",
+        "use_video": true,
+        "mux_id": "https://stream.mux.com/9UF00BIA6XAx6qGBj02y4FhZXKzMDg7Y7M5vbD00ti7ez4.m3u8",
+        "slices": [],
+        "meta_title": null,
+        "meta_description": null,
+        "meta_image": {}
+      }
+    },
+    {
+      "id": "ac-dYxEAACEAAmM4",
+      "uid": "lab-12",
+      "url": null,
+      "type": "labs",
+      "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22ac-dYxEAACEAAmM4%22%29+%5D%5D",
+      "tags": [],
+      "first_publication_date": "2026-04-03T10:59:06+0000",
+      "last_publication_date": "2026-06-23T15:18:57+0000",
+      "slugs": [
+        "1kx0201h01hnsnm2ugutj7h0000w500fmdt5gv4e7pa01xtfkg"
+      ],
+      "linked_documents": [],
+      "lang": "en-us",
+      "alternate_languages": [],
+      "data": {
+        "thumbnail": {
+          "dimensions": {
+            "width": 2000,
+            "height": 1664
+          },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/fromanother-2026/ac-dVZGXnQHGZPuG_Lab_12.jpg?auto=format,compress",
+          "id": "ac-dVZGXnQHGZPuG",
+          "edit": {
+            "x": 0,
+            "y": 0,
+            "zoom": 1,
+            "background": "transparent"
+          }
+        },
+        "video_url": "1KX0201h01hnSnm2uGUtj7H0000w500fMdT5Gv4e7Pa01xTfKg",
+        "use_video": true,
+        "mux_id": "https://stream.mux.com/1KX0201h01hnSnm2uGUtj7H0000w500fMdT5Gv4e7Pa01xTfKg.m3u8",
+        "slices": [],
+        "meta_title": null,
+        "meta_description": null,
+        "meta_image": {}
+      }
+    },
+    {
+      "id": "ad4DKxIAACAAPf9X",
+      "uid": "summer",
+      "url": null,
+      "type": "labs",
+      "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22ad4DKxIAACAAPf9X%22%29+%5D%5D",
+      "tags": [],
+      "first_publication_date": "2026-04-14T09:05:10+0000",
+      "last_publication_date": "2026-04-14T09:05:15+0000",
+      "slugs": [
+        "v2k1du3rwhpohknqy1002zszhpxu02crbx9z6fqwsbfqg"
+      ],
+      "linked_documents": [],
+      "lang": "en-us",
+      "alternate_languages": [],
+      "data": {
+        "thumbnail": {},
+        "video_url": "V2K1du3RwHpoHkNQY1002zsZHpxu02cRBx9z6FQWsBFQg",
+        "use_video": true,
+        "mux_id": "https://stream.mux.com/V2K1du3RwHpoHkNQY1002zsZHpxu02cRBx9z6FQWsBFQg.m3u8",
+        "slices": [],
+        "meta_title": null,
+        "meta_description": null,
+        "meta_image": {}
+      }
+    },
+    {
+      "id": "ad391xIAACEAPfYU",
+      "uid": "nike-beijing-99",
+      "url": null,
+      "type": "labs",
+      "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22ad391xIAACEAPfYU%22%29+%5D%5D",
+      "tags": [],
+      "first_publication_date": "2026-04-14T08:42:55+0000",
+      "last_publication_date": "2026-04-14T08:42:55+0000",
+      "slugs": [
+        "fnzec02cmxtgtg6clov3i02ezhn9f014eij3sbmbq00wzf00"
+      ],
+      "linked_documents": [],
+      "lang": "en-us",
+      "alternate_languages": [],
+      "data": {
+        "thumbnail": {},
+        "video_url": "FnzeC02CmxTGTG6cLOV3I02eZhN9F014eij3sBmBQ00wZF00",
+        "use_video": true,
+        "mux_id": "https://stream.mux.com/FnzeC02CmxTGTG6cLOV3I02eZhN9F014eij3sBmBQ00wZF00.m3u8",
+        "slices": [],
+        "meta_title": null,
+        "meta_description": null,
+        "meta_image": {}
+      }
+    },
+    {
+      "id": "ad3_ABIAACAAPfgI",
+      "uid": "wk-shanghai-halloween",
+      "url": null,
+      "type": "labs",
+      "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22ad3_ABIAACAAPfgI%22%29+%5D%5D",
+      "tags": [],
+      "first_publication_date": "2026-04-14T08:47:27+0000",
+      "last_publication_date": "2026-04-14T08:47:27+0000",
+      "slugs": [
+        "smr4lyu6dso01y6srtnhew2xwe6cpipmcvz1ojd1ikue"
+      ],
+      "linked_documents": [],
+      "lang": "en-us",
+      "alternate_languages": [],
+      "data": {
+        "thumbnail": {},
+        "video_url": "SMr4LYu6dSO01y6SrTNHEw2Xwe6CpiPMcvZ1oJd1IKUE",
+        "use_video": true,
+        "mux_id": "https://stream.mux.com/SMr4LYu6dSO01y6SrTNHEw2Xwe6CpiPMcvZ1oJd1IKUE.m3u8",
+        "slices": [],
+        "meta_title": null,
+        "meta_description": null,
+        "meta_image": {}
+      }
+    },
+    {
+      "id": "ad39GhIAACAAPfTS",
+      "uid": "lab_15",
+      "url": null,
+      "type": "labs",
+      "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22ad39GhIAACAAPfTS%22%29+%5D%5D",
+      "tags": [],
+      "first_publication_date": "2026-04-14T08:39:24+0000",
+      "last_publication_date": "2026-04-14T08:39:24+0000",
+      "slugs": [
+        "801rgqmqn5rlwqgdlwgvfets02iwfyvdpfh4vefear9rs"
+      ],
+      "linked_documents": [],
+      "lang": "en-us",
+      "alternate_languages": [],
+      "data": {
+        "thumbnail": {},
+        "video_url": "801RgQMqn5RLwqgdLWGVFetS02IwfYvDPfH4vEfEAR9rs",
+        "use_video": true,
+        "mux_id": "https://stream.mux.com/801RgQMqn5RLwqgdLWGVFetS02IwfYvDPfH4vEfEAR9rs.m3u8",
+        "slices": [],
+        "meta_title": null,
+        "meta_description": null,
+        "meta_image": {}
+      }
+    },
+    {
+      "id": "ad4CyRIAACEAPf6W",
+      "uid": "night-goggles",
+      "url": null,
+      "type": "labs",
+      "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22ad4CyRIAACEAPf6W%22%29+%5D%5D",
+      "tags": [],
+      "first_publication_date": "2026-04-14T09:04:20+0000",
+      "last_publication_date": "2026-04-14T09:04:38+0000",
+      "slugs": [
+        "2wtcraqri6debtt302qlcle4xyirl4ig01mpmbhploos8"
+      ],
+      "linked_documents": [],
+      "lang": "en-us",
+      "alternate_languages": [],
+      "data": {
+        "thumbnail": {},
+        "video_url": "2wTCRAqri6debtt302QLCle4XyIRL4IG01mpmBhPLOOS8",
+        "use_video": true,
+        "mux_id": "https://stream.mux.com/2wTCRAqri6debtt302QLCle4XyIRL4IG01mpmBhPLOOS8.m3u8",
+        "slices": [],
+        "meta_title": null,
+        "meta_description": null,
+        "meta_image": {}
+      }
+    },
+    {
+      "id": "ad3-dRIAACAAPfcV",
+      "uid": "swift-love",
+      "url": null,
+      "type": "labs",
+      "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22ad3-dRIAACAAPfcV%22%29+%5D%5D",
+      "tags": [],
+      "first_publication_date": "2026-04-14T08:45:03+0000",
+      "last_publication_date": "2026-04-14T08:45:03+0000",
+      "slugs": [
+        "aq18xeqwhohnllnyrjsngeikvajwf1zp5zuygyu01yle"
+      ],
+      "linked_documents": [],
+      "lang": "en-us",
+      "alternate_languages": [],
+      "data": {
+        "thumbnail": {},
+        "video_url": "aq18xEQwHoHnllnyRjsNGEIKvajwF1Zp5zuyGYu01yLE",
+        "use_video": true,
+        "mux_id": "https://stream.mux.com/aq18xEQwHoHnllnyRjsNGEIKvajwF1Zp5zuyGYu01yLE.m3u8",
+        "slices": [],
+        "meta_title": null,
+        "meta_description": null,
+        "meta_image": {}
+      }
+    },
+    {
+      "id": "ajqgHREAACcAbxUy",
+      "uid": "lab-46",
+      "url": null,
+      "type": "labs",
+      "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22ajqgHREAACcAbxUy%22%29+%5D%5D",
+      "tags": [],
+      "first_publication_date": "2026-06-23T15:03:44+0000",
+      "last_publication_date": "2026-06-23T15:03:44+0000",
+      "slugs": [
+        "pkf8rdxtck4va7bo322wkvx3pprr4iguxqupag02l01xg"
+      ],
+      "linked_documents": [],
+      "lang": "en-us",
+      "alternate_languages": [],
+      "data": {
+        "thumbnail": {},
+        "video_url": "PkF8RDxtcK4vA7Bo322wKvX3PprR4iGUxQupaG02L01xg",
+        "use_video": true,
+        "mux_id": "https://stream.mux.com/PkF8RDxtcK4vA7Bo322wKvX3PprR4iGUxQupaG02L01xg.m3u8",
+        "slices": [],
+        "meta_title": null,
+        "meta_description": null,
+        "meta_image": {}
+      }
+    },
+    {
+      "id": "ajqejBEAACkAbxIV",
+      "uid": "lab-42",
+      "url": null,
+      "type": "labs",
+      "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22ajqejBEAACkAbxIV%22%29+%5D%5D",
+      "tags": [],
+      "first_publication_date": "2026-06-23T14:58:44+0000",
+      "last_publication_date": "2026-06-23T14:58:44+0000",
+      "slugs": [
+        "ajhfx2mivipwnmzsvofen02siulmehdaot01kytqugyjw"
+      ],
+      "linked_documents": [],
+      "lang": "en-us",
+      "alternate_languages": [],
+      "data": {
+        "thumbnail": {},
+        "video_url": "AJhfX2mIViPWNMzsvoFEn02sIUlmEHDAoT01kytqugyjw",
+        "use_video": true,
+        "mux_id": "https://stream.mux.com/AJhfX2mIViPWNMzsvoFEn02sIUlmEHDAoT01kytqugyjw.m3u8",
+        "slices": [],
+        "meta_title": null,
+        "meta_description": null,
+        "meta_image": {}
+      }
+    },
+    {
+      "id": "ad38hRIAACEAPfPG",
+      "uid": "condition",
+      "url": null,
+      "type": "labs",
+      "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22ad38hRIAACEAPfPG%22%29+%5D%5D",
+      "tags": [],
+      "first_publication_date": "2026-04-14T08:36:50+0000",
+      "last_publication_date": "2026-04-14T08:36:50+0000",
+      "slugs": [
+        "gdutekyob5ylekhqjmak7pzzvb102vt26dkxznezmqyo"
+      ],
+      "linked_documents": [],
+      "lang": "en-us",
+      "alternate_languages": [],
+      "data": {
+        "thumbnail": {},
+        "video_url": "gdutekyOB5YlEKhqJMak7pzzVB102Vt26dKXZnEzMqyo",
+        "use_video": true,
+        "mux_id": "https://stream.mux.com/gdutekyOB5YlEKhqJMak7pzzVB102Vt26dKXZnEzMqyo.m3u8",
+        "slices": [],
+        "meta_title": null,
+        "meta_description": null,
+        "meta_image": {}
+      }
+    },
+    {
+      "id": "ajqfVxEAACsAbxPI",
+      "uid": "lab-43",
+      "url": null,
+      "type": "labs",
+      "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22ajqfVxEAACsAbxPI%22%29+%5D%5D",
+      "tags": [],
+      "first_publication_date": "2026-06-23T15:00:53+0000",
+      "last_publication_date": "2026-06-23T15:00:53+0000",
+      "slugs": [
+        "02hjrcqihgn00yrgvns6xtjvxvxqjfr1ftkeiscx2seyg"
+      ],
+      "linked_documents": [],
+      "lang": "en-us",
+      "alternate_languages": [],
+      "data": {
+        "thumbnail": {},
+        "video_url": "02hjRCqIHGN00yrGVNS6xtjVxvxqJfr1fTKEiScX2SEyg",
+        "use_video": true,
+        "mux_id": "https://stream.mux.com/02hjRCqIHGN00yrGVNS6xtjVxvxqJfr1fTKEiScX2SEyg.m3u8",
+        "slices": [],
+        "meta_title": null,
+        "meta_description": null,
+        "meta_image": {}
+      }
+    },
+    {
+      "id": "ajqfsBEAAC4AbxRh",
+      "uid": "lab-44",
+      "url": null,
+      "type": "labs",
+      "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22ajqfsBEAAC4AbxRh%22%29+%5D%5D",
+      "tags": [],
+      "first_publication_date": "2026-06-23T15:01:44+0000",
+      "last_publication_date": "2026-06-23T15:01:44+0000",
+      "slugs": [
+        "lab-44"
+      ],
+      "linked_documents": [],
+      "lang": "en-us",
+      "alternate_languages": [],
+      "data": {
+        "thumbnail": {
+          "dimensions": {
+            "width": 1440,
+            "height": 1800
+          },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/fromanother-2026/ajqfzlbRV8_Qfxhm_Lab44.jpeg?auto=format,compress",
+          "id": "ajqfzlbRV8_Qfxhm",
+          "edit": {
+            "x": 0,
+            "y": 0,
+            "zoom": 1,
+            "background": "transparent"
+          }
+        },
+        "video_url": null,
+        "use_video": true,
+        "mux_id": null,
+        "slices": [],
+        "meta_title": null,
+        "meta_description": null,
+        "meta_image": {}
+      }
+    },
+    {
+      "id": "ad39lBIAACIAPfWs",
+      "uid": "memory",
+      "url": null,
+      "type": "labs",
+      "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22ad39lBIAACIAPfWs%22%29+%5D%5D",
+      "tags": [],
+      "first_publication_date": "2026-04-14T08:41:17+0000",
+      "last_publication_date": "2026-04-14T08:41:17+0000",
+      "slugs": [
+        "sgvlnw01rt02jqoq9e4qysdcjfcqrxhkkb7i2wckumw2g"
+      ],
+      "linked_documents": [],
+      "lang": "en-us",
+      "alternate_languages": [],
+      "data": {
+        "thumbnail": {},
+        "video_url": "sGVLNW01rT02JQoq9E4QySDcjFCQrxHkkB7I2WCkUMw2g",
+        "use_video": true,
+        "mux_id": "https://stream.mux.com/sGVLNW01rT02JQoq9E4QySDcjFCQrxHkkB7I2WCkUMw2g.m3u8",
+        "slices": [],
+        "meta_title": null,
+        "meta_description": null,
+        "meta_image": {}
+      }
+    },
+    {
+      "id": "ad39chIAACIAPfVu",
+      "uid": "lab_41",
+      "url": null,
+      "type": "labs",
+      "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22ad39chIAACIAPfVu%22%29+%5D%5D",
+      "tags": [],
+      "first_publication_date": "2026-04-14T08:40:42+0000",
+      "last_publication_date": "2026-04-14T08:40:42+0000",
+      "slugs": [
+        "k7khmatqu3dlcbxe02yuzru022vwsmer2e02l2eq6c02sca"
+      ],
+      "linked_documents": [],
+      "lang": "en-us",
+      "alternate_languages": [],
+      "data": {
+        "thumbnail": {},
+        "video_url": "k7kHmAtQu3DLcBXE02YUZrU022vWsMER2E02L2EQ6c02SCA",
+        "use_video": true,
+        "mux_id": "https://stream.mux.com/k7kHmAtQu3DLcBXE02YUZrU022vWsMER2E02L2EQ6c02SCA.m3u8",
+        "slices": [],
+        "meta_title": null,
+        "meta_description": null,
+        "meta_image": {}
+      }
+    },
+    {
+      "id": "ad37oBIAACEAPfIj",
+      "uid": "88-wavs---stylss-animation",
+      "url": null,
+      "type": "labs",
+      "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22ad37oBIAACEAPfIj%22%29+%5D%5D",
+      "tags": [],
+      "first_publication_date": "2026-04-14T08:33:18+0000",
+      "last_publication_date": "2026-04-14T08:33:18+0000",
+      "slugs": [
+        "ddwjhnz6hhlnor02hcctqv7fised7zfbndau4wum845a"
+      ],
+      "linked_documents": [],
+      "lang": "en-us",
+      "alternate_languages": [],
+      "data": {
+        "thumbnail": {},
+        "video_url": "DDwjhNZ6hhLNor02hcctQv7fIsED7zfBndaU4WUM845A",
+        "use_video": true,
+        "mux_id": "https://stream.mux.com/DDwjhNZ6hhLNor02hcctQv7fIsED7zfBndaU4WUM845A.m3u8",
+        "slices": [],
+        "meta_title": null,
+        "meta_description": null,
+        "meta_image": {}
+      }
+    },
+    {
+      "id": "ad37PRIAACIAPfFb",
+      "uid": "hope-you-will-have-a-non-working-holiday",
+      "url": null,
+      "type": "labs",
+      "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22ad37PRIAACIAPfFb%22%29+%5D%5D",
+      "tags": [],
+      "first_publication_date": "2026-04-14T08:31:35+0000",
+      "last_publication_date": "2026-04-14T08:32:00+0000",
+      "slugs": [
+        "02o8zx1y77tdognhzbw4ubenxdx5o6yhte9ftxwsiclm"
+      ],
+      "linked_documents": [],
+      "lang": "en-us",
+      "alternate_languages": [],
+      "data": {
+        "thumbnail": {},
+        "video_url": "02o8ZX1y77TdOgnhZBW4UbEnxDx5O6yHte9FTXWsiclM",
+        "use_video": true,
+        "mux_id": "https://stream.mux.com/02o8ZX1y77TdOgnhZBW4UbEnxDx5O6yHte9FTXWsiclM.m3u8",
+        "slices": [],
+        "meta_title": null,
+        "meta_description": null,
+        "meta_image": {}
+      }
+    },
+    {
+      "id": "ad372xIAACAAPfKM",
+      "uid": "apocalyptic-optimism",
+      "url": null,
+      "type": "labs",
+      "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22ad372xIAACAAPfKM%22%29+%5D%5D",
+      "tags": [],
+      "first_publication_date": "2026-04-14T08:33:58+0000",
+      "last_publication_date": "2026-04-14T08:33:58+0000",
+      "slugs": [
+        "zslrvtbqnuc02q3zl3wcm7mnvjybzt7n800tbptx9wqb8"
+      ],
+      "linked_documents": [],
+      "lang": "en-us",
+      "alternate_languages": [],
+      "data": {
+        "thumbnail": {},
+        "video_url": "ZsLRVTbqNUc02Q3Zl3wcM7MNVJYBzT7n800TbPtX9wQb8",
+        "use_video": true,
+        "mux_id": "https://stream.mux.com/ZsLRVTbqNUc02Q3Zl3wcM7MNVJYBzT7n800TbPtX9wQb8.m3u8",
+        "slices": [],
+        "meta_title": null,
+        "meta_description": null,
+        "meta_image": {}
+      }
+    },
+    {
+      "id": "ad38VxIAACIAPfNu",
+      "uid": "borrowing-time",
+      "url": null,
+      "type": "labs",
+      "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22ad38VxIAACIAPfNu%22%29+%5D%5D",
+      "tags": [],
+      "first_publication_date": "2026-04-14T08:36:07+0000",
+      "last_publication_date": "2026-04-14T08:36:07+0000",
+      "slugs": [
+        "1gjrhy501gaibokmxxki5wl8abtw1jxulkwmgfqpmfck"
+      ],
+      "linked_documents": [],
+      "lang": "en-us",
+      "alternate_languages": [],
+      "data": {
+        "thumbnail": {},
+        "video_url": "1GJRhy501gAiBOKmXxKI5wL8ABTW1jxuLKWmGfqPmfCk",
+        "use_video": true,
+        "mux_id": "https://stream.mux.com/1GJRhy501gAiBOKmXxKI5wL8ABTW1jxuLKWmGfqPmfCk.m3u8",
+        "slices": [],
+        "meta_title": null,
+        "meta_description": null,
+        "meta_image": {}
+      }
+    },
+    {
+      "id": "ac-dLxEAACMAAmLn",
+      "uid": "lab-11",
+      "url": null,
+      "type": "labs",
+      "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22ac-dLxEAACMAAmLn%22%29+%5D%5D",
+      "tags": [],
+      "first_publication_date": "2026-04-03T10:58:36+0000",
+      "last_publication_date": "2026-04-03T10:58:36+0000",
+      "slugs": [
+        "lab-11"
+      ],
+      "linked_documents": [],
+      "lang": "en-us",
+      "alternate_languages": [],
+      "data": {
+        "thumbnail": {
+          "dimensions": {
+            "width": 1431,
+            "height": 794
+          },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/fromanother-2026/ac-dU5GXnQHGZPuE_Lab_11.jpg?auto=format,compress",
+          "id": "ac-dU5GXnQHGZPuE",
+          "edit": {
+            "x": 0,
+            "y": 0,
+            "zoom": 1,
+            "background": "transparent"
+          }
+        },
+        "video_url": null,
+        "use_video": true,
+        "mux_id": null,
+        "slices": [],
+        "meta_title": null,
+        "meta_description": null,
+        "meta_image": {}
+      }
+    },
+    {
+      "id": "ac-aChEAACIAAl5N",
+      "uid": "lab-7",
+      "url": null,
+      "type": "labs",
+      "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22ac-aChEAACIAAl5N%22%29+%5D%5D",
+      "tags": [],
+      "first_publication_date": "2026-04-03T10:44:45+0000",
+      "last_publication_date": "2026-04-03T10:44:45+0000",
+      "slugs": [
+        "lab-7"
+      ],
+      "linked_documents": [],
+      "lang": "en-us",
+      "alternate_languages": [],
+      "data": {
+        "thumbnail": {
+          "dimensions": {
+            "width": 1080,
+            "height": 1080
+          },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/fromanother-2026/ac-ZKpGXnQHGZPrT_Lab_7.jpg?auto=format,compress",
+          "id": "ac-ZKpGXnQHGZPrT",
+          "edit": {
+            "x": 0,
+            "y": 0,
+            "zoom": 1,
+            "background": "transparent"
+          }
+        },
+        "video_url": null,
+        "use_video": true,
+        "mux_id": null,
+        "slices": [],
+        "meta_title": null,
+        "meta_description": null,
+        "meta_image": {}
+      }
+    },
+    {
+      "id": "ac-cJREAACEAAmFm",
+      "uid": "lab-4",
+      "url": null,
+      "type": "labs",
+      "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22ac-cJREAACEAAmFm%22%29+%5D%5D",
+      "tags": [],
+      "first_publication_date": "2026-04-03T10:54:12+0000",
+      "last_publication_date": "2026-04-03T10:54:12+0000",
+      "slugs": [
+        "lab-4"
+      ],
+      "linked_documents": [],
+      "lang": "en-us",
+      "alternate_languages": [],
+      "data": {
+        "thumbnail": {
+          "dimensions": {
+            "width": 1300,
+            "height": 1900
+          },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/fromanother-2026/ac-cRZGXnQHGZPtV_Lab_4.avif?auto=format,compress",
+          "id": "ac-cRZGXnQHGZPtV",
+          "edit": {
+            "x": 0,
+            "y": 0,
+            "zoom": 1,
+            "background": "transparent"
+          }
+        },
+        "video_url": null,
+        "use_video": true,
+        "mux_id": null,
+        "slices": [],
+        "meta_title": null,
+        "meta_description": null,
+        "meta_image": {}
+      }
+    },
+    {
+      "id": "ac-Z5xEAACEAAl4P",
+      "uid": "lab-6",
+      "url": null,
+      "type": "labs",
+      "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22ac-Z5xEAACEAAl4P%22%29+%5D%5D",
+      "tags": [],
+      "first_publication_date": "2026-04-03T10:44:17+0000",
+      "last_publication_date": "2026-04-03T10:44:17+0000",
+      "slugs": [
+        "lab-6"
+      ],
+      "linked_documents": [],
+      "lang": "en-us",
+      "alternate_languages": [],
+      "data": {
+        "thumbnail": {
+          "dimensions": {
+            "width": 1080,
+            "height": 1080
+          },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/fromanother-2026/ac-ZKZGXnQHGZPrS_Lab_6.jpg?auto=format,compress",
+          "id": "ac-ZKZGXnQHGZPrS",
+          "edit": {
+            "x": 0,
+            "y": 0,
+            "zoom": 1,
+            "background": "transparent"
+          }
+        },
+        "video_url": null,
+        "use_video": true,
+        "mux_id": null,
+        "slices": [],
+        "meta_title": null,
+        "meta_description": null,
+        "meta_image": {}
+      }
+    },
+    {
+      "id": "ac-YohEAACEAAlwi",
+      "uid": "lab-5",
+      "url": null,
+      "type": "labs",
+      "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22ac-YohEAACEAAlwi%22%29+%5D%5D",
+      "tags": [],
+      "first_publication_date": "2026-04-03T10:42:03+0000",
+      "last_publication_date": "2026-04-03T10:42:30+0000",
+      "slugs": [
+        "lab-5"
+      ],
+      "linked_documents": [],
+      "lang": "en-us",
+      "alternate_languages": [],
+      "data": {
+        "thumbnail": {
+          "dimensions": {
+            "width": 1080,
+            "height": 1080
+          },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/fromanother-2026/ac-ZKJGXnQHGZPrR_Lab_5.jpg?auto=format,compress",
+          "id": "ac-ZKJGXnQHGZPrR",
+          "edit": {
+            "x": 0,
+            "y": 0,
+            "zoom": 1,
+            "background": "transparent"
+          }
+        },
+        "video_url": null,
+        "use_video": true,
+        "mux_id": null,
+        "slices": [],
+        "meta_title": null,
+        "meta_description": null,
+        "meta_image": {}
+      }
+    },
+    {
+      "id": "abpU4REAAB4A3RhN",
+      "uid": "lab-23",
+      "url": null,
+      "type": "labs",
+      "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22abpU4REAAB4A3RhN%22%29+%5D%5D",
+      "tags": [],
+      "first_publication_date": "2026-03-18T07:32:12+0000",
+      "last_publication_date": "2026-03-22T14:20:03+0000",
+      "slugs": [
+        "httpsstream.mux.combkecvjg02faehzv02mg00g01gmfvveb7maayot8cj01g9fsa.m3u8"
+      ],
+      "linked_documents": [],
+      "lang": "en-us",
+      "alternate_languages": [],
+      "data": {
+        "thumbnail": {},
+        "video_url": "https://stream.mux.com/BkecVjg02FAeHzV02MG00g01gmFvvEB7mAaYoT8Cj01G9fsA.m3u8",
+        "use_video": true,
+        "mux_id": "BkecVjg02FAeHzV02MG00g01gmFvvEB7mAaYoT8Cj01G9fsA",
+        "slices": [],
+        "meta_title": null,
+        "meta_description": null,
+        "meta_image": {}
+      }
+    },
+    {
+      "id": "abpXhxEAACEA3RyS",
+      "uid": "lab-32",
+      "url": null,
+      "type": "labs",
+      "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22abpXhxEAACEA3RyS%22%29+%5D%5D",
+      "tags": [],
+      "first_publication_date": "2026-03-18T07:43:26+0000",
+      "last_publication_date": "2026-03-22T14:31:11+0000",
+      "slugs": [
+        "httpsstream.mux.comcwps014odgzwcwbkwjnfdzvheqtcfivr00bpsue463ikw.m3u8"
+      ],
+      "linked_documents": [],
+      "lang": "en-us",
+      "alternate_languages": [],
+      "data": {
+        "thumbnail": {},
+        "video_url": "https://stream.mux.com/CWps014odgZWCWBKwjnFDzVHEQTcFIvR00BPSue463Ikw.m3u8",
+        "use_video": true,
+        "mux_id": "CWps014odgZWCWBKwjnFDzVHEQTcFIvR00BPSue463Ikw",
+        "slices": [],
+        "meta_title": null,
+        "meta_description": null,
+        "meta_image": {}
+      }
+    },
+    {
+      "id": "abpXyhEAACEA3R0B",
+      "uid": "lab-29",
+      "url": null,
+      "type": "labs",
+      "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22abpXyhEAACEA3R0B%22%29+%5D%5D",
+      "tags": [],
+      "first_publication_date": "2026-03-18T07:44:38+0000",
+      "last_publication_date": "2026-03-22T14:25:32+0000",
+      "slugs": [
+        "httpsstream.mux.comlryohqwt4iztr9dnuidx00py021vnazc8pfogvg014agso.m3u8"
+      ],
+      "linked_documents": [],
+      "lang": "en-us",
+      "alternate_languages": [],
+      "data": {
+        "thumbnail": {},
+        "video_url": "https://stream.mux.com/LryoHQwt4IztR9dNuIDX00py021VnaZC8PfOgvG014Agso.m3u8",
+        "use_video": true,
+        "mux_id": "LryoHQwt4IztR9dNuIDX00py021VnaZC8PfOgvG014Agso",
+        "slices": [],
+        "meta_title": null,
+        "meta_description": null,
+        "meta_image": {}
+      }
+    },
+    {
+      "id": "abpV-BEAACAA3RoS",
+      "uid": "lab-15",
+      "url": null,
+      "type": "labs",
+      "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22abpV-BEAACAA3RoS%22%29+%5D%5D",
+      "tags": [],
+      "first_publication_date": "2026-03-18T07:38:26+0000",
+      "last_publication_date": "2026-03-22T14:21:56+0000",
+      "slugs": [
+        "httpsstream.mux.comsaeo9aoakinbw1sbi8500n4rqhpad8bzlkfxwedwyst8.m3u8"
+      ],
+      "linked_documents": [],
+      "lang": "en-us",
+      "alternate_languages": [],
+      "data": {
+        "thumbnail": {},
+        "video_url": "https://stream.mux.com/sAEO9AoAKinBw1SBI8500N4RqHPAD8bZlKfXweDWyst8.m3u8",
+        "use_video": true,
+        "mux_id": "sAEO9AoAKinBw1SBI8500N4RqHPAD8bZlKfXweDWyst8",
+        "slices": [],
+        "meta_title": null,
+        "meta_description": null,
+        "meta_image": {}
+      }
+    },
+    {
+      "id": "abpYxhEAACAA3R6Y",
+      "uid": "lab-31",
+      "url": null,
+      "type": "labs",
+      "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22abpYxhEAACAA3R6Y%22%29+%5D%5D",
+      "tags": [],
+      "first_publication_date": "2026-03-18T07:48:49+0000",
+      "last_publication_date": "2026-03-22T14:34:41+0000",
+      "slugs": [
+        "httpsstream.mux.comqv7qt6qh02sw1j3odc7biwhbar4qvidrb02xhlj00wj02ks.m3u8"
+      ],
+      "linked_documents": [],
+      "lang": "en-us",
+      "alternate_languages": [],
+      "data": {
+        "thumbnail": {},
+        "video_url": "https://stream.mux.com/QV7qT6QH02SW1J3odc7BiwhBar4QviDrb02XHlJ00wJ02ks.m3u8",
+        "use_video": true,
+        "mux_id": "QV7qT6QH02SW1J3odc7BiwhBar4QviDrb02XHlJ00wJ02ks",
+        "slices": [],
+        "meta_title": null,
+        "meta_description": null,
+        "meta_image": {}
+      }
+    },
+    {
+      "id": "abpYTREAAB8A3R3M",
+      "uid": "lab-25",
+      "url": null,
+      "type": "labs",
+      "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22abpYTREAAB8A3R3M%22%29+%5D%5D",
+      "tags": [],
+      "first_publication_date": "2026-03-18T07:46:47+0000",
+      "last_publication_date": "2026-03-22T14:28:21+0000",
+      "slugs": [
+        "httpsstream.mux.comkx5s021z6xtx00bdqh2bzbw5qpm5tbcpbcx3igwxpznmw.m3u8"
+      ],
+      "linked_documents": [],
+      "lang": "en-us",
+      "alternate_languages": [],
+      "data": {
+        "thumbnail": {},
+        "video_url": "https://stream.mux.com/Kx5S021z6xtX00bDqH2BZBw5Qpm5tbcPBCx3IgWXPZnmw.m3u8",
+        "use_video": true,
+        "mux_id": "Kx5S021z6xtX00bDqH2BZBw5Qpm5tbcPBCx3IgWXPZnmw",
+        "slices": [],
+        "meta_title": null,
+        "meta_description": null,
+        "meta_image": {}
+      }
+    },
+    {
+      "id": "abpXXREAAB4A3RxN",
+      "uid": "lab-27",
+      "url": null,
+      "type": "labs",
+      "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22abpXXREAAB4A3RxN%22%29+%5D%5D",
+      "tags": [],
+      "first_publication_date": "2026-03-18T07:42:54+0000",
+      "last_publication_date": "2026-03-22T14:23:40+0000",
+      "slugs": [
+        "httpsstream.mux.com8s011w1uk00epjqyaya4mj6igkks02r3b00a62bpbexdkb00.m3u8"
+      ],
+      "linked_documents": [],
+      "lang": "en-us",
+      "alternate_languages": [],
+      "data": {
+        "thumbnail": {},
+        "video_url": "https://stream.mux.com/8s011w1UK00ePJqYAyA4MJ6IGKkS02r3B00a62BpbEXdKB00.m3u8",
+        "use_video": true,
+        "mux_id": "8s011w1UK00ePJqYAyA4MJ6IGKkS02r3B00a62BpbEXdKB00",
+        "slices": [],
+        "meta_title": null,
+        "meta_description": null,
+        "meta_image": {}
+      }
+    },
+    {
+      "id": "abpZyhEAAB4A3SBl",
+      "uid": "lab-38",
+      "url": null,
+      "type": "labs",
+      "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22abpZyhEAAB4A3SBl%22%29+%5D%5D",
+      "tags": [],
+      "first_publication_date": "2026-03-18T07:53:03+0000",
+      "last_publication_date": "2026-03-22T14:32:02+0000",
+      "slugs": [
+        "httpsstream.mux.comu5ew7uei1psbwp9dntq2xh7pou01odsgqewvmdhet6300.m3u8"
+      ],
+      "linked_documents": [],
+      "lang": "en-us",
+      "alternate_languages": [],
+      "data": {
+        "thumbnail": {},
+        "video_url": "https://stream.mux.com/u5eW7UEI1psBwP9dNtq2xH7PoU01ODSgQewvmdHEt6300.m3u8",
+        "use_video": true,
+        "mux_id": "u5eW7UEI1psBwP9dNtq2xH7PoU01ODSgQewvmdHEt6300",
+        "slices": [],
+        "meta_title": null,
+        "meta_description": null,
+        "meta_image": {}
+      }
+    },
+    {
+      "id": "abpX8REAACAA3R1H",
+      "uid": "lab-30",
+      "url": null,
+      "type": "labs",
+      "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22abpX8REAACAA3R1H%22%29+%5D%5D",
+      "tags": [],
+      "first_publication_date": "2026-03-18T07:45:14+0000",
+      "last_publication_date": "2026-03-22T14:27:28+0000",
+      "slugs": [
+        "httpsstream.mux.comurxglyuecqlu022qjcn5myxn5vm4n8dkvcobawcxzqqi.m3u8"
+      ],
+      "linked_documents": [],
+      "lang": "en-us",
+      "alternate_languages": [],
+      "data": {
+        "thumbnail": {},
+        "video_url": "https://stream.mux.com/uRxglYuECqLU022QjCN5myXN5vm4N8DkVcobaWCxzQqI.m3u8",
+        "use_video": true,
+        "mux_id": "uRxglYuECqLU022QjCN5myXN5vm4N8DkVcobaWCxzQqI",
+        "slices": [],
+        "meta_title": null,
+        "meta_description": null,
+        "meta_image": {}
+      }
+    },
+    {
+      "id": "aWmCtBIAACEAJ3Xe",
+      "uid": "lab-16",
+      "url": null,
+      "type": "labs",
+      "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22aWmCtBIAACEAJ3Xe%22%29+%5D%5D",
+      "tags": [],
+      "first_publication_date": "2026-01-16T00:14:10+0000",
+      "last_publication_date": "2026-03-22T14:14:25+0000",
+      "slugs": [
+        "httpsstream.mux.com8renk4kifbglvtwklx01wrmcsupf39r39zzvlygw8exu.m3u8"
+      ],
+      "linked_documents": [],
+      "lang": "en-us",
+      "alternate_languages": [],
+      "data": {
+        "thumbnail": {},
+        "video_url": "https://stream.mux.com/8rENK4KifbGlvTwKlX01WrMCSUPF39R39zZVlYgw8eXU.m3u8",
+        "use_video": true,
+        "mux_id": "8rENK4KifbGlvTwKlX01WrMCSUPF39R39zZVlYgw8eXU",
+        "slices": [],
+        "meta_title": null,
+        "meta_description": null,
+        "meta_image": {}
+      }
+    },
+    {
+      "id": "aWmDJxIAACEAJ3ak",
+      "uid": "lab-20",
+      "url": null,
+      "type": "labs",
+      "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22aWmDJxIAACEAJ3ak%22%29+%5D%5D",
+      "tags": [],
+      "first_publication_date": "2026-01-16T00:16:02+0000",
+      "last_publication_date": "2026-03-22T14:16:50+0000",
+      "slugs": [
+        "httpsstream.mux.comxzzv4w8r7fgfhholxsqxtvztscnwmrtqkkamkaq4qeg.m3u8"
+      ],
+      "linked_documents": [],
+      "lang": "en-us",
+      "alternate_languages": [],
+      "data": {
+        "thumbnail": {},
+        "video_url": "https://stream.mux.com/xZzv4w8R7FgFHhOlxsQxtVztscNWmRtQkkaMKAq4QEg.m3u8",
+        "use_video": true,
+        "mux_id": "xZzv4w8R7FgFHhOlxsQxtVztscNWmRtQkkaMKAq4QEg",
+        "slices": [],
+        "meta_title": null,
+        "meta_description": null,
+        "meta_image": {}
+      }
+    },
+    {
+      "id": "abpXshEAACEA3Rza",
+      "uid": "lab-28",
+      "url": null,
+      "type": "labs",
+      "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22abpXshEAACEA3Rza%22%29+%5D%5D",
+      "tags": [],
+      "first_publication_date": "2026-03-18T07:44:03+0000",
+      "last_publication_date": "2026-03-22T14:24:34+0000",
+      "slugs": [
+        "httpsstream.mux.comwzsgpkncjm5elhvkqj1tqymgu37x01b5xlazkg2a4ydu.m3u8"
+      ],
+      "linked_documents": [],
+      "lang": "en-us",
+      "alternate_languages": [],
+      "data": {
+        "thumbnail": {},
+        "video_url": "https://stream.mux.com/WzSGPKncJm5eLHVkqj1TQymgu37x01B5XLAzkg2a4YDU.m3u8",
+        "use_video": true,
+        "mux_id": "WzSGPKncJm5eLHVkqj1TQymgu37x01B5XLAzkg2a4YDU",
+        "slices": [],
+        "meta_title": null,
+        "meta_description": null,
+        "meta_image": {}
+      }
+    },
+    {
+      "id": "abpZlxEAAB4A3SAD",
+      "uid": "lab-39",
+      "url": null,
+      "type": "labs",
+      "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22abpZlxEAAB4A3SAD%22%29+%5D%5D",
+      "tags": [],
+      "first_publication_date": "2026-03-18T07:52:30+0000",
+      "last_publication_date": "2026-03-22T14:32:44+0000",
+      "slugs": [
+        "httpsstream.mux.comnbjjpwbui5qfikfffxapup00wzm6m14z2v00j1c7ko01v4.m3u8"
+      ],
+      "linked_documents": [],
+      "lang": "en-us",
+      "alternate_languages": [],
+      "data": {
+        "thumbnail": {},
+        "video_url": "https://stream.mux.com/nbjjPWbui5QFIkfFfXAPup00WZm6M14z2v00J1C7kO01V4.m3u8",
+        "use_video": true,
+        "mux_id": "nbjjPWbui5QFIkfFfXAPup00WZm6M14z2v00J1C7kO01V4",
+        "slices": [],
+        "meta_title": null,
+        "meta_description": null,
+        "meta_image": {}
+      }
+    },
+    {
+      "id": "abpW3hEAACEA3Rt7",
+      "uid": "lab-22",
+      "url": null,
+      "type": "labs",
+      "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22abpW3hEAACEA3Rt7%22%29+%5D%5D",
+      "tags": [],
+      "first_publication_date": "2026-03-18T07:40:40+0000",
+      "last_publication_date": "2026-03-22T14:26:37+0000",
+      "slugs": [
+        "httpsstream.mux.comop02pr4ewyxe8vybizgw0100uqsjavfrmyq37umn2ok0101u.m3u8"
+      ],
+      "linked_documents": [],
+      "lang": "en-us",
+      "alternate_languages": [],
+      "data": {
+        "thumbnail": {},
+        "video_url": "https://stream.mux.com/Op02Pr4eWYXE8vyBiZGw0100uqSjAvFRMYQ37uMn2Ok0101U.m3u8",
+        "use_video": true,
+        "mux_id": "Op02Pr4eWYXE8vyBiZGw0100uqSjAvFRMYQ37uMn2Ok0101U",
+        "slices": [],
+        "meta_title": null,
+        "meta_description": null,
+        "meta_image": {}
+      }
+    },
+    {
+      "id": "aWmC2xIAACAAJ3Yk",
+      "uid": "lab-21",
+      "url": null,
+      "type": "labs",
+      "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22aWmC2xIAACAAJ3Yk%22%29+%5D%5D",
+      "tags": [],
+      "first_publication_date": "2026-01-16T00:14:49+0000",
+      "last_publication_date": "2026-03-22T14:18:32+0000",
+      "slugs": [
+        "httpsstream.mux.comyvv9utjhuwup353g701bdwsudutjufqhocvja9spcjbg.m3u8"
+      ],
+      "linked_documents": [],
+      "lang": "en-us",
+      "alternate_languages": [],
+      "data": {
+        "thumbnail": {},
+        "video_url": "https://stream.mux.com/Yvv9UTJhUwUp353G701BDWsuDUtJufqHOCvJA9sPCJBg.m3u8",
+        "use_video": true,
+        "mux_id": "Yvv9UTJhUwUp353G701BDWsuDUtJufqHOCvJA9sPCJBg",
+        "slices": [],
+        "meta_title": null,
+        "meta_description": null,
+        "meta_image": {}
+      }
+    },
+    {
+      "id": "aWmDlRIAACMAJ3dQ",
+      "uid": "lab-17",
+      "url": null,
+      "type": "labs",
+      "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22aWmDlRIAACMAJ3dQ%22%29+%5D%5D",
+      "tags": [],
+      "first_publication_date": "2026-01-16T00:18:04+0000",
+      "last_publication_date": "2026-03-22T14:15:11+0000",
+      "slugs": [
+        "httpsstream.mux.comfvk202l02rnph701knv49z9iimaubvyomp9llc4iccdkhs.m3u8"
+      ],
+      "linked_documents": [],
+      "lang": "en-us",
+      "alternate_languages": [],
+      "data": {
+        "thumbnail": {},
+        "video_url": "https://stream.mux.com/fVk202L02rNpH701Knv49z9IIMAUbvYOmp9LLc4IccdKhs.m3u8",
+        "use_video": true,
+        "mux_id": "fVk202L02rNpH701Knv49z9IIMAUbvYOmp9LLc4IccdKhs",
+        "slices": [],
+        "meta_title": null,
+        "meta_description": null,
+        "meta_image": {}
+      }
+    },
+    {
+      "id": "abpZWhEAACEA3R-Q",
+      "uid": "lab-40",
+      "url": null,
+      "type": "labs",
+      "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22abpZWhEAACEA3R-Q%22%29+%5D%5D",
+      "tags": [],
+      "first_publication_date": "2026-03-18T07:51:17+0000",
+      "last_publication_date": "2026-03-22T14:33:53+0000",
+      "slugs": [
+        "httpsstream.mux.comst8h6fsthmblpczm01iljqftao6krqhyqnvjvlnnzgbg.m3u8"
+      ],
+      "linked_documents": [],
+      "lang": "en-us",
+      "alternate_languages": [],
+      "data": {
+        "thumbnail": {},
+        "video_url": "https://stream.mux.com/sT8h6FsthMbLPCzm01ILJqftao6krqHyqNVjVLnNZgbg.m3u8",
+        "use_video": true,
+        "mux_id": "sT8h6FsthMbLPCzm01ILJqftao6krqHyqNVjVLnNZgbg",
+        "slices": [],
+        "meta_title": null,
+        "meta_description": null,
+        "meta_image": {}
+      }
+    },
+    {
+      "id": "abpXIBEAACAA3Rvv",
+      "uid": "lab-26",
+      "url": null,
+      "type": "labs",
+      "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22abpXIBEAACAA3Rvv%22%29+%5D%5D",
+      "tags": [],
+      "first_publication_date": "2026-03-18T07:41:50+0000",
+      "last_publication_date": "2026-03-22T14:22:48+0000",
+      "slugs": [
+        "httpsstream.mux.comtohzq1025ggrgghflmilqcsfeqyhg02stn6jd9pxgdyny.m3u8"
+      ],
+      "linked_documents": [],
+      "lang": "en-us",
+      "alternate_languages": [],
+      "data": {
+        "thumbnail": {},
+        "video_url": "https://stream.mux.com/TOhZQ1025GGRgghfLmilqcSFeqyHg02STn6Jd9pXGDynY.m3u8",
+        "use_video": true,
+        "mux_id": "TOhZQ1025GGRgghfLmilqcSFeqyHg02STn6Jd9pXGDynY",
+        "slices": [],
+        "meta_title": null,
+        "meta_description": null,
+        "meta_image": {}
+      }
+    },
+    {
+      "id": "abpYnxEAACEA3R5T",
+      "uid": "lab-33",
+      "url": null,
+      "type": "labs",
+      "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22abpYnxEAACEA3R5T%22%29+%5D%5D",
+      "tags": [],
+      "first_publication_date": "2026-03-18T07:48:13+0000",
+      "last_publication_date": "2026-03-22T14:29:07+0000",
+      "slugs": [
+        "httpsstream.mux.comk2yso01u4lt0181u9njnamlaxeyol6bvn00df5bzh7h7gg.m3u8"
+      ],
+      "linked_documents": [],
+      "lang": "en-us",
+      "alternate_languages": [],
+      "data": {
+        "thumbnail": {},
+        "video_url": "https://stream.mux.com/K2YSo01U4lT0181U9NJnAMLAXEyOL6bvN00df5BzH7h7Gg.m3u8",
+        "use_video": true,
+        "mux_id": "K2YSo01U4lT0181U9NJnAMLAXEyOL6bvN00df5BzH7h7Gg",
+        "slices": [],
+        "meta_title": null,
+        "meta_description": null,
+        "meta_image": {}
+      }
+    },
+    {
+      "id": "abpWfBEAAB8A3RrX",
+      "uid": "lab-24",
+      "url": null,
+      "type": "labs",
+      "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22abpWfBEAAB8A3RrX%22%29+%5D%5D",
+      "tags": [],
+      "first_publication_date": "2026-03-18T07:40:08+0000",
+      "last_publication_date": "2026-03-22T14:20:55+0000",
+      "slugs": [
+        "httpsstream.mux.comebjkbifa2z9nmali2t8v9n1shzjr5mnpitp8ly02wybo.m3u8"
+      ],
+      "linked_documents": [],
+      "lang": "en-us",
+      "alternate_languages": [],
+      "data": {
+        "thumbnail": {},
+        "video_url": "https://stream.mux.com/EbJKBIfa2Z9nmAli2t8V9N1SHzJr5mnpITp8lY02WyBo.m3u8",
+        "use_video": true,
+        "mux_id": "EbJKBIfa2Z9nmAli2t8V9N1SHzJr5mnpITp8lY02WyBo",
+        "slices": [],
+        "meta_title": null,
+        "meta_description": null,
+        "meta_image": {}
+      }
+    },
+    {
+      "id": "aWmDARIAACAAJ3Zi",
+      "uid": "lab-19",
+      "url": null,
+      "type": "labs",
+      "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22aWmDARIAACAAJ3Zi%22%29+%5D%5D",
+      "tags": [],
+      "first_publication_date": "2026-01-16T00:15:24+0000",
+      "last_publication_date": "2026-03-22T14:17:41+0000",
+      "slugs": [
+        "httpsstream.mux.commkvd8comtxqsrvhjzzjh02fkvnfggt2ofr3whnpkkdys.m3u8"
+      ],
+      "linked_documents": [],
+      "lang": "en-us",
+      "alternate_languages": [],
+      "data": {
+        "thumbnail": {},
+        "video_url": "https://stream.mux.com/MKVd8comtxqsrvHjzZJH02fkvnfGGT2Ofr3WhNPKKDYs.m3u8",
+        "use_video": true,
+        "mux_id": "MKVd8comtxqsrvHjzZJH02fkvnfGGT2Ofr3WhNPKKDYs",
+        "slices": [],
+        "meta_title": null,
+        "meta_description": null,
+        "meta_image": {}
+      }
+    },
+    {
+      "id": "abpYgREAAB8A3R4g",
+      "uid": "lab-35",
+      "url": null,
+      "type": "labs",
+      "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22abpYgREAAB8A3R4g%22%29+%5D%5D",
+      "tags": [],
+      "first_publication_date": "2026-03-18T07:47:37+0000",
+      "last_publication_date": "2026-03-25T07:19:15+0000",
+      "slugs": [
+        "httpsstream.mux.comuxuadsheuxhzgdzdwnjdgf9pfayg51ryto4llcmzkee.m3u8"
+      ],
+      "linked_documents": [],
+      "lang": "en-us",
+      "alternate_languages": [],
+      "data": {
+        "thumbnail": {},
+        "video_url": "https://stream.mux.com/uXUadSHEuxhZgdZDWnjdgf9PfAyG51RytO4LlcmZkeE.m3u8",
+        "use_video": true,
+        "mux_id": "uXUadSHEuxhZgdZDWnjdgf9PfAyG51RytO4LlcmZkeE",
+        "slices": [],
+        "meta_title": null,
+        "meta_description": null,
+        "meta_image": {}
+      }
+    },
+    {
+      "id": "acNs5REAAB8A6tSs",
+      "uid": "lab_45",
+      "url": null,
+      "type": "labs",
+      "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22acNs5REAAB8A6tSs%22%29+%5D%5D",
+      "tags": [],
+      "first_publication_date": "2026-03-25T05:05:06+0000",
+      "last_publication_date": "2026-03-25T07:18:22+0000",
+      "slugs": [
+        "httpsstream.mux.comxyv01tjxno1xwvzcrxjuugeoivjixuegavvaabkvmdny.m3u8"
+      ],
+      "linked_documents": [],
+      "lang": "en-us",
+      "alternate_languages": [],
+      "data": {
+        "thumbnail": {},
+        "video_url": "https://stream.mux.com/xyV01TjXno1XWVZcRxjUuGeoiVJIxUeGAVVAABKVmDnY.m3u8",
+        "use_video": true,
+        "mux_id": "xyV01TjXno1XWVZcRxjUuGeoiVJIxUeGAVVAABKVmDnY",
+        "slices": [],
+        "meta_title": null,
+        "meta_description": null,
+        "meta_image": {}
+      }
+    },
+    {
+      "id": "acNsghEAAB4A6tQJ",
+      "uid": "lab_43",
+      "url": null,
+      "type": "labs",
+      "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22acNsghEAAB4A6tQJ%22%29+%5D%5D",
+      "tags": [],
+      "first_publication_date": "2026-03-25T05:03:45+0000",
+      "last_publication_date": "2026-03-25T07:18:18+0000",
+      "slugs": [
+        "httpsstream.mux.comrgzaqxveoyblkdtdy1ibhkd5qec8wed00v5adworcnew.m3u8"
+      ],
+      "linked_documents": [],
+      "lang": "en-us",
+      "alternate_languages": [],
+      "data": {
+        "thumbnail": {},
+        "video_url": "https://stream.mux.com/rGZAQXVeoYBLkDTdY1iBhkD5QEC8WeD00V5aDwORcnew.m3u8",
+        "use_video": true,
+        "mux_id": "rGZAQXVeoYBLkDTdY1iBhkD5QEC8WeD00V5aDwORcnew",
+        "slices": [],
+        "meta_title": null,
+        "meta_description": null,
+        "meta_image": {}
+      }
+    },
+    {
+      "id": "acNstxEAAB8A6tRf",
+      "uid": "lab_44",
+      "url": null,
+      "type": "labs",
+      "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22acNstxEAAB8A6tRf%22%29+%5D%5D",
+      "tags": [],
+      "first_publication_date": "2026-03-25T05:04:31+0000",
+      "last_publication_date": "2026-03-25T07:18:20+0000",
+      "slugs": [
+        "httpsstream.mux.comraf9yeh01on5unusniw022v8woaby3ssxnxkxa46yuvhw.m3u8"
+      ],
+      "linked_documents": [],
+      "lang": "en-us",
+      "alternate_languages": [],
+      "data": {
+        "thumbnail": {},
+        "video_url": "https://stream.mux.com/Raf9yEH01on5unUsnIw022V8WoabY3SsxnxKXA46yUvHw.m3u8",
+        "use_video": true,
+        "mux_id": "Raf9yEH01on5unUsnIw022V8WoabY3SsxnxKXA46yUvHw",
+        "slices": [],
+        "meta_title": null,
+        "meta_description": null,
+        "meta_image": {}
+      }
+    },
+    {
+      "id": "acNsNREAAB4A6tOT",
+      "uid": "lab_42",
+      "url": null,
+      "type": "labs",
+      "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22acNsNREAAB4A6tOT%22%29+%5D%5D",
+      "tags": [],
+      "first_publication_date": "2026-03-25T05:02:10+0000",
+      "last_publication_date": "2026-03-25T07:19:31+0000",
+      "slugs": [
+        "httpsstream.mux.comhg5fnt00xulbpwg8n3bdmvu5b6omwzgvpoyzzex00us1c.m3u8"
+      ],
+      "linked_documents": [],
+      "lang": "en-us",
+      "alternate_languages": [],
+      "data": {
+        "thumbnail": {},
+        "video_url": "https://stream.mux.com/hg5FnT00xULBpWG8N3BDMvU5b6OMwZgVpOYzzeX00US1c.m3u8",
+        "use_video": true,
+        "mux_id": "hg5FnT00xULBpWG8N3BDMvU5b6OMwZgVpOYzzeX00US1c",
+        "slices": [],
+        "meta_title": null,
+        "meta_description": null,
+        "meta_image": {}
+      }
+    },
+    {
+      "id": "aWmCThIAACIAJ3U_",
+      "uid": "lab-34",
+      "url": null,
+      "type": "labs",
+      "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22aWmCThIAACIAJ3U_%22%29+%5D%5D",
+      "tags": [],
+      "first_publication_date": "2026-01-16T00:13:21+0000",
+      "last_publication_date": "2026-03-25T07:23:54+0000",
+      "slugs": [
+        "httpsstream.mux.comlzxlkun601jguigc02orkejbhrl52uixxk01kdqlc838eq.m3u8"
+      ],
+      "linked_documents": [],
+      "lang": "en-us",
+      "alternate_languages": [],
+      "data": {
+        "thumbnail": {},
+        "video_url": "https://stream.mux.com/lZxlKUN601jgUIgc02OrKeJbhRl52uiXXk01kdqlC838eQ.m3u8",
+        "use_video": true,
+        "mux_id": "lZxlKUN601jgUIgc02OrKeJbhRl52uiXXk01kdqlC838eQ",
+        "slices": [],
+        "meta_title": null,
+        "meta_description": null,
+        "meta_image": {}
+      }
+    }
+  ]
+}

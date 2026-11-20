@@ -1,0 +1,602 @@
+{
+  "project": {
+    "id": "abELVxAAACAAB40D",
+    "uid": "moment-factory",
+    "url": "/work/moment-factory",
+    "type": "projects",
+    "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22abELVxAAACAAB40D%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2026-03-11T06:39:30+0000",
+    "last_publication_date": "2026-03-30T14:20:46+0000",
+    "slugs": [
+      "9"
+    ],
+    "linked_documents": [],
+    "lang": "en-us",
+    "alternate_languages": [],
+    "data": {
+      "hidden": false,
+      "order": 9,
+      "categories": [
+        {
+          "category": {
+            "id": "aVgzDRIAACAA8CuP",
+            "type": "project_categories",
+            "tags": [],
+            "lang": "en-us",
+            "slug": "experiential",
+            "first_publication_date": "2026-01-02T21:05:28+0000",
+            "last_publication_date": "2026-01-02T21:05:28+0000",
+            "uid": "experiential",
+            "data": {
+              "name": "Experiential"
+            },
+            "link_type": "Document",
+            "key": "addcfad6-bc25-4846-93e7-e7b9fc912759",
+            "isBroken": false
+          }
+        }
+      ],
+      "name": "Oriens Lumina Walks",
+      "client": {
+        "link_type": "Document"
+      },
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "The 16th in Moment Factory's Lumina night walk series — and its first in China — an immersive multimedia journey through ancient Chinese mythology in Shanghai.",
+          "spans": [],
+          "direction": "ltr"
+        }
+      ],
+      "detail_description": [
+        {
+          "type": "paragraph",
+          "text": "Located at the Nine Trees Future Art Centre in Fengxian, Shanghai, the experience transforms a forest into a multisensory journey through the five elements and Chinese mythology. fromanother served as the local partner handling installation, lighting, and on-the-ground production via remote collaboration, as Moment Factory's Montreal team could not travel due to COVID-19.",
+          "spans": [],
+          "direction": "ltr"
+        }
+      ],
+      "teams": [
+        {
+          "team_name": "fromanother / Motion & Design"
+        }
+      ],
+      "link": {
+        "link_type": "Any"
+      },
+      "card_thumbnail": {
+        "dimensions": {
+          "width": 2560,
+          "height": 1440
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/fromanother-2026/abEM61xvIZEnjjrP_09_Moment-Factory_17.jpg?auto=format,compress",
+        "id": "abEM61xvIZEnjjrP",
+        "edit": {
+          "x": 0,
+          "y": 0,
+          "zoom": 1,
+          "background": "transparent"
+        }
+      },
+      "small_card_thumbnail": {
+        "dimensions": {
+          "width": 200,
+          "height": 113
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/fromanother-2026/abp_9rbci2UF6LEv_09_Moment-Factory_17_small.jpg?auto=format,compress",
+        "id": "abp_9rbci2UF6LEv",
+        "edit": {
+          "x": 0,
+          "y": 0,
+          "zoom": 1,
+          "background": "transparent"
+        }
+      },
+      "services_provided": [
+        {
+          "service": "Experiental"
+        },
+        {
+          "service": "Motion Design"
+        },
+        {
+          "service": "On-set Production"
+        },
+        {
+          "service": "Lighting Direction"
+        }
+      ],
+      "media": [
+        {
+          "image": {},
+          "mobile_image": {},
+          "mux_id": "faiFAwa39JjzezbQJLpgPG4sgWj2Nq02TxEnT4vP004Bo",
+          "video_url": "https://stream.mux.com/faiFAwa39JjzezbQJLpgPG4sgWj2Nq02TxEnT4vP004Bo.m3u8",
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 112
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abp9vbbci2UF6K_-_09_MomentFactory_01V_small.jpg?auto=format,compress",
+            "id": "abp9vbbci2UF6K_-",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abp97rbci2UF6LAh_09_MomentFactory_01.jpg?auto=format,compress",
+            "id": "abp97rbci2UF6LAh",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {
+            "dimensions": {
+              "width": 1080,
+              "height": 1920
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/acpqvJGXnQHGZF5i_09_MomentFactory_01M.jpg?auto=format,compress",
+            "id": "acpqvJGXnQHGZF5i",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 113
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abp-Orbci2UF6LBW_09_Moment-Factory_01small.jpg?auto=format,compress",
+            "id": "abp-Orbci2UF6LBW",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abENY1xvIZEnjjrU_09_Moment-Factory_02.jpg?auto=format,compress",
+            "id": "abENY1xvIZEnjjrU",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {},
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 113
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abp_7Lbci2UF6LEf_09_Moment-Factory_03_small.jpg?auto=format,compress",
+            "id": "abp_7Lbci2UF6LEf",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abEM3lxvIZEnjjrA_09_Moment-Factory_03.jpg?auto=format,compress",
+            "id": "abEM3lxvIZEnjjrA",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {},
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 113
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abp_7bbci2UF6LEg_09_Moment-Factory_04_small.jpg?auto=format,compress",
+            "id": "abp_7bbci2UF6LEg",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abEM5FxvIZEnjjrG_09_Moment-Factory_09.jpg?auto=format,compress",
+            "id": "abEM5FxvIZEnjjrG",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {},
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 113
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abp_8Lbci2UF6LEk_09_Moment-Factory_08_small.jpg?auto=format,compress",
+            "id": "abp_8Lbci2UF6LEk",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abEM5FxvIZEnjjrH_09_Moment-Factory_10.jpg?auto=format,compress",
+            "id": "abEM5FxvIZEnjjrH",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {},
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 113
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abp_8bbci2UF6LEl_09_Moment-Factory_10_small.jpg?auto=format,compress",
+            "id": "abp_8bbci2UF6LEl",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abEM5VxvIZEnjjrI_09_Moment-Factory_11.jpg?auto=format,compress",
+            "id": "abEM5VxvIZEnjjrI",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {},
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 113
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abp_8rbci2UF6LEn_09_Moment-Factory_11_small.jpg?auto=format,compress",
+            "id": "abp_8rbci2UF6LEn",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abEM51xvIZEnjjrK_09_Moment-Factory_13.jpg?auto=format,compress",
+            "id": "abEM51xvIZEnjjrK",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {},
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 113
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abp_87bci2UF6LEo_09_Moment-Factory_13_small.jpg?auto=format,compress",
+            "id": "abp_87bci2UF6LEo",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abEM6lxvIZEnjjrN_09_Moment-Factory_16.jpg?auto=format,compress",
+            "id": "abEM6lxvIZEnjjrN",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {},
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 113
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abp_9bbci2UF6LEr_09_Moment-Factory_16_small.jpg?auto=format,compress",
+            "id": "abp_9bbci2UF6LEr",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abEM31xvIZEnjjrC_09_Moment-Factory_05.jpg?auto=format,compress",
+            "id": "abEM31xvIZEnjjrC",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {},
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 113
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abp_97bci2UF6LEw_09_Moment-Factory_18_small.jpg?auto=format,compress",
+            "id": "abp_97bci2UF6LEw",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abp-47bci2UF6LC2_09_MomentFactory_06.jpg?auto=format,compress",
+            "id": "abp-47bci2UF6LC2",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {
+            "dimensions": {
+              "width": 1080,
+              "height": 1920
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/acqGuJGXnQHGZGWX_09_MomentFactory_06M.jpg?auto=format,compress",
+            "id": "acqGuJGXnQHGZGWX",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 113
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abp_77bci2UF6LEj_09_Moment-Factory_06_small.jpg?auto=format,compress",
+            "id": "abp_77bci2UF6LEj",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abp-8rbci2UF6LDH_09_MomentFactory_15.jpg?auto=format,compress",
+            "id": "abp-8rbci2UF6LDH",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {},
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 113
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abp_9Lbci2UF6LEq_09_Moment-Factory_15_small.jpg?auto=format,compress",
+            "id": "abp_9Lbci2UF6LEq",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        }
+      ],
+      "slices": [],
+      "template": null,
+      "meta_title": "fromanother | Oriens Lumina Walks",
+      "meta_description": "The 16th in Moment Factory's Lumina night walk series — and its first in China — an immersive multimedia journey through ancient Chinese mythology in Shanghai.",
+      "meta_image": {
+        "dimensions": {
+          "width": 2400,
+          "height": 1260
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/fromanother-2026/abEM61xvIZEnjjrP_09_Moment-Factory_17.jpg?auto=format,compress&rect=0,48,2560,1344&w=2400&h=1260",
+        "id": "abEM61xvIZEnjjrP",
+        "edit": {
+          "x": 0,
+          "y": 48,
+          "zoom": 1,
+          "background": "transparent"
+        }
+      },
+      "case_year": null,
+      "case_kicker": null,
+      "case_headline": null,
+      "case_headline_accent": null,
+      "case_intro": null
+    }
+  }
+}

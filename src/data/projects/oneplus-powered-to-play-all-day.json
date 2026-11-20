@@ -1,0 +1,598 @@
+{
+  "project": {
+    "id": "aT5syRIAACAAynqN",
+    "uid": "oneplus-powered-to-play-all-day",
+    "url": "/work/oneplus-powered-to-play-all-day",
+    "type": "projects",
+    "href": "https://fromanother-2026.cdn.prismic.io/api/v2/documents/search?ref=aseaDBEAAC4A-szk&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22aT5syRIAACAAynqN%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2025-12-14T07:54:36+0000",
+    "last_publication_date": "2026-03-30T13:49:40+0000",
+    "slugs": [
+      "1"
+    ],
+    "linked_documents": [],
+    "lang": "en-us",
+    "alternate_languages": [],
+    "data": {
+      "hidden": false,
+      "order": 1,
+      "categories": [
+        {
+          "category": {
+            "id": "aVgythIAACAA8CsF",
+            "type": "project_categories",
+            "tags": [],
+            "lang": "en-us",
+            "slug": "campaign",
+            "first_publication_date": "2026-01-02T21:04:01+0000",
+            "last_publication_date": "2026-01-02T21:04:01+0000",
+            "uid": "campaign",
+            "data": {
+              "name": "Campaign"
+            },
+            "link_type": "Document",
+            "key": "03635eee-2757-427a-9c0d-30f8ad22e0c5",
+            "isBroken": false
+          }
+        },
+        {
+          "category": {
+            "id": "aVgyohIAACMA8Cri",
+            "type": "project_categories",
+            "tags": [],
+            "lang": "en-us",
+            "slug": "film",
+            "first_publication_date": "2026-01-02T21:03:41+0000",
+            "last_publication_date": "2026-01-02T21:03:41+0000",
+            "uid": "film",
+            "data": {
+              "name": "Film"
+            },
+            "link_type": "Document",
+            "key": "283554f0-7138-4f52-a36b-bd54c16e7ea4",
+            "isBroken": false
+          }
+        },
+        {
+          "category": {
+            "id": "aVgyxxIAACIA8Csm",
+            "type": "project_categories",
+            "tags": [],
+            "lang": "en-us",
+            "slug": "cgi-production",
+            "first_publication_date": "2026-01-02T21:04:18+0000",
+            "last_publication_date": "2026-01-02T21:04:18+0000",
+            "uid": "cgi-production",
+            "data": {
+              "name": "CGI Production"
+            },
+            "link_type": "Document",
+            "key": "644b740c-5621-4711-b427-b77efb768565",
+            "isBroken": false
+          }
+        }
+      ],
+      "name": "Powered to Play All Day",
+      "client": {
+        "id": "aUgDTBIAACAA2O9H",
+        "type": "clients",
+        "tags": [],
+        "lang": "en-us",
+        "slug": "oneplus",
+        "first_publication_date": "2025-12-21T14:25:32+0000",
+        "last_publication_date": "2026-02-18T17:58:39+0000",
+        "uid": "oneplus",
+        "data": {
+          "name": "OnePlus"
+        },
+        "link_type": "Document",
+        "key": "87003ad8-7520-4bc5-89b4-5a638bdc71b6",
+        "isBroken": false
+      },
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "The film captures the relentless energy of a generation that moves fast, plays hard, and refuses to be unplugged. ",
+          "spans": [],
+          "direction": "ltr"
+        }
+      ],
+      "detail_description": [
+        {
+          "type": "paragraph",
+          "text": "The earphone's design not only ensures stability during use but also serves as the creative spark for the film's concept and art direction.",
+          "spans": [],
+          "direction": "ltr"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dynamic energy swirls and vibrant gradients become central visual elements, capturing the energetic, fast-paced lifestyle of our character. Every scene, every beat, every frame is designed to mirror the stamina of the product itself — powered to play all day.",
+          "spans": [],
+          "direction": "ltr"
+        }
+      ],
+      "teams": [
+        {
+          "team_name": "fromanother / Creative - Director - Production"
+        }
+      ],
+      "link": {
+        "link_type": "Any"
+      },
+      "card_thumbnail": {
+        "dimensions": {
+          "width": 2560,
+          "height": 1447
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/fromanother-2026/abpllLbci2UF6KfB_01_OneplusFlute_Thumbnail.jpg?auto=format,compress",
+        "id": "abpllLbci2UF6KfB",
+        "edit": {
+          "x": 0,
+          "y": 0,
+          "zoom": 1,
+          "background": "transparent"
+        }
+      },
+      "small_card_thumbnail": {
+        "dimensions": {
+          "width": 200,
+          "height": 113
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/fromanother-2026/abpl77bci2UF6KfN_01_Oneplus-Flute_Thumbnail_small.jpg?auto=format,compress",
+        "id": "abpl77bci2UF6KfN",
+        "edit": {
+          "x": 0,
+          "y": 0,
+          "zoom": 1,
+          "background": "transparent"
+        }
+      },
+      "services_provided": [
+        {
+          "service": "Creative Direction"
+        },
+        {
+          "service": "Art Direction"
+        },
+        {
+          "service": "CGI Production"
+        },
+        {
+          "service": "Production"
+        }
+      ],
+      "media": [
+        {
+          "image": {},
+          "mobile_image": {},
+          "mux_id": "pBRF5kZJOMJuoM00QHa6016rAq2buuo4i300Y9bIS66GZA",
+          "video_url": "https://stream.mux.com/pBRF5kZJOMJuoM00QHa6016rAq2buuo4i300Y9bIS66GZA.m3u8",
+          "thumbnail": {
+            "dimensions": {
+              "width": 100,
+              "height": 57
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abLfvVxvIZEnjnw7_1%2BFlute_vid_thumb_1.jpg?auto=format,compress",
+            "id": "abLfvVxvIZEnjnw7",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {},
+          "mobile_image": {},
+          "mux_id": "P3gyFay8s7MzLnteyIKgkjhJfZc01hV7shnA01h02gE02vc",
+          "video_url": "https://stream.mux.com/P3gyFay8s7MzLnteyIKgkjhJfZc01hV7shnA01h02gE02vc.m3u8",
+          "thumbnail": {
+            "dimensions": {
+              "width": 100,
+              "height": 57
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abLfv1xvIZEnjnw9_1%2BFlute_vid_thumb_3.jpg?auto=format,compress",
+            "id": "abLfv1xvIZEnjnw9",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {},
+          "mobile_image": {},
+          "mux_id": "9gFKyq7onGRGjdyqqmUL2dduBFvRCfHG6ko6pOQQOuc",
+          "video_url": "https://stream.mux.com/9gFKyq7onGRGjdyqqmUL2dduBFvRCfHG6ko6pOQQOuc.m3u8",
+          "thumbnail": {
+            "dimensions": {
+              "width": 100,
+              "height": 57
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abLfwVxvIZEnjnw__1%2BFlute_vid_thumb_4.jpg?auto=format,compress",
+            "id": "abLfwVxvIZEnjnw_",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {},
+          "mobile_image": {},
+          "mux_id": "VGOvRavH9nB9dWUC4c8ZKKR4BVYJ5dSc01MMlFN6cteY",
+          "video_url": "https://stream.mux.com/VGOvRavH9nB9dWUC4c8ZKKR4BVYJ5dSc01MMlFN6cteY.m3u8",
+          "thumbnail": {
+            "dimensions": {
+              "width": 100,
+              "height": 57
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abLfwFxvIZEnjnw-_1%2BFlute_vid_thumb_4-1.jpg?auto=format,compress",
+            "id": "abLfwFxvIZEnjnw-",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abEB7FxvIZEnjjoy_01_Oneplus_Flute_07.jpg?auto=format,compress",
+            "id": "abEB7FxvIZEnjjoy",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {
+            "dimensions": {
+              "width": 1080,
+              "height": 1920
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/acp_UJGXnQHGZGRg_01_Oneplus_Flute_07M.jpg?auto=format,compress",
+            "id": "acp_UJGXnQHGZGRg",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 113
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abpoAbbci2UF6KgR_01_Oneplus_Flute_07_small.jpg?auto=format,compress",
+            "id": "abpoAbbci2UF6KgR",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abEA9VxvIZEnjjos_01_Oneplus_Flute_03.jpg?auto=format,compress",
+            "id": "abEA9VxvIZEnjjos",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {
+            "dimensions": {
+              "width": 1080,
+              "height": 1920
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/acp_TZGXnQHGZGRb_01_Oneplus_Flute_03M.jpg?auto=format,compress",
+            "id": "acp_TZGXnQHGZGRb",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 113
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abpnTrbci2UF6Kf5_01_Oneplus_Flute_03.jpg?auto=format,compress",
+            "id": "abpnTrbci2UF6Kf5",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abEBtlxvIZEnjjou_01_Oneplus_Flute_04.jpg?auto=format,compress",
+            "id": "abEBtlxvIZEnjjou",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {
+            "dimensions": {
+              "width": 1080,
+              "height": 1920
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/acp_TpGXnQHGZGRc_01_Oneplus_Flute_04M.jpg?auto=format,compress",
+            "id": "acp_TpGXnQHGZGRc",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 113
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abpnm7bci2UF6Kf__01_Oneplus_Flute_04_small.jpg?auto=format,compress",
+            "id": "abpnm7bci2UF6Kf_",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abEBmFxvIZEnjjot_01_Oneplus_Flute_02.jpg?auto=format,compress",
+            "id": "abEBmFxvIZEnjjot",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {
+            "dimensions": {
+              "width": 1080,
+              "height": 1920
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/acp_TJGXnQHGZGRa_01_Oneplus_Flute_02M.jpg?auto=format,compress",
+            "id": "acp_TJGXnQHGZGRa",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 113
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abpnGLbci2UF6Kfy_01_Oneplus_Flute_02_small.jpg?auto=format,compress",
+            "id": "abpnGLbci2UF6Kfy",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abEByFxvIZEnjjow_01_Oneplus_Flute_05.jpg?auto=format,compress",
+            "id": "abEByFxvIZEnjjow",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {
+            "dimensions": {
+              "width": 1080,
+              "height": 1920
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/acp_TpGXnQHGZGRe_01_Oneplus_Flute_05M.jpg?auto=format,compress",
+            "id": "acp_TpGXnQHGZGRe",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 113
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abpnu7bci2UF6KgG_01_Oneplus_Flute_05_small.jpg?auto=format,compress",
+            "id": "abpnu7bci2UF6KgG",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        },
+        {
+          "image": {
+            "dimensions": {
+              "width": 2560,
+              "height": 1440
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abEB61xvIZEnjjox_01_Oneplus_Flute_06.jpg?auto=format,compress",
+            "id": "abEB61xvIZEnjjox",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mobile_image": {
+            "dimensions": {
+              "width": 1080,
+              "height": 1920
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/acp_T5GXnQHGZGRf_01_Oneplus_Flute_06M.jpg?auto=format,compress",
+            "id": "acp_T5GXnQHGZGRf",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          },
+          "mux_id": null,
+          "video_url": null,
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 113
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/fromanother-2026/abpn37bci2UF6KgK_01_Oneplus_Flute_06_small.jpg?auto=format,compress",
+            "id": "abpn37bci2UF6KgK",
+            "edit": {
+              "x": 0,
+              "y": 0,
+              "zoom": 1,
+              "background": "transparent"
+            }
+          }
+        }
+      ],
+      "slices": [],
+      "template": null,
+      "meta_title": "fromanother | Powered to Play All Day",
+      "meta_description": "The film captures the relentless energy of a generation that moves fast, plays hard, and refuses to be unplugged.",
+      "meta_image": {
+        "dimensions": {
+          "width": 2400,
+          "height": 1260
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/fromanother-2026/abpllLbci2UF6KfB_01_OneplusFlute_Thumbnail.jpg?auto=format,compress&rect=0,52,2560,1344&w=2400&h=1260",
+        "id": "abpllLbci2UF6KfB",
+        "edit": {
+          "x": 0,
+          "y": 52,
+          "zoom": 1,
+          "background": "transparent"
+        }
+      },
+      "case_year": null,
+      "case_kicker": null,
+      "case_headline": null,
+      "case_headline_accent": null,
+      "case_intro": null
+    }
+  }
+}
