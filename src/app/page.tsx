@@ -7,7 +7,8 @@ import { PrismicRichText } from "@prismicio/react";
 import type { RichTextField } from "@prismicio/client";
 import { BackgroundTransition } from "@/components/home/BackgroundTransition";
 import { SectionIndicator } from "@/components/home/SectionIndicator";
-import { ShowcaseCanvas } from "@/components/home/ShowcaseCanvas";
+import { ShowcaseSection } from "@/components/home/ShowcaseSection";
+import { TeamSection } from "@/components/home/TeamSection";
 import { HlsVideo } from "@/components/common/HlsVideo";
 import { TransitionLink } from "@/components/common/TransitionLink";
 import { Footer } from "@/components/layout/Footer";
@@ -436,178 +437,19 @@ export default function HomePage() {
       </SectionDetector>
 
       {/* 3. FEATURED WORK / SHOWCASE */}
-      <SectionDetector index={3} className="Showcase_showcase__7o16T">
-        <div
-          className="Container_container__A7FAx"
-          style={{
-            minHeight: "100svh",
-            color: "var(--brand-dark-blue)",
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
-            paddingTop: "12rem",
-            paddingBottom: "12rem",
-            position: "relative",
-          }}
-        >
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "1fr 1.6fr 0.8fr",
-              alignItems: "center",
-              gap: "3.2rem",
-              width: "100%",
-            }}
-          >
-            <div style={{ display: "flex", flexDirection: "column", gap: "1.2rem", paddingLeft: "8rem" }}>
-              {projects.map((proj, idx) => {
-                const active = idx === activeShowcaseIdx;
-                return (
-                  <button
-                    key={proj?.uid || idx}
-                    type="button"
-                    onClick={() => setActiveShowcaseIdx(idx)}
-                    style={{
-                      textAlign: "left",
-                      fontSize: active ? "clamp(2.8rem, 3.6vw, 5.2rem)" : "2rem",
-                      fontWeight: 600,
-                      lineHeight: 0.95,
-                      letterSpacing: "-0.03em",
-                      color: "var(--brand-dark-blue)",
-                      opacity: active ? 1 : 0.25,
-                      filter: active ? "blur(0px)" : "blur(2px)",
-                      transition: "all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1)",
-                    }}
-                  >
-                    {proj?.data?.name}
-                  </button>
-                );
-              })}
-            </div>
-
-            <div style={{ width: "100%", aspectRatio: "1.28", position: "relative" }}>
-              <ShowcaseCanvas
-                imageUrls={showcaseImages}
-                activeIndex={activeShowcaseIdx}
-                onClick={() => {
-                  if (activeProject?.uid) {
-                    routerPrefetch({
-                      pathName: `${ROUTES.WORK}/${activeProject.uid}`,
-                      pageName: "WorkDetail",
-                    });
-                  }
-                }}
-              />
-            </div>
-
-            <div
-              style={{
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "space-between",
-                gap: "2.4rem",
-              }}
-            >
-              <ul style={{ display: "flex", flexDirection: "column", gap: "0.4rem", fontSize: "1.4rem", fontWeight: 600 }}>
-                {(activeProject?.data?.services_provided || []).map((s, i) => (
-                  <li key={i}>{s.service}</li>
-                ))}
-              </ul>
-
-              <div style={{ display: "flex", flexDirection: "column", gap: "0.8rem" }}>
-                {projects.map((proj, idx) => (
-                  <button
-                    key={proj?.uid || idx}
-                    type="button"
-                    onClick={() => setActiveShowcaseIdx(idx)}
-                    style={{
-                      width: "4.4rem",
-                      height: "2.8rem",
-                      overflow: "hidden",
-                      opacity: idx === activeShowcaseIdx ? 1 : 0.4,
-                      border: idx === activeShowcaseIdx ? "1px solid var(--brand-dark-blue)" : "none",
-                      transition: "opacity 0.3s ease",
-                    }}
-                  >
-                    {proj?.data?.card_thumbnail?.url && (
-                      // eslint-disable-next-line @next/next/no-img-element
-                      <img
-                        src={proj.data.card_thumbnail.url}
-                        alt=""
-                        style={{ width: "100%", height: "100%", objectFit: "cover" }}
-                      />
-                    )}
-                  </button>
-                ))}
-              </div>
-            </div>
-          </div>
-
-          <div style={{ textAlign: "center", marginTop: "6rem" }}>
-            <TransitionLink
-              href={ROUTES.WORK}
-              className="common-link-effect"
-              style={{
-                fontSize: "1.3rem",
-                fontWeight: 600,
-                textTransform: "uppercase",
-                letterSpacing: "0.04em",
-                color: "var(--brand-dark-blue)",
-              }}
-            >
-              {showcase.view_all_label || "VIEW ALL PROJECTS"}
-            </TransitionLink>
-          </div>
-        </div>
+      <SectionDetector index={3}>
+        <ShowcaseSection
+          projects={projects as any}
+          viewAllLabel={showcase.view_all_label}
+        />
       </SectionDetector>
 
-      {/* 4. TEAM */}
-      <SectionDetector index={4} className="Team_team__zUqci">
-        <div
-          className="Container_container__A7FAx"
-          style={{
-            minHeight: "100svh",
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
-            paddingTop: "12rem",
-            paddingBottom: "12rem",
-            gap: "6rem",
-          }}
-        >
-          <div style={{ fontSize: "clamp(4rem, 7vw, 10rem)", fontWeight: 600, lineHeight: 0.95, letterSpacing: "-0.04em", whiteSpace: "pre-line" }}>
-            {fullScreenMedia.title ? <PrismicRichText field={fullScreenMedia.title} /> : "04"}
-          </div>
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))",
-              gap: "3.2rem",
-              width: "100%",
-            }}
-          >
-            {(team.member_list || []).map((m, idx) => {
-              const memberData = m.member?.data;
-              return (
-                <div key={m.member?.id || idx} style={{ display: "flex", flexDirection: "column", gap: "1.6rem" }}>
-                  {memberData?.avatar?.url && (
-                    // eslint-disable-next-line @next/next/no-img-element
-                    <img
-                      src={memberData.avatar.url}
-                      alt={memberData.avatar.alt || ""}
-                      style={{ width: "100%", aspectRatio: "1222/1333", objectFit: "cover" }}
-                    />
-                  )}
-                  {memberData?.description && (
-                    <div style={{ fontSize: "1.5rem", opacity: 0.85, lineHeight: 1.5 }}>
-                      <PrismicRichText field={memberData.description} />
-                    </div>
-                  )}
-                </div>
-              );
-            })}
-          </div>
-        </div>
+      {/* 4. TEAM & FULL SCREEN MEDIA */}
+      <SectionDetector index={4}>
+        <TeamSection
+          reelTitle={fullScreenMedia.title}
+          members={(team.member_list || []).map((m) => m.member).filter(Boolean) as any}
+        />
       </SectionDetector>
 
       {/* 5. COLLABORATIONS / CLIENTS */}

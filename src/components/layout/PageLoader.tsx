@@ -11,6 +11,7 @@ import {
 } from "@/stores/appStore";
 import { usePageLeave } from "@/hooks/usePageLifecycle";
 import { ASSETS_TIMEOUT, DURATION } from "@/lib/constants";
+import { GifPlayer } from "@/components/common/GifPlayer";
 
 gsap.registerPlugin(useGSAP);
 
@@ -150,11 +151,11 @@ export function PageLoader() {
         quickProgressRef.current?.(100);
         revealPage();
       }
-    }, 3500);
+    }, 8000);
     return () => window.clearTimeout(fallback);
   }, [revealPage]);
 
-  const handleGifLoad = () => {
+  const handleGifLoad = useCallback(() => {
     gsap.to(helloRef.current, {
       opacity: 0,
       duration: 0.6,
@@ -171,10 +172,17 @@ export function PageLoader() {
           quickProgressRef.current?.(100);
         } else {
           quickProgressRef.current?.(35);
+          // Progress smoothly to 100
+          setTimeout(() => {
+            quickProgressRef.current?.(70);
+            setTimeout(() => {
+              quickProgressRef.current?.(100);
+            }, 600);
+          }, 600);
         }
       },
     });
-  };
+  }, []);
 
   return (
     <div ref={loaderRef} className="PageLoader_pageLoader___1cgC">
@@ -183,10 +191,8 @@ export function PageLoader() {
       </p>
       <div ref={contentRef} className="PageLoader_pageLoader_content__g4G3o">
         <div className="PageLoader_pageLoader_gif__S2PNJ">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
+          <GifPlayer
             src="/images/loading.gif"
-            alt="Loading"
             className="PageLoader_pageLoader_gifImg__D7UIb"
             onLoad={handleGifLoad}
           />
