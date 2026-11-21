@@ -28,10 +28,14 @@ export function LenisProvider({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
 
   useEffect(() => {
+    // Crucial: autoRaf: false prevents double RAF calls when driving via GSAP ticker
     const lenis = new Lenis({
+      autoRaf: false,
+      lerp: 0.1,
       duration: 1.2,
       easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
       smoothWheel: true,
+      syncTouch: false,
     });
 
     setLenisInstance(lenis);
@@ -44,6 +48,7 @@ export function LenisProvider({ children }: { children: React.ReactNode }) {
 
     lenis.on("scroll", onScrollHandler);
 
+    // Single source of truth for animation loop: GSAP ticker drives Lenis at 60/120fps
     const tick = (time: number) => {
       lenis.raf(time * 1000);
     };

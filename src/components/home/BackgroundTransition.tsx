@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useRef } from "react";
+import React, { useRef } from "react";
 import { useSectionStore } from "@/stores/appStore";
 import { HlsVideo } from "@/components/common/HlsVideo";
 
@@ -23,10 +23,6 @@ export function BackgroundTransition({
 }) {
   const sectionIdx = useSectionStore((s) => s.currentSectionIndex);
   const wrapRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    // Active video layer based on current section index
-  }, [sectionIdx]);
 
   const showCreamBg = sectionIdx === 3 || sectionIdx === 6;
 
@@ -55,6 +51,7 @@ export function BackgroundTransition({
           <HlsVideo
             src={backgroundMedia.hero.videoUrl}
             poster={backgroundMedia.hero.posterUrl}
+            playing={sectionIdx <= 0}
           />
         </div>
       )}
@@ -71,6 +68,7 @@ export function BackgroundTransition({
           <HlsVideo
             src={backgroundMedia.about.videoUrl}
             poster={backgroundMedia.about.posterUrl}
+            playing={sectionIdx === 1}
           />
         </div>
       )}
@@ -87,6 +85,7 @@ export function BackgroundTransition({
           <HlsVideo
             src={backgroundMedia.whatWeDo.videoUrl}
             poster={backgroundMedia.whatWeDo.posterUrl}
+            playing={sectionIdx === 2}
           />
         </div>
       )}
@@ -103,6 +102,7 @@ export function BackgroundTransition({
           <HlsVideo
             src={backgroundMedia.fullScreenMedia.videoUrl}
             poster={backgroundMedia.fullScreenMedia.posterUrl}
+            playing={sectionIdx === 4}
           />
         </div>
       )}
@@ -119,6 +119,7 @@ export function BackgroundTransition({
           <HlsVideo
             src={backgroundMedia.collaborations.videoUrl}
             poster={backgroundMedia.collaborations.posterUrl}
+            playing={sectionIdx === 5}
           />
         </div>
       )}
@@ -135,6 +136,7 @@ export function BackgroundTransition({
           <HlsVideo
             src={backgroundMedia.footer.videoUrl}
             poster={backgroundMedia.footer.posterUrl}
+            playing={sectionIdx >= 7}
           />
         </div>
       )}

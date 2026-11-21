@@ -28,6 +28,10 @@ interface ShowcaseSectionProps {
 export function ShowcaseSection({ projects, viewAllLabel }: ShowcaseSectionProps) {
   const [activeIndex, setActiveIndex] = useState(0);
   const containerRef = useRef<HTMLDivElement>(null);
+  const namesRef = useRef<HTMLDivElement>(null);
+  const servicesRef = useRef<HTMLDivElement>(null);
+  const slidesRef = useRef<HTMLDivElement>(null);
+  const lastIdxRef = useRef(-1);
   const { routerPrefetch } = useRouterTransition();
 
   const totalItems = projects.length || 1;
@@ -56,7 +60,52 @@ export function ShowcaseSection({ projects, viewAllLabel }: ShowcaseSectionProps
           0,
           Math.min(totalItems - 1, Math.floor(self.progress * totalItems))
         );
-        setActiveIndex(idx);
+
+        // ONLY trigger update when index actually changes!
+        if (idx !== lastIdxRef.current) {
+          lastIdxRef.current = idx;
+          setActiveIndex(idx);
+
+          // Update titles
+          if (namesRef.current) {
+            const children = namesRef.current.children;
+            for (let i = 0; i < children.length; i++) {
+              const child = children[i] as HTMLElement;
+              const isActive = i === idx;
+              child.style.opacity = isActive ? "1" : "0";
+              child.style.transform = isActive ? "translateY(0)" : "translateY(20px)";
+              child.style.filter = isActive ? "blur(0px)" : "blur(8px)";
+              child.style.pointerEvents = isActive ? "auto" : "none";
+            }
+          }
+
+          // Update services
+          if (servicesRef.current) {
+            const children = servicesRef.current.children;
+            for (let i = 0; i < children.length; i++) {
+              const child = children[i] as HTMLElement;
+              const isActive = i === idx;
+              child.style.opacity = isActive ? "1" : "0";
+              child.style.transform = isActive ? "translateY(0)" : "translateY(10px)";
+              child.style.filter = isActive ? "blur(0px)" : "blur(4px)";
+              child.style.display = isActive ? "flex" : "none";
+            }
+          }
+
+          // Update thumbnail indicator
+          if (slidesRef.current) {
+            const children = slidesRef.current.children;
+            for (let i = 0; i < children.length; i++) {
+              const child = children[i] as HTMLElement;
+              const isActive = i === idx;
+              child.style.opacity = isActive ? "1" : "0.35";
+              child.style.transform = isActive ? "scale(1.08)" : "scale(1)";
+              child.style.border = isActive
+                ? "2px solid var(--brand-dark-blue)"
+                : "1px solid transparent";
+            }
+          }
+        }
       },
     });
 
@@ -151,48 +200,50 @@ export function ShowcaseSection({ projects, viewAllLabel }: ShowcaseSectionProps
             zIndex: 10,
           }}
         >
-          {projects.map((proj, idx) => {
-            const isActive = idx === activeIndex;
-            const thumbUrl =
-              proj.data?.small_card_thumbnail?.url ||
-              proj.data?.card_thumbnail?.url;
-            return (
-              <button
-                key={proj.uid || idx}
-                type="button"
-                className="Showcase_showcase_sliderIndicator_slides_slide__WjOxM"
-                style={{
-                  width: "4.8rem",
-                  height: "3.2rem",
-                  overflow: "hidden",
-                  opacity: isActive ? 1 : 0.35,
-                  transform: isActive ? "scale(1.08)" : "scale(1)",
-                  border: isActive
-                    ? "2px solid var(--brand-dark-blue)"
-                    : "1px solid transparent",
-                  transition: "all 0.3s ease",
-                  cursor: "pointer",
-                  borderRadius: "2px",
-                  background: "#000",
-                }}
-                onClick={() => scrollToItem(idx)}
-                aria-label={`Go to project ${idx + 1} of ${totalItems}`}
-              >
-                {thumbUrl && (
-                  // eslint-disable-next-line @next/next/no-img-element
-                  <img
-                    src={thumbUrl}
-                    alt={proj.data?.name || ""}
-                    style={{
-                      width: "100%",
-                      height: "100%",
-                      objectFit: "cover",
-                    }}
-                  />
-                )}
-              </button>
-            );
-          })}
+          <div ref={slidesRef} style={{ display: "flex", flexDirection: "column", gap: "0.8rem" }}>
+            {projects.map((proj, idx) => {
+              const isActive = idx === 0;
+              const thumbUrl =
+                proj.data?.small_card_thumbnail?.url ||
+                proj.data?.card_thumbnail?.url;
+              return (
+                <button
+                  key={proj.uid || idx}
+                  type="button"
+                  className="Showcase_showcase_sliderIndicator_slides_slide__WjOxM"
+                  style={{
+                    width: "4.8rem",
+                    height: "3.2rem",
+                    overflow: "hidden",
+                    opacity: isActive ? 1 : 0.35,
+                    transform: isActive ? "scale(1.08)" : "scale(1)",
+                    border: isActive
+                      ? "2px solid var(--brand-dark-blue)"
+                      : "1px solid transparent",
+                    transition: "all 0.3s ease",
+                    cursor: "pointer",
+                    borderRadius: "2px",
+                    background: "#000",
+                  }}
+                  onClick={() => scrollToItem(idx)}
+                  aria-label={`Go to project ${idx + 1} of ${totalItems}`}
+                >
+                  {thumbUrl && (
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img
+                      src={thumbUrl}
+                      alt={proj.data?.name || ""}
+                      style={{
+                        width: "100%",
+                        height: "100%",
+                        objectFit: "cover",
+                      }}
+                    />
+                  )}
+                </button>
+              );
+            })}
+          </div>
         </div>
       </div>
 
@@ -211,6 +262,7 @@ export function ShowcaseSection({ projects, viewAllLabel }: ShowcaseSectionProps
       >
         {/* Left Project Names */}
         <div
+          ref={namesRef}
           className="Showcase_showcase_names__BYqrV"
           style={{
             position: "absolute",
@@ -223,7 +275,7 @@ export function ShowcaseSection({ projects, viewAllLabel }: ShowcaseSectionProps
           }}
         >
           {projects.map((proj, idx) => {
-            const isActive = idx === activeIndex;
+            const isActive = idx === 0;
             return (
               <h3
                 key={proj.uid || idx}
@@ -255,6 +307,7 @@ export function ShowcaseSection({ projects, viewAllLabel }: ShowcaseSectionProps
 
         {/* Right Services (left of thumbnails) */}
         <div
+          ref={servicesRef}
           className="Showcase_showcase_servicesProvided__YwRyH"
           style={{
             position: "absolute",
@@ -267,7 +320,7 @@ export function ShowcaseSection({ projects, viewAllLabel }: ShowcaseSectionProps
           }}
         >
           {projects.map((proj, idx) => {
-            const isActive = idx === activeIndex;
+            const isActive = idx === 0;
             return (
               <ul
                 key={proj.uid || idx}
@@ -276,7 +329,7 @@ export function ShowcaseSection({ projects, viewAllLabel }: ShowcaseSectionProps
                   position: idx === 0 ? "relative" : "absolute",
                   top: 0,
                   right: 0,
-                  display: "flex",
+                  display: isActive ? "flex" : "none",
                   flexDirection: "column",
                   gap: "0.4rem",
                   fontSize: "1.4rem",

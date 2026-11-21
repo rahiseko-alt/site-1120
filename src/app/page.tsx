@@ -44,11 +44,6 @@ function SectionDetector({
       end: "bottom center",
       onEnter: () => useSectionStore.setState({ currentSectionIndex: index }),
       onEnterBack: () => useSectionStore.setState({ currentSectionIndex: index }),
-      onUpdate: (self) => {
-        if (useSectionStore.getState().currentSectionIndex === index) {
-          useSectionStore.setState({ sectionProgress: self.progress });
-        }
-      },
     });
     return () => st.kill();
   }, [index]);

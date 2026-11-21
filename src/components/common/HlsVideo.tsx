@@ -8,6 +8,7 @@ interface HlsVideoProps extends React.VideoHTMLAttributes<HTMLVideoElement> {
   src: string;
   poster?: string;
   ref?: React.Ref<HTMLVideoElement | null>;
+  playing?: boolean;
   onVideoReady?: (el: HTMLVideoElement) => void;
 }
 
@@ -15,6 +16,7 @@ export function HlsVideo({
   src,
   poster,
   ref,
+  playing = true,
   autoPlay = true,
   muted = true,
   loop = true,
@@ -58,11 +60,11 @@ export function HlsVideo({
       if (video.canPlayType("application/vnd.apple.mpegurl")) {
         video.src = resolvedSrc;
       } else if (Hls.isSupported()) {
-        hls = new Hls({ enableWorker: true });
+        hls = new Hls({ enableWorker: true, maxBufferLength: 10 });
         hls.loadSource(resolvedSrc);
         hls.attachMedia(video);
         hls.on(Hls.Events.MANIFEST_PARSED, () => {
-          if (autoPlay) video.play().catch(() => {});
+          if (playing) video.play().catch(() => {});
           finishLoad();
         });
         hls.on(Hls.Events.ERROR, (_evt, data) => {
@@ -87,7 +89,18 @@ export function HlsVideo({
         useAssetsStore.getState().unRegisterAssets();
       }
     };
-  }, [src, autoPlay, onVideoReady]);
+  }, [src, onVideoReady]);
+
+  // Pause when not playing to save GPU/CPU cycles
+  useEffect(() => {
+    const video = internalRef.current;
+    if (!video) return;
+    if (playing) {
+      if (video.paused) video.play().catch(() => {});
+    } else {
+      if (!video.paused) video.pause();
+    }
+  }, [playing]);
 
   return (
     <video
@@ -98,8 +111,6 @@ export function HlsVideo({
       loop={loop}
       playsInline={playsInline}
       controls={controls}
-      preload="auto"
-      crossOrigin="anonymous"
       {...rest}
     />
   );
