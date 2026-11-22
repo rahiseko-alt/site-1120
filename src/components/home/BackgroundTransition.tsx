@@ -24,119 +24,171 @@ export function BackgroundTransition({
   const sectionIdx = useSectionStore((s) => s.currentSectionIndex);
   const wrapRef = useRef<HTMLDivElement>(null);
 
-  const showCreamBg = sectionIdx === 3 || sectionIdx === 6;
-
   return (
     <div
       ref={wrapRef}
       className="BackgroundTransition_backgroundTransition__uwn48"
-      style={{
-        position: "sticky",
-        top: 0,
-        height: "100lvh",
-        zIndex: 0,
-        backgroundColor: showCreamBg ? "#fffde2" : "#051236",
-        transition: "background-color 0.8s cubic-bezier(0.165, 0.84, 0.44, 1)",
-      }}
     >
+      {/* 0: Hero Video Layer */}
       {backgroundMedia.hero?.videoUrl && (
         <div
-          className="BackgroundTransition_backgroundTransition_videoWrapper__x676c BackgroundTransition_backgroundTransition_videoWrapper__withTransition__2_m2F"
+          className="BackgroundTransition_backgroundTransition_videoWrapper__x676c BackgroundTransition_backgroundTransition_videoWrapper__withTransition__GByzy"
           style={{
             opacity: sectionIdx <= 0 ? 1 : 0,
+            visibility: sectionIdx <= 1 ? "visible" : "hidden",
             pointerEvents: "none",
-            transition: "opacity 0.8s ease",
           }}
         >
-          <HlsVideo
-            src={backgroundMedia.hero.videoUrl}
-            poster={backgroundMedia.hero.posterUrl}
-            playing={sectionIdx <= 0}
+          <div className="BackgroundTransition_backgroundTransition_mediaLayer__CBc1G">
+            <HlsVideo
+              src={backgroundMedia.hero.videoUrl}
+              poster={backgroundMedia.hero.posterUrl}
+              playing={sectionIdx <= 0}
+            />
+          </div>
+          <div
+            className="BackgroundTransition_backgroundTransition_noiseOverlay__XImaj"
+            aria-hidden="true"
           />
         </div>
       )}
 
+      {/* 1: About Video Layer */}
       {backgroundMedia.about?.videoUrl && (
         <div
-          className="BackgroundTransition_backgroundTransition_videoWrapper__x676c BackgroundTransition_backgroundTransition_videoWrapper__withTransition__2_m2F"
+          className="BackgroundTransition_backgroundTransition_videoWrapper__x676c BackgroundTransition_backgroundTransition_videoWrapper__withTransition__GByzy"
           style={{
             opacity: sectionIdx === 1 ? 1 : 0,
+            visibility: sectionIdx >= 0 && sectionIdx <= 2 ? "visible" : "hidden",
             pointerEvents: "none",
-            transition: "opacity 0.8s ease",
           }}
         >
-          <HlsVideo
-            src={backgroundMedia.about.videoUrl}
-            poster={backgroundMedia.about.posterUrl}
-            playing={sectionIdx === 1}
+          <div className="BackgroundTransition_backgroundTransition_mediaLayer__CBc1G">
+            <HlsVideo
+              src={backgroundMedia.about.videoUrl}
+              poster={backgroundMedia.about.posterUrl}
+              playing={sectionIdx === 1}
+            />
+          </div>
+          <div
+            className="BackgroundTransition_backgroundTransition_noiseOverlay__XImaj"
+            aria-hidden="true"
           />
         </div>
       )}
 
+      {/* 2: What We Do Video Layer */}
       {backgroundMedia.whatWeDo?.videoUrl && (
         <div
-          className="BackgroundTransition_backgroundTransition_videoWrapper__x676c BackgroundTransition_backgroundTransition_videoWrapper__withTransition__2_m2F"
+          className="BackgroundTransition_backgroundTransition_videoWrapper__x676c BackgroundTransition_backgroundTransition_videoWrapper__withTransition__GByzy"
           style={{
             opacity: sectionIdx === 2 ? 1 : 0,
+            visibility: sectionIdx >= 1 && sectionIdx <= 3 ? "visible" : "hidden",
             pointerEvents: "none",
-            transition: "opacity 0.8s ease",
           }}
         >
-          <HlsVideo
-            src={backgroundMedia.whatWeDo.videoUrl}
-            poster={backgroundMedia.whatWeDo.posterUrl}
-            playing={sectionIdx === 2}
+          <div className="BackgroundTransition_backgroundTransition_mediaLayer__CBc1G">
+            <HlsVideo
+              src={backgroundMedia.whatWeDo.videoUrl}
+              poster={backgroundMedia.whatWeDo.posterUrl}
+              playing={sectionIdx === 2}
+            />
+          </div>
+          <div
+            className="BackgroundTransition_backgroundTransition_noiseOverlay__XImaj"
+            aria-hidden="true"
           />
         </div>
       )}
 
+      {/* 3: Showcase Section Color Background */}
+      <div
+        className="BackgroundTransition_backgroundTransition_videoWrapper__x676c BackgroundTransition_backgroundTransition_videoWrapper__withTransition__GByzy BackgroundTransition_backgroundTransition_videoWrapper__showcase__mL_M_"
+        style={{
+          opacity: sectionIdx === 3 ? 1 : 0,
+          visibility: sectionIdx === 3 ? "visible" : "hidden",
+          pointerEvents: "none",
+        }}
+      />
+
+      {/* 4: Full Screen Media (Driven by Creative Curiosity) */}
       {backgroundMedia.fullScreenMedia?.videoUrl && (
         <div
-          className="BackgroundTransition_backgroundTransition_videoWrapper__x676c BackgroundTransition_backgroundTransition_videoWrapper__withTransition__2_m2F"
+          className="BackgroundTransition_backgroundTransition_videoWrapper__x676c BackgroundTransition_backgroundTransition_videoWrapper__withTransition__GByzy"
           style={{
             opacity: sectionIdx === 4 ? 1 : 0,
+            visibility: sectionIdx >= 3 && sectionIdx <= 5 ? "visible" : "hidden",
             pointerEvents: "none",
-            transition: "opacity 0.8s ease",
           }}
         >
-          <HlsVideo
-            src={backgroundMedia.fullScreenMedia.videoUrl}
-            poster={backgroundMedia.fullScreenMedia.posterUrl}
-            playing={sectionIdx === 4}
+          <div className="BackgroundTransition_backgroundTransition_mediaLayer__CBc1G">
+            <HlsVideo
+              src={backgroundMedia.fullScreenMedia.videoUrl}
+              poster={backgroundMedia.fullScreenMedia.posterUrl}
+              playing={sectionIdx === 4}
+            />
+          </div>
+          <div
+            className="BackgroundTransition_backgroundTransition_noiseOverlay__XImaj"
+            aria-hidden="true"
           />
         </div>
       )}
 
+      {/* 5: Collaborations Video Layer */}
       {backgroundMedia.collaborations?.videoUrl && (
         <div
-          className="BackgroundTransition_backgroundTransition_videoWrapper__x676c BackgroundTransition_backgroundTransition_videoWrapper__withTransition__2_m2F"
+          className="BackgroundTransition_backgroundTransition_videoWrapper__x676c BackgroundTransition_backgroundTransition_videoWrapper__withTransition__GByzy"
           style={{
             opacity: sectionIdx === 5 ? 1 : 0,
+            visibility: sectionIdx >= 4 && sectionIdx <= 6 ? "visible" : "hidden",
             pointerEvents: "none",
-            transition: "opacity 0.8s ease",
           }}
         >
-          <HlsVideo
-            src={backgroundMedia.collaborations.videoUrl}
-            poster={backgroundMedia.collaborations.posterUrl}
-            playing={sectionIdx === 5}
+          <div className="BackgroundTransition_backgroundTransition_mediaLayer__CBc1G">
+            <HlsVideo
+              src={backgroundMedia.collaborations.videoUrl}
+              poster={backgroundMedia.collaborations.posterUrl}
+              playing={sectionIdx === 5}
+            />
+          </div>
+          <div
+            className="BackgroundTransition_backgroundTransition_noiseOverlay__XImaj"
+            aria-hidden="true"
           />
         </div>
       )}
 
+      {/* 6: Team Section Color Background */}
+      <div
+        className="BackgroundTransition_backgroundTransition_videoWrapper__x676c BackgroundTransition_backgroundTransition_videoWrapper__withTransition__GByzy BackgroundTransition_backgroundTransition_videoWrapper__team__3znuA"
+        style={{
+          opacity: sectionIdx === 6 ? 1 : 0,
+          visibility: sectionIdx === 6 ? "visible" : "hidden",
+          pointerEvents: "none",
+        }}
+      />
+
+      {/* 7: Footer Video Layer */}
       {backgroundMedia.footer?.videoUrl && (
         <div
-          className="BackgroundTransition_backgroundTransition_videoWrapper__x676c BackgroundTransition_backgroundTransition_videoWrapper__withTransition__2_m2F"
+          className="BackgroundTransition_backgroundTransition_videoWrapper__x676c BackgroundTransition_backgroundTransition_videoWrapper__withTransition__GByzy BackgroundTransition_backgroundTransition_videoWrapper__footer__z_qDl"
           style={{
             opacity: sectionIdx >= 7 ? 1 : 0,
+            visibility: sectionIdx >= 6 ? "visible" : "hidden",
             pointerEvents: "none",
-            transition: "opacity 0.8s ease",
           }}
         >
-          <HlsVideo
-            src={backgroundMedia.footer.videoUrl}
-            poster={backgroundMedia.footer.posterUrl}
-            playing={sectionIdx >= 7}
+          <div className="BackgroundTransition_backgroundTransition_mediaLayer__CBc1G">
+            <HlsVideo
+              src={backgroundMedia.footer.videoUrl}
+              poster={backgroundMedia.footer.posterUrl}
+              playing={sectionIdx >= 7}
+            />
+          </div>
+          <div
+            className="BackgroundTransition_backgroundTransition_noiseOverlay__XImaj"
+            aria-hidden="true"
           />
         </div>
       )}
