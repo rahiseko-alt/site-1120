@@ -53,7 +53,7 @@ function SectionDetector({
   }, [index]);
 
   return (
-    <div ref={ref} className={className}>
+    <div ref={ref} data-section-index={index} className={className}>
       {children}
     </div>
   );
@@ -310,11 +310,11 @@ function CollaborationsArcSection({
         // Update 3D Arc position on the right side
         if (arcWrapRef.current) {
           const arcItems = arcWrapRef.current.children;
-          const radiusRem = isDesktop ? 56 : 28;
+          const radiusRem = isDesktop ? 64 : 34;
           for (let i = 0; i < arcItems.length; i++) {
             const item = arcItems[i] as HTMLElement;
             const rel = i - activeFloat;
-            const thetaDeg = rel * 11.5;
+            const thetaDeg = rel * 13.5;
             const thetaRad = (thetaDeg * Math.PI) / 180;
             const xOffset = radiusRem * (1 - Math.cos(thetaRad));
             const yOffset = radiusRem * Math.sin(thetaRad);
@@ -473,7 +473,7 @@ function CollaborationsArcSection({
           </div>
         </div>
 
-        {/* Right Side: 3D Rotating Typography Wheel / Arc */}
+        {/* Right Side: 3D Rotating Typography Wheel / Arc (Enlarged Typography) */}
         <div
           ref={arcWrapRef}
           style={{
@@ -485,9 +485,9 @@ function CollaborationsArcSection({
         >
           {clients.map((client, idx) => {
             const rel = idx;
-            const thetaDeg = rel * 11.5;
+            const thetaDeg = rel * 13.5;
             const thetaRad = (thetaDeg * Math.PI) / 180;
-            const radiusRem = isDesktop ? 56 : 28;
+            const radiusRem = isDesktop ? 64 : 34;
             const xOffset = radiusRem * (1 - Math.cos(thetaRad));
             const yOffset = radiusRem * Math.sin(thetaRad);
 
@@ -496,7 +496,7 @@ function CollaborationsArcSection({
                 key={client?.id || idx}
                 style={{
                   position: "absolute",
-                  right: isDesktop ? "18vw" : "var(--padding-x)",
+                  right: isDesktop ? "14vw" : "var(--padding-x)",
                   top: isDesktop ? "50%" : "68%",
                   transformOrigin: "center right",
                   transform: `translate3d(${xOffset.toFixed(2)}rem, calc(-50% + ${yOffset.toFixed(
@@ -506,9 +506,9 @@ function CollaborationsArcSection({
                     idx === 0
                       ? "var(--brand-yellow)"
                       : "rgba(242, 239, 233, 0.18)",
-                  fontSize: isDesktop ? "clamp(3.6rem, 5.8vw, 8.6rem)" : "clamp(2.4rem, 7.2vw, 3.8rem)",
+                  fontSize: isDesktop ? "clamp(5.0rem, 7.6vw, 11.2rem)" : "clamp(3.4rem, 9.6vw, 5.4rem)",
                   fontWeight: 600,
-                  lineHeight: 1,
+                  lineHeight: 0.96,
                   letterSpacing: "-0.035em",
                   whiteSpace: "nowrap",
                   textAlign: "right",
@@ -644,6 +644,201 @@ function AwardsFanSection({
               </div>
             );
           })}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+// 9B. Press & Features Section: Sequential top-to-bottom scroll reveal to 25% opacity, 100% + thumbnail on touch/hover
+function PressFeaturesSection({
+  pressList,
+}: {
+  pressList: Array<{
+    press?: {
+      id?: string;
+      data?: {
+        publication_name?: string;
+        link?: { url?: string };
+        thumbnail?: { url?: string; alt?: string };
+      };
+    };
+  }>;
+}) {
+  const sectionRef = useRef<HTMLDivElement>(null);
+  const [revealedMap, setRevealedMap] = useState<Record<number, boolean>>({});
+  const [activeIdx, setActiveIdx] = useState<number | null>(null);
+  const { isDesktop } = useViewport();
+
+  useEffect(() => {
+    const wrap = sectionRef.current;
+    if (!wrap) return;
+    const rows = wrap.querySelectorAll("[data-press-row]");
+    const triggers: ScrollTrigger[] = [];
+
+    rows.forEach((row, idx) => {
+      const st = ScrollTrigger.create({
+        trigger: row,
+        start: "top 92%",
+        onEnter: () => {
+          setRevealedMap((prev) => (prev[idx] ? prev : { ...prev, [idx]: true }));
+        },
+      });
+      triggers.push(st);
+    });
+
+    return () => {
+      triggers.forEach((t) => t.kill());
+    };
+  }, [pressList.length]);
+
+  return (
+    <div ref={sectionRef} className="Presses_presses__keppm" style={{ paddingTop: "8rem" }}>
+      <div className="Container_container__A7FAx">
+        <div className="Grid_grid__8e_U7 Presses_presses_grid___Uehv">
+          <div className="Presses_presses_label__ZbO4v">
+            <div style={{ display: "flex", flexDirection: "column", gap: "0.8rem" }}>
+              <span
+                style={{
+                  fontSize: "1.1rem",
+                  letterSpacing: "0.16em",
+                  textTransform: "uppercase",
+                  color: "var(--brand-accent)",
+                  fontWeight: 600,
+                }}
+              >
+                Press &amp; Features
+              </span>
+              <span
+                className="Presses_presses_label_text__e9jFT"
+                style={{ opacity: 0.75 }}
+              >
+                Global Editorial Coverage
+              </span>
+            </div>
+          </div>
+
+          <ul
+            style={{
+              gridColumn: isDesktop ? "7 / -1" : "1 / -1",
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+              gap: isDesktop ? "0.8rem" : "0.5rem",
+              listStyle: "none",
+              margin: 0,
+              padding: 0,
+            }}
+          >
+            {pressList.map((pr, idx) => {
+              const pressData = pr.press?.data;
+              const isRevealed = !!revealedMap[idx];
+              const isHighlighted = activeIdx === idx;
+              const rowOpacity = !isRevealed ? 0 : isHighlighted ? 1 : 0.25;
+              const rowBlur = !isRevealed ? "blur(12px)" : "blur(0px)";
+              const rowTransform = !isRevealed ? "translateY(22px)" : "translateY(0)";
+              // Staggered sequential transition delay during initial reveal, instant responsiveness on hover/touch
+              const transitionDelay = !isRevealed || isHighlighted ? "0s" : `${idx * 0.08}s`;
+
+              return (
+                <li
+                  key={pr.press?.id || idx}
+                  data-press-row={idx}
+                  onMouseEnter={() => setActiveIdx(idx)}
+                  onMouseLeave={() => setActiveIdx((cur) => (cur === idx ? null : cur))}
+                  onTouchStart={() => setActiveIdx(idx)}
+                  onFocus={() => setActiveIdx(idx)}
+                  onBlur={() => setActiveIdx((cur) => (cur === idx ? null : cur))}
+                >
+                  <a
+                    href={pressData?.link?.url || "#"}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{
+                      position: "relative",
+                      display: "flex",
+                      alignItems: "flex-end",
+                      justifyContent: "space-between",
+                      gap: isDesktop ? "2.4rem" : "1.2rem",
+                      padding: "1.6rem 0",
+                      opacity: rowOpacity,
+                      filter: rowBlur,
+                      transform: rowTransform,
+                      transition: isHighlighted
+                        ? "opacity 0.35s cubic-bezier(0.16, 1, 0.3, 1), filter 0.35s cubic-bezier(0.16, 1, 0.3, 1), transform 0.5s cubic-bezier(0.16, 1, 0.3, 1)"
+                        : `opacity 0.9s cubic-bezier(0.16, 1, 0.3, 1) ${transitionDelay}, filter 0.9s cubic-bezier(0.16, 1, 0.3, 1) ${transitionDelay}, transform 0.9s cubic-bezier(0.16, 1, 0.3, 1) ${transitionDelay}`,
+                      willChange: "opacity, filter, transform",
+                      textDecoration: "none",
+                      color: "var(--text-primary)",
+                    }}
+                  >
+                    <span
+                      style={{
+                        position: "relative",
+                        textTransform: "uppercase",
+                        fontFamily: "var(--font-twk)",
+                        fontWeight: 600,
+                        fontSize: isDesktop ? "clamp(4.8rem, 5.4vw, 8.8rem)" : "clamp(3.0rem, 8.2vw, 4.8rem)",
+                        lineHeight: 1,
+                        letterSpacing: "-0.03em",
+                        paddingBottom: "0.14em",
+                      }}
+                    >
+                      {pressData?.publication_name}
+                      <span
+                        style={{
+                          position: "absolute",
+                          bottom: 0,
+                          left: 0,
+                          width: "100%",
+                          height: "0.12rem",
+                          backgroundColor: "var(--brand-yellow)",
+                          transform: isHighlighted ? "scaleX(1)" : "scaleX(0.35)",
+                          transformOrigin: "left center",
+                          opacity: isHighlighted ? 1 : 0.6,
+                          transition: "transform 0.45s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.35s ease",
+                        }}
+                      />
+                    </span>
+
+                    {pressData?.thumbnail?.url && (
+                      <span
+                        style={{
+                          position: "relative",
+                          flexShrink: 0,
+                          overflow: "hidden",
+                          width: isDesktop ? "10rem" : "5.4rem",
+                          height: isDesktop ? "8rem" : "4.2rem",
+                          borderRadius: "0.3rem",
+                          clipPath: isHighlighted
+                            ? "inset(0% 0% 0% 0%)"
+                            : "inset(100% 100% 100% 100%)",
+                          transition: "clip-path 0.55s cubic-bezier(0.16, 1, 0.3, 1)",
+                        }}
+                      >
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
+                        <img
+                          src={pressData.thumbnail.url}
+                          alt={
+                            pressData.thumbnail.alt ||
+                            pressData.publication_name ||
+                            ""
+                          }
+                          style={{
+                            width: "100%",
+                            height: "100%",
+                            objectFit: "cover",
+                            transform: isHighlighted ? "scale(1)" : "scale(1.4)",
+                            transition: "transform 0.65s cubic-bezier(0.16, 1, 0.3, 1)",
+                          }}
+                        />
+                      </span>
+                    )}
+                  </a>
+                </li>
+              );
+            })}
+          </ul>
         </div>
       </div>
     </div>
@@ -808,7 +1003,7 @@ export default function HomePage() {
     : undefined;
 
   const projects = useMemo(
-    () => (showcase.project_list || []).map((p) => p.project).filter(Boolean),
+    () => (showcase.project_list || []).map((p) => p.project).filter(Boolean).slice(0, 3),
     [showcase.project_list]
   );
 
@@ -1197,89 +1392,7 @@ export default function HomePage() {
           <IntegratedJobsSection />
 
           {presses.press_list && presses.press_list.length > 0 && (
-            <div className="Presses_presses__keppm" style={{ paddingTop: "8rem" }}>
-              <div className="Container_container__A7FAx">
-                <div className="Grid_grid__8e_U7 Presses_presses_grid___Uehv">
-                  <div className="Presses_presses_label__ZbO4v">
-                    <div style={{ display: "flex", flexDirection: "column", gap: "0.8rem" }}>
-                      <span
-                        style={{
-                          fontSize: "1.1rem",
-                          letterSpacing: "0.16em",
-                          textTransform: "uppercase",
-                          color: "var(--brand-accent)",
-                          fontWeight: 600,
-                        }}
-                      >
-                        Press &amp; Features
-                      </span>
-                      <span
-                        className="Presses_presses_label_text__e9jFT"
-                        style={{ opacity: 0.75 }}
-                      >
-                        Global Editorial Coverage
-                      </span>
-                    </div>
-                  </div>
-
-                  <ul className="Presses_presses_list__Uei03">
-                    {presses.press_list.map((pr, idx) => {
-                      const pressData = pr.press?.data;
-                      return (
-                        <li key={pr.press?.id || idx}>
-                          <a
-                            href={pressData?.link?.url || "#"}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="Presses_presses_item__ZRqaJ"
-                            style={{
-                              justifyContent: "space-between",
-                              borderBottom: "1px solid rgba(242, 239, 233, 0.14)",
-                              padding: "2rem 0",
-                            }}
-                          >
-                            <span
-                              className="Presses_presses_item_title__xYMjH"
-                              style={{
-                                opacity: 1,
-                                filter: "blur(0px)",
-                              }}
-                            >
-                              {pressData?.publication_name}
-                            </span>
-                            {pressData?.thumbnail?.url && (
-                              <span
-                                className="Presses_presses_item_thumbnail__8fJDD"
-                                style={{
-                                  clipPath: "inset(0% 0% 0% 0%)",
-                                  borderRadius: "0.3rem",
-                                }}
-                              >
-                                {/* eslint-disable-next-line @next/next/no-img-element */}
-                                <img
-                                  src={pressData.thumbnail.url}
-                                  alt={
-                                    pressData.thumbnail.alt ||
-                                    pressData.publication_name ||
-                                    ""
-                                  }
-                                  style={{
-                                    width: "100%",
-                                    height: "100%",
-                                    objectFit: "cover",
-                                    transform: "scale(1.05)",
-                                  }}
-                                />
-                              </span>
-                            )}
-                          </a>
-                        </li>
-                      );
-                    })}
-                  </ul>
-                </div>
-              </div>
-            </div>
+            <PressFeaturesSection pressList={presses.press_list} />
           )}
         </SectionDetector>
 

@@ -64,12 +64,10 @@ const SHOWCASE_VERT = `
     if (uProgress > 0.001 && uProgress < 0.999) {
       float dist = distance(uv, center);
       float waveProgress = smoothstep(0.0, 1.0, uProgress);
-      float rippleRadius = waveProgress;
-      float rippleThickness = 0.15;
-      float wave = smoothstep(rippleRadius, rippleRadius - rippleThickness, dist) *
-                   smoothstep(rippleRadius - rippleThickness * 2.0, rippleRadius - rippleThickness, dist);
-      float waveIntensity = smoothstep(0.0, 0.2, uProgress) * smoothstep(1.0, 0.6, uProgress);
-      pos.z += wave * uVertexStrength * 1.5 * waveIntensity;
+      float rippleRadius = waveProgress * 0.85;
+      float bell = exp(-pow((dist - rippleRadius) * 6.5, 2.0));
+      float waveIntensity = sin(uProgress * 3.14159265);
+      pos.z += bell * uVertexStrength * 1.45 * waveIntensity;
     }
 
     gl_Position = projectionMatrix * modelViewMatrix * vec4(pos, 1.0);
@@ -112,18 +110,17 @@ const SHOWCASE_FRAG = `
     vec2 mouseNormalOffset = vec2(hL - hR, hT - hB);
 
     float waveProgress = smoothstep(0.0, 1.0, uProgress);
-    float rippleRadius = waveProgress;
-    float waveIntensity = smoothstep(0.0, 0.2, uProgress) * smoothstep(1.0, 0.6, uProgress);
+    float rippleRadius = waveProgress * 0.9;
+    float waveIntensity = sin(uProgress * 3.14159265);
 
-    float wavePattern = sin((dist - rippleRadius) * 8.0) * waveIntensity * 0.15;
-    vec2 waveNormalOffset = normalize(uv - center + 0.0001) * wavePattern;
+    // Single smooth radial bell pulse (strictly 1 bounce per scroll step)
+    float singlePulse = exp(-pow((dist - rippleRadius) * 6.5, 2.0)) * waveIntensity * 0.16;
+    vec2 waveNormalOffset = normalize(uv - center + 0.0001) * singlePulse;
 
     vec2 distortion = (mouseNormalOffset + waveNormalOffset) * uDistortionStrength;
 
-    float rippleThickness = 0.15;
-    float mask = smoothstep(rippleRadius - rippleThickness, rippleRadius, dist);
-    float maskWave = sin((dist - rippleRadius) * 6.0) * 0.5 + 0.5;
-    mask = mix(mask, mask * (1.0 - maskWave * 0.35), waveIntensity);
+    float rippleThickness = 0.22;
+    float mask = smoothstep(rippleRadius - rippleThickness, rippleRadius + 0.04, dist);
     mask = clamp(mask, 0.0, 1.0);
 
     vec4 tex1 = texture2D(uTexture, texUv + distortion);
@@ -131,7 +128,7 @@ const SHOWCASE_FRAG = `
 
     vec4 finalColor = mix(tex2, tex1, mask);
     vec2 totalNormal = mouseNormalOffset + waveNormalOffset;
-    finalColor.rgb *= clamp(1.0 - length(totalNormal) * 0.6, 0.6, 1.0);
+    finalColor.rgb *= clamp(1.0 - length(totalNormal) * 0.55, 0.65, 1.0);
     finalColor.a *= uOpacity;
 
     gl_FragColor = finalColor;
@@ -208,19 +205,24 @@ function ShowcasePlane({
       matRef.current.uniforms.uTextureNext.value = tex;
       return;
     }
+    // If a previous transition was mid-flight, commit its target texture immediately to prevent double-bounce
+    const prevTargetTex = textures[currentIdxRef.current] ?? textures[0];
+    if (prevTargetTex) {
+      matRef.current.uniforms.uTexture.value = prevTargetTex;
+    }
+    currentIdxRef.current = activeIndex;
     matRef.current.uniforms.uTextureNext.value = tex;
-    progressRef.current.value = 0;
     gsap.killTweensOf(progressRef.current);
+    progressRef.current.value = 0;
     gsap.to(progressRef.current, {
       value: 1,
-      duration: 1.0,
-      ease: "power2.inOut",
+      duration: 0.82,
+      ease: "power3.out",
       onComplete: () => {
         if (matRef.current) {
           matRef.current.uniforms.uTexture.value = tex;
           progressRef.current.value = 0;
         }
-        currentIdxRef.current = activeIndex;
       },
     });
   }, [activeIndex, textures]);

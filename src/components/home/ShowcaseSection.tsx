@@ -142,13 +142,13 @@ export function ShowcaseSection({ projects, viewAllLabel }: ShowcaseSectionProps
           "--total-items": totalItems,
           position: "relative",
           width: "100%",
-          height: `calc(${totalItems} * 100svh)`,
+          height: `calc(${totalItems} * 135svh)`,
         } as React.CSSProperties
       }
     >
       {isDesktop ? (
         <>
-          {/* DESKTOP: Left WebGL Fluid Canvas */}
+          {/* DESKTOP: Left WebGL Fluid Canvas (Maximized Window) */}
           <div
             className="Showcase_showcase_content__aucYY"
             style={{
@@ -168,8 +168,8 @@ export function ShowcaseSection({ projects, viewAllLabel }: ShowcaseSectionProps
             <div
               style={{
                 position: "relative",
-                width: "clamp(340px, 48vw, 800px)",
-                aspectRatio: "1.35",
+                width: "clamp(480px, 58vw, 1080px)",
+                height: "76svh",
                 cursor: "pointer",
                 borderRadius: "0.4rem",
                 overflow: "hidden",
@@ -244,8 +244,8 @@ export function ShowcaseSection({ projects, viewAllLabel }: ShowcaseSectionProps
                 left: "auto",
                 right: "calc(var(--padding-x) + 10rem)",
                 transform: "translateY(-50%)",
-                maxWidth: "52rem",
-                width: "38vw",
+                maxWidth: "46rem",
+                width: "31vw",
                 textAlign: "right",
                 pointerEvents: "none",
                 zIndex: 10,
@@ -426,7 +426,7 @@ export function ShowcaseSection({ projects, viewAllLabel }: ShowcaseSectionProps
           </div>
         </>
       ) : (
-        /* MOBILE & TABLET: Clean Stacked Vertical Sticky Layout (Zero Overlap) */
+        /* MOBILE & TABLET: Clean Stacked Vertical Sticky Layout (Maximized Window, Zero Overlap) */
         <div
           style={{
             position: "sticky",
@@ -437,7 +437,7 @@ export function ShowcaseSection({ projects, viewAllLabel }: ShowcaseSectionProps
             display: "flex",
             flexDirection: "column",
             justifyContent: "space-between",
-            padding: "8.2rem var(--padding-x) 3.2rem",
+            padding: "7.2rem var(--padding-x) 2.2rem",
             overflow: "hidden",
             color: "var(--brand-dark-blue)",
           }}
@@ -476,13 +476,13 @@ export function ShowcaseSection({ projects, viewAllLabel }: ShowcaseSectionProps
             </span>
           </div>
 
-          {/* WebGL Canvas Container */}
+          {/* WebGL Canvas Container (Maximized Window) */}
           <div
             style={{
               position: "relative",
               width: "100%",
-              height: "36svh",
-              maxHeight: "34rem",
+              height: "52svh",
+              maxHeight: "48rem",
               borderRadius: "0.6rem",
               overflow: "hidden",
               boxShadow: "0 20px 50px rgba(8, 9, 12, 0.14)",
@@ -502,9 +502,9 @@ export function ShowcaseSection({ projects, viewAllLabel }: ShowcaseSectionProps
             style={{
               display: "flex",
               flexDirection: "column",
-              gap: "1rem",
+              gap: "0.8rem",
               width: "100%",
-              minHeight: "11rem",
+              minHeight: "8.2rem",
               justifyContent: "center",
               flexShrink: 0,
             }}
@@ -514,7 +514,7 @@ export function ShowcaseSection({ projects, viewAllLabel }: ShowcaseSectionProps
               style={{
                 position: "relative",
                 width: "100%",
-                minHeight: "4.6rem",
+                minHeight: "3.8rem",
               }}
             >
               {projects.map((proj, idx) => {
@@ -527,7 +527,7 @@ export function ShowcaseSection({ projects, viewAllLabel }: ShowcaseSectionProps
                       top: 0,
                       left: 0,
                       width: "100%",
-                      fontSize: "clamp(2.6rem, 7.5vw, 4.2rem)",
+                      fontSize: "clamp(2.4rem, 7vw, 3.8rem)",
                       fontWeight: 600,
                       lineHeight: 1.02,
                       letterSpacing: "-0.03em",
@@ -552,7 +552,7 @@ export function ShowcaseSection({ projects, viewAllLabel }: ShowcaseSectionProps
               style={{
                 position: "relative",
                 width: "100%",
-                minHeight: "3.2rem",
+                minHeight: "2.8rem",
               }}
             >
               {projects.map((proj, idx) => {
@@ -599,7 +599,7 @@ export function ShowcaseSection({ projects, viewAllLabel }: ShowcaseSectionProps
             style={{
               display: "flex",
               flexDirection: "column",
-              gap: "1.2rem",
+              gap: "1rem",
               width: "100%",
               flexShrink: 0,
             }}
@@ -660,7 +660,7 @@ export function ShowcaseSection({ projects, viewAllLabel }: ShowcaseSectionProps
 
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
               <TransitionLink
-                href={ROUTES.WORK}
+                href="/#section-work"
                 style={{
                   fontSize: "1.15rem",
                   fontWeight: 600,
