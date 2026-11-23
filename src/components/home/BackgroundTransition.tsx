@@ -153,15 +153,18 @@ const BLOB_FRAG = `
   }
 `;
 
-// Palette per section index on HomePage:
+// Palette per section index (Unified Main Page):
 // 0: Hero (Emerald Teal & Deep Obsidian & Amber)
 // 1: Featured Work / Showcase (Warm Platinum light mode)
-// 2: Philosophy / About (Violet Indigo & Crimson Amber)
-// 3: Capabilities / WhatWeDo (Deep Teal & Cyber Emerald)
-// 4: Collaborations / Arc (Obsidian & Copper Vermilion)
-// 5: Collective / Team (Midnight Slate & Electric Violet)
-// 6: Recognition / Awards & Press (Alabaster light mode)
-// 7+: Footer (Deep Obsidian & Warm Gold)
+// 2: Complete Works Matrix (Deep Obsidian & Emerald Cyan)
+// 3: Philosophy / About (Violet Indigo & Crimson Amber)
+// 4: Capabilities & Services Matrix (Deep Teal & Cyber Emerald)
+// 5: Collaborations / Arc (Obsidian & Copper Vermilion)
+// 6: Collective / Team (Midnight Slate & Electric Violet)
+// 7: R&D Lab + Interactive GIF Sprite Engine (Warm Platinum light mode)
+// 8: Recognition / Awards (Alabaster light mode)
+// 9: Open Positions / Jobs + Press (Deep Forest Slate #101615)
+// 10+: Footer (Deep Obsidian & Warm Gold)
 const SECTION_PALETTES: Array<{
   a: [number, number, number];
   b: [number, number, number];
@@ -172,12 +175,15 @@ const SECTION_PALETTES: Array<{
 }> = [
   { a: [0.05, 0.43, 0.37], b: [0.16, 0.11, 0.36], c: [0.83, 0.34, 0.16], bg: [0.031, 0.035, 0.047], morph: 0.0, light: 0.0 },
   { a: [0.88, 0.84, 0.78], b: [0.83, 0.34, 0.16], c: [0.05, 0.43, 0.37], bg: [0.949, 0.937, 0.914], morph: 1.2, light: 1.0 },
-  { a: [0.23, 0.11, 0.43], b: [0.55, 0.16, 0.24], c: [0.88, 0.46, 0.22], bg: [0.031, 0.035, 0.047], morph: 2.4, light: 0.0 },
+  { a: [0.04, 0.32, 0.38], b: [0.12, 0.16, 0.32], c: [0.83, 0.34, 0.16], bg: [0.031, 0.035, 0.047], morph: 2.0, light: 0.0 },
+  { a: [0.23, 0.11, 0.43], b: [0.55, 0.16, 0.24], c: [0.88, 0.46, 0.22], bg: [0.031, 0.035, 0.047], morph: 2.8, light: 0.0 },
   { a: [0.04, 0.38, 0.34], b: [0.08, 0.24, 0.38], c: [0.22, 0.75, 0.62], bg: [0.031, 0.035, 0.047], morph: 3.6, light: 0.0 },
   { a: [0.48, 0.19, 0.12], b: [0.18, 0.12, 0.32], c: [0.88, 0.42, 0.18], bg: [0.031, 0.035, 0.047], morph: 4.8, light: 0.0 },
   { a: [0.14, 0.18, 0.34], b: [0.05, 0.38, 0.34], c: [0.76, 0.32, 0.22], bg: [0.031, 0.035, 0.047], morph: 6.0, light: 0.0 },
-  { a: [0.85, 0.82, 0.76], b: [0.05, 0.43, 0.37], c: [0.83, 0.34, 0.16], bg: [0.949, 0.937, 0.914], morph: 7.2, light: 1.0 },
-  { a: [0.05, 0.35, 0.30], b: [0.35, 0.15, 0.12], c: [0.83, 0.34, 0.16], bg: [0.02, 0.022, 0.03], morph: 8.5, light: 0.0 },
+  { a: [0.88, 0.85, 0.79], b: [0.83, 0.34, 0.16], c: [0.05, 0.43, 0.37], bg: [0.949, 0.937, 0.914], morph: 6.8, light: 1.0 },
+  { a: [0.85, 0.82, 0.76], b: [0.05, 0.43, 0.37], c: [0.83, 0.34, 0.16], bg: [0.949, 0.937, 0.914], morph: 7.5, light: 1.0 },
+  { a: [0.06, 0.28, 0.22], b: [0.12, 0.20, 0.18], c: [0.83, 0.34, 0.16], bg: [0.063, 0.086, 0.082], morph: 8.2, light: 0.0 },
+  { a: [0.05, 0.35, 0.30], b: [0.35, 0.15, 0.12], c: [0.83, 0.34, 0.16], bg: [0.02, 0.022, 0.03], morph: 9.0, light: 0.0 },
 ];
 
 function OrganicBlobPlane({ sectionIdx }: { sectionIdx: number }) {

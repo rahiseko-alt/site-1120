@@ -155,7 +155,7 @@ export function Header({
     mixTimerRef.current?.kill();
     const isHome = pathname === ROUTES.HOME;
     const secIdx = useSectionStore.getState().currentSectionIndex;
-    if (isOpen || (isHome && (secIdx === 1 || secIdx === 6))) {
+    if (isOpen || (isHome && (secIdx === 1 || secIdx === 7 || secIdx === 8))) {
       headerRef.current?.classList.toggle("Header_header__mixBlendMode__wLXrQ", true);
     } else if (!forceDifference) {
       mixTimerRef.current = gsap.delayedCall(0.6, () => {
@@ -171,7 +171,7 @@ export function Header({
     if (pathname === ROUTES.HOME) {
       headerRef.current?.classList.toggle(
         "Header_header__mixBlendMode__wLXrQ",
-        idx === 1 || idx === 6
+        idx === 1 || idx === 7 || idx === 8
       );
     }
   });
@@ -184,7 +184,7 @@ export function Header({
         if (pathRef.current === ROUTES.HOME) {
           headerRef.current?.classList.toggle(
             "Header_header__mixBlendMode__wLXrQ",
-            idx === 1 || idx === 6
+            idx === 1 || idx === 7 || idx === 8
           );
         }
       });

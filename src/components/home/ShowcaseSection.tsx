@@ -407,7 +407,7 @@ export function ShowcaseSection({ projects, viewAllLabel }: ShowcaseSectionProps
               </div>
 
               <TransitionLink
-                href={ROUTES.WORK}
+                href="/#section-work"
                 className="common-link-effect"
                 style={{
                   fontSize: "1.3rem",
