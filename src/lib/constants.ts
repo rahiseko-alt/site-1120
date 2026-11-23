@@ -1,18 +1,18 @@
 export const ROUTES = {
   HOME: "/",
   WORK: "/work",
-  SERVICES: "/#section-services",
-  LAB: "/#section-lab",
-  JOBS: "/#section-jobs",
-  BRIEF: "/#section-services",
+  SERVICES: "/services",
+  LAB: "/lab",
+  JOBS: "/jobs",
+  BRIEF: "/services",
 } as const;
 
 export const NAV_ITEMS = {
-  HOME: { label: "Home", href: "/#section-hero" },
-  WORK: { label: "Work", href: "/#section-work" },
-  SERVICES: { label: "Services", href: "/#section-services" },
-  LAB: { label: "Lab", href: "/#section-lab" },
-  JOBS: { label: "Jobs", href: "/#section-jobs" },
+  HOME: { label: "Home", href: "/" },
+  WORK: { label: "Work", href: "/work" },
+  SERVICES: { label: "Services", href: "/services" },
+  LAB: { label: "Lab", href: "/lab" },
+  JOBS: { label: "Jobs", href: "/jobs" },
 } as const;
 
 export const DURATION = {

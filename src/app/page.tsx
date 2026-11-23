@@ -9,12 +9,6 @@ import { BackgroundTransition } from "@/components/home/BackgroundTransition";
 import { SectionIndicator } from "@/components/home/SectionIndicator";
 import { ShowcaseSection } from "@/components/home/ShowcaseSection";
 import { TeamSection } from "@/components/home/TeamSection";
-import {
-  IntegratedWorkArchive,
-  IntegratedServicesSection,
-  IntegratedLabSection,
-  IntegratedJobsSection,
-} from "@/components/home/IntegratedSections";
 import { HlsVideo } from "@/components/common/HlsVideo";
 import { Footer } from "@/components/layout/Footer";
 import { useSectionStore, useHeroVideoStore } from "@/stores/appStore";
@@ -1038,17 +1032,12 @@ export default function HomePage() {
         <SectionDetector index={1}>
           <ShowcaseSection
             projects={projects as any}
-            viewAllLabel="EXPLORE FULL ARCHIVE ↓"
+            viewAllLabel="EXPLORE FULL ARCHIVE →"
           />
         </SectionDetector>
 
-        {/* 2. COMPLETE WORKS MATRIX (Merged from /work with Category Filtering) */}
-        <SectionDetector index={2}>
-          <IntegratedWorkArchive />
-        </SectionDetector>
-
-        {/* 3. PHILOSOPHY / ABOUT (Asymmetric Two-Column Editorial Split) */}
-        <SectionDetector index={3} className="About_about__4nzIM">
+        {/* 2. PHILOSOPHY / ABOUT (Asymmetric Two-Column Editorial Split) */}
+        <SectionDetector index={2} className="About_about__4nzIM">
           <div
             className="Container_container__A7FAx"
             style={{
@@ -1082,7 +1071,7 @@ export default function HomePage() {
                     marginBottom: "0.8rem",
                   }}
                 >
-                  03 // Philosophy
+                  02 // Philosophy
                 </span>
                 <span
                   style={{
@@ -1124,43 +1113,32 @@ export default function HomePage() {
           </div>
         </SectionDetector>
 
-        {/* 4. CAPABILITIES & SERVICES ARCHITECTURE (Merged WhatWeDo + /services Deep-Dive Matrix) */}
-        <SectionDetector index={4}>
+        {/* 3. CAPABILITIES / WHAT WE DO */}
+        <SectionDetector index={3}>
           <CapabilitiesSection
             offerings={whatWeDo.service_offering_list || []}
           />
-          <IntegratedServicesSection />
         </SectionDetector>
 
-        {/* 5. COLLABORATIONS / ALLIANCES (3D Rotating Arc on Right + Emblem Showcase on Left) */}
-        <SectionDetector index={5} className="Collaborations_collaborations__ZmUpq">
+        {/* 4. COLLABORATIONS / ALLIANCES (3D Rotating Arc on Right + Emblem Showcase on Left) */}
+        <SectionDetector index={4} className="Collaborations_collaborations__ZmUpq">
           <CollaborationsArcSection
             clients={clients as any}
             content={collaborations.content}
           />
         </SectionDetector>
 
-        {/* 6. THE COLLECTIVE / TEAM & FULL SCREEN MEDIA */}
-        <SectionDetector index={6}>
+        {/* 5. THE COLLECTIVE / TEAM & FULL SCREEN MEDIA */}
+        <SectionDetector index={5}>
           <TeamSection
             reelTitle={fullScreenMedia.title}
             members={(team.member_list || []).map((m) => m.member).filter(Boolean) as any}
           />
         </SectionDetector>
 
-        {/* 7. R&D VISUAL LABORATORY + INTERACTIVE RUNNING GIF ENGINE (Merged from /lab) */}
-        <SectionDetector index={7}>
-          <IntegratedLabSection />
-        </SectionDetector>
-
-        {/* 8. RECOGNITION / AWARDS (Scroll-Scrubbed Fan Cards on Light Alabaster Mode) */}
-        <SectionDetector index={8}>
+        {/* 6. RECOGNITION / AWARDS (Scroll-Scrubbed Fan Cards on Light Alabaster Mode) & PRESS */}
+        <SectionDetector index={6}>
           <AwardsFanSection awardList={awards.award_list || []} />
-        </SectionDetector>
-
-        {/* 9. CAREERS / OPEN POSITIONS (Merged from /jobs) & PRESS COVERAGE */}
-        <SectionDetector index={9}>
-          <IntegratedJobsSection />
 
           {presses.press_list && presses.press_list.length > 0 && (
             <div className="Presses_presses__keppm" style={{ paddingTop: "8rem" }}>
@@ -1177,7 +1155,7 @@ export default function HomePage() {
                           fontWeight: 600,
                         }}
                       >
-                        Press &amp; Features
+                        07 // Press &amp; Features
                       </span>
                       <span
                         className="Presses_presses_label_text__e9jFT"
@@ -1200,7 +1178,7 @@ export default function HomePage() {
                             className="Presses_presses_item__ZRqaJ"
                             style={{
                               justifyContent: "space-between",
-                              borderBottom: "1px solid rgba(242, 239, 233, 0.14)",
+                              borderBottom: "1px solid rgba(8, 9, 12, 0.14)",
                               padding: "2rem 0",
                             }}
                           >
@@ -1249,8 +1227,8 @@ export default function HomePage() {
           )}
         </SectionDetector>
 
-        {/* 10. FOOTER */}
-        <SectionDetector index={10}>
+        {/* 7. FOOTER */}
+        <SectionDetector index={7}>
           <Footer
             contactEmail={globalDoc.data.email_address}
             branches={globalDoc.data.branches}

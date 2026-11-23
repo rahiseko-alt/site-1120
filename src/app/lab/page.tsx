@@ -737,7 +737,11 @@ export default function LabPage() {
           <div onClick={(e) => e.stopPropagation()} style={{ maxWidth: "70vw", maxHeight: "80vh" }}>
             {modalMedia.videoUrl ? (
               <video
-                src={modalMedia.videoUrl}
+                src={
+                  modalMedia.videoUrl.includes(".mux.com")
+                    ? `/api/mux?url=${encodeURIComponent(modalMedia.videoUrl)}`
+                    : modalMedia.videoUrl
+                }
                 poster={modalMedia.posterUrl}
                 controls
                 autoPlay
