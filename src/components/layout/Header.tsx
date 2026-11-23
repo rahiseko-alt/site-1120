@@ -155,7 +155,7 @@ export function Header({
     mixTimerRef.current?.kill();
     const isHome = pathname === ROUTES.HOME;
     const secIdx = useSectionStore.getState().currentSectionIndex;
-    if (isOpen || (isHome && secIdx === 3)) {
+    if (isOpen || (isHome && (secIdx === 1 || secIdx === 6))) {
       headerRef.current?.classList.toggle("Header_header__mixBlendMode__wLXrQ", true);
     } else if (!forceDifference) {
       mixTimerRef.current = gsap.delayedCall(0.6, () => {
@@ -171,7 +171,7 @@ export function Header({
     if (pathname === ROUTES.HOME) {
       headerRef.current?.classList.toggle(
         "Header_header__mixBlendMode__wLXrQ",
-        idx === 3 || idx === 6
+        idx === 1 || idx === 6
       );
     }
   });
@@ -179,15 +179,12 @@ export function Header({
   useEffect(() => {
     if (!isDesktop) {
       return useSectionStore.subscribe(() => {
-        const { currentSectionIndex: idx, sectionProgress: p } =
+        const { currentSectionIndex: idx } =
           useSectionStore.getState();
         if (pathRef.current === ROUTES.HOME) {
           headerRef.current?.classList.toggle(
             "Header_header__mixBlendMode__wLXrQ",
-            (idx === 2 && p > 0.7) ||
-              (idx === 3 && p < 1) ||
-              (idx === 5 && p > 0.9) ||
-              (idx === 6 && p < 0.7)
+            idx === 1 || idx === 6
           );
         }
       });

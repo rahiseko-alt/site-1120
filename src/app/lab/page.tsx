@@ -7,6 +7,7 @@ import * as THREE from "three";
 import Hls from "hls.js";
 import { useViewport } from "@/hooks/usePageLifecycle";
 import { useLabModalStore } from "@/stores/appStore";
+import { GifPlayer } from "@/components/common/GifPlayer";
 import labData from "@/data/lab.json";
 
 interface LabItem {
@@ -386,17 +387,20 @@ function HiddenLabVideo({
     const el = ref.current;
     if (!el) return;
     onRegister(labId, el);
+    const resolvedUrl = videoUrl.includes(".mux.com")
+      ? `/api/mux?url=${encodeURIComponent(videoUrl)}`
+      : videoUrl;
     let hls: Hls | null = null;
     if (videoUrl.includes(".m3u8")) {
       if (el.canPlayType("application/vnd.apple.mpegurl")) {
-        el.src = videoUrl;
+        el.src = resolvedUrl;
       } else if (Hls.isSupported()) {
         hls = new Hls({ enableWorker: true });
         hls.attachMedia(el);
-        hls.on(Hls.Events.MEDIA_ATTACHED, () => hls?.loadSource(videoUrl));
+        hls.on(Hls.Events.MEDIA_ATTACHED, () => hls?.loadSource(resolvedUrl));
       }
     } else {
-      el.src = videoUrl;
+      el.src = resolvedUrl;
     }
     return () => {
       hls?.destroy();
@@ -440,17 +444,20 @@ function MobileLabCard({
   useEffect(() => {
     const el = videoRef.current;
     if (!el || !videoUrl) return;
+    const resolvedUrl = videoUrl.includes(".mux.com")
+      ? `/api/mux?url=${encodeURIComponent(videoUrl)}`
+      : videoUrl;
     let hls: Hls | null = null;
     if (videoUrl.includes(".m3u8")) {
       if (el.canPlayType("application/vnd.apple.mpegurl")) {
-        el.src = videoUrl;
+        el.src = resolvedUrl;
       } else if (Hls.isSupported()) {
         hls = new Hls();
         hls.attachMedia(el);
-        hls.on(Hls.Events.MEDIA_ATTACHED, () => hls?.loadSource(videoUrl));
+        hls.on(Hls.Events.MEDIA_ATTACHED, () => hls?.loadSource(resolvedUrl));
       }
     } else {
-      el.src = videoUrl;
+      el.src = resolvedUrl;
     }
     return () => hls?.destroy();
   }, [videoUrl]);
@@ -582,7 +589,7 @@ export default function LabPage() {
           );
         })}
 
-      <div className="LabPage_labPage__F6_X_" style={{ backgroundColor: "#fffde2", minHeight: "100svh" }}>
+      <div className="LabPage_labPage__F6_X_" style={{ backgroundColor: "var(--brand-yellow)", minHeight: "100svh" }}>
         <div className="LabList_container__placeholder">
           {isDesktop ? (
             <div className="LabList_list_canvasPlaceholder__placeholder" style={{ height: "100svh" }}>
@@ -626,17 +633,76 @@ export default function LabPage() {
       </div>
 
       {isDesktop && (
-        <div className="LabPage_note__wrapper" style={{
-          position: "fixed",
-          bottom: "3.2rem",
-          left: "50%",
-          transform: "translateX(-50%)",
-          zIndex: 40,
-          color: "var(--brand-dark-blue)",
-          fontSize: "1.4rem",
-          pointerEvents: "none",
-        }}>
-          <span>Scroll or drag</span>
+        <div
+          className="LabPage_note__wrapper"
+          style={{
+            position: "fixed",
+            bottom: "2.8rem",
+            left: "var(--padding-x)",
+            right: "var(--padding-x)",
+            zIndex: 40,
+            color: "var(--brand-dark-blue)",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "space-between",
+            pointerEvents: "none",
+          }}
+        >
+          {/* Interactive Binary GIF Frame Decoder Widget transferred from original loader */}
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              gap: "1.6rem",
+              background: "rgba(8, 9, 12, 0.06)",
+              backdropFilter: "blur(8px)",
+              padding: "0.8rem 1.8rem 0.8rem 1rem",
+              borderRadius: "999px",
+              border: "1px solid rgba(8, 9, 12, 0.14)",
+              pointerEvents: "auto",
+            }}
+          >
+            <div style={{ width: "4.4rem", height: "4.4rem", overflow: "hidden", flexShrink: 0 }}>
+              <GifPlayer
+                src="/images/loading.gif"
+                interactiveMouse={true}
+                className="PageLoader_pageLoader_gifImg__D7UIb"
+              />
+            </div>
+            <div>
+              <div
+                style={{
+                  fontSize: "1rem",
+                  fontWeight: 600,
+                  letterSpacing: "0.1em",
+                  textTransform: "uppercase",
+                }}
+              >
+                EXP.00 — BINARY GIF FRAME ENGINE
+              </div>
+              <div
+                style={{
+                  fontSize: "1.2rem",
+                  fontFamily: "var(--font-herbik)",
+                  fontStyle: "italic",
+                  opacity: 0.75,
+                }}
+              >
+                Real-time LZW patch decompression reacting to cursor velocity
+              </div>
+            </div>
+          </div>
+
+          <div
+            style={{
+              fontSize: "1.3rem",
+              fontFamily: "var(--font-herbik)",
+              fontStyle: "italic",
+              letterSpacing: "0.02em",
+            }}
+          >
+            <span>Scroll or drag horizontally to inspect WebGL studies →</span>
+          </div>
         </div>
       )}
 

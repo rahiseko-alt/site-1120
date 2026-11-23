@@ -97,17 +97,20 @@ function SlideVideo({
   useEffect(() => {
     const el = ref.current;
     if (!el || !url) return;
+    const resolvedUrl = url.includes(".mux.com")
+      ? `/api/mux?url=${encodeURIComponent(url)}`
+      : url;
     let hls: Hls | null = null;
     if (url.includes(".m3u8")) {
       if (el.canPlayType("application/vnd.apple.mpegurl")) {
-        el.src = url;
+        el.src = resolvedUrl;
       } else if (Hls.isSupported()) {
         hls = new Hls({ enableWorker: true });
         hls.attachMedia(el);
-        hls.on(Hls.Events.MEDIA_ATTACHED, () => hls?.loadSource(url));
+        hls.on(Hls.Events.MEDIA_ATTACHED, () => hls?.loadSource(resolvedUrl));
       }
     } else {
-      el.src = url;
+      el.src = resolvedUrl;
     }
     return () => hls?.destroy();
   }, [url]);

@@ -75,24 +75,49 @@ const SECTIONS = [
 
 export default function ServicesPage() {
   return (
-    <main className="ServicesPage_root__YPbLP">
+    <main
+      className="ServicesPage_root__YPbLP"
+      style={{
+        backgroundColor: "var(--brand-dark-blue)",
+        color: "var(--brand-yellow)",
+        minHeight: "100svh",
+      }}
+    >
       <div className="Container_container__A7FAx">
-        <div className="ServicesPage_intro__gVhPk">
-          <div className="ServicesPage_eyebrow__rwv6Z">What we do</div>
-          <h1 className="ServicesPage_heading__Dqjmc">
-            A creative agency and consultancy, built for the AI era.
+        <div
+          className="ServicesPage_intro__gVhPk"
+          style={{
+            maxWidth: "100rem",
+            margin: "0 0 10rem",
+            borderLeft: "2px solid var(--brand-accent)",
+            paddingLeft: "3.2rem",
+          }}
+        >
+          <div
+            className="ServicesPage_eyebrow__rwv6Z"
+            style={{ color: "var(--brand-accent)", opacity: 1, fontWeight: 600 }}
+          >
+            Capabilities &amp; Brief Initiation
+          </div>
+          <h1 className="ServicesPage_heading__Dqjmc" style={{ fontWeight: 600 }}>
+            A creative practice and consultancy, architected for the AI era.
           </h1>
           <p className="ServicesPage_lede__6t6So">
-            fromanother is an artist-led creative studio and consultancy
-            co-founded by Robin Mahieux and Vicki Dang. We partner with global
-            brands on strategy, digital product, brand and direction, and
-            experiential work, from four studios — Saigon, Hong Kong, Tokyo, and
-            Paris. The practice was established in 2020 and has operated under
-            the fromanother name since 2022, working with Louis Vuitton, Chanel,
-            Dior, L&apos;Oréal, La Mer, Glossier, Oribe, OnePlus, Oppo, The North
-            Face, and 88rising.
+            We are an artist-led creative studio and consultancy partnering with
+            global brands on strategy, digital product, brand and direction, and
+            experiential work from four studios — Saigon, Hong Kong, Tokyo, and
+            Paris.
           </p>
-          <div className="ServicesPage_studios__hUj1Q">
+          <div
+            className="ServicesPage_studios__hUj1Q"
+            style={{
+              fontFamily: "var(--font-herbik)",
+              fontStyle: "italic",
+              fontSize: "1.6rem",
+              color: "var(--brand-accent)",
+              opacity: 0.9,
+            }}
+          >
             <span>Saigon</span>
             <span>Hong Kong</span>
             <span>Tokyo</span>
@@ -100,26 +125,45 @@ export default function ServicesPage() {
           </div>
         </div>
 
-        <div className="ServicesPage_sections__ERDEG">
+        <div className="ServicesPage_sections__ERDEG" style={{ maxWidth: "110rem" }}>
           {SECTIONS.map((sec) => (
             <section
               key={sec.id}
               id={sec.id}
               className="ServicesPage_section__Qg_Ee"
+              style={{
+                borderTop: "1px solid rgba(242, 239, 233, 0.16)",
+                paddingTop: "4.8rem",
+              }}
             >
               <div>
-                <div className="ServicesPage_sectionIndex__WeMtT">
-                  {sec.index}
+                <div
+                  className="ServicesPage_sectionIndex__WeMtT"
+                  style={{
+                    color: "var(--brand-accent)",
+                    opacity: 1,
+                    fontSize: "1.4rem",
+                    fontWeight: 600,
+                  }}
+                >
+                  Pillar // {sec.index}
                 </div>
               </div>
               <div>
-                <h2 className="ServicesPage_sectionTitle__qaoMC">
+                <h2 className="ServicesPage_sectionTitle__qaoMC" style={{ fontWeight: 600 }}>
                   {sec.title}
                 </h2>
                 <p className="ServicesPage_sectionBody__IIK2h">{sec.body}</p>
-                <ul className="ServicesPage_capabilities__edMn9">
+                <ul
+                  className="ServicesPage_capabilities__edMn9"
+                  style={{ borderTop: "1px solid rgba(242, 239, 233, 0.15)" }}
+                >
                   {sec.capabilities.map((cap) => (
-                    <li key={cap} className="ServicesPage_capability__1wNHX">
+                    <li
+                      key={cap}
+                      className="ServicesPage_capability__1wNHX"
+                      style={{ borderBottom: "1px solid rgba(242, 239, 233, 0.15)" }}
+                    >
                       {cap}
                     </li>
                   ))}
@@ -129,8 +173,16 @@ export default function ServicesPage() {
           ))}
         </div>
 
-        <div className="ServicesPage_footer__TG3hm">
-          <h2 className="ServicesPage_footerTitle__AYS_S">Start a project.</h2>
+        <div
+          className="ServicesPage_footer__TG3hm"
+          style={{
+            maxWidth: "110rem",
+            borderTop: "1px solid rgba(242, 239, 233, 0.2)",
+          }}
+        >
+          <h2 className="ServicesPage_footerTitle__AYS_S" style={{ fontWeight: 600 }}>
+            Start a project.
+          </h2>
           <p className="ServicesPage_footerBody__IYjL2">
             Working on a launch, a rebrand, a new product, or a market entry
             into Asia or Europe? We read every brief.
@@ -138,6 +190,7 @@ export default function ServicesPage() {
           <a
             className="ServicesPage_cta__LwJND"
             href="mailto:firstcontact@fromanother.love"
+            style={{ color: "var(--brand-accent)", borderColor: "var(--brand-accent)" }}
           >
             firstcontact@fromanother.love
           </a>

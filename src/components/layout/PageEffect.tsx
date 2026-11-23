@@ -89,9 +89,9 @@ function hexToRgb(hex: string) {
 
 function getRouteColor(path: string) {
   const clean = path.replace(/^\/+/, "").toLowerCase() || "home";
-  if (clean === "lab") return hexToRgb("#fffde2");
-  if (clean === "jobs") return hexToRgb("#182e2f");
-  return hexToRgb("#051236");
+  if (clean === "lab") return hexToRgb("#f2efe9");
+  if (clean === "jobs") return hexToRgb("#101615");
+  return hexToRgb("#08090c");
 }
 
 function TransitionPlane({

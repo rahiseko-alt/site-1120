@@ -31,6 +31,7 @@ export function ShowcaseSection({ projects, viewAllLabel }: ShowcaseSectionProps
   const namesRef = useRef<HTMLDivElement>(null);
   const servicesRef = useRef<HTMLDivElement>(null);
   const slidesRef = useRef<HTMLDivElement>(null);
+  const counterRef = useRef<HTMLSpanElement>(null);
   const lastIdxRef = useRef(-1);
   const { routerPrefetch } = useRouterTransition();
 
@@ -61,25 +62,26 @@ export function ShowcaseSection({ projects, viewAllLabel }: ShowcaseSectionProps
           Math.min(totalItems - 1, Math.floor(self.progress * totalItems))
         );
 
-        // ONLY trigger update when index actually changes!
         if (idx !== lastIdxRef.current) {
           lastIdxRef.current = idx;
           setActiveIndex(idx);
 
-          // Update titles
+          if (counterRef.current) {
+            counterRef.current.textContent = `0${idx + 1} / 0${totalItems}`;
+          }
+
           if (namesRef.current) {
             const children = namesRef.current.children;
             for (let i = 0; i < children.length; i++) {
               const child = children[i] as HTMLElement;
               const isActive = i === idx;
               child.style.opacity = isActive ? "1" : "0";
-              child.style.transform = isActive ? "translateY(0)" : "translateY(20px)";
-              child.style.filter = isActive ? "blur(0px)" : "blur(8px)";
+              child.style.transform = isActive ? "translateY(0)" : "translateY(24px)";
+              child.style.filter = isActive ? "blur(0px)" : "blur(10px)";
               child.style.pointerEvents = isActive ? "auto" : "none";
             }
           }
 
-          // Update services
           if (servicesRef.current) {
             const children = servicesRef.current.children;
             for (let i = 0; i < children.length; i++) {
@@ -92,17 +94,16 @@ export function ShowcaseSection({ projects, viewAllLabel }: ShowcaseSectionProps
             }
           }
 
-          // Update thumbnail indicator
           if (slidesRef.current) {
             const children = slidesRef.current.children;
             for (let i = 0; i < children.length; i++) {
               const child = children[i] as HTMLElement;
               const isActive = i === idx;
               child.style.opacity = isActive ? "1" : "0.35";
-              child.style.transform = isActive ? "scale(1.08)" : "scale(1)";
-              child.style.border = isActive
-                ? "2px solid var(--brand-dark-blue)"
-                : "1px solid transparent";
+              child.style.transform = isActive ? "scale(1.1)" : "scale(1)";
+              child.style.borderColor = isActive
+                ? "var(--brand-accent)"
+                : "transparent";
             }
           }
         }
@@ -135,7 +136,7 @@ export function ShowcaseSection({ projects, viewAllLabel }: ShowcaseSectionProps
         } as React.CSSProperties
       }
     >
-      {/* Layer 1: Center WebGL Canvas */}
+      {/* Layer 1: Left-Offset Asymmetric WebGL Fluid Canvas */}
       <div
         className="Showcase_showcase_content__aucYY"
         style={{
@@ -146,16 +147,21 @@ export function ShowcaseSection({ projects, viewAllLabel }: ShowcaseSectionProps
           height: "100svh",
           display: "flex",
           alignItems: "center",
-          justifyContent: "center",
+          justifyContent: "flex-start",
+          paddingLeft: "var(--padding-x)",
+          paddingRight: "var(--padding-x)",
           overflow: "hidden",
         }}
       >
         <div
           style={{
             position: "relative",
-            width: "clamp(340px, 45vw, 680px)",
-            aspectRatio: "1.28",
+            width: "clamp(340px, 52vw, 840px)",
+            aspectRatio: "1.35",
             cursor: "pointer",
+            borderRadius: "0.4rem",
+            overflow: "hidden",
+            boxShadow: "0 30px 70px rgba(8, 9, 12, 0.14)",
           }}
         >
           <ShowcaseCanvas
@@ -173,7 +179,7 @@ export function ShowcaseSection({ projects, viewAllLabel }: ShowcaseSectionProps
         </div>
       </div>
 
-      {/* Layer 2: Right Thumbnails Indicator */}
+      {/* Layer 2: Right Editorial Typography, Services, & Bottom Filmstrip */}
       <div
         className="Showcase_showcase_content__aucYY"
         style={{
@@ -186,21 +192,171 @@ export function ShowcaseSection({ projects, viewAllLabel }: ShowcaseSectionProps
           pointerEvents: "none",
         }}
       >
+        {/* Top-Right Section Header & Counter */}
         <div
-          className="Showcase_showcase_sliderIndicator__RVWFR"
           style={{
             position: "absolute",
-            top: "50%",
-            right: "var(--padding-x)",
-            transform: "translateY(-50%)",
+            top: "12rem",
+            right: "calc(var(--padding-x) + 12rem)",
             display: "flex",
-            flexDirection: "column",
-            gap: "0.8rem",
+            alignItems: "center",
+            gap: "2.4rem",
+            color: "var(--brand-dark-blue)",
+            zIndex: 10,
+          }}
+        >
+          <span
+            style={{
+              fontSize: "1.1rem",
+              letterSpacing: "0.16em",
+              textTransform: "uppercase",
+              color: "var(--brand-accent)",
+              fontWeight: 600,
+            }}
+          >
+            01 // Selected Archive
+          </span>
+          <span
+            ref={counterRef}
+            style={{
+              fontFamily: "var(--font-herbik)",
+              fontStyle: "italic",
+              fontSize: "1.5rem",
+              opacity: 0.75,
+            }}
+          >
+            01 / 0{totalItems}
+          </span>
+        </div>
+
+        {/* Right-Aligned Project Titles */}
+        <div
+          ref={namesRef}
+          className="Showcase_showcase_names__BYqrV"
+          style={{
+            position: "absolute",
+            top: "44%",
+            left: "auto",
+            right: "calc(var(--padding-x) + 10rem)",
+            transform: "translateY(-50%)",
+            maxWidth: "56rem",
+            width: "42vw",
+            textAlign: "right",
+            pointerEvents: "none",
+            zIndex: 10,
+          }}
+        >
+          {projects.map((proj, idx) => {
+            const isActive = idx === 0;
+            return (
+              <h3
+                key={proj.uid || idx}
+                className="Showcase_showcase_names_name__FCuyU"
+                style={{
+                  position: idx === 0 ? "relative" : "absolute",
+                  top: 0,
+                  right: 0,
+                  left: "auto",
+                  width: "100%",
+                  fontSize: "clamp(3.6rem, 5.4vw, 7.8rem)",
+                  fontWeight: 600,
+                  lineHeight: 0.92,
+                  letterSpacing: "-0.035em",
+                  color: "var(--brand-dark-blue)",
+                  opacity: isActive ? 1 : 0,
+                  transform: isActive ? "translateY(0)" : "translateY(24px)",
+                  filter: isActive ? "blur(0px)" : "blur(10px)",
+                  transition: "all 0.65s cubic-bezier(0.16, 1, 0.3, 1)",
+                  pointerEvents: isActive ? "auto" : "none",
+                }}
+              >
+                {proj.data?.name}
+              </h3>
+            );
+          })}
+        </div>
+
+        {/* Right-Aligned Discipline Tags below Title */}
+        <div
+          ref={servicesRef}
+          className="Showcase_showcase_servicesProvided__YwRyH"
+          style={{
+            position: "absolute",
+            top: "64%",
+            left: "auto",
+            right: "calc(var(--padding-x) + 10rem)",
+            transform: "translateY(-50%)",
+            textAlign: "right",
+            pointerEvents: "none",
+            zIndex: 10,
+          }}
+        >
+          {projects.map((proj, idx) => {
+            const isActive = idx === 0;
+            return (
+              <ul
+                key={proj.uid || idx}
+                className="Showcase_showcase_servicesProvided_services__JBldC"
+                style={{
+                  position: idx === 0 ? "relative" : "absolute",
+                  top: 0,
+                  right: 0,
+                  display: isActive ? "flex" : "none",
+                  flexWrap: "wrap",
+                  justifyContent: "flex-end",
+                  gap: "0.8rem",
+                  fontSize: "1.3rem",
+                  fontWeight: 500,
+                  color: "var(--brand-dark-blue)",
+                  opacity: isActive ? 1 : 0,
+                  transform: isActive ? "translateY(0)" : "translateY(10px)",
+                  filter: isActive ? "blur(0px)" : "blur(4px)",
+                  transition: "all 0.4s ease",
+                  pointerEvents: "none",
+                  maxWidth: "42rem",
+                }}
+              >
+                {(proj.data?.services_provided || []).map((s, sIdx) => (
+                  <li
+                    key={sIdx}
+                    style={{
+                      padding: "0.4rem 1.2rem",
+                      borderRadius: "999px",
+                      border: "1px solid rgba(8, 9, 12, 0.22)",
+                      background: "rgba(8, 9, 12, 0.04)",
+                    }}
+                  >
+                    {s.service}
+                  </li>
+                ))}
+              </ul>
+            );
+          })}
+        </div>
+
+        {/* Bottom Dock: Horizontal Filmstrip Thumbnails (Left) & View All CTA (Right) */}
+        <div
+          style={{
+            position: "absolute",
+            bottom: "4rem",
+            left: "var(--padding-x)",
+            right: "var(--padding-x)",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "space-between",
             pointerEvents: "auto",
             zIndex: 10,
           }}
         >
-          <div ref={slidesRef} style={{ display: "flex", flexDirection: "column", gap: "0.8rem" }}>
+          <div
+            ref={slidesRef}
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              gap: "1rem",
+              alignItems: "center",
+            }}
+          >
             {projects.map((proj, idx) => {
               const isActive = idx === 0;
               const thumbUrl =
@@ -210,20 +366,18 @@ export function ShowcaseSection({ projects, viewAllLabel }: ShowcaseSectionProps
                 <button
                   key={proj.uid || idx}
                   type="button"
-                  className="Showcase_showcase_sliderIndicator_slides_slide__WjOxM"
                   style={{
-                    width: "4.8rem",
-                    height: "3.2rem",
+                    width: "5.4rem",
+                    height: "3.4rem",
                     overflow: "hidden",
                     opacity: isActive ? 1 : 0.35,
-                    transform: isActive ? "scale(1.08)" : "scale(1)",
-                    border: isActive
-                      ? "2px solid var(--brand-dark-blue)"
-                      : "1px solid transparent",
+                    transform: isActive ? "scale(1.1)" : "scale(1)",
+                    border: "2px solid",
+                    borderColor: isActive ? "var(--brand-accent)" : "transparent",
                     transition: "all 0.3s ease",
                     cursor: "pointer",
-                    borderRadius: "2px",
-                    background: "#000",
+                    borderRadius: "3px",
+                    background: "#08090c",
                   }}
                   onClick={() => scrollToItem(idx)}
                   aria-label={`Go to project ${idx + 1} of ${totalItems}`}
@@ -244,127 +398,7 @@ export function ShowcaseSection({ projects, viewAllLabel }: ShowcaseSectionProps
               );
             })}
           </div>
-        </div>
-      </div>
 
-      {/* Layer 3: Left Titles, Services, and VIEW ALL button */}
-      <div
-        className="Showcase_showcase_content__aucYY"
-        style={{
-          position: "sticky",
-          top: 0,
-          left: 0,
-          width: "100%",
-          height: "100svh",
-          marginTop: "-100svh",
-          pointerEvents: "none",
-        }}
-      >
-        {/* Left Project Names */}
-        <div
-          ref={namesRef}
-          className="Showcase_showcase_names__BYqrV"
-          style={{
-            position: "absolute",
-            top: "50%",
-            left: "var(--padding-x)",
-            transform: "translateY(-50%)",
-            maxWidth: "42rem",
-            pointerEvents: "none",
-            zIndex: 10,
-          }}
-        >
-          {projects.map((proj, idx) => {
-            const isActive = idx === 0;
-            return (
-              <h3
-                key={proj.uid || idx}
-                className="Showcase_showcase_names_name__FCuyU"
-                style={{
-                  position: idx === 0 ? "relative" : "absolute",
-                  top: 0,
-                  left: 0,
-                  width: "100%",
-                  fontSize: "clamp(3.2rem, 5vw, 6.8rem)",
-                  fontWeight: 600,
-                  lineHeight: 0.95,
-                  letterSpacing: "-0.03em",
-                  color: "var(--brand-dark-blue)",
-                  opacity: isActive ? 1 : 0,
-                  transform: isActive
-                    ? "translateY(0)"
-                    : "translateY(20px)",
-                  filter: isActive ? "blur(0px)" : "blur(8px)",
-                  transition: "all 0.6s cubic-bezier(0.16, 1, 0.3, 1)",
-                  pointerEvents: isActive ? "auto" : "none",
-                }}
-              >
-                {proj.data?.name}
-              </h3>
-            );
-          })}
-        </div>
-
-        {/* Right Services (left of thumbnails) */}
-        <div
-          ref={servicesRef}
-          className="Showcase_showcase_servicesProvided__YwRyH"
-          style={{
-            position: "absolute",
-            top: "50%",
-            right: "calc(var(--padding-x) + 7rem)",
-            transform: "translateY(-50%)",
-            textAlign: "right",
-            pointerEvents: "none",
-            zIndex: 10,
-          }}
-        >
-          {projects.map((proj, idx) => {
-            const isActive = idx === 0;
-            return (
-              <ul
-                key={proj.uid || idx}
-                className="Showcase_showcase_servicesProvided_services__JBldC"
-                style={{
-                  position: idx === 0 ? "relative" : "absolute",
-                  top: 0,
-                  right: 0,
-                  display: isActive ? "flex" : "none",
-                  flexDirection: "column",
-                  gap: "0.4rem",
-                  fontSize: "1.4rem",
-                  fontWeight: 500,
-                  color: "var(--brand-dark-blue)",
-                  opacity: isActive ? 1 : 0,
-                  transform: isActive
-                    ? "translateY(0)"
-                    : "translateY(10px)",
-                  filter: isActive ? "blur(0px)" : "blur(4px)",
-                  transition: "all 0.4s ease",
-                  pointerEvents: "none",
-                  whiteSpace: "nowrap",
-                }}
-              >
-                {(proj.data?.services_provided || []).map((s, sIdx) => (
-                  <li key={sIdx}>{s.service}</li>
-                ))}
-              </ul>
-            );
-          })}
-        </div>
-
-        {/* VIEW ALL PROJECTS Link */}
-        <div
-          className="Showcase_showcase_viewAll__JG5kw"
-          style={{
-            position: "absolute",
-            bottom: "4rem",
-            left: "50%",
-            transform: "translateX(-50%)",
-            pointerEvents: "auto",
-            zIndex: 10,
-          }}
-        >
           <TransitionLink
             href={ROUTES.WORK}
             className="common-link-effect"
@@ -372,11 +406,14 @@ export function ShowcaseSection({ projects, viewAllLabel }: ShowcaseSectionProps
               fontSize: "1.3rem",
               fontWeight: 600,
               textTransform: "uppercase",
-              letterSpacing: "0.04em",
+              letterSpacing: "0.08em",
               color: "var(--brand-dark-blue)",
+              padding: "1rem 2.2rem",
+              borderRadius: "999px",
+              border: "1px solid rgba(8, 9, 12, 0.25)",
             }}
           >
-            {viewAllLabel || "VIEW ALL PROJECTS"}
+            {viewAllLabel || "EXPLORE FULL ARCHIVE →"}
           </TransitionLink>
         </div>
       </div>

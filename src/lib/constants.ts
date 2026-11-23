@@ -4,12 +4,13 @@ export const ROUTES = {
   SERVICES: "/services",
   LAB: "/lab",
   JOBS: "/jobs",
-  BRIEF: "/brief",
+  BRIEF: "/services",
 } as const;
 
 export const NAV_ITEMS = {
   HOME: { label: "Home", href: ROUTES.HOME },
   WORK: { label: "Work", href: ROUTES.WORK },
+  SERVICES: { label: "Services", href: ROUTES.SERVICES },
   LAB: { label: "Lab", href: ROUTES.LAB },
   JOBS: { label: "Jobs", href: ROUTES.JOBS },
 } as const;
@@ -30,8 +31,9 @@ export const BREAKPOINTS = {
 } as const;
 
 export const BRAND_COLORS = {
-  YELLOW: "#fffde2",
-  DARK_BLUE: "#051236",
-  BLUE: "#1740a9",
-  JOBS_BG: "#182e2f",
+  YELLOW: "#f2efe9",
+  DARK_BLUE: "#08090c",
+  BLUE: "#0d6e5e",
+  ACCENT: "#d4572a",
+  JOBS_BG: "#101615",
 } as const;

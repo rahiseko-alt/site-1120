@@ -8,6 +8,10 @@ interface GifPlayerProps {
   onLoad?: () => void;
   className?: string;
   playing?: boolean;
+  speedMultiplier?: number;
+  reverse?: boolean;
+  interactiveMouse?: boolean;
+  tintColor?: string;
 }
 
 export function GifPlayer({
@@ -15,6 +19,10 @@ export function GifPlayer({
   onLoad,
   className,
   playing = true,
+  speedMultiplier = 1,
+  reverse = false,
+  interactiveMouse = false,
+  tintColor,
 }: GifPlayerProps) {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -30,6 +38,32 @@ export function GifPlayer({
   const mainCtxRef = useRef<CanvasRenderingContext2D | null>(null);
   const needsClearRef = useRef(false);
   const isLoadedRef = useRef(false);
+  const dynamicSpeedRef = useRef(speedMultiplier);
+  const dynamicReverseRef = useRef(reverse);
+
+  useEffect(() => {
+    dynamicSpeedRef.current = speedMultiplier;
+  }, [speedMultiplier]);
+
+  useEffect(() => {
+    dynamicReverseRef.current = reverse;
+  }, [reverse]);
+
+  useEffect(() => {
+    if (!interactiveMouse) return;
+    let lastX = 0;
+    const onMove = (e: MouseEvent) => {
+      const dx = e.clientX - lastX;
+      lastX = e.clientX;
+      const boost = Math.min(3.5, 1 + Math.abs(dx) * 0.06);
+      dynamicSpeedRef.current = boost;
+      if (Math.abs(dx) > 4) {
+        dynamicReverseRef.current = dx < 0;
+      }
+    };
+    window.addEventListener("mousemove", onMove, { passive: true });
+    return () => window.removeEventListener("mousemove", onMove);
+  }, [interactiveMouse]);
 
   const drawPatch = useCallback((frame: ParsedFrame) => {
     const mainCanvas = canvasRef.current;
@@ -72,8 +106,15 @@ export function GifPlayer({
         mainCanvas.width,
         mainCanvas.height
       );
+      if (tintColor) {
+        mainCtx.save();
+        mainCtx.globalCompositeOperation = "source-atop";
+        mainCtx.fillStyle = tintColor;
+        mainCtx.fillRect(0, 0, mainCanvas.width, mainCanvas.height);
+        mainCtx.restore();
+      }
     }
-  }, []);
+  }, [tintColor]);
 
   const renderNextFrame = useCallback(() => {
     const frames = framesRef.current;
@@ -88,13 +129,15 @@ export function GifPlayer({
     const frame = frames[idx];
     drawPatch(frame);
     needsClearRef.current = frame.disposalType === 2;
-    frameIndexRef.current = (idx + 1) % frames.length;
+    const step = dynamicReverseRef.current ? -1 : 1;
+    frameIndexRef.current = (idx + step + frames.length) % frames.length;
     const nextFrame = frames[frameIndexRef.current];
 
     if (playing && nextFrame) {
+      const spd = Math.max(0.25, dynamicSpeedRef.current);
       timerRef.current = setTimeout(
         renderNextFrame,
-        Math.max(10, nextFrame.delay ?? 50)
+        Math.max(8, (nextFrame.delay ?? 50) / spd)
       );
     }
   }, [drawPatch, playing]);

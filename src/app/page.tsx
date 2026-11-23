@@ -10,11 +10,8 @@ import { SectionIndicator } from "@/components/home/SectionIndicator";
 import { ShowcaseSection } from "@/components/home/ShowcaseSection";
 import { TeamSection } from "@/components/home/TeamSection";
 import { HlsVideo } from "@/components/common/HlsVideo";
-import { TransitionLink } from "@/components/common/TransitionLink";
 import { Footer } from "@/components/layout/Footer";
 import { useSectionStore, useHeroVideoStore } from "@/stores/appStore";
-import { useRouterTransition } from "@/hooks/usePageLifecycle";
-import { ROUTES } from "@/lib/constants";
 import homeData from "@/data/home.json";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -51,6 +48,566 @@ function SectionDetector({
   return (
     <div ref={ref} className={className}>
       {children}
+    </div>
+  );
+}
+
+// 3. Capabilities Section with Scroll-Triggered Highlight & Blur Reveal
+function CapabilitiesSection({
+  offerings,
+}: {
+  offerings: Array<{
+    service_offering?: {
+      data?: {
+        category?: string;
+        services?: Array<{ service?: string }>;
+      };
+    };
+  }>;
+}) {
+  const wrapRef = useRef<HTMLDivElement>(null);
+  const [activeIdx, setActiveIdx] = useState(0);
+  const [reachedSet, setReachedSet] = useState<Record<number, boolean>>({ 0: true });
+
+  useEffect(() => {
+    const wrap = wrapRef.current;
+    if (!wrap) return;
+    const items = wrap.querySelectorAll("[data-capability-item]");
+    const triggers: ScrollTrigger[] = [];
+
+    items.forEach((el, idx) => {
+      const st = ScrollTrigger.create({
+        trigger: el,
+        start: "top 65%",
+        end: "bottom 45%",
+        onEnter: () => {
+          setActiveIdx(idx);
+          setReachedSet((prev) => ({ ...prev, [idx]: true }));
+        },
+        onEnterBack: () => {
+          setActiveIdx(idx);
+        },
+      });
+      triggers.push(st);
+    });
+
+    return () => triggers.forEach((t) => t.kill());
+  }, [offerings.length]);
+
+  return (
+    <div
+      ref={wrapRef}
+      className="Container_container__A7FAx"
+      style={{
+        minHeight: "120svh",
+        paddingTop: "16rem",
+        paddingBottom: "16rem",
+      }}
+    >
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "baseline",
+          borderBottom: "1px solid rgba(242, 239, 233, 0.18)",
+          paddingBottom: "2.4rem",
+          marginBottom: "8rem",
+        }}
+      >
+        <span
+          style={{
+            fontSize: "1.2rem",
+            letterSpacing: "0.16em",
+            textTransform: "uppercase",
+            color: "var(--brand-accent)",
+            fontWeight: 600,
+          }}
+        >
+          03 // Capabilities &amp; Craft
+        </span>
+        <span
+          style={{
+            fontFamily: "var(--font-herbik)",
+            fontStyle: "italic",
+            fontSize: "1.6rem",
+            opacity: 0.7,
+          }}
+        >
+          End-to-End Architecture across 4 Pillars
+        </span>
+      </div>
+
+      <div style={{ display: "flex", flexDirection: "column", gap: "8rem" }}>
+        {offerings.map((item, idx) => {
+          const offering = item.service_offering?.data;
+          const isActive = activeIdx === idx;
+          const isReached = Boolean(reachedSet[idx]);
+
+          return (
+            <div
+              key={idx}
+              data-capability-item
+              style={{
+                display: "grid",
+                gridTemplateColumns: "1fr 2.2fr auto",
+                gap: "4rem",
+                alignItems: "start",
+                paddingTop: "3.2rem",
+                borderTop: "1px solid rgba(242, 239, 233, 0.12)",
+                color: isActive ? "var(--brand-yellow)" : "var(--text-disabled)",
+                transition: "color 0.8s cubic-bezier(0.165, 0.84, 0.44, 1)",
+              }}
+            >
+              {/* Left Sticky Category Title */}
+              <div style={{ position: "sticky", top: "45svh" }}>
+                <div
+                  style={{
+                    fontSize: "1.1rem",
+                    letterSpacing: "0.14em",
+                    textTransform: "uppercase",
+                    color: isActive ? "var(--brand-accent)" : "inherit",
+                    marginBottom: "0.8rem",
+                  }}
+                >
+                  Pillar 0{idx + 1}
+                </div>
+                <h3
+                  style={{
+                    fontSize: "clamp(2.4rem, 3vw, 4.2rem)",
+                    fontWeight: 600,
+                    lineHeight: 1.05,
+                    letterSpacing: "-0.03em",
+                  }}
+                >
+                  {offering?.category}
+                </h3>
+              </div>
+
+              {/* Center Large Staggered Capability List */}
+              <ul
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  gap: "0.6rem",
+                  fontSize: "clamp(2.8rem, 4.4vw, 6.8rem)",
+                  fontWeight: 600,
+                  lineHeight: 1.02,
+                  letterSpacing: "-0.035em",
+                }}
+              >
+                {(offering?.services || []).map((s, sIdx) => (
+                  <li
+                    key={sIdx}
+                    style={{
+                      opacity: isReached ? 1 : 0,
+                      filter: isReached ? "blur(0px)" : "blur(10px)",
+                      transform: isReached ? "translateX(0)" : "translateX(24px)",
+                      transition: `opacity 1.1s cubic-bezier(0.165, 0.84, 0.44, 1) ${
+                        sIdx * 0.08
+                      }s, filter 1.1s cubic-bezier(0.165, 0.84, 0.44, 1) ${
+                        sIdx * 0.08
+                      }s, transform 1.1s cubic-bezier(0.165, 0.84, 0.44, 1) ${
+                        sIdx * 0.08
+                      }s`,
+                    }}
+                  >
+                    {s.service}
+                  </li>
+                ))}
+              </ul>
+
+              {/* Right Index Marker */}
+              <div
+                style={{
+                  position: "sticky",
+                  top: "45svh",
+                  fontFamily: "var(--font-herbik)",
+                  fontStyle: "italic",
+                  fontSize: "2.4rem",
+                  opacity: isActive ? 0.9 : 0.25,
+                }}
+              >
+                /0{idx + 1}
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
+// 4. Collaborations Section with Inverted Right-Side 3D Rotating Arc & Left Active Logo
+function CollaborationsArcSection({
+  clients,
+  content,
+}: {
+  clients: Array<{
+    id?: string;
+    data?: {
+      name?: string;
+      logo?: { url?: string };
+    };
+  }>;
+  content?: RichTextField;
+}) {
+  const containerRef = useRef<HTMLDivElement>(null);
+  const arcWrapRef = useRef<HTMLDivElement>(null);
+  const logosRef = useRef<HTMLDivElement>(null);
+  const lastActiveRef = useRef(0);
+  const totalClients = clients.length || 1;
+
+  useEffect(() => {
+    const el = containerRef.current;
+    if (!el || totalClients <= 1) return;
+
+    const st = ScrollTrigger.create({
+      trigger: el,
+      start: "top top",
+      end: "bottom bottom",
+      scrub: true,
+      onUpdate: (self) => {
+        const p = self.progress;
+        const activeFloat = p * (totalClients - 1);
+        const activeIdx = Math.round(activeFloat);
+
+        // Update 3D Arc position on the right side
+        if (arcWrapRef.current) {
+          const arcItems = arcWrapRef.current.children;
+          for (let i = 0; i < arcItems.length; i++) {
+            const item = arcItems[i] as HTMLElement;
+            const rel = i - activeFloat;
+            const thetaDeg = rel * 11.5;
+            const thetaRad = (thetaDeg * Math.PI) / 180;
+            const radiusRem = 56;
+            const xOffset = radiusRem * (1 - Math.cos(thetaRad));
+            const yOffset = radiusRem * Math.sin(thetaRad);
+            const isActive = i === activeIdx;
+
+            item.style.transform = `translate3d(${xOffset.toFixed(2)}rem, calc(-50% + ${yOffset.toFixed(
+              2
+            )}rem), 0) rotate(${-thetaDeg.toFixed(2)}deg)`;
+            item.style.color = isActive
+              ? "var(--brand-yellow)"
+              : "rgba(242, 239, 233, 0.18)";
+            item.style.filter = isActive ? "blur(0px)" : "blur(1.5px)";
+          }
+        }
+
+        if (activeIdx !== lastActiveRef.current) {
+          lastActiveRef.current = activeIdx;
+          if (logosRef.current) {
+            const logoItems = logosRef.current.children;
+            for (let i = 0; i < logoItems.length; i++) {
+              const lEl = logoItems[i] as HTMLElement;
+              const isCurrent = i === activeIdx;
+              lEl.style.opacity = isCurrent ? "1" : "0";
+              lEl.style.transform = isCurrent ? "scale(1)" : "scale(0.84)";
+              lEl.style.filter = isCurrent ? "blur(0px)" : "blur(8px)";
+            }
+          }
+        }
+      },
+    });
+
+    return () => st.kill();
+  }, [totalClients]);
+
+  return (
+    <div
+      ref={containerRef}
+      style={{
+        position: "relative",
+        height: "300svh",
+        width: "100%",
+      }}
+    >
+      <div
+        style={{
+          position: "sticky",
+          top: 0,
+          left: 0,
+          width: "100%",
+          height: "100svh",
+          overflow: "hidden",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "space-between",
+          padding: "0 var(--padding-x)",
+        }}
+      >
+        {/* Left Column: Editorial Context + Active Client Logo Badge */}
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "space-between",
+            height: "70svh",
+            maxWidth: "46rem",
+            zIndex: 5,
+          }}
+        >
+          <div>
+            <span
+              style={{
+                fontSize: "1.2rem",
+                letterSpacing: "0.16em",
+                textTransform: "uppercase",
+                color: "var(--brand-accent)",
+                fontWeight: 600,
+                display: "block",
+                marginBottom: "1.6rem",
+              }}
+            >
+              04 // Selected Alliances
+            </span>
+            {content && (
+              <div
+                style={{
+                  fontSize: "clamp(1.6rem, 1.8vw, 2.2rem)",
+                  lineHeight: 1.45,
+                  color: "var(--text-secondary)",
+                }}
+              >
+                <PrismicRichText field={content} />
+              </div>
+            )}
+          </div>
+
+          {/* Active Client Emblem Showcase Box */}
+          <div
+            style={{
+              width: "26rem",
+              height: "26rem",
+              borderRadius: "50%",
+              border: "1px solid rgba(242, 239, 233, 0.2)",
+              background: "rgba(242, 239, 233, 0.03)",
+              backdropFilter: "blur(12px)",
+              display: "grid",
+              placeItems: "center",
+              position: "relative",
+            }}
+          >
+            <div
+              ref={logosRef}
+              style={{
+                position: "relative",
+                width: "15rem",
+                height: "15rem",
+                display: "grid",
+                placeItems: "center",
+              }}
+            >
+              {clients.map((client, idx) => (
+                <div
+                  key={client?.id || idx}
+                  style={{
+                    position: "absolute",
+                    inset: 0,
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    opacity: idx === 0 ? 1 : 0,
+                    transform: idx === 0 ? "scale(1)" : "scale(0.84)",
+                    filter: idx === 0 ? "blur(0px)" : "blur(8px)",
+                    transition: "all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1)",
+                  }}
+                >
+                  {client?.data?.logo?.url ? (
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img
+                      src={client.data.logo.url}
+                      alt={client.data.name || ""}
+                      style={{
+                        maxWidth: "100%",
+                        maxHeight: "8rem",
+                        objectFit: "contain",
+                      }}
+                    />
+                  ) : (
+                    <span style={{ fontSize: "2rem", fontWeight: 600 }}>
+                      {client?.data?.name}
+                    </span>
+                  )}
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        {/* Right Side: 3D Rotating Typography Wheel / Arc */}
+        <div
+          ref={arcWrapRef}
+          style={{
+            position: "absolute",
+            inset: 0,
+            pointerEvents: "none",
+            zIndex: 2,
+          }}
+        >
+          {clients.map((client, idx) => {
+            const rel = idx;
+            const thetaDeg = rel * 11.5;
+            const thetaRad = (thetaDeg * Math.PI) / 180;
+            const radiusRem = 56;
+            const xOffset = radiusRem * (1 - Math.cos(thetaRad));
+            const yOffset = radiusRem * Math.sin(thetaRad);
+
+            return (
+              <div
+                key={client?.id || idx}
+                style={{
+                  position: "absolute",
+                  right: "18vw",
+                  top: "50%",
+                  transformOrigin: "center right",
+                  transform: `translate3d(${xOffset.toFixed(2)}rem, calc(-50% + ${yOffset.toFixed(
+                    2
+                  )}rem), 0) rotate(${-thetaDeg.toFixed(2)}deg)`,
+                  color:
+                    idx === 0
+                      ? "var(--brand-yellow)"
+                      : "rgba(242, 239, 233, 0.18)",
+                  fontSize: "clamp(3.6rem, 5.8vw, 8.6rem)",
+                  fontWeight: 600,
+                  lineHeight: 1,
+                  letterSpacing: "-0.035em",
+                  whiteSpace: "nowrap",
+                  textAlign: "right",
+                  transition: "color 0.35s ease, filter 0.35s ease",
+                  willChange: "transform, color",
+                }}
+              >
+                {client?.data?.name}
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+// 6. Awards Fan-Card Scroll Section
+function AwardsFanSection({
+  awardList,
+}: {
+  awardList: Array<{
+    award?: {
+      id?: string;
+      data?: {
+        poster?: { url?: string; alt?: string };
+      };
+    };
+  }>;
+}) {
+  const containerRef = useRef<HTMLDivElement>(null);
+  const contentRef = useRef<HTMLDivElement>(null);
+  const totalAwards = awardList.length || 1;
+
+  useEffect(() => {
+    const el = containerRef.current;
+    const content = contentRef.current;
+    if (!el || !content || totalAwards <= 1) return;
+
+    const st = ScrollTrigger.create({
+      trigger: el,
+      start: "top top",
+      end: "bottom bottom",
+      scrub: true,
+      onUpdate: (self) => {
+        content.style.setProperty("--awards-progress", self.progress.toFixed(4));
+      },
+    });
+
+    return () => st.kill();
+  }, [totalAwards]);
+
+  return (
+    <div
+      ref={containerRef}
+      className="Awards_awards__6qOsC"
+      data-in-view="true"
+      style={{ position: "relative" }}
+    >
+      <div className="Awards_awards_sticky__QGQF2">
+        {/* Background Editorial Header inside Sticky Container */}
+        <div
+          style={{
+            position: "absolute",
+            top: "11rem",
+            left: "var(--padding-x)",
+            right: "var(--padding-x)",
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "baseline",
+            color: "var(--brand-dark-blue)",
+            borderBottom: "1px solid rgba(8, 9, 12, 0.18)",
+            paddingBottom: "1.8rem",
+            zIndex: 5,
+          }}
+        >
+          <span
+            style={{
+              fontSize: "1.2rem",
+              letterSpacing: "0.16em",
+              textTransform: "uppercase",
+              color: "var(--brand-accent)",
+              fontWeight: 600,
+            }}
+          >
+            06 // International Recognition
+          </span>
+          <span
+            style={{
+              fontFamily: "var(--font-herbik)",
+              fontStyle: "italic",
+              fontSize: "1.6rem",
+              opacity: 0.75,
+            }}
+          >
+            Selected Honors &amp; Exhibitions
+          </span>
+        </div>
+
+        <div
+          ref={contentRef}
+          className="Awards_awards_content__MML99"
+          style={
+            {
+              "--awards-progress": 0,
+              "--awards-last-index": Math.max(0, totalAwards - 1),
+            } as React.CSSProperties
+          }
+        >
+          {awardList.map((aw, idx) => {
+            const poster = aw.award?.data?.poster;
+            return (
+              <div
+                key={aw.award?.id || idx}
+                className="Awards_awards_item__wrbdK"
+                style={
+                  {
+                    "--card-index": idx,
+                    boxShadow: "0 28px 60px rgba(8, 9, 12, 0.22)",
+                    borderRadius: "0.4rem",
+                    overflow: "hidden",
+                  } as React.CSSProperties
+                }
+              >
+                {poster?.url && (
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img
+                    src={poster.url}
+                    alt={poster.alt || ""}
+                    style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
+                  />
+                )}
+              </div>
+            );
+          })}
+        </div>
+      </div>
     </div>
   );
 }
@@ -185,12 +742,24 @@ export default function HomePage() {
     (s) => s.slice_type === "footer"
   )?.primary as { featured_word?: Array<{ word?: string }> } | undefined;
 
-  const [activeShowcaseIdx, setActiveShowcaseIdx] = useState(0);
   const [heroExpanded, setHeroExpanded] = useState(false);
-  const { routerPrefetch } = useRouterTransition();
+  const [heroWordIdx, setHeroWordIdx] = useState(0);
 
   const heroTitle = hero.title?.[0];
-  const heroWord = hero.featured_word?.[0]?.word || "AGENCY";
+  const heroWords = useMemo(
+    () =>
+      hero.featured_word && hero.featured_word.length > 0
+        ? hero.featured_word.map((w) => w.word || "COLLECTIVE")
+        : ["COLLECTIVE", "ATELIER", "PRACTICE"],
+    [hero.featured_word]
+  );
+
+  useEffect(() => {
+    const id = setInterval(() => {
+      setHeroWordIdx((i) => (i + 1) % heroWords.length);
+    }, 3200);
+    return () => clearInterval(id);
+  }, [heroWords.length]);
 
   const heroVideoUrl = hero.featured_mux_id
     ? `https://stream.mux.com/${hero.featured_mux_id}.m3u8`
@@ -204,15 +773,6 @@ export default function HomePage() {
     [showcase.project_list]
   );
 
-  const showcaseImages = useMemo(
-    () =>
-      projects.map(
-        (p) => p?.data?.card_thumbnail?.url || "/images/test.jpg"
-      ),
-    [projects]
-  );
-
-  const activeProject = projects[activeShowcaseIdx];
   const clients = useMemo(
     () => (collaborations.client_list || []).map((c) => c.client).filter(Boolean),
     [collaborations.client_list]
@@ -227,72 +787,133 @@ export default function HomePage() {
       <BackgroundTransition backgroundMedia={bgMedia} />
       <SectionIndicator />
 
-      <div style={{ position: "relative", marginTop: "-100lvh", zIndex: 1 }}>
-      {/* 0. HERO */}
-      <SectionDetector index={0} className="Hero_hero__kuzag">
-        <div
-          className="Container_container__A7FAx"
-          style={{
-            minHeight: "100svh",
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
-            alignItems: "center",
-            position: "relative",
-          }}
-        >
+      <div className="Home_home_page_fromAbout__hN4CY" style={{ position: "relative", zIndex: 1 }}>
+        {/* 0. HERO: Asymmetric Architectural Grid (Top-Right Showreel Window, Bottom-Left Oversized Typography) */}
+        <SectionDetector index={0} className="Hero_hero__kuzag">
           <div
+            className="Container_container__A7FAx"
             style={{
+              minHeight: "100svh",
               display: "flex",
-              alignItems: "center",
+              flexDirection: "column",
               justifyContent: "space-between",
-              width: "100%",
+              paddingTop: "13rem",
+              paddingBottom: "4.8rem",
               position: "relative",
+              width: "100%",
             }}
           >
-            <span
-              style={{
-                fontFamily: "var(--font-herbik)",
-                fontStyle: "italic",
-                fontSize: "1.4rem",
-              }}
-            >
-              {hero.year_label || "Since 2020"}
-            </span>
-
+            {/* Top Row: Left Studio Coordinates & Right Floating Showreel Portal */}
             <div
               style={{
-                textAlign: "center",
-                fontWeight: 600,
-                fontSize: "clamp(3.6rem, 6.2vw, 9.6rem)",
-                lineHeight: 0.9,
-                letterSpacing: "-0.03em",
-                textTransform: "uppercase",
+                display: "flex",
+                justifyContent: "space-between",
+                alignItems: "flex-start",
+                width: "100%",
+                gap: "3.2rem",
+                flexWrap: "wrap",
               }}
             >
-              <div>{heroTitle?.line_1 || "WE ARE AN"}</div>
-              <div>{heroTitle?.line_2 || "ARTIST — LED"}</div>
-              <div
-                style={{
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  gap: "1.6rem",
-                }}
-              >
-                <span>{heroTitle?.line_3_left || "CREATIVE"}</span>
-                {heroVideoUrl && (
+              <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
+                <div
+                  style={{
+                    display: "inline-flex",
+                    alignItems: "center",
+                    gap: "1rem",
+                    fontSize: "1.1rem",
+                    letterSpacing: "0.16em",
+                    textTransform: "uppercase",
+                    color: "var(--brand-accent)",
+                    fontWeight: 600,
+                  }}
+                >
+                  <span
+                    style={{
+                      width: "0.6rem",
+                      height: "0.6rem",
+                      borderRadius: "50%",
+                      background: "var(--brand-accent)",
+                    }}
+                  />
+                  <span>{hero.year_label || "Est. 2020"} — Independent Creative Practice</span>
+                </div>
+                <div
+                  style={{
+                    display: "flex",
+                    gap: "1.2rem",
+                    fontFamily: "var(--font-herbik)",
+                    fontStyle: "italic",
+                    fontSize: "1.5rem",
+                    opacity: 0.75,
+                  }}
+                >
+                  {(
+                    hero.language_list || [
+                      { language: "Saigon" },
+                      { language: "Hong Kong" },
+                      { language: "Tokyo" },
+                      { language: "Paris" },
+                    ]
+                  ).map((l, i, arr) => (
+                    <React.Fragment key={i}>
+                      <span>{l.language}</span>
+                      {i < arr.length - 1 && <span style={{ opacity: 0.35 }}>/</span>}
+                    </React.Fragment>
+                  ))}
+                </div>
+              </div>
+
+              {/* Floating Top-Right Interactive Showreel Card */}
+              {heroVideoUrl && (
+                <div
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    gap: "2rem",
+                    background: "rgba(242, 239, 233, 0.05)",
+                    backdropFilter: "blur(16px)",
+                    padding: "1rem 1.2rem 1rem 2.2rem",
+                    borderRadius: "0.6rem",
+                    border: "1px solid rgba(242, 239, 233, 0.16)",
+                  }}
+                >
+                  <div style={{ textAlign: "right" }}>
+                    <div
+                      style={{
+                        fontSize: "1rem",
+                        letterSpacing: "0.14em",
+                        textTransform: "uppercase",
+                        color: "var(--brand-accent)",
+                        marginBottom: "0.3rem",
+                      }}
+                    >
+                      Showreel Anthology
+                    </div>
+                    <button
+                      type="button"
+                      onClick={() => setHeroExpanded(true)}
+                      className="common-link-effect"
+                      style={{
+                        fontSize: "1.4rem",
+                        fontFamily: "var(--font-herbik)",
+                        fontStyle: "italic",
+                      }}
+                    >
+                      Expand Fullscreen ↗
+                    </button>
+                  </div>
                   <button
                     type="button"
                     onClick={() => setHeroExpanded(true)}
                     aria-label="Play showreel"
                     style={{
-                      width: "14rem",
-                      height: "6.4rem",
+                      width: "16.5rem",
+                      height: "9.4rem",
                       overflow: "hidden",
                       position: "relative",
                       flexShrink: 0,
-                      borderRadius: "0.2rem",
+                      borderRadius: "0.3rem",
+                      border: "1px solid rgba(242, 239, 233, 0.25)",
                     }}
                   >
                     <HlsVideo
@@ -305,298 +926,318 @@ export default function HomePage() {
                       }}
                     />
                   </button>
-                )}
-              </div>
-              <div>{heroWord}</div>
+                </div>
+              )}
             </div>
 
+            {/* Bottom Row: Asymmetric Left-Aligned Staggered Display Typography */}
             <div
               style={{
                 display: "flex",
-                gap: "1rem",
-                fontFamily: "var(--font-herbik)",
-                fontStyle: "italic",
-                fontSize: "1.4rem",
+                justifyContent: "space-between",
+                alignItems: "flex-end",
+                width: "100%",
+                marginTop: "auto",
+                paddingTop: "6rem",
               }}
             >
-              {(hero.language_list || [{ language: "VN" }, { language: "CN" }, { language: "FR" }]).map(
-                (l, i, arr) => (
-                  <React.Fragment key={i}>
-                    <span>{l.language}</span>
-                    {i < arr.length - 1 && <span style={{ opacity: 0.4 }}>|</span>}
-                  </React.Fragment>
-                )
-              )}
-            </div>
-          </div>
-
-          <div
-            style={{
-              position: "absolute",
-              bottom: "2.4rem",
-              left: "50%",
-              transform: "translateX(-50%)",
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-              gap: "0.8rem",
-            }}
-          >
-            <div
-              style={{
-                width: "0.5rem",
-                height: "0.5rem",
-                borderRadius: "50%",
-                border: "1px solid var(--brand-yellow)",
-              }}
-            />
-            <div
-              style={{
-                width: "1px",
-                height: "5rem",
-                background: "rgba(255, 253, 226, 0.35)",
-              }}
-            />
-          </div>
-        </div>
-      </SectionDetector>
-
-      {/* 1. ABOUT */}
-      <SectionDetector index={1} className="About_about__4nzIM">
-        <div
-          className="Container_container__A7FAx"
-          style={{
-            minHeight: "100svh",
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
-            paddingTop: "12rem",
-            paddingBottom: "12rem",
-            gap: "4rem",
-          }}
-        >
-          <div style={{ maxWidth: "70rem", marginLeft: "auto", marginRight: "auto", fontSize: "clamp(2.4rem, 3.2vw, 4.8rem)", lineHeight: 1.15 }}>
-            {about.primary_content && <PrismicRichText field={about.primary_content} />}
-          </div>
-          {about.secondary_content && (
-            <div style={{ maxWidth: "46rem", marginLeft: "auto", marginRight: "auto", fontSize: "1.6rem", opacity: 0.85, lineHeight: 1.5 }}>
-              <PrismicRichText field={about.secondary_content} />
-            </div>
-          )}
-        </div>
-      </SectionDetector>
-
-      {/* 2. WHAT WE DO */}
-      <SectionDetector index={2} className="WhatWeDo_whatWeDo__jsor8">
-        <div
-          className="Container_container__A7FAx"
-          style={{
-            minHeight: "100svh",
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
-            paddingTop: "12rem",
-            paddingBottom: "12rem",
-          }}
-        >
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))",
-              gap: "4rem",
-              maxWidth: "100rem",
-              margin: "0 auto",
-              width: "100%",
-            }}
-          >
-            {(whatWeDo.service_offering_list || []).map((item, idx) => {
-              const offering = item.service_offering?.data;
-              return (
-                <div key={idx} style={{ borderTop: "1px solid rgba(255,253,226,0.2)", paddingTop: "2rem" }}>
-                  <span style={{ fontSize: "1.2rem", fontFamily: "var(--font-herbik)", fontStyle: "italic", opacity: 0.6 }}>
-                    0{idx + 1}
-                  </span>
-                  <h3 style={{ fontSize: "2.4rem", fontWeight: 600, marginTop: "1rem", marginBottom: "1.2rem" }}>
-                    {offering?.category}
-                  </h3>
-                  <ul style={{ display: "flex", flexDirection: "column", gap: "0.6rem", fontSize: "1.5rem", opacity: 0.8 }}>
-                    {(offering?.services || []).map((s, sIdx) => (
-                      <li key={sIdx}>{s.service}</li>
-                    ))}
-                  </ul>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      </SectionDetector>
-
-      {/* 3. FEATURED WORK / SHOWCASE */}
-      <SectionDetector index={3}>
-        <ShowcaseSection
-          projects={projects as any}
-          viewAllLabel={showcase.view_all_label}
-        />
-      </SectionDetector>
-
-      {/* 4. TEAM & FULL SCREEN MEDIA */}
-      <SectionDetector index={4}>
-        <TeamSection
-          reelTitle={fullScreenMedia.title}
-          members={(team.member_list || []).map((m) => m.member).filter(Boolean) as any}
-        />
-      </SectionDetector>
-
-      {/* 5. COLLABORATIONS / CLIENTS */}
-      <SectionDetector index={5} className="Collaborations_collaborations__ZmUpq">
-        <div
-          className="Container_container__A7FAx"
-          style={{
-            minHeight: "100svh",
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
-            paddingTop: "12rem",
-            paddingBottom: "12rem",
-            gap: "4rem",
-          }}
-        >
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))",
-              gap: "2.4rem",
-              alignItems: "center",
-            }}
-          >
-            {clients.map((client, idx) => (
               <div
-                key={client?.id || idx}
                 style={{
-                  display: "flex",
-                  flexDirection: "column",
-                  alignItems: "center",
-                  gap: "1rem",
-                  padding: "2rem",
+                  textAlign: "left",
+                  fontWeight: 600,
+                  fontSize: "clamp(3.8rem, 6.8vw, 10.6rem)",
+                  lineHeight: 0.88,
+                  letterSpacing: "-0.038em",
+                  textTransform: "uppercase",
                 }}
               >
-                {client?.data?.logo?.url ? (
-                  // eslint-disable-next-line @next/next/no-img-element
-                  <img
-                    src={client.data.logo.url}
-                    alt={client.data.name || ""}
-                    style={{ maxHeight: "4.2rem", width: "auto", objectFit: "contain" }}
-                  />
-                ) : (
-                  <span style={{ fontSize: "2rem", fontWeight: 600 }}>{client?.data?.name}</span>
-                )}
-              </div>
-            ))}
-          </div>
-
-          {collaborations.content && (
-            <div style={{ maxWidth: "46rem", marginLeft: "auto", fontSize: "1.6rem", opacity: 0.9 }}>
-              <PrismicRichText field={collaborations.content} />
-            </div>
-          )}
-        </div>
-      </SectionDetector>
-
-      {/* 6. AWARDS */}
-      <SectionDetector index={6} className="Awards_awards__6qOsC">
-        <div
-          className="Container_container__A7FAx"
-          style={{
-            minHeight: "100svh",
-            color: "var(--brand-dark-blue)",
-            display: "flex",
-            alignItems: "center",
-            paddingTop: "12rem",
-            paddingBottom: "12rem",
-          }}
-        >
-          <div
-            style={{
-              display: "flex",
-              gap: "2.8rem",
-              overflowX: "auto",
-              padding: "4rem 2rem",
-              width: "100%",
-              alignItems: "center",
-            }}
-          >
-            {(awards.award_list || []).map((aw, idx) => {
-              const poster = aw.award?.data?.poster;
-              return (
+                <div style={{ opacity: 0.92 }}>
+                  {heroTitle?.line_1 || "WE ARE AN"}
+                </div>
                 <div
-                  key={aw.award?.id || idx}
                   style={{
-                    flex: "0 0 28rem",
-                    transform: `rotate(${idx % 2 === 0 ? -3 : 3}deg)`,
-                    boxShadow: "0 20px 50px rgba(0,0,0,0.18)",
+                    paddingLeft: "clamp(2rem, 7vw, 12rem)",
+                    display: "flex",
+                    alignItems: "center",
+                    gap: "2rem",
                   }}
                 >
-                  {poster?.url && (
-                    // eslint-disable-next-line @next/next/no-img-element
-                    <img
-                      src={poster.url}
-                      alt={poster.alt || ""}
-                      style={{ width: "100%", height: "auto", display: "block" }}
-                    />
-                  )}
+                  <span>{heroTitle?.line_2 || "ARTIST — LED"}</span>
                 </div>
-              );
-            })}
-          </div>
-        </div>
-      </SectionDetector>
-
-      {/* 7. PRESSES */}
-      {presses.press_list && presses.press_list.length > 0 && (
-        <SectionDetector index={7} className="Presses_presses__keppm">
-          <div className="Container_container__A7FAx" style={{ paddingTop: "8rem", paddingBottom: "8rem" }}>
-            <p style={{ fontSize: "1.4rem", marginBottom: "2.4rem", opacity: 0.7 }}>
-              {presses.label || "Press"}
-            </p>
-            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))", gap: "2.4rem" }}>
-              {presses.press_list.map((pr, idx) => {
-                const pressData = pr.press?.data;
-                return (
-                  <a
-                    key={pr.press?.id || idx}
-                    href={pressData?.link?.url || "#"}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    style={{ display: "flex", flexDirection: "column", gap: "1rem" }}
+                <div
+                  style={{
+                    display: "flex",
+                    alignItems: "baseline",
+                    gap: "2.4rem",
+                    flexWrap: "wrap",
+                  }}
+                >
+                  <span>{heroTitle?.line_3_left || "CREATIVE"}</span>
+                  <span
+                    style={{
+                      fontFamily: "var(--font-herbik)",
+                      fontStyle: "italic",
+                      fontWeight: 400,
+                      color: "var(--brand-accent)",
+                      textTransform: "none",
+                      letterSpacing: "-0.01em",
+                      transition: "opacity 0.5s ease",
+                    }}
                   >
-                    {pressData?.thumbnail?.url && (
-                      // eslint-disable-next-line @next/next/no-img-element
-                      <img
-                        src={pressData.thumbnail.url}
-                        alt={pressData.thumbnail.alt || pressData.publication_name || ""}
-                        style={{ width: "100%", aspectRatio: "16/10", objectFit: "cover" }}
-                      />
-                    )}
-                    <span style={{ fontSize: "1.6rem", fontWeight: 500 }}>
-                      {pressData?.publication_name}
-                    </span>
-                  </a>
-                );
-              })}
+                    {heroWords[heroWordIdx]}
+                  </span>
+                </div>
+              </div>
+
+              {/* Right Bottom Scroll Prompt */}
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "1.4rem",
+                  paddingBottom: "1rem",
+                }}
+              >
+                <span
+                  style={{
+                    fontSize: "1.1rem",
+                    letterSpacing: "0.14em",
+                    textTransform: "uppercase",
+                    opacity: 0.6,
+                  }}
+                >
+                  Scroll to Explore
+                </span>
+                <div
+                  style={{
+                    width: "3.6rem",
+                    height: "3.6rem",
+                    borderRadius: "50%",
+                    border: "1px solid rgba(242, 239, 233, 0.3)",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    fontSize: "1.4rem",
+                  }}
+                >
+                  ↓
+                </div>
+              </div>
             </div>
           </div>
         </SectionDetector>
-      )}
 
-      {/* 8. FOOTER */}
-      <SectionDetector index={8}>
-        <Footer
-          contactEmail={globalDoc.data.email_address}
-          branches={globalDoc.data.branches}
-          featuredWords={footerSlice?.featured_word}
-          socials={globalDoc.data.socials}
-        />
-      </SectionDetector>
+        {/* 1. FEATURED WORK / SHOWCASE (Moved up immediately after Hero for immediate visual impact) */}
+        <SectionDetector index={1}>
+          <ShowcaseSection
+            projects={projects as any}
+            viewAllLabel={showcase.view_all_label}
+          />
+        </SectionDetector>
+
+        {/* 2. PHILOSOPHY / ABOUT (Asymmetric Two-Column Editorial Split) */}
+        <SectionDetector index={2} className="About_about__4nzIM">
+          <div
+            className="Container_container__A7FAx"
+            style={{
+              minHeight: "100svh",
+              display: "grid",
+              gridTemplateColumns: "1fr 2fr",
+              alignItems: "center",
+              gap: "6rem",
+              paddingTop: "14rem",
+              paddingBottom: "14rem",
+            }}
+          >
+            {/* Left Column: Sticky Kicker & Secondary Manifesto */}
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                gap: "3.2rem",
+                borderLeft: "2px solid var(--brand-accent)",
+                paddingLeft: "2.4rem",
+              }}
+            >
+              <div>
+                <span
+                  style={{
+                    fontSize: "1.2rem",
+                    letterSpacing: "0.16em",
+                    textTransform: "uppercase",
+                    color: "var(--brand-accent)",
+                    fontWeight: 600,
+                    display: "block",
+                    marginBottom: "0.8rem",
+                  }}
+                >
+                  02 // Philosophy
+                </span>
+                <span
+                  style={{
+                    fontFamily: "var(--font-herbik)",
+                    fontStyle: "italic",
+                    fontSize: "1.8rem",
+                    opacity: 0.8,
+                  }}
+                >
+                  Craft at the intersection of culture &amp; code
+                </span>
+              </div>
+              {about.secondary_content && (
+                <div
+                  style={{
+                    fontSize: "1.6rem",
+                    color: "var(--text-secondary)",
+                    lineHeight: 1.6,
+                  }}
+                >
+                  <PrismicRichText field={about.secondary_content} />
+                </div>
+              )}
+            </div>
+
+            {/* Right Column: Oversized Editorial Statement */}
+            <div
+              style={{
+                fontSize: "clamp(2.8rem, 4.2vw, 6.2rem)",
+                fontWeight: 600,
+                lineHeight: 1.08,
+                letterSpacing: "-0.03em",
+                textAlign: "left",
+              }}
+            >
+              {about.primary_content && (
+                <PrismicRichText field={about.primary_content} />
+              )}
+            </div>
+          </div>
+        </SectionDetector>
+
+        {/* 3. CAPABILITIES / WHAT WE DO (Scroll-Triggered Staggered Blur Reveal) */}
+        <SectionDetector index={3}>
+          <CapabilitiesSection
+            offerings={whatWeDo.service_offering_list || []}
+          />
+        </SectionDetector>
+
+        {/* 4. COLLABORATIONS / ALLIANCES (3D Rotating Arc on Right + Emblem Showcase on Left) */}
+        <SectionDetector index={4} className="Collaborations_collaborations__ZmUpq">
+          <CollaborationsArcSection
+            clients={clients as any}
+            content={collaborations.content}
+          />
+        </SectionDetector>
+
+        {/* 5. THE COLLECTIVE / TEAM & FULL SCREEN MEDIA */}
+        <SectionDetector index={5}>
+          <TeamSection
+            reelTitle={fullScreenMedia.title}
+            members={(team.member_list || []).map((m) => m.member).filter(Boolean) as any}
+          />
+        </SectionDetector>
+
+        {/* 6. RECOGNITION / AWARDS (Scroll-Scrubbed Fan Cards on Light Alabaster Mode) */}
+        <SectionDetector index={6}>
+          <AwardsFanSection awardList={awards.award_list || []} />
+        </SectionDetector>
+
+        {/* 7. PRESS & JOURNAL (Interactive Hover-Blur & Clip-Path Thumbnail Reveal) */}
+        {presses.press_list && presses.press_list.length > 0 && (
+          <SectionDetector index={7} className="Presses_presses__keppm">
+            <div className="Container_container__A7FAx">
+              <div className="Grid_grid__8e_U7 Presses_presses_grid___Uehv">
+                <div className="Presses_presses_label__ZbO4v">
+                  <div style={{ display: "flex", flexDirection: "column", gap: "0.8rem" }}>
+                    <span
+                      style={{
+                        fontSize: "1.1rem",
+                        letterSpacing: "0.16em",
+                        textTransform: "uppercase",
+                        color: "var(--brand-accent)",
+                        fontWeight: 600,
+                      }}
+                    >
+                      07 // {presses.label || "Press & Features"}
+                    </span>
+                    <span
+                      className="Presses_presses_label_text__e9jFT"
+                      style={{ opacity: 0.75 }}
+                    >
+                      Global Editorial Coverage
+                    </span>
+                  </div>
+                </div>
+
+                <ul className="Presses_presses_list__Uei03">
+                  {presses.press_list.map((pr, idx) => {
+                    const pressData = pr.press?.data;
+                    return (
+                      <li key={pr.press?.id || idx}>
+                        <a
+                          href={pressData?.link?.url || "#"}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="Presses_presses_item__ZRqaJ"
+                          style={{
+                            justifyContent: "space-between",
+                            borderBottom: "1px solid rgba(242, 239, 233, 0.14)",
+                            padding: "2rem 0",
+                          }}
+                        >
+                          <span
+                            className="Presses_presses_item_title__xYMjH"
+                            style={{
+                              opacity: 1,
+                              filter: "blur(0px)",
+                            }}
+                          >
+                            {pressData?.publication_name}
+                          </span>
+                          {pressData?.thumbnail?.url && (
+                            <span
+                              className="Presses_presses_item_thumbnail__8fJDD"
+                              style={{
+                                clipPath: "inset(0% 0% 0% 0%)",
+                                borderRadius: "0.3rem",
+                              }}
+                            >
+                              {/* eslint-disable-next-line @next/next/no-img-element */}
+                              <img
+                                src={pressData.thumbnail.url}
+                                alt={
+                                  pressData.thumbnail.alt ||
+                                  pressData.publication_name ||
+                                  ""
+                                }
+                                style={{
+                                  width: "100%",
+                                  height: "100%",
+                                  objectFit: "cover",
+                                  transform: "scale(1.05)",
+                                }}
+                              />
+                            </span>
+                          )}
+                        </a>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </div>
+            </div>
+          </SectionDetector>
+        )}
+
+        {/* 8. FOOTER */}
+        <SectionDetector index={8}>
+          <Footer
+            contactEmail={globalDoc.data.email_address}
+            branches={globalDoc.data.branches}
+            featuredWords={footerSlice?.featured_word}
+            socials={globalDoc.data.socials}
+          />
+        </SectionDetector>
       </div>
 
       {/* Fullscreen Hero Showreel Modal */}
@@ -620,9 +1261,13 @@ export default function HomePage() {
               position: "fixed",
               top: "3.2rem",
               right: "4.8rem",
-              color: "#fffde2",
+              color: "var(--brand-yellow)",
               fontSize: "1.6rem",
               zIndex: 121,
+              padding: "0.8rem 1.8rem",
+              borderRadius: "999px",
+              border: "1px solid rgba(242, 239, 233, 0.3)",
+              background: "rgba(8, 9, 12, 0.7)",
             }}
           >
             Close ×

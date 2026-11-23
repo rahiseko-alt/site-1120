@@ -184,75 +184,114 @@ export function Footer({
       )}
 
       <div className="Container_container__A7FAx Footer_footer_container__xSG9i">
-        <div className="Grid_grid__8e_U7">
-          <div className="Footer_footer_container_top_left__JPnkQ">
-            <div className="Footer_footer_container_top_left_slogan__B_mgI">
-              <p>Let’s</p>
-              <p>create</p>
-              <p
-                className="Footer_footer_container_top_left_slogan_words__ZH_wt"
-                ref={wordsWrapRef}
-              >
-                {featuredWords?.map((fw, idx) => (
-                  <span key={`${fw.word}-${idx}`}>{fw.word}</span>
-                ))}
-              </p>
-              <p>together</p>
-            </div>
-
-            <div className="Footer_footer_container_top_left_contact__adEc5">
-              <TransitionLink
-                href={ROUTES.BRIEF}
-                className="Footer_footer_container_top_left_contact_brief__AsPNE common-link-effect-2"
-                onMouseEnter={() => briefTopRef.current?.onHover()}
-              >
-                <HoverText ref={briefTopRef}>Start a brief</HoverText>
-              </TransitionLink>
-              <p className="Footer_footer_container_top_left_contact_label__LjVGu">
-                Contact us
-              </p>
-              <a
-                href={`mailto:${contactEmail}`}
-                className="Footer_footer_container_top_left_contact_link__gCE7s common-link-effect"
-                onMouseEnter={() => emailRef.current?.onHover()}
-                style={
-                  {
-                    width: "fit-content",
-                    "--duration": ".3s !important",
-                  } as React.CSSProperties
-                }
-              >
-                <HoverText ref={emailRef}>{contactEmail}</HoverText>
-              </a>
-            </div>
-          </div>
-
-          <div className="Footer_footer_container_top_right__sO8vd">
-            {branches.slice(0, 4).map((branch, idx) => (
-              <div
-                key={`${branch.country}-${idx}`}
-                className="Footer_footer_container_top_right_item__XiljZ Footer_footer_container_top_right_item_branch__45TbZ"
-              >
+        {/* Top Row: Horizontal Global Studios & Analog Clocks Bar */}
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fit, minmax(210px, 1fr))",
+            gap: "3.2rem",
+            paddingTop: "12rem",
+            paddingBottom: "6rem",
+            borderBottom: "1px solid rgba(242, 239, 233, 0.16)",
+            width: "100%",
+          }}
+        >
+          {branches.slice(0, 4).map((branch, idx) => (
+            <div
+              key={`${branch.country}-${idx}`}
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                gap: "1.6rem",
+                padding: "2rem",
+                borderRadius: "0.4rem",
+                background: "rgba(242, 239, 233, 0.03)",
+                border: "1px solid rgba(242, 239, 233, 0.1)",
+              }}
+            >
+              <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
                 <AnalogClock
                   timezone={Number(branch.utc || 0)}
                   hourLength="0.9rem"
                   minuteLength="1.3rem"
                 />
-                <div className="Footer_footer_container_top_right_item_branch_info__qyDHz">
-                  <p className="Footer_footer_container_top_right_item_branch_info_country__NWBVf">
-                    {branch.country || "Unknown"}
-                  </p>
-                  <div className="Footer_footer_container_top_right_item_branch_info_address__7v1wY">
-                    {branch.address_block && (
-                      <PrismicRichText field={branch.address_block} />
-                    )}
-                  </div>
-                  <p className="Footer_footer_container_top_right_item_branch_info_phone__Qt0nv">
-                    {branch.phone_number || ""}
-                  </p>
-                </div>
+                <span
+                  style={{
+                    fontSize: "1.1rem",
+                    fontFamily: "var(--font-herbik)",
+                    fontStyle: "italic",
+                    color: "var(--brand-accent)",
+                  }}
+                >
+                  UTC{Number(branch.utc || 0) >= 0 ? `+${branch.utc}` : branch.utc}
+                </span>
               </div>
-            ))}
+              <div className="Footer_footer_container_top_right_item_branch_info__qyDHz" style={{ width: "100%" }}>
+                <p className="Footer_footer_container_top_right_item_branch_info_country__NWBVf">
+                  {branch.country || "Unknown"}
+                </p>
+                <div className="Footer_footer_container_top_right_item_branch_info_address__7v1wY">
+                  {branch.address_block && (
+                    <PrismicRichText field={branch.address_block} />
+                  )}
+                </div>
+                <p className="Footer_footer_container_top_right_item_branch_info_phone__Qt0nv">
+                  {branch.phone_number || ""}
+                </p>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        {/* Middle Row: Asymmetric Oversized Slogan on Right, Direct Contact on Left */}
+        <div
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            justifyContent: "space-between",
+            alignItems: "flex-end",
+            gap: "4.8rem",
+            width: "100%",
+          }}
+        >
+          <div style={{ display: "flex", flexDirection: "column", gap: "1.6rem" }}>
+            <span
+              style={{
+                fontSize: "1.1rem",
+                letterSpacing: "0.16em",
+                textTransform: "uppercase",
+                color: "var(--brand-accent)",
+                fontWeight: 600,
+              }}
+            >
+              Initiate Dialogue
+            </span>
+            <TransitionLink
+              href={ROUTES.BRIEF}
+              className="common-link-effect-2"
+              onMouseEnter={() => briefTopRef.current?.onHover()}
+              style={{ fontSize: "2.4rem", width: "fit-content" }}
+            >
+              <HoverText ref={briefTopRef}>Explore capabilities &amp; start a brief →</HoverText>
+            </TransitionLink>
+          </div>
+
+          <div
+            className="Footer_footer_container_top_left_slogan__B_mgI"
+            style={{ textAlign: "right", marginLeft: "auto" }}
+          >
+            <p>Let’s</p>
+            <p>architect</p>
+            <p
+              className="Footer_footer_container_top_left_slogan_words__ZH_wt"
+              ref={wordsWrapRef}
+              style={{ color: "var(--brand-accent)" }}
+            >
+              {featuredWords?.map((fw, idx) => (
+                <span key={`${fw.word}-${idx}`}>{fw.word}</span>
+              ))}
+            </p>
+            <p>together</p>
           </div>
         </div>
 

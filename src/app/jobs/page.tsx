@@ -5,6 +5,7 @@ import { create } from "zustand";
 import { PrismicRichText } from "@prismicio/react";
 import type { RichTextField } from "@prismicio/client";
 import { Footer } from "@/components/layout/Footer";
+import { GifPlayer } from "@/components/common/GifPlayer";
 import jobsData from "@/data/jobs.json";
 
 const useCareerHoverStore = create<{
@@ -291,13 +292,66 @@ export default function JobsPage() {
 
   return (
     <div className="CareerPage_page__njh1K">
-      <div className="CareerPage_content__vLgaZ">
+      <div className="CareerPage_content__vLgaZ" style={{ backgroundColor: "#101615" }}>
         <div
           className={`CareerPage_content_heading__Wova_ ${
             data.hidden ? "CareerPage_content_heading__empty__RnEwR" : ""
           }`}
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            gap: "3.2rem",
+          }}
         >
-          <h1>{data.hidden ? "No open positions at the moment" : data.heading ?? "Join our team"}</h1>
+          {/* Interactive Frame-by-Frame Sprite Runner transferred from original loader */}
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              gap: "2.4rem",
+              padding: "1.2rem 2.8rem",
+              borderRadius: "999px",
+              border: "1px solid rgba(242, 239, 233, 0.18)",
+              background: "rgba(242, 239, 233, 0.04)",
+            }}
+          >
+            <div style={{ width: "6.4rem", height: "6.4rem", overflow: "hidden", flexShrink: 0 }}>
+              <GifPlayer
+                src="/images/loading.gif"
+                interactiveMouse={true}
+                speedMultiplier={1.25}
+                className="PageLoader_pageLoader_gifImg__D7UIb"
+              />
+            </div>
+            <div style={{ textAlign: "left" }}>
+              <p
+                style={{
+                  fontSize: "1.1rem",
+                  letterSpacing: "0.14em",
+                  textTransform: "uppercase",
+                  color: "var(--brand-accent)",
+                  marginBottom: "0.3rem",
+                }}
+              >
+                Interactive Sprite Engine // Move cursor to accelerate
+              </p>
+              <p
+                style={{
+                  fontSize: "1.4rem",
+                  fontFamily: "var(--font-herbik)",
+                  fontStyle: "italic",
+                  opacity: 0.85,
+                  textTransform: "none",
+                  letterSpacing: "normal",
+                }}
+              >
+                Always in motion — seeking makers who run ahead of the brief.
+              </p>
+            </div>
+          </div>
+
+          <h1>{data.hidden ? "No open positions at the moment" : data.heading ?? "Join our collective"}</h1>
         </div>
 
         {!data.hidden && (
