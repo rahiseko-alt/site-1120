@@ -309,11 +309,12 @@ export default function JobsPage() {
             style={{
               display: "flex",
               alignItems: "center",
-              gap: "2.4rem",
-              padding: "1.2rem 2.8rem",
-              borderRadius: "999px",
+              gap: "2rem",
+              padding: "1.4rem 2.2rem",
+              borderRadius: "1.6rem",
               border: "1px solid rgba(242, 239, 233, 0.18)",
               background: "rgba(242, 239, 233, 0.04)",
+              maxWidth: "100%",
             }}
           >
             <div style={{ width: "6.4rem", height: "6.4rem", overflow: "hidden", flexShrink: 0 }}>

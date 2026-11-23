@@ -88,21 +88,23 @@ export function CookieConsent() {
         .consent-banner {
           display: flex;
           align-items: center;
-          gap: 16px;
-          padding: 12px 12px 12px 20px;
-          background: rgba(255, 255, 255, 0.9);
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 10px 14px;
+          padding: 10px 14px;
+          background: rgba(255, 255, 255, 0.92);
           backdrop-filter: blur(8px);
-          border-radius: 100px;
+          border-radius: 24px;
           color: #000;
-          font-size: 13px;
+          font-size: 12px;
           font-family: inherit;
           line-height: 1.4;
           pointer-events: auto;
-          max-width: max-content;
+          max-width: calc(100vw - 24px);
           box-shadow: 0 4px 24px rgba(0, 0, 0, 0.15);
         }
         .consent-banner-text {
-          white-space: nowrap;
+          text-align: center;
         }
         .consent-banner-buttons {
           display: flex;

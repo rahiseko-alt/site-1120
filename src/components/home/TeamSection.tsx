@@ -5,6 +5,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { PrismicRichText } from "@prismicio/react";
 import type { RichTextField } from "@prismicio/client";
+import { useViewport } from "@/hooks/usePageLifecycle";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -30,6 +31,7 @@ export function TeamSection({ reelTitle, members }: TeamSectionProps) {
   const descriptionsRef = useRef<HTMLDivElement>(null);
   const cardsWrapRef = useRef<HTMLDivElement>(null);
   const lastIdxRef = useRef(-1);
+  const { isDesktop } = useViewport();
 
   const totalMembers = members.length || 1;
 
@@ -108,13 +110,14 @@ export function TeamSection({ reelTitle, members }: TeamSectionProps) {
         style={{
           position: "relative",
           width: "100%",
-          height: "100svh",
+          minHeight: "100svh",
           display: "flex",
           flexDirection: "column",
           justifyContent: "space-between",
-          padding: "14rem var(--padding-x) 6rem",
+          padding: isDesktop ? "14rem var(--padding-x) 6rem" : "10rem var(--padding-x) 5rem",
           color: "var(--brand-yellow)",
           zIndex: 2,
+          gap: "4rem",
         }}
       >
         <div
@@ -122,6 +125,8 @@ export function TeamSection({ reelTitle, members }: TeamSectionProps) {
             display: "flex",
             justifyContent: "space-between",
             alignItems: "center",
+            flexWrap: "wrap",
+            gap: "1.2rem",
             borderBottom: "1px solid rgba(242, 239, 233, 0.2)",
             paddingBottom: "2rem",
           }}
@@ -148,15 +153,41 @@ export function TeamSection({ reelTitle, members }: TeamSectionProps) {
           </span>
         </div>
 
+        {/* Center Studio Pillars Summary (prevents empty void on mobile & desktop) */}
         <div
           style={{
-            fontSize: "clamp(4.4rem, 7.6vw, 11.2rem)",
+            display: "grid",
+            gridTemplateColumns: isDesktop ? "repeat(4, 1fr)" : "repeat(2, 1fr)",
+            gap: "2.4rem",
+            borderTop: "1px solid rgba(242, 239, 233, 0.1)",
+            borderBottom: "1px solid rgba(242, 239, 233, 0.1)",
+            padding: "3.2rem 0",
+          }}
+        >
+          {[
+            { city: "Saigon", role: "CGI & Core Production" },
+            { city: "Hong Kong", role: "Strategy & Brand" },
+            { city: "Tokyo", role: "Direction & Culture" },
+            { city: "Paris", role: "Luxury & Experiential" },
+          ].map((hub) => (
+            <div key={hub.city} style={{ display: "flex", flexDirection: "column", gap: "0.4rem" }}>
+              <span style={{ fontSize: "1.1rem", color: "var(--brand-accent)", letterSpacing: "0.12em", textTransform: "uppercase" }}>
+                {hub.city}
+              </span>
+              <span style={{ fontSize: "1.5rem", opacity: 0.82 }}>{hub.role}</span>
+            </div>
+          ))}
+        </div>
+
+        <div
+          style={{
+            fontSize: "clamp(3.6rem, 7.6vw, 11.2rem)",
             fontWeight: 600,
-            lineHeight: 0.92,
+            lineHeight: 0.94,
             letterSpacing: "-0.04em",
             maxWidth: "95rem",
-            alignSelf: "flex-end",
-            textAlign: "right",
+            alignSelf: isDesktop ? "flex-end" : "flex-start",
+            textAlign: isDesktop ? "right" : "left",
           }}
         >
           {reelTitle ? (
@@ -193,6 +224,7 @@ export function TeamSection({ reelTitle, members }: TeamSectionProps) {
               width: "100vw",
               height: "100svh",
               display: "flex",
+              flexDirection: "column",
               alignItems: "center",
               justifyContent: "center",
               overflow: "hidden",
@@ -200,14 +232,14 @@ export function TeamSection({ reelTitle, members }: TeamSectionProps) {
             } as React.CSSProperties
           }
         >
-          {/* Huge Number Top-Right */}
+          {/* Huge Number: Top-Right (below header on mobile) */}
           <div
             ref={counterRef}
             style={{
               position: "absolute",
-              top: "10rem",
-              right: "calc(var(--padding-x) + 12rem)",
-              fontSize: "clamp(8rem, 13vw, 19rem)",
+              top: isDesktop ? "10rem" : "8.2rem",
+              right: isDesktop ? "calc(var(--padding-x) + 12rem)" : "var(--padding-x)",
+              fontSize: isDesktop ? "clamp(8rem, 13vw, 19rem)" : "6.4rem",
               fontWeight: 700,
               lineHeight: 0.85,
               color: "var(--brand-yellow)",
@@ -215,19 +247,21 @@ export function TeamSection({ reelTitle, members }: TeamSectionProps) {
               fontFamily: "var(--font-twk)",
               letterSpacing: "-0.05em",
               pointerEvents: "none",
+              zIndex: 120,
             }}
           >
             01
           </div>
 
-          {/* Right-Offset 3D Orbital Card Stack */}
+          {/* 3D Orbital Card Stack */}
           <div
             ref={cardsWrapRef}
             style={{
               position: "relative",
-              width: "clamp(280px, 32vw, 480px)",
+              width: isDesktop ? "clamp(280px, 32vw, 480px)" : "clamp(220px, 60vw, 320px)",
               aspectRatio: "1222/1333",
-              marginLeft: "18vw",
+              marginLeft: isDesktop ? "18vw" : "0",
+              marginTop: isDesktop ? "0" : "-8rem",
             }}
           >
             {members.map((m, idx) => (
@@ -272,9 +306,10 @@ export function TeamSection({ reelTitle, members }: TeamSectionProps) {
             ref={descriptionsRef}
             style={{
               position: "absolute",
-              bottom: "7rem",
+              bottom: isDesktop ? "7rem" : "4rem",
               left: "var(--padding-x)",
-              maxWidth: "44rem",
+              right: isDesktop ? "auto" : "var(--padding-x)",
+              maxWidth: isDesktop ? "44rem" : "none",
               textAlign: "left",
               color: "var(--brand-yellow)",
               pointerEvents: "none",
@@ -293,11 +328,11 @@ export function TeamSection({ reelTitle, members }: TeamSectionProps) {
                   transform: idx === 0 ? "translateY(0)" : "translateY(16px)",
                   filter: idx === 0 ? "blur(0px)" : "blur(6px)",
                   transition: "all 0.5s ease",
-                  fontSize: "clamp(1.6rem, 1.9vw, 2.3rem)",
+                  fontSize: isDesktop ? "clamp(1.6rem, 1.9vw, 2.3rem)" : "1.6rem",
                   lineHeight: 1.4,
                   fontWeight: 400,
                   borderLeft: "2px solid var(--brand-accent)",
-                  paddingLeft: "2.4rem",
+                  paddingLeft: isDesktop ? "2.4rem" : "1.6rem",
                 }}
               >
                 {m.data?.description && (

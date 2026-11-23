@@ -12,6 +12,7 @@ import { TeamSection } from "@/components/home/TeamSection";
 import { HlsVideo } from "@/components/common/HlsVideo";
 import { Footer } from "@/components/layout/Footer";
 import { useSectionStore, useHeroVideoStore } from "@/stores/appStore";
+import { useViewport } from "@/hooks/usePageLifecycle";
 import homeData from "@/data/home.json";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -68,6 +69,7 @@ function CapabilitiesSection({
   const wrapRef = useRef<HTMLDivElement>(null);
   const [activeIdx, setActiveIdx] = useState(0);
   const [reachedSet, setReachedSet] = useState<Record<number, boolean>>({ 0: true });
+  const { isDesktop } = useViewport();
 
   useEffect(() => {
     const wrap = wrapRef.current;
@@ -99,9 +101,10 @@ function CapabilitiesSection({
       ref={wrapRef}
       className="Container_container__A7FAx"
       style={{
-        minHeight: "120svh",
-        paddingTop: "16rem",
-        paddingBottom: "16rem",
+        minHeight: "100svh",
+        paddingTop: isDesktop ? "16rem" : "10rem",
+        paddingBottom: isDesktop ? "16rem" : "10rem",
+        overflow: "hidden",
       }}
     >
       <div
@@ -109,9 +112,11 @@ function CapabilitiesSection({
           display: "flex",
           justifyContent: "space-between",
           alignItems: "baseline",
+          flexWrap: "wrap",
+          gap: "1rem",
           borderBottom: "1px solid rgba(242, 239, 233, 0.18)",
           paddingBottom: "2.4rem",
-          marginBottom: "8rem",
+          marginBottom: isDesktop ? "8rem" : "4.8rem",
         }}
       >
         <span
@@ -137,7 +142,7 @@ function CapabilitiesSection({
         </span>
       </div>
 
-      <div style={{ display: "flex", flexDirection: "column", gap: "8rem" }}>
+      <div style={{ display: "flex", flexDirection: "column", gap: isDesktop ? "8rem" : "5rem" }}>
         {offerings.map((item, idx) => {
           const offering = item.service_offering?.data;
           const isActive = activeIdx === idx;
@@ -149,8 +154,8 @@ function CapabilitiesSection({
               data-capability-item
               style={{
                 display: "grid",
-                gridTemplateColumns: "1fr 2.2fr auto",
-                gap: "4rem",
+                gridTemplateColumns: isDesktop ? "1fr 2.2fr auto" : "1fr",
+                gap: isDesktop ? "4rem" : "2rem",
                 alignItems: "start",
                 paddingTop: "3.2rem",
                 borderTop: "1px solid rgba(242, 239, 233, 0.12)",
@@ -159,28 +164,50 @@ function CapabilitiesSection({
               }}
             >
               {/* Left Sticky Category Title */}
-              <div style={{ position: "sticky", top: "45svh" }}>
-                <div
-                  style={{
-                    fontSize: "1.1rem",
-                    letterSpacing: "0.14em",
-                    textTransform: "uppercase",
-                    color: isActive ? "var(--brand-accent)" : "inherit",
-                    marginBottom: "0.8rem",
-                  }}
-                >
-                  Pillar 0{idx + 1}
+              <div
+                style={{
+                  position: isDesktop ? "sticky" : "relative",
+                  top: isDesktop ? "45svh" : "auto",
+                  display: "flex",
+                  justifyContent: "space-between",
+                  alignItems: "baseline",
+                }}
+              >
+                <div>
+                  <div
+                    style={{
+                      fontSize: "1.1rem",
+                      letterSpacing: "0.14em",
+                      textTransform: "uppercase",
+                      color: isActive ? "var(--brand-accent)" : "inherit",
+                      marginBottom: "0.8rem",
+                    }}
+                  >
+                    Pillar 0{idx + 1}
+                  </div>
+                  <h3
+                    style={{
+                      fontSize: "clamp(2.4rem, 3vw, 4.2rem)",
+                      fontWeight: 600,
+                      lineHeight: 1.05,
+                      letterSpacing: "-0.03em",
+                    }}
+                  >
+                    {offering?.category}
+                  </h3>
                 </div>
-                <h3
-                  style={{
-                    fontSize: "clamp(2.4rem, 3vw, 4.2rem)",
-                    fontWeight: 600,
-                    lineHeight: 1.05,
-                    letterSpacing: "-0.03em",
-                  }}
-                >
-                  {offering?.category}
-                </h3>
+                {!isDesktop && (
+                  <div
+                    style={{
+                      fontFamily: "var(--font-herbik)",
+                      fontStyle: "italic",
+                      fontSize: "2rem",
+                      opacity: isActive ? 0.9 : 0.35,
+                    }}
+                  >
+                    /0{idx + 1}
+                  </div>
+                )}
               </div>
 
               {/* Center Large Staggered Capability List */}
@@ -189,9 +216,9 @@ function CapabilitiesSection({
                   display: "flex",
                   flexDirection: "column",
                   gap: "0.6rem",
-                  fontSize: "clamp(2.8rem, 4.4vw, 6.8rem)",
+                  fontSize: "clamp(2.4rem, 4.4vw, 6.8rem)",
                   fontWeight: 600,
-                  lineHeight: 1.02,
+                  lineHeight: 1.04,
                   letterSpacing: "-0.035em",
                 }}
               >
@@ -216,19 +243,21 @@ function CapabilitiesSection({
                 ))}
               </ul>
 
-              {/* Right Index Marker */}
-              <div
-                style={{
-                  position: "sticky",
-                  top: "45svh",
-                  fontFamily: "var(--font-herbik)",
-                  fontStyle: "italic",
-                  fontSize: "2.4rem",
-                  opacity: isActive ? 0.9 : 0.25,
-                }}
-              >
-                /0{idx + 1}
-              </div>
+              {/* Right Index Marker (Desktop only) */}
+              {isDesktop && (
+                <div
+                  style={{
+                    position: "sticky",
+                    top: "45svh",
+                    fontFamily: "var(--font-herbik)",
+                    fontStyle: "italic",
+                    fontSize: "2.4rem",
+                    opacity: isActive ? 0.9 : 0.25,
+                  }}
+                >
+                  /0{idx + 1}
+                </div>
+              )}
             </div>
           );
         })}
@@ -256,6 +285,7 @@ function CollaborationsArcSection({
   const logosRef = useRef<HTMLDivElement>(null);
   const lastActiveRef = useRef(0);
   const totalClients = clients.length || 1;
+  const { isDesktop } = useViewport();
 
   useEffect(() => {
     const el = containerRef.current;
@@ -274,12 +304,12 @@ function CollaborationsArcSection({
         // Update 3D Arc position on the right side
         if (arcWrapRef.current) {
           const arcItems = arcWrapRef.current.children;
+          const radiusRem = isDesktop ? 56 : 28;
           for (let i = 0; i < arcItems.length; i++) {
             const item = arcItems[i] as HTMLElement;
             const rel = i - activeFloat;
             const thetaDeg = rel * 11.5;
             const thetaRad = (thetaDeg * Math.PI) / 180;
-            const radiusRem = 56;
             const xOffset = radiusRem * (1 - Math.cos(thetaRad));
             const yOffset = radiusRem * Math.sin(thetaRad);
             const isActive = i === activeIdx;
@@ -311,7 +341,7 @@ function CollaborationsArcSection({
     });
 
     return () => st.kill();
-  }, [totalClients]);
+  }, [totalClients, isDesktop]);
 
   return (
     <div
@@ -331,19 +361,21 @@ function CollaborationsArcSection({
           height: "100svh",
           overflow: "hidden",
           display: "flex",
-          alignItems: "center",
+          flexDirection: isDesktop ? "row" : "column",
+          alignItems: isDesktop ? "center" : "flex-start",
           justifyContent: "space-between",
-          padding: "0 var(--padding-x)",
+          padding: isDesktop ? "0 var(--padding-x)" : "9rem var(--padding-x) 4rem",
         }}
       >
-        {/* Left Column: Editorial Context + Active Client Logo Badge */}
+        {/* Left/Top Column: Editorial Context + Active Client Logo Badge */}
         <div
           style={{
             display: "flex",
             flexDirection: "column",
             justifyContent: "space-between",
-            height: "70svh",
-            maxWidth: "46rem",
+            height: isDesktop ? "70svh" : "auto",
+            gap: isDesktop ? "0" : "2.4rem",
+            maxWidth: isDesktop ? "46rem" : "100%",
             zIndex: 5,
           }}
         >
@@ -356,7 +388,7 @@ function CollaborationsArcSection({
                 color: "var(--brand-accent)",
                 fontWeight: 600,
                 display: "block",
-                marginBottom: "1.6rem",
+                marginBottom: "1.2rem",
               }}
             >
               04 // Selected Alliances
@@ -364,7 +396,7 @@ function CollaborationsArcSection({
             {content && (
               <div
                 style={{
-                  fontSize: "clamp(1.6rem, 1.8vw, 2.2rem)",
+                  fontSize: isDesktop ? "clamp(1.6rem, 1.8vw, 2.2rem)" : "1.5rem",
                   lineHeight: 1.45,
                   color: "var(--text-secondary)",
                 }}
@@ -377,8 +409,8 @@ function CollaborationsArcSection({
           {/* Active Client Emblem Showcase Box */}
           <div
             style={{
-              width: "26rem",
-              height: "26rem",
+              width: isDesktop ? "26rem" : "14rem",
+              height: isDesktop ? "26rem" : "14rem",
               borderRadius: "50%",
               border: "1px solid rgba(242, 239, 233, 0.2)",
               background: "rgba(242, 239, 233, 0.03)",
@@ -392,8 +424,8 @@ function CollaborationsArcSection({
               ref={logosRef}
               style={{
                 position: "relative",
-                width: "15rem",
-                height: "15rem",
+                width: isDesktop ? "15rem" : "8.5rem",
+                height: isDesktop ? "15rem" : "8.5rem",
                 display: "grid",
                 placeItems: "center",
               }}
@@ -420,12 +452,12 @@ function CollaborationsArcSection({
                       alt={client.data.name || ""}
                       style={{
                         maxWidth: "100%",
-                        maxHeight: "8rem",
+                        maxHeight: isDesktop ? "8rem" : "4.8rem",
                         objectFit: "contain",
                       }}
                     />
                   ) : (
-                    <span style={{ fontSize: "2rem", fontWeight: 600 }}>
+                    <span style={{ fontSize: isDesktop ? "2rem" : "1.4rem", fontWeight: 600 }}>
                       {client?.data?.name}
                     </span>
                   )}
@@ -449,7 +481,7 @@ function CollaborationsArcSection({
             const rel = idx;
             const thetaDeg = rel * 11.5;
             const thetaRad = (thetaDeg * Math.PI) / 180;
-            const radiusRem = 56;
+            const radiusRem = isDesktop ? 56 : 28;
             const xOffset = radiusRem * (1 - Math.cos(thetaRad));
             const yOffset = radiusRem * Math.sin(thetaRad);
 
@@ -458,8 +490,8 @@ function CollaborationsArcSection({
                 key={client?.id || idx}
                 style={{
                   position: "absolute",
-                  right: "18vw",
-                  top: "50%",
+                  right: isDesktop ? "18vw" : "var(--padding-x)",
+                  top: isDesktop ? "50%" : "68%",
                   transformOrigin: "center right",
                   transform: `translate3d(${xOffset.toFixed(2)}rem, calc(-50% + ${yOffset.toFixed(
                     2
@@ -468,7 +500,7 @@ function CollaborationsArcSection({
                     idx === 0
                       ? "var(--brand-yellow)"
                       : "rgba(242, 239, 233, 0.18)",
-                  fontSize: "clamp(3.6rem, 5.8vw, 8.6rem)",
+                  fontSize: isDesktop ? "clamp(3.6rem, 5.8vw, 8.6rem)" : "clamp(2.4rem, 7.2vw, 3.8rem)",
                   fontWeight: 600,
                   lineHeight: 1,
                   letterSpacing: "-0.035em",
@@ -744,6 +776,7 @@ export default function HomePage() {
 
   const [heroExpanded, setHeroExpanded] = useState(false);
   const [heroWordIdx, setHeroWordIdx] = useState(0);
+  const { isDesktop } = useViewport();
 
   const heroTitle = hero.title?.[0];
   const heroWords = useMemo(
@@ -1043,11 +1076,12 @@ export default function HomePage() {
             style={{
               minHeight: "100svh",
               display: "grid",
-              gridTemplateColumns: "1fr 2fr",
+              gridTemplateColumns: isDesktop ? "1fr 2fr" : "1fr",
               alignItems: "center",
-              gap: "6rem",
-              paddingTop: "14rem",
-              paddingBottom: "14rem",
+              gap: isDesktop ? "6rem" : "3.6rem",
+              paddingTop: isDesktop ? "14rem" : "10rem",
+              paddingBottom: isDesktop ? "14rem" : "10rem",
+              overflow: "hidden",
             }}
           >
             <div
