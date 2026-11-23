@@ -400,7 +400,7 @@ export function ShowcaseSection({ projects, viewAllLabel }: ShowcaseSectionProps
           </div>
 
           <TransitionLink
-            href={ROUTES.WORK}
+            href="/#section-work"
             className="common-link-effect"
             style={{
               fontSize: "1.3rem",
@@ -413,7 +413,7 @@ export function ShowcaseSection({ projects, viewAllLabel }: ShowcaseSectionProps
               border: "1px solid rgba(8, 9, 12, 0.25)",
             }}
           >
-            {viewAllLabel || "EXPLORE FULL ARCHIVE →"}
+            {viewAllLabel || "EXPLORE FULL ARCHIVE ↓"}
           </TransitionLink>
         </div>
       </div>

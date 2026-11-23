@@ -35,7 +35,17 @@ export function TransitionLink({
   const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     onClick?.(e);
     if (e.defaultPrevented) return;
-    if (href.startsWith("http") || href.startsWith("mailto:") || href.startsWith("#")) {
+    if (href.startsWith("http") || href.startsWith("mailto:")) {
+      return;
+    }
+    if (href.startsWith("#") || (href.startsWith("/#") && pathname === "/")) {
+      e.preventDefault();
+      useMenuStore.getState().setIsOpen(false);
+      const hash = href.replace(/^\/+/, "");
+      const targetEl = document.querySelector(hash);
+      if (targetEl) {
+        targetEl.scrollIntoView({ behavior: "smooth" });
+      }
       return;
     }
     e.preventDefault();

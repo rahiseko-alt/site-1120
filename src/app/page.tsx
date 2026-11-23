@@ -9,6 +9,12 @@ import { BackgroundTransition } from "@/components/home/BackgroundTransition";
 import { SectionIndicator } from "@/components/home/SectionIndicator";
 import { ShowcaseSection } from "@/components/home/ShowcaseSection";
 import { TeamSection } from "@/components/home/TeamSection";
+import {
+  IntegratedWorkArchive,
+  IntegratedServicesSection,
+  IntegratedLabSection,
+  IntegratedJobsSection,
+} from "@/components/home/IntegratedSections";
 import { HlsVideo } from "@/components/common/HlsVideo";
 import { Footer } from "@/components/layout/Footer";
 import { useSectionStore, useHeroVideoStore } from "@/stores/appStore";
@@ -788,9 +794,10 @@ export default function HomePage() {
       <SectionIndicator />
 
       <div className="Home_home_page_fromAbout__hN4CY" style={{ position: "relative", zIndex: 1 }}>
-        {/* 0. HERO: Asymmetric Architectural Grid (Top-Right Showreel Window, Bottom-Left Oversized Typography) */}
+        {/* 0. HERO: Asymmetric Architectural Grid */}
         <SectionDetector index={0} className="Hero_hero__kuzag">
           <div
+            id="section-hero"
             className="Container_container__A7FAx"
             style={{
               minHeight: "100svh",
@@ -1027,16 +1034,21 @@ export default function HomePage() {
           </div>
         </SectionDetector>
 
-        {/* 1. FEATURED WORK / SHOWCASE (Moved up immediately after Hero for immediate visual impact) */}
+        {/* 1. FEATURED WORK / SHOWCASE (WebGL Fluid Distortion Canvas) */}
         <SectionDetector index={1}>
           <ShowcaseSection
             projects={projects as any}
-            viewAllLabel={showcase.view_all_label}
+            viewAllLabel="EXPLORE FULL ARCHIVE ↓"
           />
         </SectionDetector>
 
-        {/* 2. PHILOSOPHY / ABOUT (Asymmetric Two-Column Editorial Split) */}
-        <SectionDetector index={2} className="About_about__4nzIM">
+        {/* 2. COMPLETE WORKS MATRIX (Merged from /work with Category Filtering) */}
+        <SectionDetector index={2}>
+          <IntegratedWorkArchive />
+        </SectionDetector>
+
+        {/* 3. PHILOSOPHY / ABOUT (Asymmetric Two-Column Editorial Split) */}
+        <SectionDetector index={3} className="About_about__4nzIM">
           <div
             className="Container_container__A7FAx"
             style={{
@@ -1049,7 +1061,6 @@ export default function HomePage() {
               paddingBottom: "14rem",
             }}
           >
-            {/* Left Column: Sticky Kicker & Secondary Manifesto */}
             <div
               style={{
                 display: "flex",
@@ -1071,7 +1082,7 @@ export default function HomePage() {
                     marginBottom: "0.8rem",
                   }}
                 >
-                  02 // Philosophy
+                  03 // Philosophy
                 </span>
                 <span
                   style={{
@@ -1097,7 +1108,6 @@ export default function HomePage() {
               )}
             </div>
 
-            {/* Right Column: Oversized Editorial Statement */}
             <div
               style={{
                 fontSize: "clamp(2.8rem, 4.2vw, 6.2rem)",
@@ -1114,123 +1124,133 @@ export default function HomePage() {
           </div>
         </SectionDetector>
 
-        {/* 3. CAPABILITIES / WHAT WE DO (Scroll-Triggered Staggered Blur Reveal) */}
-        <SectionDetector index={3}>
+        {/* 4. CAPABILITIES & SERVICES ARCHITECTURE (Merged WhatWeDo + /services Deep-Dive Matrix) */}
+        <SectionDetector index={4}>
           <CapabilitiesSection
             offerings={whatWeDo.service_offering_list || []}
           />
+          <IntegratedServicesSection />
         </SectionDetector>
 
-        {/* 4. COLLABORATIONS / ALLIANCES (3D Rotating Arc on Right + Emblem Showcase on Left) */}
-        <SectionDetector index={4} className="Collaborations_collaborations__ZmUpq">
+        {/* 5. COLLABORATIONS / ALLIANCES (3D Rotating Arc on Right + Emblem Showcase on Left) */}
+        <SectionDetector index={5} className="Collaborations_collaborations__ZmUpq">
           <CollaborationsArcSection
             clients={clients as any}
             content={collaborations.content}
           />
         </SectionDetector>
 
-        {/* 5. THE COLLECTIVE / TEAM & FULL SCREEN MEDIA */}
-        <SectionDetector index={5}>
+        {/* 6. THE COLLECTIVE / TEAM & FULL SCREEN MEDIA */}
+        <SectionDetector index={6}>
           <TeamSection
             reelTitle={fullScreenMedia.title}
             members={(team.member_list || []).map((m) => m.member).filter(Boolean) as any}
           />
         </SectionDetector>
 
-        {/* 6. RECOGNITION / AWARDS (Scroll-Scrubbed Fan Cards on Light Alabaster Mode) */}
-        <SectionDetector index={6}>
+        {/* 7. R&D VISUAL LABORATORY + INTERACTIVE RUNNING GIF ENGINE (Merged from /lab) */}
+        <SectionDetector index={7}>
+          <IntegratedLabSection />
+        </SectionDetector>
+
+        {/* 8. RECOGNITION / AWARDS (Scroll-Scrubbed Fan Cards on Light Alabaster Mode) */}
+        <SectionDetector index={8}>
           <AwardsFanSection awardList={awards.award_list || []} />
         </SectionDetector>
 
-        {/* 7. PRESS & JOURNAL (Interactive Hover-Blur & Clip-Path Thumbnail Reveal) */}
-        {presses.press_list && presses.press_list.length > 0 && (
-          <SectionDetector index={7} className="Presses_presses__keppm">
-            <div className="Container_container__A7FAx">
-              <div className="Grid_grid__8e_U7 Presses_presses_grid___Uehv">
-                <div className="Presses_presses_label__ZbO4v">
-                  <div style={{ display: "flex", flexDirection: "column", gap: "0.8rem" }}>
-                    <span
-                      style={{
-                        fontSize: "1.1rem",
-                        letterSpacing: "0.16em",
-                        textTransform: "uppercase",
-                        color: "var(--brand-accent)",
-                        fontWeight: 600,
-                      }}
-                    >
-                      07 // {presses.label || "Press & Features"}
-                    </span>
-                    <span
-                      className="Presses_presses_label_text__e9jFT"
-                      style={{ opacity: 0.75 }}
-                    >
-                      Global Editorial Coverage
-                    </span>
-                  </div>
-                </div>
+        {/* 9. CAREERS / OPEN POSITIONS (Merged from /jobs) & PRESS COVERAGE */}
+        <SectionDetector index={9}>
+          <IntegratedJobsSection />
 
-                <ul className="Presses_presses_list__Uei03">
-                  {presses.press_list.map((pr, idx) => {
-                    const pressData = pr.press?.data;
-                    return (
-                      <li key={pr.press?.id || idx}>
-                        <a
-                          href={pressData?.link?.url || "#"}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="Presses_presses_item__ZRqaJ"
-                          style={{
-                            justifyContent: "space-between",
-                            borderBottom: "1px solid rgba(242, 239, 233, 0.14)",
-                            padding: "2rem 0",
-                          }}
-                        >
-                          <span
-                            className="Presses_presses_item_title__xYMjH"
+          {presses.press_list && presses.press_list.length > 0 && (
+            <div className="Presses_presses__keppm" style={{ paddingTop: "8rem" }}>
+              <div className="Container_container__A7FAx">
+                <div className="Grid_grid__8e_U7 Presses_presses_grid___Uehv">
+                  <div className="Presses_presses_label__ZbO4v">
+                    <div style={{ display: "flex", flexDirection: "column", gap: "0.8rem" }}>
+                      <span
+                        style={{
+                          fontSize: "1.1rem",
+                          letterSpacing: "0.16em",
+                          textTransform: "uppercase",
+                          color: "var(--brand-accent)",
+                          fontWeight: 600,
+                        }}
+                      >
+                        Press &amp; Features
+                      </span>
+                      <span
+                        className="Presses_presses_label_text__e9jFT"
+                        style={{ opacity: 0.75 }}
+                      >
+                        Global Editorial Coverage
+                      </span>
+                    </div>
+                  </div>
+
+                  <ul className="Presses_presses_list__Uei03">
+                    {presses.press_list.map((pr, idx) => {
+                      const pressData = pr.press?.data;
+                      return (
+                        <li key={pr.press?.id || idx}>
+                          <a
+                            href={pressData?.link?.url || "#"}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="Presses_presses_item__ZRqaJ"
                             style={{
-                              opacity: 1,
-                              filter: "blur(0px)",
+                              justifyContent: "space-between",
+                              borderBottom: "1px solid rgba(242, 239, 233, 0.14)",
+                              padding: "2rem 0",
                             }}
                           >
-                            {pressData?.publication_name}
-                          </span>
-                          {pressData?.thumbnail?.url && (
                             <span
-                              className="Presses_presses_item_thumbnail__8fJDD"
+                              className="Presses_presses_item_title__xYMjH"
                               style={{
-                                clipPath: "inset(0% 0% 0% 0%)",
-                                borderRadius: "0.3rem",
+                                opacity: 1,
+                                filter: "blur(0px)",
                               }}
                             >
-                              {/* eslint-disable-next-line @next/next/no-img-element */}
-                              <img
-                                src={pressData.thumbnail.url}
-                                alt={
-                                  pressData.thumbnail.alt ||
-                                  pressData.publication_name ||
-                                  ""
-                                }
-                                style={{
-                                  width: "100%",
-                                  height: "100%",
-                                  objectFit: "cover",
-                                  transform: "scale(1.05)",
-                                }}
-                              />
+                              {pressData?.publication_name}
                             </span>
-                          )}
-                        </a>
-                      </li>
-                    );
-                  })}
-                </ul>
+                            {pressData?.thumbnail?.url && (
+                              <span
+                                className="Presses_presses_item_thumbnail__8fJDD"
+                                style={{
+                                  clipPath: "inset(0% 0% 0% 0%)",
+                                  borderRadius: "0.3rem",
+                                }}
+                              >
+                                {/* eslint-disable-next-line @next/next/no-img-element */}
+                                <img
+                                  src={pressData.thumbnail.url}
+                                  alt={
+                                    pressData.thumbnail.alt ||
+                                    pressData.publication_name ||
+                                    ""
+                                  }
+                                  style={{
+                                    width: "100%",
+                                    height: "100%",
+                                    objectFit: "cover",
+                                    transform: "scale(1.05)",
+                                  }}
+                                />
+                              </span>
+                            )}
+                          </a>
+                        </li>
+                      );
+                    })}
+                  </ul>
+                </div>
               </div>
             </div>
-          </SectionDetector>
-        )}
+          )}
+        </SectionDetector>
 
-        {/* 8. FOOTER */}
-        <SectionDetector index={8}>
+        {/* 10. FOOTER */}
+        <SectionDetector index={10}>
           <Footer
             contactEmail={globalDoc.data.email_address}
             branches={globalDoc.data.branches}

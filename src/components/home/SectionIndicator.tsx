@@ -4,19 +4,21 @@ import React from "react";
 import { useSectionStore } from "@/stores/appStore";
 
 const SECTION_ITEMS = [
-  { index: 1, title: "Selected Works" },
-  { index: 2, title: "Philosophy" },
-  { index: 3, title: "Capabilities" },
-  { index: 4, title: "Alliances" },
-  { index: 5, title: "The Collective" },
-  { index: 6, title: "Recognition" },
-  { index: 7, title: "Press & Journal" },
+  { index: 1, title: "Featured Reel" },
+  { index: 2, title: "Works Matrix" },
+  { index: 3, title: "Philosophy" },
+  { index: 4, title: "Services & Craft" },
+  { index: 5, title: "Alliances" },
+  { index: 6, title: "The Collective" },
+  { index: 7, title: "R&D Lab" },
+  { index: 8, title: "Recognition" },
+  { index: 9, title: "Careers & Press" },
 ];
 
 export function SectionIndicator() {
   const current = useSectionStore((s) => s.currentSectionIndex);
-  const visible = current >= 1 && current <= 7;
-  const activeIdx = Math.max(1, Math.min(7, current));
+  const visible = current >= 1 && current <= 9;
+  const activeIdx = Math.max(1, Math.min(9, current));
 
   return (
     <div
